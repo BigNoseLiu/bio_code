@@ -1,0 +1,88 @@
+id	type	mut_function	mut_name
+1000000001			其他
+10000088			TP53 Mutation
+10000087			TERT Mutation & IDH WT
+10000086			TERT Mutation & IDH Mutation
+10000085			TERT Mutation
+10000084			ROS1 Fusion/Rearrange
+10000082			RET Mutation
+10000081			RET Fusion
+10000080			RB1 Loss
+10000079			RAD54L Mutation
+10000078			RAD51D Mutation
+10000077			RAD51C Mutation
+10000076			RAD51B Mutation
+10000075			PTEN Loss
+10000074			PIK3CA activating Mutation
+10000073			PDGFRA exone 18 mutation（including PDGFRA D842V）
+10000072			PDGFRA exon 18 mutation（excluding PDGFRA D842V）
+10000071			PDGFRA D842V
+10000070			NTRK3 Fusion
+10000069			NTRK2 Fusion
+10000068			NTRK1/2/3 Fusion
+10000067			NTRK1 Fusion
+10000066			NRAS Mutation
+10000065			NRAS exon 4 mutation
+10000064			NRAS exon 3 mutation
+10000063			NRAS exon 2/3/4 mutation
+10000062			NRAS exon 2 mutation
+10000061			MYCN Amplification
+10000060			MET High level amplification
+10000059			MET exon 14 skipping
+10000058			MET amplification
+10000057			KRAS/NRAS/BRAF WT
+10000056			KRAS G12C
+10000055			KRAS exon 4 mutation
+10000054			KRAS exon 3 mutation
+10000053			KRAS exon 2/3/4 mutation
+10000052			KRAS exon 2 mutation
+10000051			KIT Positive
+10000050			KIT Mutation
+10000049			KIT exon 9 mutation
+10000048			KIT exon 11 mutation
+10000047			IDH2 Mutation
+10000046			IDH1 Mutation
+10000045			IDH WT
+10000044			IDH Mutation & 1p/19q codeletion
+10000043			IDH Mutation
+10000042			HER2 positive
+10000041			HER2 overexpression
+10000040			H3 K27M
+10000039			H3 G34V/R
+10000038			FGFR3 Mutation
+10000037			FGFR3 Fusion
+10000036			FGFR2 Mutation
+10000035			FGFR2 Fusion
+10000034			FANCL Mutation
+10000033			ERBB2 overexpresion
+10000032			ERBB2 Mutation
+10000031			ERBB2 amplification
+10000030			EGFR T790M
+10000029			EGFR S768I
+10000028			EGFR L861Q
+10000027			EGFR L858R
+10000026			EGFR G719X
+10000025			EGFR exon 20 ins
+10000024			EGFR Exon 19 ins
+10000023			EGFR exon 19 del
+10000022			EGFR amplification & +7 /-10 & TERT promoter mutation 
+10000021			EGFR A763_Y764insLQEA
+10000020			EGFR A763_764insFQEA
+10000019			Codeletion of 1p and 19q
+10000018			CHEK2 Mutation
+10000017			CHEK1 Mutation
+10000016			CDK12 Mutation
+10000015			BRIP1 Mutation
+10000014			BRCA2 Mutation
+10000013			BRCA1 Mutation
+10000012			BRCA Mutation (germline)
+10000011			BRCA Mutation
+10000010			BRAF V600K
+10000009			BRAF V600E
+10000008			BRAF V600 Mutation
+10000007			BRAF Mutation
+10000006			BRAF Fusion
+10000005			BARD1 Mutation
+10000004			ATRX Mutation
+10000003			ALK G1202R
+10000002			ALK Fusion/Rearrange

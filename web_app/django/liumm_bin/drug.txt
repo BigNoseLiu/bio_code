@@ -1,0 +1,114 @@
+id	type	brand_name	ch_name
+10000001	 	 	其他
+10114	molecular	AFINITOR	曲妥珠单抗联合奥沙利铂/顺铂+5-FU/卡培他滨
+10113	molecular	AFINITOR	依维莫司
+10112	mAb	YERVOY	伊匹单抗
+10111	molecular	GLEEVEC	伊马替尼
+10110	mAb	达伯舒	信迪利单抗
+10109	combine		西妥昔单抗+encorafenib
+10108	mAb	ERBITUX	西妥昔单抗
+10107	mAb	LIBTAYO	西米普利单抗
+10106	molecular	RAPAMUNE	西罗莫司
+10105			维莫非尼
+10104	mAb	爱地希	维迪西妥单抗
+10103	mAb	百泽安	替雷利珠单抗
+10102	molecular	Tepmetko	特泊替尼
+10101	molecular	NEXAVAR	索拉非尼
+10100	molecular	SULANDA	索凡替尼
+10099	molecular	SUTENT	舒尼替尼
+10098	molecular	LUTATHERA	生长抑素类似物Lutathera
+10097	molecular	ORPATHYS	赛沃替尼
+10096	molecular	ZYKADIA	塞瑞替尼
+10095	molecular	RETEVMO	塞尔帕替尼
+10094	molecular	NQINLOCK	瑞派替尼
+10093	molecular	STIVARGA	瑞戈非尼
+10092	combine		曲妥珠单抗+帕妥珠单抗
+10091	combine		曲妥珠单抗+拉帕替尼
+10090	mAb	HERCEPTIN	曲妥珠单抗
+10089			曲美替尼
+10088	molecular	GAVRETO	普拉替尼
+10087	molecular	PEMAZYRE	佩米替尼
+10086	molecular	VOTRIENT	帕唑帕尼
+10085			帕妥珠单抗+曲妥珠单抗+紫杉醇
+10084			帕妥珠单抗+曲妥珠单抗+多西紫杉醇
+10083	mAb	VECTIBIX	帕尼单抗
+10082	molecular	百汇泽	帕米帕利
+10081	mAb	KEYTRUDA	帕博利珠单抗
+10080	molecular	ZEJULA	尼拉帕利
+10079	mAb	PORTRAZZA	耐昔妥珠单抗
+10078	mAb	OPDIVO	纳武利尤单抗
+10077	molecular	EXKIVITY	莫博赛替尼
+10076			洛拉替尼
+10075	molecular	LENVIMA	仑伐替尼
+10074	molecular	RUBRACA	芦卡帕利
+10073	alkylating	ZEPZELCA	卢比替定
+10072	mAb	CYRAMZA	雷莫芦单抗
+10071	molecular	LORBRENA	劳拉替尼
+10070	molecular	VITRAKVI	拉罗替尼
+10069	molecular	XALKORI	克唑替尼
+10068	mAb	艾瑞卡	卡瑞利珠单抗
+10067	molecular	TABRECTA	卡马替尼
+10066	molecular	CABOMETYX	卡博替尼
+10065	molecular	IRESSA	吉非替尼
+10064	molecular	艾瑞颐	氟唑帕利
+10063	molecular	艾弗沙	伏美替尼
+10062	molecular	ELUNATE	呋喹替尼
+10061	mAb	恩维达	恩沃利单抗
+10060	molecular	贝美纳	恩沙替尼
+10059	molecular	ROZLYTREK	恩曲替尼
+10058			恩美曲妥珠单抗
+10057	molecular	BRAFTOVI	恩考芬尼
+10056	combine		厄洛替尼+雷莫芦单抗
+10055	combine		厄洛替尼+贝伐珠单抗
+10054	molecular	TARCEVA	厄洛替尼
+10053	mAb	JEMPERLI	多塔利单抗
+10052	molecular	ZEPSUN	多纳非尼
+10051	mAb	IMFINZI	度伐利尤单抗
+10050			达拉非尼+曲美替尼
+10049	molecular	TAFINLAR	达拉非尼
+10048	molecular	VIZIMPRO	达克替尼
+10047			达可替尼
+10046	molecular	ALUNBRIG	布加替尼
+10045			布格替尼
+10044			吡咯替尼
+10043	combine		贝伐珠单抗+奥拉帕利
+10042	mAb	AVASTIN	贝伐珠单抗
+10041	molecular	TAGRISSO	奥希替尼
+10040	molecular	LYNPARZA	奥拉帕利
+10039	mAb	LARTRUVO	奥拉单抗
+10038	molecular	福可维	安罗替尼
+10037	molecular	TIBSOVO	艾伏尼布
+10036	mAb	Rybrevant	埃万妥单抗
+10035	molecular	凯美纳	埃克替尼
+10034	mAb	TECENTRIQ	阿替利珠单抗
+10033	molecular	艾坦	阿帕替尼
+10032	molecular	AMEILE	阿美替尼
+10031	molecular	ALECENSA	阿来替尼
+10030	molecular	GILOTRIF	阿法替尼
+10029	molecular	AYVAKIT	阿伐替尼
+10028	fusion_protein	ZALTRAP	阿柏西普
+10027	molecular	Truseltiq	英菲格拉替尼
+10026			Tepotinib
+10025			Talazoparib
+10024			sunitinib
+10023			Sotorasib
+10022			Selpercatinib
+10021			rucaparib
+10020	molecular	ROZLYTREK	ROZLYTREK
+10019			ripretinib
+10018			regorafenib
+10017			Panitumumab+encorafenib
+10016			Panitumumab
+10015			Mobocertinib
+10014	molecular	Lumakras	Lumakras
+10013			ivosidenib
+10010			erdafitinib
+10009			entrectinib
+10008	mAb	ENHERTU	Fam-Trastuzumab Deruxtecan-Nxki
+10007			EGFR TKIs
+10006			cobimetinib+维莫非尼
+10005			Capmatinib
+10004			binimetinib+encorafenib
+10003			binimetinib
+10002			Amivantamab-vmjw
+10001			Alpelisib+氟维司群

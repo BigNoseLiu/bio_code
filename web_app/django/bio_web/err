@@ -1,0 +1,8 @@
+nohup: 忽略输入
+Watching for file changes with StatReloader
+[08/Jul/2022 10:53:00] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 27960
+[08/Jul/2022 10:53:00] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[08/Jul/2022 10:53:04] "GET /admin/cancer_database/disease2drug/ HTTP/1.1" 200 82213
+[08/Jul/2022 10:53:04] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[08/Jul/2022 10:53:05] "GET /admin/cancer_database/disease2drug/ HTTP/1.1" 200 82213
+[08/Jul/2022 10:53:05] "GET /admin/jsi18n/ HTTP/1.1" 200 8398

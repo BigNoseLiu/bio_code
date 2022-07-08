@@ -1,0 +1,5 @@
+No changes detected
+Operations to perform:
+  Apply all migrations: admin, auth, cancer_database, contenttypes, inher_data, sessions
+Running migrations:
+  No migrations to apply.
