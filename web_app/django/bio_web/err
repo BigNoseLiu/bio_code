@@ -1,8 +1,14 @@
 nohup: 忽略输入
 Watching for file changes with StatReloader
-[08/Jul/2022 10:53:00] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 27960
-[08/Jul/2022 10:53:00] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
-[08/Jul/2022 10:53:04] "GET /admin/cancer_database/disease2drug/ HTTP/1.1" 200 82213
-[08/Jul/2022 10:53:04] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
-[08/Jul/2022 10:53:05] "GET /admin/cancer_database/disease2drug/ HTTP/1.1" 200 82213
-[08/Jul/2022 10:53:05] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[08/Jul/2022 12:00:36] "GET /admin/cancer_database/mut2drug/ HTTP/1.1" 200 105206
+[08/Jul/2022 12:00:36] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[08/Jul/2022 12:02:36] "GET /admin/cancer_database/mut2drug/ HTTP/1.1" 200 105206
+[08/Jul/2022 12:02:36] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[08/Jul/2022 12:02:38] "GET /admin/cancer_database/mut2drug/10000218/change/ HTTP/1.1" 200 20441
+[08/Jul/2022 12:02:38] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[08/Jul/2022 13:34:36] "GET /admin/cancer_database/mut2drug/ HTTP/1.1" 200 105206
+[08/Jul/2022 13:34:36] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[08/Jul/2022 13:34:38] "GET /admin/cancer_database/drug2mut_summary/ HTTP/1.1" 200 52269
+[08/Jul/2022 13:34:38] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[08/Jul/2022 13:44:29] "GET /admin/cancer_database/drug2mut_summary/ HTTP/1.1" 200 52269
+[08/Jul/2022 13:44:29] "GET /admin/jsi18n/ HTTP/1.1" 200 8398

@@ -1,0 +1,14 @@
+#Actived: true
+1.1:
+qsub=qsub -cwd -q ngb.q -P ngb_db -l vf=100m -e log -o log shell/step1.1.sh
+
+1:1.1 1.2
+qsub=qsub -cwd -q ngb.q -P ngb_db -l vf=100m -e log -o log shell/step1.sh
+
+1.2:
+qsub=qsub -cwd -q ngb.q -P ngb_db -l vf=100m -e log -o log shell/step1.2.sh
+
+2: 2.1
+qsub=qsub -cwd -q ngb.q -P ngb_db -l vf=100m -e log -o log shell/step2.sh
+2.1 : 
+sh=nohup sh shell/step2.1.sh >log/step2.1.sh.nohup 2>log/step2.1.sh.error

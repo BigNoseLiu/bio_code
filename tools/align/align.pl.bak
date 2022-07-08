@@ -1,0 +1,592 @@
+#! /usr/bin/perl -w
+use strict;
+use Time::Local;
+use Term::ANSIColor;
+use Getopt::Long;
+use PerlIO::gzip;
+use FindBin qw($Bin);
+my($f);
+
+my%hash_base=(
+"A"=>"T",
+"T"=>"A",
+"C"=>"G",
+"G"=>"C"
+);
+sub rev{
+	my($seq)=@_;
+	my$new_seq;
+	my@a=split("",$seq);
+	for(my$i=(scalar @a-1);$i>=0;$i--){
+		if(defined($hash_base{uc($a[$i])})){
+			$new_seq.=$hash_base{uc($a[$i])};
+		}
+		else{
+			$new_seq.=$a[$i];
+		}
+	}
+	return $new_seq;
+}
+sub timeCosted{
+	my($localtime1,$localtime2)=@_;
+	my$t=timelocal(@$localtime2)-timelocal(@$localtime1);
+	my$s=($t%60);
+	my$m=int($t/60);
+	my$h=int($m/60);
+	$m=($m%60);
+	return "$h:$m:$s";
+}
+
+
+my ($protein,$matrix_out,$help,$color_no,$one_line,$full_ref,$in_file,$out_file);
+
+##################################################
+my@argv=@ARGV;                                  ##
+my$start_time=localtime;my@start_time=localtime;##
+##############################################################################################
+
+GetOptions(
+	"in_file=s"=>\$in_file,
+	"out_file=s"=>\$out_file,
+	"global"=>\$full_ref,
+	"protein"=>\$protein,
+	"matrix"=>\$matrix_out,
+	"color_no"=>\$color_no,
+	"single_line"=>\$one_line,
+	"help"=>\$help
+);
+#####To edit
+my $snp_limit=3;
+my $align_num_limit=100000;
+
+
+if(defined($help) ){
+	print STDERR<<USE;
+usage: perl $0 [-p] [-i in_file -o out_file] query_sequence ref_sequence
+author :	liumingming
+option: 
+	-p : add this ,if you align the protein  reads
+	-s : add this ,if you don't want the "|" between two reads
+	-c : add this ,if you don't want the color added
+	-m : add this ,if you want to print the score matrix
+	-in_file: file containing the seq by which to call indel
+		format: col1: id
+			col2: chr
+			col3: ref_start_pos,counted from 1
+			col4: indelPos1:indelPos2,counted from 1
+			col5: ref_seq
+			col6: query_seq
+	-out_file: file of indel
+		format: !id	align_score	indel_type:chr:indel_pos:indel_len:indel_seq
+			align info
+			........
+			........
+USE
+	exit;
+}
+
+
+my%h_score;
+
+#my$matix="/ifs1/PAP/liumm/DATABASE/align_matrices/BLOSUM-62";#the score matrix file
+#my$matix="/ifs1/PAP/liumm/DATABASE/align_matrices/ATCG";#the score matrix file
+my$matix="$Bin/phrap_default";#"/share/backup/liumm/Program_mine/MircoAlign/Matrix/phrap_default";
+$matix="$Bin/BLOSUM-62";#/share/backup/liumm/Program_mine/MircoAlign/Matrix/BLOSUM-62" if(defined( $protein ));
+&matrice($matix,\%h_score);#get score matrix
+
+my $line_c=0;
+my $repeat_c=0;
+my $low_confidence_c=0;
+if(defined($in_file) && defined($out_file)){
+	$f=$in_file;
+	open IN,"<:gzip",$f or die $! if($f=~/\.gz$/);	open IN,"<",$f or die $! if($f!~/\.gz$/);
+	$f=$out_file;
+	open OUT,">:gzip",$f or die $! if($f=~/\.gz$/);	open OUT,">",$f or die $! if($f!~/\.gz$/);
+	my $in_line;
+	while($in_line=<IN>){
+		next if($in_line=~/^#/);
+		$line_c++;
+		my%hash_out=();
+		my%hash_out_rev=();
+		chomp $in_line;
+		my @a=split(/\t/,$in_line);
+		my $s_id=shift @a;
+		my($s_query,$s_ref)=($a[4],$a[3]);
+		my @pos=split(/:/,$a[2]);
+
+		my $pre_indelLen=length($s_ref)-length($s_query);
+		my $p_table1=&fillTable($s_query,$s_ref);
+		my $p_table2=&fillTable(&rev($s_query),$s_ref);
+		my($score1,$p_1)=@{ &sta_score($p_table1,$s_query,$s_ref) };#deal the qurey and the ref
+		my($score2,$p_2)=@{ &sta_score($p_table2,&rev($s_query),$s_ref) };#deal the reversed query and the ref
+
+		my@out_align;
+		$s_id="!".$a[0].":".$a[1].":".($a[1]+length($s_ref)-1)."\t".$s_id;
+		if($score1>$score2){
+			my $flag_tooMuch_align1=getTraceBack($p_table1,$s_query,$s_ref,\%hash_out,$p_1);
+			$repeat_c++ if($flag_tooMuch_align1==0);
+			$s_id=$s_id."\t".$score1;
+			my $ss1=&trace(\%hash_out,$pre_indelLen,$pos[0],$pos[1],$a[1],$a[0],"+",@pos);
+			next if($ss1 eq 0 );
+			if($ss1 eq 1 ){
+				$low_confidence_c++;
+				next;
+			}
+			my @ss1=split(/liumingming/,$ss1);
+			print OUT $s_id.$ss1[0].$ss1[1]."\n";
+		}
+		elsif($score1<$score2){
+			my $flag_tooMuch_align2=getTraceBack($p_table2,&rev($s_query),$s_ref,\%hash_out_rev,$p_2);
+			$repeat_c++ if($flag_tooMuch_align2==0);
+			$s_id=$s_id."\t".$score2;
+			my $ss2=&trace(\%hash_out_rev,$pre_indelLen,$pos[0],$pos[1],$a[1],$a[0],"-");
+			next if($ss2 eq 0);
+			if($ss2 eq 1 ){
+				$low_confidence_c++;
+				next;
+			}
+			my @ss2=split(/liumingming/,$ss2);
+			print OUT $s_id.$ss2[0].$ss2[1]."\n";
+		}
+		else{
+			my $flag_tooMuch_align1=getTraceBack($p_table1,$s_query,$s_ref,\%hash_out,$p_1);
+			my $flag_tooMuch_align2=getTraceBack($p_table2,&rev($s_query),$s_ref,\%hash_out_rev,$p_2);
+			if($flag_tooMuch_align1==0){
+				$repeat_c++;
+			}
+			elsif($flag_tooMuch_align2==0){
+				$repeat_c++;
+			}
+			$s_id=$s_id."\t".$score2;
+			my $ss1=&trace(\%hash_out,$pre_indelLen,$pos[0],$pos[1],$a[1],$a[0],"+");
+			my @ss1=split(/liumingming/,$ss1);
+			my $ss2=&trace(\%hash_out_rev,$pre_indelLen,$pos[0],$pos[1],$a[1],$a[0],"-");
+			my @ss2=split(/liumingming/,$ss2);
+			if($ss1 eq 1 ){
+				$low_confidence_c++;
+				next;
+			}
+			elsif($ss2 eq 1 ){
+				$low_confidence_c++;
+				next;
+			}
+			if($ss1 ne 0){
+				print OUT $s_id.$ss1[0].$ss1[1]."\n";
+			}
+			if($ss2 ne 0){
+				print OUT $s_id.$ss2[0].$ss2[1]."\n";
+			}
+		}
+	}
+	close OUT;
+	close IN;
+}
+
+my$finish_time=localtime;my@finish_time=localtime;
+my$time_costed=timeCosted(\@start_time,\@finish_time);
+print STDERR "scripture: perl $0 ",join(' ',@argv),"\n";
+print STDERR "aligned reads pairs : $line_c\n";
+print STDERR "aligned pairs with too much alignment : $repeat_c\n";
+print STDERR "low_confidence alignment (snp >$snp_limit) : $low_confidence_c\n";
+print STDERR "\tstart time  : $start_time\n\tfinish time : $finish_time\n\ttime costed : $time_costed\n";
+
+sub trace{
+	my($p_h,$s_indelLen,$s_pos1,$s_pos2,$s_ref_pos,$s_ref_chr,$s_strand)=@_;
+	my $s_len=abs($s_indelLen);
+	my $s_out_align="";
+	my $s_out_info="";
+	my $flag1=0;
+	foreach my$align_info(sort {$a cmp $b} keys %$p_h){
+		my($line,$ref)=split(/\t/,$align_info);
+		my $s_info1="";
+	#	next unless($ref=~/^[^-]{$s_pos1}.*[^-]{$s_pos2}$/ && $line=~/^[^-]{$s_pos1}.*[^-]{$s_pos2}$/);
+		#my @ref_a1=split(/-+/,"liumm".$ref."liumm");
+		#$ref_a1[0]=~s/^liumm//;		$ref_a1[-1]=~s/liumm$//;
+		my @ref_a1=split(/-+/,$ref);
+		my @ref_a2=split(/[^-]+/,$ref);
+		#my @query_a1=split(/-+/,"liumm".$line."liumm");
+		#$query_a1[0]=~s/^liumm//;	$query_a1[-1]=~s/liumm$//;
+		my @query_a1=split(/-+/,$line);
+		my @query_a2=split(/[^-]+/,$line);
+		#if(scalar @query_a1>1){
+		if($line=~/-/){
+			my $i_len=0;
+			for(my $i=0;$i<(scalar @query_a1);$i++){
+				$i_len+=length($query_a1[$i]);
+				my $ss1=substr($ref,0,$i_len);
+				my $t_i=$i+1;
+				$t_i=$i if($line=~/^-/);
+				last if(!defined($query_a2[$t_i]) or $query_a2[$t_i] eq "");
+				my $ss2=substr($ref,$i_len,length($query_a2[$t_i]));
+				while($ss1=~s/-//){
+				}
+				$s_info1=$s_info1.",".join(":","D",$s_ref_chr,$s_ref_pos+length($ss1),length($query_a2[$t_i]),$ss2,$s_strand);
+				$i_len+=length($query_a2[$t_i]);
+			}
+		}
+		#if(scalar @ref_a1>1){
+		if($ref=~/-/){
+
+			my $i_len=0;
+			#$i_len+=length($ref_a2[1]);
+			for(my $i=0;$i<(scalar @ref_a1);$i++){
+				$i_len+=length($ref_a1[$i]);
+				my $ss1=substr($ref,0,$i_len);
+
+				my $t_i=$i+1;
+				$t_i=$i if($ref=~/^-/);
+
+				last if( !defined($ref_a2[$t_i]) or $ref_a2[$t_i] eq "" );
+				my $ss2=substr($line,$i_len,length($ref_a2[$t_i]));
+				while($ss1=~s/-//){
+				}
+				$s_info1=$s_info1.",".join(":","I",$s_ref_chr,$s_ref_pos+length($ss1),length($ref_a2[$t_i]),$ss2,$s_strand);
+				$i_len+=length($ref_a2[$t_i]);
+			}
+		}
+		if($s_info1=~s/^,//){
+			my @align_s=split(/liumingming/,&out_color($ref,$line) );
+			unless($align_s[1]>$snp_limit){
+				$s_out_info=$s_out_info."\t".$s_info1;
+				$s_out_align=$s_out_align."\n".$s_info1."\n".$align_s[0];
+			}
+			else{
+				return 1;
+			}
+		}
+	}
+	return 0 if($s_out_info eq "");
+	return $s_out_info."liumingming".$s_out_align;
+}
+sub out_color{
+	my($ref,$line)=@_;#line eq query
+	my@ref_a=split("",uc($ref));
+	$|=1;
+	my@a=split("",uc($line));
+	my$out;
+	my$i=0;
+	my($line1,$line2,$line3)=("","","");;
+	my $snp_num=0;
+	while($i<scalar@a or $i<scalar @ref_a){
+		if($i%200==0 and $i!=0){
+			$out=$out."$line1\n$line2\n$line3\n";
+			($line1,$line2,$line3)=("","","");
+		}
+		if(!defined($a[$i]) or !defined($ref_a[$i]) or uc($a[$i]) ne uc($ref_a[$i]) ){
+			if(defined($a[$i])){
+				if(defined($color_no)){
+					$line1=$line1.$a[$i];
+				}
+				else{
+					$line1=$line1.colored($a[$i],"bold red");
+				}
+			}
+			else{
+				$snp_num++;
+			}
+			if(defined($ref_a[$i])){
+				if(defined($color_no)){
+					$line3=$line3.$ref_a[$i];
+				}
+				else{
+					$line3=$line3.colored($ref_a[$i],"blue");
+				}
+			}
+			else{
+				$snp_num++;
+			}
+			$line2=$line2." ";
+			if( defined($a[$i]) && defined($ref_a[$i]) ){
+				$snp_num++ if( $a[$i] ne "-" && $ref_a[$i] ne "-" );
+			}
+		}
+		else{
+			$line1.=$a[$i];
+			$line2.="|";
+			if(defined($color_no)){
+				$line3=$line3.$ref_a[$i];
+			}
+			else{
+				$line3=$line3.colored($ref_a[$i],"blue");
+			}
+		}
+		$i++;
+	}
+	if(defined($one_line)){
+		$out=$out."$line1\n$line3";
+	}
+	else{
+		$out=$out."$line1\n$line2\n$line3";
+	}
+	return $out."liumingming".$snp_num;
+}
+sub matrice{
+	my($in,$p_hash)=@_;
+	open IN,"$in"||die"$!";
+	my$line=<IN>;#title
+	$line=<IN>;
+	chomp $line;
+	my@a_base=split(/\s+/,$line);
+	shift @a_base;
+	while($line=<IN>){
+		chomp $line;
+		my@a=split(/\s+/,$line);
+		my$base=shift@a;
+		for(my$i=0;$i<scalar@a;$i++){
+			$$p_hash{$base}{$a_base[$i]}=$a[$i];
+		}
+	}
+	close IN;
+}
+sub max{
+	my$i=$_[0];
+	for(my$j=1;$j<@_;$j++){
+		$i=$_[$j] if($_[$j]>$i);
+	}
+	return $i;
+}
+sub fillTable{
+	my($s_query1,$s_ref1)=@_;
+	my($s_query,$s_ref)=(uc($s_query1),uc($s_ref1));
+	my@a_query=split("",$s_query);
+	my@a_ref=split("",$s_ref);
+	my@a_table;
+	my($i,$j);
+
+
+	$a_table[0][0]=0;
+	if(defined($full_ref)){
+		for($i=1;$i<=length($s_query);$i++){
+			$a_table[$i][0]=$h_score{$a_query[$i-1]}{'*'}*$i;	
+		}		
+		for($j=1;$j<=length($s_ref);$j++){	
+			$a_table[0][$j]=$h_score{$a_ref[$j-1]}{'*'}*$j;	
+		}
+	}
+	else{
+		for($i=0;$i<=length($s_query);$i++){
+			$a_table[$i][0]=0;	
+		}		
+		for($j=0;$j<=length($s_ref);$j++){	
+			$a_table[0][$j]=0;
+		}
+	}
+
+	for($i=1;$i<=length($s_query);$i++){
+		for($j=1;$j<=length($s_ref);$j++){
+			my($query,$ref)=($a_query[$i-1],$a_ref[$j-1]);
+			unless(defined($h_score{$ref})){
+				print STDERR "error: unrecognized word :$ref been translated to space\n";
+				$ref="*";
+			}
+			unless(defined($h_score{$query})){
+				print STDERR "error: unrecognized word :$query been translated to space\n";
+				$query="*";
+			}
+
+
+			if(defined($full_ref)){
+				$a_table[$i][$j]=&max(&max( $a_table[$i-1][$j]+$h_score{$query}{"*"},$a_table[$i][$j-1]+$h_score{$ref}{"*"},$a_table[$i-1][$j-1]+$h_score{$ref}{$query} ));
+			}
+			else{
+				$a_table[$i][$j]=&max(0,&max( $a_table[$i-1][$j]+$h_score{$query}{"*"},$a_table[$i][$j-1]+$h_score{$ref}{"*"},$a_table[$i-1][$j-1]+$h_score{$ref}{$query} ));
+			}
+		}
+	}
+	if(defined($matrix_out)){
+		print STDERR " \t \t",join("\t",@a_ref),"\n";
+		for($i=0;$i<=length($s_query);$i++){
+			if($i==0){
+				print STDERR " ";
+			}
+			else{
+				print STDERR $a_query[$i-1];
+			}
+			for($j=0;$j<=length($s_ref);$j++){
+				print STDERR "\t",$a_table[$i][$j];
+			}
+			print STDERR "\n";
+		}
+	}
+	return \@a_table;
+}
+sub sta_score{
+	my($p_table,$s_query,$s_ref)=@_;
+	my@align;#all the best alignment to return
+	my($i,$j)=(0,0);
+	my$i_max_row=$i;
+	my$i_max_col=$j;
+	my$max_score=$$p_table[$i_max_row][$i_max_col];
+	$|=1;
+	for($i=0;$i<=length($s_query);$i++){
+		for($j=0;$j<=length($s_ref);$j++){
+			if($max_score<$$p_table[$i][$j]){
+				@align=(["","",0,0,0,$i,$j,0]);#
+				$max_score=$$p_table[$i][$j];
+			}
+			elsif($max_score==$$p_table[$i][$j] && $max_score!=0){
+				$align[@align]=["","",0,0,0,$i,$j,0];
+			}
+		}
+	}
+	if(defined($full_ref)){
+		@align=(["","",0,0,0,length($s_query),length($s_ref),0]);
+		$max_score=$$p_table[length($s_query)][length($s_ref)];
+	}
+	print STDERR "the maxScore is: $max_score\n" if(defined( $matrix_out ));
+	return [$max_score,\@align];
+}
+sub getTraceBack{
+	my($p_table,$s_query,$s_ref,$p_hash,$pp_align)=@_;
+	my@align=@{$pp_align};#all the best alignment to return
+	my@a_query1=split("",$s_query);
+	my@a_ref1=split("",$s_ref);
+	my@a_query=split("",uc($s_query));
+	my@a_ref=split("",uc($s_ref));
+
+	my $flag_tooMuch_align=1;
+	foreach my$p_align(@align){
+		my$p_next=$p_align;
+		my$s_align_query="";
+		my$s_align_ref="";
+		my ($i,$j)=($$p_align[5],$$p_align[6]);
+		for(my$m=$j;$m<scalar @a_ref;$m++){
+			$s_align_ref=$s_align_ref.$a_ref1[$m];
+		}
+		for(my$m=$i;$m<scalar @a_query;$m++){
+			$s_align_query=$s_align_query.$a_query1[$m];
+		}
+		$$p_align[0]=$$p_align[0].$s_align_ref;
+		$$p_align[1]=$$p_align[1].$s_align_query;
+		my $tt=&TraceBack($i,$j,$p_align,$p_table,$s_query,$s_ref,$p_hash);
+		$flag_tooMuch_align=$tt if($tt<$flag_tooMuch_align);
+	}
+	return $flag_tooMuch_align;
+}
+sub TraceBack{
+	my($i,$j,$p_next,$p_table,$s_query,$s_ref,$p_hash)=@_;
+	my $max_i=$i;
+	my $max_j=$j;
+	my@align;#all the best alignment to return
+	my@a_query1=split("",$s_query);
+	my@a_ref1=split("",$s_ref);
+	my@a_query=split("",uc($s_query));
+	my@a_ref=split("",uc($s_ref));
+	my %t_hash=();
+	$t_hash{$max_i}{$max_j}{"liumm\tliumm"}++;
+	my @index_i=($max_i);
+	my @index_j=($max_j);
+	my $flag_end=1;
+	my $flag_tooMuch_align=1;
+	while($flag_end==1){
+		$flag_end=0;
+=pod
+		my $align_num=0;
+		foreach $i(keys(%t_hash)){
+			foreach $j(keys( %{ $t_hash{$i} } )){
+				foreach my$align_info(keys( %{ $t_hash{$i}{$j} })){
+					$align_num++;
+				}
+			}
+		}
+=cut
+		foreach $i(keys(%t_hash)){
+			foreach $j(keys( %{ $t_hash{$i} } )){
+				if( (defined($full_ref) and ($i!=0 or $j!=0) ) || ($$p_table[$i][$j]!=0 && !defined($full_ref))){
+					$flag_end=1;
+				}
+				else{
+					last;
+				}
+				my($query,$ref)=($a_query[$i-1],$a_ref[$j-1]);
+				$ref="*" unless(defined($h_score{$ref}));
+				$query="*" unless(defined($h_score{$query}));
+				foreach my$align_info(keys( %{ $t_hash{$i}{$j} })){
+					my ($out_query,$out_ref)=split(/\t/,$align_info);
+=pod
+					if($align_num>=$align_num_limit){
+						$flag_tooMuch_align=0;
+					}
+=cut
+					if($$p_table[$i-1][$j-1]+$h_score{$ref}{$query} == $$p_table[$i][$j] ){
+						$t_hash{$i-1}{$j-1}{$query.$out_query."\t".$ref.$out_ref}++;
+					}
+					elsif( $$p_table[$i-1][$j]+$h_score{$query}{"*"} == $$p_table[$i][$j]){
+						$t_hash{$i-1}{$j}{$query.$out_query."\t-".$out_ref}++;
+					}
+					elsif( $$p_table[$i][$j-1]+$h_score{$ref}{"*"} == $$p_table[$i][$j] ){
+						$t_hash{$i}{$j-1}{"-".$out_query."\t".$ref.$out_ref}++;
+					}
+				}
+				delete($t_hash{$i}{$j});
+			}
+		}
+	}
+	foreach $i(sort {$a <=> $b} keys(%t_hash)){
+		foreach $j(sort {$a <=> $b} keys( %{ $t_hash{$i} } )){
+			foreach my$align_info(sort {$a cmp $b} keys( %{ $t_hash{$i}{$j} })){
+				my ($out_query,$out_ref)=split(/\t/,$align_info);
+				$out_query=~s/liumm$//;
+				$out_ref=~s/liumm$//;
+				if($i<$j){
+					my $out_q=" "x($j-$i).substr($s_query,0,$i).$out_query.substr($s_query,$max_i,length($s_query)-$max_i);
+					my $out_r=substr($s_ref,0,$j).$out_ref.substr($s_ref,$max_j,length($s_ref)-$max_j);
+					$$p_hash{ join("\t",$out_q,$out_r) }++;
+				#	print STDERR join("\t",$out_q,$out_r)."\n";
+				}
+				else{
+					my $out_q=substr($s_query,0,$i).$out_query.substr($s_query,$max_i,length($s_query)-$max_i);
+					my $out_r=" "x($i-$j).substr($s_ref,0,$j).$out_ref.substr($s_ref,$max_j,length($s_ref)-$max_j);
+					$$p_hash{ join("\t",$out_q,$out_r) }++;
+				}
+			}
+		}
+	}
+	return $flag_tooMuch_align;
+=pod
+	#if( (defined($full_ref) and ($i!=0 and $j!=0) ) || ($$p_table[$i][$j]!=0 && !defined($full_ref))){
+		my($query,$ref)=($a_query[$i-1],$a_ref[$j-1]);
+		$ref="*" unless(defined($h_score{$ref}));
+		$query="*" unless(defined($h_score{$query}));
+		if($$p_table[$i-1][$j-1]+$h_score{$ref}{$query} == $$p_table[$i][$j] ){
+			$$p_next[4]=[$a_ref[$j-1],$a_query[$i-1],0,0,0,$p_next];
+			&TraceBack( ($i-1),($j-1),$$p_next[4],$p_table,$s_query,$s_ref,$p_hash);
+		}
+		elsif( $$p_table[$i-1][$j]+$h_score{$query}{"*"} == $$p_table[$i][$j]){
+			$$p_next[2]=["-",$a_query[$i-1],0,0,0,$p_next];
+			&TraceBack(($i-1),$j,$$p_next[2],$p_table,$s_query,$s_ref,$p_hash);
+		}
+		elsif( $$p_table[$i][$j-1]+$h_score{$ref}{"*"} == $$p_table[$i][$j] ){
+			$$p_next[3]=[$a_ref[$j-1],"-",0,0,0,$p_next];
+			&TraceBack($i,($j-1),$$p_next[3],$p_table,$s_query,$s_ref,$p_hash);
+		}
+	}
+	else{
+		my($s_align_ref,$s_align_query)=("","");
+		for(my$m=$j-1;$m>=0;$m--){
+			$s_align_ref=$a_ref1[$m].$s_align_ref;
+		}
+		for(my$m=$i-1;$m>=0;$m--){
+			$s_align_query=$a_query1[$m].$s_align_query;
+		}
+		if($i>$j){
+			if(defined($full_ref)){
+				$s_align_ref="-"x($i-$j).$s_align_ref;
+			}
+			else{
+				$s_align_ref=" "x($i-$j).$s_align_ref;
+			}
+		}
+		elsif($i<$j){
+			if(defined($full_ref)){
+				$s_align_query="-"x($j-$i).$s_align_query;
+			}
+			else{
+				$s_align_query=" "x($j-$i).$s_align_query;
+			}
+		}
+		$$p_next[2]=[$s_align_ref,$s_align_query,0,0,0,$p_next];
+		$$p_hash{$$p_next[2]}=$$p_next[2];
+	}
+=cut
+}

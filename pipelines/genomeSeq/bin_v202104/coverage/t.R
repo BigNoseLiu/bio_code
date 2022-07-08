@@ -1,0 +1,5 @@
+argv <- commandArgs(TRUE)
+files <- strsplit(argv[1],",",fixed=TRUE)
+#print(argv[1])
+#print(files[0])
+print(files[[1]])

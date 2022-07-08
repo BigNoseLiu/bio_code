@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="400" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" rx="0" ry="0" width="400" height="200" style="fill:white;stroke:black;stroke-width:1;opacity:1"/>
+<text x="20" y="152.5" fill="dark" font-family="Arail" font-size="15" transform="rotate(270 20,152.5)" style="font-weight:normal;">13 号染色体</text>
+<ellipse cx="50" cy="45.8609074848547" rx="10" ry="5.86090748485468" style="fill:rgb(238,230,133);stroke:black;stroke-width:1;opacity:1"/>
+<line x1="40" y1="45.8609074848547" x2="40" y2="45.8609074848547" style="stroke:black;stroke-width:2"/>
+<line x1="60" y1="45.8609074848547" x2="60" y2="45.8609074848547" style="stroke:black;stroke-width:2"/>
+<rect x="40" y="45.8609074848547" rx="0" ry="0" width="20" height="0" style="fill:rgb(238,230,133);stroke:black;stroke-width:0;opacity:1"/>
+<ellipse cx="50" cy="61.2295093340292" rx="10" ry="2.08387821683722" style="fill:rgb(255,106,106);stroke:black;stroke-width:1;opacity:1"/>
+<line x1="40" y1="45.8609074848547" x2="40" y2="61.2295093340292" style="stroke:black;stroke-width:2"/>
+<line x1="60" y1="45.8609074848547" x2="60" y2="61.2295093340292" style="stroke:black;stroke-width:2"/>
+<rect x="40" y="61.2295093340292" rx="0" ry="0" width="20" height="0" style="fill:rgb(255,106,106);stroke:black;stroke-width:0;opacity:1"/>
+<ellipse cx="50" cy="65.3972657677036" rx="10" ry="2.08387821683722" style="fill:rgb(255,106,106);stroke:black;stroke-width:1;opacity:1"/>
+<line x1="40" y1="65.3972657677036" x2="40" y2="65.3972657677036" style="stroke:black;stroke-width:2"/>
+<line x1="60" y1="65.3972657677036" x2="60" y2="65.3972657677036" style="stroke:black;stroke-width:2"/>
+<rect x="40" y="65.3972657677036" rx="0" ry="0" width="20" height="0" style="fill:rgb(255,106,106);stroke:black;stroke-width:0;opacity:1"/>
+<ellipse cx="50" cy="183.657354573216" rx="10" ry="6.34264542678425" style="fill:rgb(238,213,183);stroke:black;stroke-width:1;opacity:1"/>
+<line x1="40" y1="65.3972657677036" x2="40" y2="183.657354573216" style="stroke:black;stroke-width:2"/>
+<line x1="60" y1="65.3972657677036" x2="60" y2="183.657354573216" style="stroke:black;stroke-width:2"/>
+<rect x="40" y="183.657354573216" rx="0" ry="0" width="20" height="0" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="45.8609074848547" rx="0" ry="0" width="20" height="7.16333137037794" style="fill:rgb(192,255,62);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="53.0242388552326" rx="0" ry="0" width="20" height="8.20527047879655" style="fill:rgb(238,230,133);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="65.3972657677036" rx="0" ry="0" width="20" height="4.94921076498839" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="70.346476532692" rx="0" ry="0" width="20" height="2.86533254815118" style="fill:rgb(192,255,62);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="73.2118090808432" rx="0" ry="0" width="20" height="2.9955749367035" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="76.2073840175467" rx="0" ry="0" width="20" height="1.43266627407559" style="fill:rgb(192,255,62);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="77.6400502916223" rx="0" ry="0" width="20" height="4.29799882222676" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="81.938049113849" rx="0" ry="0" width="20" height="2.34436299394187" style="fill:rgb(179,238,58);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="84.2824121077909" rx="0" ry="0" width="20" height="1.95363582828489" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="86.2360479360758" rx="0" ry="0" width="20" height="5.991149873407" style="fill:rgb(154,205,50);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="92.2271978094828" rx="0" ry="0" width="20" height="6.64236181616863" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="98.8695596256514" rx="0" ry="0" width="20" height="0.781454331313957" style="fill:rgb(192,255,62);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="99.6510139569654" rx="0" ry="0" width="20" height="1.95363582828489" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="101.60464978525" rx="0" ry="0" width="20" height="4.68872598788374" style="fill:rgb(179,238,58);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="106.293375773134" rx="0" ry="0" width="20" height="5.73066509630235" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="112.024040869436" rx="0" ry="0" width="20" height="5.60042270775002" style="fill:rgb(105,139,34);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="117.624463577186" rx="0" ry="0" width="20" height="3.51654449091281" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="121.141008068099" rx="0" ry="0" width="20" height="4.42824121077909" style="fill:rgb(154,205,50);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="125.569249278878" rx="0" ry="0" width="20" height="3.77702926801746" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="129.346278546896" rx="0" ry="0" width="20" height="6.12139226195933" style="fill:rgb(105,139,34);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="135.467670808855" rx="0" ry="0" width="20" height="2.73509015959885" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="138.202760968454" rx="0" ry="0" width="20" height="2.34436299394187" style="fill:rgb(179,238,58);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="140.547123962396" rx="0" ry="0" width="20" height="2.34436299394187" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="142.891486956338" rx="0" ry="0" width="20" height="11.3310878040524" style="fill:rgb(105,139,34);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="154.22257476039" rx="0" ry="0" width="20" height="2.9955749367035" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="157.218149697094" rx="0" ry="0" width="20" height="6.51211942761631" style="fill:rgb(105,139,34);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="163.73026912471" rx="0" ry="0" width="20" height="4.16775643367444" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="167.898025558384" rx="0" ry="0" width="20" height="1.43266627407559" style="fill:rgb(192,255,62);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="169.33069183246" rx="0" ry="0" width="20" height="3.12581732525583" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="172.456509157716" rx="0" ry="0" width="20" height="4.03751404512211" style="fill:rgb(105,139,34);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="176.494023202838" rx="0" ry="0" width="20" height="2.86533254815118" style="fill:rgb(238,213,183);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="40" y="179.359355750989" rx="0" ry="0" width="20" height="4.29799882222676" style="fill:rgb(105,139,34);stroke:black;stroke-width:0;opacity:1"/>
+<rect x="30" y="63.0404063465275" rx="3" ry="3" width="40" height="8.007178960457" style="fill:red;stroke:red;stroke-width:0;opacity:0.4"/>
+<rect x="96" y="35" rx="3" ry="3" width="288" height="85" style="fill:red;stroke:red;stroke-width:0;opacity:0.3"/>
+<polygon points="96,45 65,67.0475853069845 65,67.0475853069845 96,65" style="fill:red;stroke:red;stroke-width:0;opacity:0.3"/>
+<rect x="120" y="90" rx="0" ry="0" width="240" height="1" style="fill:black;stroke:black;stroke-width:0;opacity:1"/>
+<rect x="120" y="85" rx="0" ry="0" width="1" height="5" style="fill:black;stroke:black;stroke-width:0;opacity:1"/>
+<text x="108" y="77" fill="black" font-family="Arial" font-size="10">From: 20,761,602</text>
+<rect x="359" y="85" rx="0" ry="0" width="1" height="5" style="fill:black;stroke:black;stroke-width:0;opacity:1"/>
+<text x="290" y="77" fill="black" font-family="Arial" font-size="10">To: 20,767,114</text>
+<text x="210" y="56" fill="dark" font-family="Arail" font-size="15" transform="rotate(0 0,0)" style="font-weight:normal;">基因: GJB2</text>
+<rect x="120" y="100" rx="0" ry="0" width="93.1785195936139" height="10" style="fill:green;stroke:black;stroke-width:0;opacity:1"/>
+<rect x="351.640058055152" y="100" rx="0" ry="0" width="8.35994194484761" height="10" style="fill:green;stroke:black;stroke-width:0;opacity:1"/>
+<polyline points="351.640058055152,105 282.409288824383,103 213.178519593614,105" style="fill:white;stroke:red;stroke-width:1"/>
+<rect x="140" y="130" rx="5" ry="5" width="240" height="65" style="fill:green;stroke:green;stroke-width:0;opacity:0.4"/>
+<text x="160" y="150" fill="dark" font-family="Arial" font-size="11" transform="rotate(0 0,0)" style="font-weight:normal;">突变类型：Deletion</text>
+<text x="160" y="168" fill="dark" font-family="Arial" font-size="11" transform="rotate(0 0,0)" style="font-weight:normal;">碱基变化：c.167delT</text>
+<text x="160" y="186" fill="dark" font-family="Arial" font-size="11" transform="rotate(0 0,0)" style="font-weight:normal;">蛋白影响：Leu56Argfs</text>
+<polygon points="194.992743105951,130 204.992743105951,110 204.992743105951,130" style="fill:green;stroke:green;stroke-width:0;opacity:0.4"/>
+<ellipse cx="204.992743105951" cy="105" rx="2" ry="8" style="fill:red;stroke:red;stroke-width:0;opacity:0.5"/>
+<text x="152.5" y="20" fill="dark" font-family="Arial" font-size="15" transform="rotate(0 0,0)" style="font-weight:bold;">突变 : rs80338942</text>
+</svg>

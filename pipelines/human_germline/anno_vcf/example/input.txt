@@ -1,0 +1,1 @@
+test	/data/backup/home/liumingming/biodata/biopipe/human_germline/anno_vcf/example/test_father.vcf

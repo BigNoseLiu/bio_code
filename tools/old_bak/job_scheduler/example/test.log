@@ -1,0 +1,15 @@
+#2.1 done
+2014-Jul-10 10:23:14~~~2014-Jul-10 10:28:14
+nohup sh shell/step2.1.sh >log/step2.1.sh.nohup 2>log/step2.1.sh.error
+#1.1 done
+2014-Jul-10 10:23:14~~~2014-Jul-10 10:36:34
+qsub -cwd -q ngb.q -P ngb_db -l vf=100m -e log -o log shell/step1.1.sh
+#1.2 done
+2014-Jul-10 10:23:14~~~2014-Jul-10 10:36:34
+qsub -cwd -q ngb.q -P ngb_db -l vf=100m -e log -o log shell/step1.2.sh
+#1 done
+2014-Jul-10 10:36:34~~~2014-Jul-10 10:44:56
+qsub -cwd -q ngb.q -P ngb_db -l vf=100m -e log -o log shell/step1.sh
+#2 done
+2014-Jul-10 10:36:35~~~2014-Jul-10 10:44:56
+qsub -cwd -q ngb.q -P ngb_db -l vf=100m -e log -o log shell/step2.sh

@@ -1,0 +1,5 @@
+#GRCh37_gff=/home/mingming_liu/XArchive/tools/plot_gene_mutatation/config/test.gff.gz
+GRCh37_gff=/home/database/out_refDB_2015/ftp.ncbi.nlm.nih.gov/genomes/H_sapiens/GFF/st_20150914/ref_GRCh37.p5_top_level.gff3.gz
+GRCh38_gff=/home/database/out_refDB_2015/ftp.ncbi.nlm.nih.gov/genomes/H_sapiens/GFF/st_20150914/ref_GRCh38.p2_top_level.gff3.gz
+GRCh37_cytoBand=/home/database/out_refDB_2015/hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBandIdeo.txt.gz
+GRCh38_cytoBand=/home/database/out_refDB_2015/hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz

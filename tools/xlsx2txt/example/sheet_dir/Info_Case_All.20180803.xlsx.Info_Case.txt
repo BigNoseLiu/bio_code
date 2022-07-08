@@ -1,0 +1,551 @@
+154	PD11111492	liumm																	liumm		42976.704143518517		0
+155	PD11111493	dapang																	dapang		42976.727233796293		0
+156	PD11111495	liumm																	liumm		42976.734212962961		0
+157	PD11111496	dapang																	dapang		42976.743368055555		0
+159	PD11111498	2156																	2156		42976.745162037034		0
+161	PD11111504																				42977.417222222219		0
+164	PD11111507	tangxiaoshan																	tangxiaoshan		42977.514374999999		0
+165	PD11111508	dapang																	dapang		42977.599629629629		0
+166	PD11111509	dapang																	dapang		42977.626944444448		0
+168	PD11111511	tangxiaoshan																	tangxiaoshan		42978.513136574074		0
+169	PD11111512																				42980.301666666666		0
+170	PD11111513	tangxiaoshan		吴雨晴	女	汉族	福建	2006-09-11	3300		足月			9岁7月		无家族病史			tangxiaoshan	tangxiaoshan	42981.817708333336	43287.644675925927	1
+171	PD11111517	tangxiaoshan																	tangxiaoshan		42983.565405092595		0
+172	PD11111524	tangxiaoshan		陈怡	女	汉族	上海	2001-05-21	3030		足月			10岁1月		有家族病史	奶奶慢性肾炎，FSGS；姨奶奶慢性肾炎，FSGS，血透10余年；爸爸慢性肾炎，IgA肾病；表叔慢性肾炎，FSGS	/upload/image/b5201df82c124321bd36fbe827791bf5.jpg	tangxiaoshan	tangxiaoshan	42983.82309027778	42988.974479166667	1
+173	PD11111525	tangxiaoshan		韦嘉雯	女	汉族	上海	2005-12-16	2400	-	早产	8月龄 宫内窘迫		0岁1月	3岁8月	NA			tangxiaoshan	tangxiaoshan	42983.885324074072	42984.934583333335	1
+174	PD11111526	tangxiaoshan		李笑	女	汉族	安徽	2011-04-16	2450		早产	BW不详，早产原因不详		0岁1月		无家族病史			tangxiaoshan	tangxiaoshan	42983.918541666666	42984.893946759257	1
+175	PD11111529	admin																					
+176	PD11111530	liumingming																	liumingming		42984.435972222222		0
+177	PD11111531	tangxiaoshan		夏逸飞	男	汉族	浙江	2004-06-06	4100		足月			6岁1月		无家族病史			tangxiaoshan	tangxiaoshan	42984.780370370368	42985.924340277779	1
+178	PD11111532	tangxiaoshan		徐冉	女	汉族	江苏	2011-09-16	2700		足月	37+2周胎位不正剖宫产		0岁1月		无家族病史			tangxiaoshan	tangxiaoshan	42984.833310185182	42984.893657407411	1
+179	PD11111533	tangxiaoshan		沈奕恺	男	汉族	江苏	2011-09-28	2950		足月			0岁1月		NA			tangxiaoshan	tangxiaoshan	42984.854687500003	42984.892881944441	1
+180	PD11111534	tangxiaoshan		陈语婷	女	汉族	江苏	2002-08-03	4200		足月			9岁6月	9岁7月	有家族病史	外婆有“肾结石”病史		tangxiaoshan	tangxiaoshan	42984.859814814816	42985.925162037034	1
+181	PD11111535	tangxiaoshan		杨晨	男	汉族	安徽	2004-04-13	3000		足月			5岁月		无家族病史			tangxiaoshan	tangxiaoshan	42984.893842592595	42985.928124999999	1
+182	PD11111536	tangxiaoshan		李若曦	女	汉族	四川	2013-01-21	3050		足月			0岁1月					tangxiaoshan	tangxiaoshan	42984.894479166665	42984.929918981485	1
+183	PD11111537	tangxiaoshan		费沁晨	男	汉族	浙江	2009-10-16	4300		足月			4岁8月		有家族病史	外公有蛋白尿病史，奶奶有肾炎病史。		tangxiaoshan	tangxiaoshan	42984.926550925928	42985.930567129632	1
+184	PD11111538	tangxiaoshan		赵明轩	男	汉族	安徽	2013-10-20	3500		足月			0岁1月		NA			tangxiaoshan	tangxiaoshan	42984.932534722226	42984.947175925925	1
+185	PD11111539	tangxiaoshan		褚俊宇	男	汉族	浙江	2013-02-15	2890	49	足月			0岁1月		NA			tangxiaoshan	tangxiaoshan	42984.93472222222	42984.955393518518	1
+186	PD11111540	tangxiaoshan		谭诗怡	女	汉族	江西	2009-11-24	3300		足月			2岁10月		无家族病史			tangxiaoshan	tangxiaoshan	42984.956388888888	42984.98878472222	1
+187	PD11111541	tangxiaoshan		付煜祺	男	汉族	江西	2014-06-02	1700		足月			0岁11月		无家族病史			tangxiaoshan	tangxiaoshan	42984.989479166667	42988.937986111108	1
+188	PD11111542	liumingming																	liumingming		42985.680231481485		0
+189	PD11111543	liumingming																	liumingming		42985.704664351855		0
+190	PD11111544	liumingming																	liumingming		42985.707060185188		0
+191	PD11111547	tangxiaoshan		张震	男	汉族	江西	2007-12-17			足月			2岁月		NA			tangxiaoshan	tangxiaoshan	42985.792303240742	42986.904120370367	1
+192	PD11111548	tangxiaoshan		周煜财	女	汉族	辽宁	2002-08-08	3400		足月			11岁8月		无家族病史			tangxiaoshan	tangxiaoshan	42985.820104166669	42985.862847222219	1
+193	PD11111549	tangxiaoshan		沈致远	男	汉族	浙江	2009-07-10	4250		足月			2岁月		无家族病史			tangxiaoshan	tangxiaoshan	42985.834340277775	42990.611284722225	1
+194	PD11111550	tangxiaoshan		石文博	男	汉族	安徽	2010-12-26	3400		足月			4岁9月		无家族病史			tangxiaoshan	tangxiaoshan	42985.852314814816	42985.933240740742	1
+195	PD11111551	tangxiaoshan																	tangxiaoshan		42985.862951388888		0
+196	PD11111552	tangxiaoshan		方宋	男	汉族	浙江	2003-05-31	4000		足月			7岁5月		无家族病史			tangxiaoshan	tangxiaoshan	42985.870173611111	42985.910428240742	1
+197	PD11111553	tangxiaoshan		高梓淇	男	汉族	上海	2008-05-21	3300		足月			4岁11月		无家族病史			tangxiaoshan	tangxiaoshan	42985.903587962966	42985.922118055554	1
+198	PD11111554	tangxiaoshan																	tangxiaoshan		42985.911550925928		0
+199	PD11111555	tangxiaoshan		张振航	男	汉族		2010-11-15	3650		足月					有家族病史	患儿有一姐姐，年长9岁，有肾脏病史，曾于贵阳医学院附属医院肾穿病理提示：毛细血管内增生性肾小球肾炎，目前为慢性肾脏病5期，先后行血透及腹膜透析治疗。^^患儿父母为近亲结婚（患儿爷爷、奶奶、外婆均系姨表亲）。		tangxiaoshan	tangxiaoshan	42985.915254629632	42992.456724537034	1
+200	PD11111556	tangxiaoshan		资雨泽	男	汉族	湖南	2010-05-06	3150		足月			0岁月		无家族病史			tangxiaoshan	tangxiaoshan	42985.937638888892	42985.952592592592	1
+201	PD11111557	tangxiaoshan		程仁智美	女	汉族	江西	2009-05-31	NA		足月			1岁8月					tangxiaoshan	tangxiaoshan	42985.953136574077	42985.978668981479	1
+202	PD11111558	tangxiaoshan		张振宇	女	汉族		2002-02-12	4250		足月			9岁10月	9岁10月	有家族病史	患儿父母系近亲结婚（患儿爷爷、奶奶、外婆均系姨表亲）；^^弟弟，4岁余，3岁时出现血尿、蛋白尿，北京大学第一医院诊断”肾病综合征，轻中度系膜增生性肾小球病，伴部分肾小球硬化，遗传性肾病，Alport综合症？，检测到NPHS1、ADCK4基因纯合突变，现规律治疗。家系突变情况验证中。^^		tangxiaoshan	tangxiaoshan	42985.956759259258	42987.977118055554	1
+203	PD11111559	tangxiaoshan		万欣怡	女	汉族	湖北	2005-11-19	3700		足月			1岁月	3岁月	无家族病史			tangxiaoshan	tangxiaoshan	42986.735335648147	42986.759976851848	1
+204	PD11111560	tangxiaoshan		龚语馨	女	汉族	浙江	2008-01-18	3000		足月			4岁2月		无家族病史			tangxiaoshan	tangxiaoshan	42986.759641203702	42986.781666666669	1
+205	PD11111561	tangxiaoshan		赵雅琴	女	汉族	浙江	2010-06-03	3250		足月			0岁8月	0岁8月	无家族病史			tangxiaoshan	tangxiaoshan	42986.760381944441	42986.795972222222	1
+206	PD11111562	tangxiaoshan		王倩倩	女	汉族	河南	2012-12-06	4000		足月			岁8月		无家族病史			tangxiaoshan	tangxiaoshan	42986.782754629632	42986.805034722223	1
+207	PD11111563	tangxiaoshan		杨可	女	汉族	安徽	2011-07-23	3000		足月	羊水少		0岁7月					tangxiaoshan	tangxiaoshan	42986.796018518522	42986.815243055556	1
+208	PD11111564	tangxiaoshan		刘全毅	男	汉族		2015-06-18	3000		足月			岁5月		无家族病史			tangxiaoshan	tangxiaoshan	42986.808668981481	42986.838761574072	1
+209	PD11111565	tangxiaoshan		赵培竣	男	汉族	安徽	2012-06-01	3500		足月			0岁5月		无家族病史			tangxiaoshan	tangxiaoshan	42986.815405092595	42986.827974537038	1
+210	PD11111566	tangxiaoshan		刘晶	女	汉族	江西	2012-05-03	2700		足月			0岁7月		无家族病史			tangxiaoshan	tangxiaoshan	42986.828159722223	42986.880636574075	1
+211	PD11111567	tangxiaoshan		刘慧倩	女	汉族	江西	2006-01-28	2900		足月			9岁10月	9岁10月	无家族病史			tangxiaoshan	tangxiaoshan	42986.846296296295	42986.86991898148	1
+212	PD11111568	tangxiaoshan		朱宏立	男	汉族	上海	2008-12-18	4200		足月			5岁4月		无家族病史			tangxiaoshan	tangxiaoshan	42986.870046296295	42986.903761574074	1
+213	PD11111569	tangxiaoshan		张妙妙	女	汉族	安徽	2005-11-19	3800		足月			6岁7月	6岁7月	无家族病史			tangxiaoshan	tangxiaoshan	42987.977210648147	42988.000300925924	1
+214	PD11111570	tangxiaoshan		李博辰	男	汉族	山东	2007-05-30	3000		足月			2岁11月	7岁1月	无家族病史			tangxiaoshan	tangxiaoshan	42988.000358796293	42988.018067129633	1
+215	PD11111571	tangxiaoshan		谢祥生	男	汉族	江苏	2009-02-19			NA			6岁5月	6岁6月				tangxiaoshan	tangxiaoshan	42988.019386574073	42988.035208333335	1
+216	PD11111574	tangxiaoshan		王偲博	男	汉族	江苏	2012-07-16	3500		足月			0岁6月		无家族病史			tangxiaoshan	tangxiaoshan	42988.799583333333	42988.825462962966	1
+217	PD11111575	tangxiaoshan																	tangxiaoshan		42988.826817129629		0
+218	PD11111576	tangxiaoshan																	tangxiaoshan		42988.879479166666		0
+219	PD11111577	tangxiaoshan																	tangxiaoshan		42988.895682870374		0
+220	PD11111578	tangxiaoshan																	tangxiaoshan		42988.910636574074		0
+221	PD11111579	tangxiaoshan																	tangxiaoshan		42988.919293981482		0
+222	PD11111580	tangxiaoshan		尚诗语	女	汉族	安徽	2013-04-09	3800		足月			3岁1月		无家族病史			tangxiaoshan	tangxiaoshan	42988.919791666667	42988.937083333331	1
+223	PD11111581	tangxiaoshan		周浩然	男	汉族	安徽	2010-02-14	3000		足月			0岁9月		无家族病史			tangxiaoshan	tangxiaoshan	42988.927743055552	42988.958703703705	1
+224	PD11111582	tangxiaoshan		特尼恭	男	蒙古族	内蒙古	2012-06-21	3200		足月			0岁10月					tangxiaoshan	tangxiaoshan	42988.929062499999	42988.936469907407	1
+225	PD11111583	tangxiaoshan		林芯妍	女	汉族	福建	2012-11-12	3300		足月			0岁3月		无家族病史			tangxiaoshan	tangxiaoshan	42988.936909722222	42988.94494212963	1
+226	PD11111584	tangxiaoshan		黄杰	男	汉族	江西	2008-03-14	3000		足月			8岁1月					tangxiaoshan	tangxiaoshan	42988.940289351849	42988.960520833331	1
+227	PD11111585	tangxiaoshan		杨锦国	男	汉族	福建	2010-01-14	2700		足月			0岁8月		无家族病史			tangxiaoshan	tangxiaoshan	42988.945254629631	42988.950787037036	1
+228	PD11111586	tangxiaoshan																	tangxiaoshan		42988.960995370369		0
+230	PD11111592																				42989.390462962961		0
+231	PD11111593	liumm																	liumm		42989.419317129628		0
+233	PD11111595	liumm																					
+234	PD11111601	liumm																	liumm		42991.401875000003		0
+235	PD11111602																				42991.402928240743		0
+236	PD11111604	liumm																					
+243	PD11111605	li																	li		42997.818182870367		0
+244	PD11111606	luanjiangwei																	luanjiangwei		43002.517557870371		0
+246	PD11111608	111																	111		43002.523252314815		0
+247	PD11111609	leejing1973																	leejing1973		43003.397430555553		0
+248	PD11111610	leejing1973																	leejing1973		43003.403124999997		0
+249	PD11111611	luanjiangwei																	luanjiangwei		43005.917962962965		0
+251	PD11111613	luanjiangwei																	luanjiangwei		43007.595023148147		0
+252	PD11111614	liumm																	liumm		43018.375243055554		0
+253	PD11111615	liumm																	liumm		43026.375358796293		0
+254	PD11111616	liumm																	liumm		43026.402673611112		0
+256	PD11111618	liumm																	liumm		43026.405474537038		0
+257	PD11111619	liumm																	liumm		43026.405509259261		0
+258	PD11111620	liumm																	liumm		43026.405601851853		0
+259	PD11111621	liumm																	liumm		43026.405682870369		0
+260	PD11111622	liumm																	liumm		43026.406018518515		0
+261	PD11111623	liumm																	liumm		43026.40861111111		0
+262	PD11111624	liumm																	liumm		43026.409166666665		0
+263	PD11111625	liumm																	liumm		43026.41033564815		0
+264	PD11111626	liumm																	liumm		43026.410474537035		0
+265	PD11111627	liumm																	liumm		43026.412569444445		0
+266	PD11111628	liumm																	liumm		43026.412592592591		0
+267	PD11111629	liumm																	liumm		43026.6247337963		0
+268	PD11111630																				43026.624849537038		0
+269	PD11111631	guj																	guj		43033.601122685184		0
+270	PD11111632																				43033.601238425923		0
+271	PD11111633	guj																	guj		43033.731620370374		0
+272	PD11111634	guj																	guj		43033.745462962965		0
+273	PD11111635	liumm																	liumm		43038.388067129628		0
+274	PD11111636	liumm																	liumm		43038.391493055555		0
+279	PD11111637	liumingming																	liumingming		43038.670243055552		0
+280	PD11111638	zhp																	zhp		43041.421064814815		0
+281	PD11111639																				43041.421180555553		0
+283	PD11111640	zhp																	zhp		43041.429340277777		0
+289	PD11111641	liumm																	liumm		43042.697094907409		0
+290	PD11111642	liumingming																	liumingming		43042.709560185183		0
+291	PD11111643	liumm																	liumm		43042.716516203705		0
+292	PD11111644	liumm																	liumm		43042.718136574076		0
+295	PD11111645	liumm																	liumm		43045.778113425928		0
+296	PD11111646	liumm																	liumm		43046.572245370371		0
+303	PD11111648	luanjiangwei																	luanjiangwei		43047.473807870374		0
+304	PD11111649	liumingming																	liumingming		43047.57236111111		0
+306	PD11111651	shenying																	shenying		43048.928287037037		0
+307	PD11111652	shenying		赵天京	男	汉族	河南	2007-11-05	3000	54	NA			1岁3月	3岁2月	NA			shenying	shenying	43049.583993055552	43049.592314814814	1
+308	PD11111653	shenying		李天祥	女	汉族	贵州	2006-01-10	2500	51	足月			1岁7月	2岁8月	无家族病史			shenying	shenying	43049.597685185188	43049.604803240742	1
+309	PD11111654	shenying		辛子陵	男	汉族	安徽	2005-07-16	3400	57	足月			0岁6月		无家族病史			shenying	shenying	43049.60491898148	43049.611180555556	1
+310	PD11111655	shenying		唐萌	男	汉族	河北	2014-09-10	3000	45	足月			7岁8月		无家族病史			shenying	shenying	43049.611944444441	43049.623252314814	1
+312	PD11111656	liumingming																	liumingming		43118.664212962962		0
+313	PD11111657	liumingming																	liumingming		43123.725925925923		0
+314	PD11111658	tangxiaoshan																	tangxiaoshan		43132.947569444441		0
+315	PD11111659	luanjiangwei																	luanjiangwei		43133.950277777774		0
+316	PD11111660																				43133.950960648152		0
+317	PD11111661	dangxiqiang																	dangxiqiang		43134.474097222221		0
+318	PD11111662	dangxiqiang																	dangxiqiang		43134.875914351855		0
+319	PD11111663	dangxiqiang																	dangxiqiang		43134.884016203701		0
+320	PD11111664	dangxiqiang		李智升	男	汉族		2004-07-12						0岁月		有家族病史	同母异父的妹妹有血尿、蛋白尿	/upload/image/3b95165a68e7466f96de6b219cc693c1.pptx	dangxiqiang	dangxiqiang	43134.884548611109	43135.632569444446	1
+321	PD11111665	luanjiangwei																	luanjiangwei		43134.905543981484		0
+322	PD11111666	tangxiaoshan																	tangxiaoshan		43134.910601851851		0
+323	PD11111667	dangxiqiang		杨子茵	女	汉族	湖南	2010-04-28	3800	-	足月			2岁11月		有家族病史	妈妈：血尿、蛋白尿病史，雷公藤治疗后好转；舅舅死于尿毒症；外婆有肾功能损害、神经性耳聋	/upload/image/366182d865a7409d94d95a31ec3f12fa.pptx	dangxiqiang	dangxiqiang	43135.633576388886	43135.667453703703	1
+324	PD11111668	tangxiaoshan																	tangxiaoshan		43135.671435185184		0
+325	PD11111669	luanjiangwei		吕亦铭	女	汉族	湖北	2014-03-02	3250	-	足月			3岁1月		有家族病史	患儿母亲和胞弟尿检示镜下血尿^^	/upload/image/f22ed9e0eae44d85aa80d8e41c3e07a7.pptx	luanjiangwei	luanjiangwei	43138.787488425929	43138.97384259259	1
+326	PD11111670	luanjiangwei																	luanjiangwei		43138.800671296296		0
+327	PD11111671	luanjiangwei		柯宇	男	汉族	湖北	2005-04-01	3100	-	足月			12岁3月		无家族病史		/upload/image/ec61ad923b204caeb0077710abe829f4.pptx	luanjiangwei	luanjiangwei	43138.815821759257	43138.845532407409	1
+328	PD11111672	luanjiangwei		朱文睿	女	汉族	湖北	2013-07-25	3400	-	足月			4岁1月		有家族病史	患儿父亲慢性肾炎，姑姑在24岁时临产前发现肾功能不全，目前尿毒症^^	/upload/image/eb191507c52246d29426ded8cafa93ad.pptx	luanjiangwei	luanjiangwei	43138.84710648148	43138.984259259261	1
+330	PD11111673	tangxiaoshan																	tangxiaoshan		43160.867719907408		0
+331	PD11111674	tangxiaoshan																	tangxiaoshan		43175.876574074071		0
+332	PD11111675	tangxiaoshan																	tangxiaoshan		43175.887395833335		0
+333	PD11111676	tangxiaoshan																	tangxiaoshan		43175.890659722223		0
+334	PD11111677	tangxiaoshan																	tangxiaoshan		43175.8909375		0
+335	PD11111678	tangxiaoshan																	tangxiaoshan		43175.891805555555		0
+336	PD11111679	tangxiaoshan																	tangxiaoshan		43175.894652777781		0
+337	PD11111680	tangxiaoshan																	tangxiaoshan		43175.896574074075		0
+338	PD11111681	tangxiaoshan																	tangxiaoshan		43175.902418981481		0
+339	PD11111682	tangxiaoshan																	tangxiaoshan		43175.905775462961		0
+340	PD11111683	tangxiaoshan																	tangxiaoshan		43175.906828703701		0
+341	PD11111684	tangxiaoshan																	tangxiaoshan		43175.909895833334		0
+342	PD11111685	tangxiaoshan																	tangxiaoshan		43175.911562499998		0
+343	PD11111686	tangxiaoshan																	tangxiaoshan		43175.9143287037		0
+344	PD11111687	tangxiaoshan		陈思宇	女	汉族					NA								tangxiaoshan	tangxiaoshan	43181.790729166663	43181.808182870373	1
+345	PD11111688	tangxiaoshan																	tangxiaoshan		43181.825706018521		0
+346	PD11111689	tangxiaoshan																	tangxiaoshan		43181.827719907407		0
+347	PD11111690	tangxiaoshan		窦敬涛	男														tangxiaoshan	tangxiaoshan	43181.827939814815	43182.861296296294	1
+348	PD11111691	tangxiaoshan		冯雪妍	女														tangxiaoshan	tangxiaoshan	43181.845254629632	43181.872187499997	1
+349	PD11111692	tangxiaoshan		黄芷苒	女														tangxiaoshan	tangxiaoshan	43181.850868055553	43181.859733796293	1
+350	PD11111693	tangxiaoshan		贾宇航	男														tangxiaoshan	tangxiaoshan	43181.859942129631	43181.863900462966	1
+351	PD11111694	tangxiaoshan		卢俊哲	男														tangxiaoshan	tangxiaoshan	43181.864050925928	43182.863275462965	1
+352	PD11111695	tangxiaoshan		吕林泽	男														tangxiaoshan	tangxiaoshan	43181.866377314815	43181.868252314816	1
+353	PD11111696	tangxiaoshan		孟凡丁	男														tangxiaoshan	tangxiaoshan	43181.868807870371	43181.871006944442	1
+354	PD11111697	tangxiaoshan		牛艳欣	女														tangxiaoshan	tangxiaoshan	43181.87232638889	43272.562708333331	1
+355	PD11111698	tangxiaoshan		牛子建	男														tangxiaoshan	tangxiaoshan	43181.874571759261	43181.876307870371	1
+356	PD11111699	tangxiaoshan		尚昱辰	男														tangxiaoshan	tangxiaoshan	43181.876504629632	43181.877800925926	1
+357	PD11111700	tangxiaoshan		佘明秋	男														tangxiaoshan	tangxiaoshan	43181.878599537034	43181.880173611113	1
+358	PD11111701	tangxiaoshan		沈柯宇	男														tangxiaoshan	tangxiaoshan	43181.880312499998	43181.881678240738	1
+359	PD11111702	tangxiaoshan		田景哲	男														tangxiaoshan	tangxiaoshan	43181.881736111114	43181.882094907407	1
+360	PD11111703	tangxiaoshan		王皓喆	男														tangxiaoshan	tangxiaoshan	43181.883437500001	43181.885092592594	1
+361	PD11111704	tangxiaoshan		王佳旭	男														tangxiaoshan	tangxiaoshan	43181.885150462964	43181.885520833333	1
+362	PD11111705	tangxiaoshan		王启航	男														tangxiaoshan	tangxiaoshan	43181.886979166666	43181.887141203704	1
+363	PD11111706	tangxiaoshan		王婷婷	女														tangxiaoshan	tangxiaoshan	43181.888449074075	43181.888773148145	1
+364	PD11111707	tangxiaoshan		王绎程	男														tangxiaoshan	tangxiaoshan	43181.890567129631	43181.890763888892	1
+365	PD11111708	tangxiaoshan		吴昊泽	男														tangxiaoshan	tangxiaoshan	43181.892604166664	43181.892754629633	1
+366	PD11111709	tangxiaoshan		薛卓	女														tangxiaoshan	tangxiaoshan	43181.893900462965	43181.894386574073	1
+367	PD11111710	tangxiaoshan		杨毅豪	男														tangxiaoshan	tangxiaoshan	43181.895648148151	43181.896018518521	1
+368	PD11111711	tangxiaoshan		尹梓涵	女														tangxiaoshan	tangxiaoshan	43181.89738425926	43181.897673611114	1
+369	PD11111712	tangxiaoshan		张博钧	男														tangxiaoshan	tangxiaoshan	43182.53979166667	43182.540416666663	1
+370	PD11111713	tangxiaoshan		张杨启航	男														tangxiaoshan	tangxiaoshan	43182.541886574072	43182.542175925926	1
+371	PD11111714	tangxiaoshan		赵昱循	男														tangxiaoshan	tangxiaoshan	43182.543958333335	43182.546006944445	1
+372	PD11111715	tangxiaoshan		邹睿源	男														tangxiaoshan	tangxiaoshan	43182.801261574074	43182.802129629628	1
+383	PD11111726	tangxiaoshan		戴杨	女														tangxiaoshan	tangxiaoshan	43182.833032407405	43182.833194444444	1
+384	PD11111727	tangxiaoshan		高宇凡	男														tangxiaoshan	tangxiaoshan	43182.834456018521	43182.834687499999	1
+385	PD11111728	tangxiaoshan		高宇泽	男														tangxiaoshan	tangxiaoshan	43182.835439814815	43182.835949074077	1
+386	PD11111729	tangxiaoshan		葛宇杰	男														tangxiaoshan	tangxiaoshan	43182.837951388887	43182.838437500002	1
+387	PD11111730	tangxiaoshan		郝志远	男														tangxiaoshan	tangxiaoshan	43182.839502314811	43182.839722222219	1
+388	PD11111731	tangxiaoshan		黄文乐	男														tangxiaoshan	tangxiaoshan	43182.841273148151	43182.841539351852	1
+389	PD11111732	tangxiaoshan		李雨垚	女														tangxiaoshan	tangxiaoshan	43182.842407407406	43182.842800925922	1
+390	PD11111733	tangxiaoshan		刘承祯	男														tangxiaoshan	tangxiaoshan	43182.843784722223	43182.844108796293	1
+391	PD11111734	tangxiaoshan		王婉婷	女														tangxiaoshan	tangxiaoshan	43182.845173611109	43182.845451388886	1
+392	PD11111735	tangxiaoshan		谢琳	女														tangxiaoshan	tangxiaoshan	43182.847777777781	43182.848009259258	1
+393	PD11111736	tangxiaoshan		张俊杰	男														tangxiaoshan	tangxiaoshan	43182.849039351851	43182.849803240744	1
+394	PD11111737	tangxiaoshan		张守成	男														tangxiaoshan	tangxiaoshan	43182.850810185184	43182.851076388892	1
+395	PD11111738	tangxiaoshan		张艺博	男														tangxiaoshan	tangxiaoshan	43182.852118055554	43182.853715277779	1
+396	PD11111739	tangxiaoshan		赵可心	女														tangxiaoshan	tangxiaoshan	43182.854664351849	43182.854942129627	1
+397	PD11111740	tangxiaoshan		周然	男														tangxiaoshan	tangxiaoshan	43182.856249999997	43182.856817129628	1
+399	PD11111742	tangxiaoshan		孙宇	男														tangxiaoshan	tangxiaoshan	43182.859317129631	43182.859710648147	1
+400	PD11111743	tangxiaoshan		郭恩睿	男														tangxiaoshan	tangxiaoshan	43183.887303240743	43183.892500000002	1
+401	PD11111744	tangxiaoshan		樊诗怡	女	汉族	上海	2010-11-28	2650		足月			4岁6月	7岁10月	无家族病史			tangxiaoshan	tangxiaoshan	43184.589166666665	43184.607754629629	1
+402	PD11111745	tangxiaoshan		刘宜欣	女	汉族	浙江	2004-12-03	不详		足月			6岁3月		无家族病史			tangxiaoshan	tangxiaoshan	43184.609872685185	43184.623831018522	1
+403	PD11111746	tangxiaoshan		马源浩	男	汉族	河南	2010-03-23	不详		足月			0岁月		无家族病史			tangxiaoshan	tangxiaoshan	43184.624201388891	43184.628680555557	1
+404	PD11111747	tangxiaoshan		阮星蕊	女	汉族		2014-02-20			NA			岁4月					tangxiaoshan	tangxiaoshan	43184.628796296296	43184.640462962961	1
+405	PD11111748	tangxiaoshan		陈章诺	女	汉族		2010-01-22	3400		足月			1岁9月		无家族病史			tangxiaoshan	tangxiaoshan	43184.641875000001	43184.676782407405	1
+406	PD11111749	tangxiaoshan		陆励成	男	汉族		2014-01-14			NA			0岁6月		NA			tangxiaoshan	tangxiaoshan	43184.676851851851	43184.681006944447	1
+407	PD11111750	tangxiaoshan		蔡浩程	男	汉族					NA					NA			tangxiaoshan	tangxiaoshan	43184.689641203702	43184.697187500002	1
+408	PD11111751	tangxiaoshan		黄宇俊	男			2010-10-02											tangxiaoshan	tangxiaoshan	43184.697546296295	43184.704456018517	1
+409	PD11111752	tangxiaoshan		沈奕多	女	汉族	上海	2013-01-31	不详		足月			0岁4月		无家族病史			tangxiaoshan	tangxiaoshan	43184.707395833335	43184.718078703707	1
+410	PD11111753	tangxiaoshan		蔡叶烽	男	汉族	浙江	2004-09-26	3000		足月			6岁月		无家族病史			tangxiaoshan	tangxiaoshan	43184.718460648146	43184.722685185188	1
+411	PD11111754	tangxiaoshan		毕国桓	男	汉族	上海	2003-09-01	2860		足月			6岁8月		无家族病史			tangxiaoshan	tangxiaoshan	43184.722766203704	43184.732094907406	1
+412	PD11111755	tangxiaoshan		陈嘉乐	男	汉族		2007-12-05	3800		足月			4岁10月		无家族病史			tangxiaoshan	tangxiaoshan	43184.732939814814	43184.753483796296	1
+413	PD11111756	tangxiaoshan		陈锦恩	女	汉族	河南	2015-11-24	2600		早产	33+4w		0岁月		无家族病史			tangxiaoshan	tangxiaoshan	43184.777592592596	43184.783819444441	1
+414	PD11111757	tangxiaoshan		陈希	女	汉族	福建	2014-09-18	不详		NA	领养不详		0岁8月		NA			tangxiaoshan	tangxiaoshan	43184.783877314818	43184.806851851848	1
+415	PD11111758	tangxiaoshan		陈梓霄	男	汉族	浙江	2015-01-20	3250		足月			0岁9月		无家族病史			tangxiaoshan	tangxiaoshan	43184.806886574072	43184.822488425925	1
+416	PD11111759	tangxiaoshan		董明远	男	汉族	上海	2014-04-18	2800		足月			1岁4月		无家族病史			tangxiaoshan	tangxiaoshan	43184.822557870371	43184.828553240739	1
+417	PD11111760	tangxiaoshan		范一可	女	汉族	上海	2011-02-19	NA		足月			5岁4月		有家族病史	父亲24岁发现多囊肾，尿蛋白++~+++，肌酐增高		tangxiaoshan	tangxiaoshan	43184.828599537039	43184.833611111113	1
+418	PD11111761	tangxiaoshan		范子建	男	汉族	江苏	2010-01-10	2800		足月			0岁月		无家族病史			tangxiaoshan	tangxiaoshan	43184.833726851852	43184.841273148151	1
+419	PD11111762	tangxiaoshan		冯允哲	男	汉族	浙江	2013-08-20	3500		足月			1岁6月		无家族病史			tangxiaoshan	tangxiaoshan	43184.841886574075	43184.845902777779	1
+420	PD11111763	tangxiaoshan		傅浩禹	男	汉族	江西	2007-01-23	3100		足月			7岁2月		无家族病史			tangxiaoshan	tangxiaoshan	43184.846053240741	43184.880358796298	1
+421	PD11111764	tangxiaoshan		龚语馨	女	汉族	浙江	2008-01-18	3000		足月			5岁8月		无家族病史			tangxiaoshan	tangxiaoshan	43184.88040509259	43184.88318287037	1
+422	PD11111765	tangxiaoshan		胡海洋	男	汉族	安徽	2012-10-04	5500		足月			3岁9月		无家族病史			tangxiaoshan	tangxiaoshan	43184.883240740739	43184.904965277776	1
+424	PD11111767	luanjiangwei		丁欣橙	女	汉族	湖北	2013-11-01	3100	-	足月			1岁4月		无家族病史			luanjiangwei	luanjiangwei	43185.785821759258	43185.811840277776	1
+425	PD11111768	luanjiangwei		高思淼	女	汉族	湖北	2016-09-07	3100	-	足月			岁10月		无家族病史			luanjiangwei	luanjiangwei	43185.811956018515	43185.900868055556	1
+426	PD11111769	luanjiangwei		何天昊	男	汉族	湖北	2014-05-01	2250	-	足月			1岁6月		无家族病史			luanjiangwei	luanjiangwei	43185.835138888891	43185.848032407404	1
+427	PD11111770	luanjiangwei																	luanjiangwei		43185.848171296297		0
+428	PD11111771	luanjiangwei		金明哲	男	汉族	湖北	2011-09-23	3200	-	足月			4岁8月		有家族病史	患儿外婆因尿毒症去世，患儿母亲患慢性肾炎		luanjiangwei	luanjiangwei	43185.860092592593	43185.8752662037	1
+429	PD11111772	luanjiangwei		乐怡然	女		湖北	2016-11-03	2300		早产	35周+5天；		0岁1月		无家族病史			luanjiangwei	luanjiangwei	43185.880937499998	43185.901087962964	1
+430	PD11111773	luanjiangwei		李博	男	汉族	湖北	2007-09-10	2000		早产	患儿为双胎之大，双胎之小出生后13天夭折，当时怀疑泌尿系畸形		7岁11月		无家族病史			luanjiangwei	luanjiangwei	43185.901250000003	43185.92260416667	1
+431	PD11111774	luanjiangwei		李美娇	女	汉族	河南	2016-04-13	1800	-	早产	-		1岁1月	1岁7月	无家族病史			luanjiangwei	luanjiangwei	43185.922719907408	43185.937824074077	1
+432	PD11111775	luanjiangwei																	luanjiangwei		43185.937905092593		0
+433	PD11111776	luanjiangwei		刘名洋	男	汉族	湖北	2015-03-23	3550	-	早产	36周，早产原因不详		2岁2月		无家族病史			luanjiangwei	luanjiangwei	43186.795706018522	43186.816134259258	1
+434	PD11111777	luanjiangwei		刘思诚	男	汉族	湖北	2015-12-08			足月			岁11月		无家族病史			luanjiangwei	luanjiangwei	43186.81627314815	43186.819328703707	1
+435	PD11111778	luanjiangwei		刘雅静	女	汉族	河南	2010-07-19	2350	-	足月			5岁6月		无家族病史			luanjiangwei	luanjiangwei	43186.835243055553	43186.847314814811	1
+436	PD11111779	luanjiangwei																	luanjiangwei		43186.847418981481		0
+437	PD11111780	luanjiangwei		邱全顺	男	汉族	河南	2014-08-11	3400	-	足月	-		1岁6月		无家族病史			luanjiangwei	luanjiangwei	43186.849374999998	43186.851180555554	1
+438	PD11111781	luanjiangwei		石浩鹏	男	汉族	湖北	2011-10-15	2500	-	足月			4岁11月		无家族病史			luanjiangwei	luanjiangwei	43186.869710648149	43186.872245370374	1
+439	PD11111782	luanjiangwei		司马浏文	男	汉族	湖北	2005-05-30	3500	-	足月	-		11岁4月	11岁10月	无家族病史			luanjiangwei	luanjiangwei	43186.886817129627	43186.905405092592	1
+440	PD11111783	luanjiangwei		汪智文	女	汉族	湖北	2016-12-12	3900		早产	35周		岁2月		无家族病史			luanjiangwei	luanjiangwei	43186.905636574076	43187.807662037034	1
+441	PD11111784	luanjiangwei		吴宇鑫	男	汉族	湖北	2008-12-02	3700	-	足月			3岁8月		有家族病史	患儿母亲有血尿		luanjiangwei	luanjiangwei	43187.808680555558	43187.820532407408	1
+442	PD11111785	luanjiangwei		杨子赫	男	汉族	湖北	2014-01-30	2900	-	足月			1岁9月		无家族病史			luanjiangwei	luanjiangwei	43187.823229166665	43187.835370370369	1
+443	PD11111786	luanjiangwei																	luanjiangwei		43187.835613425923		0
+444	PD11111787	luanjiangwei		尧楹	女	汉族	湖北	2017-06-12	-		足月			8岁2月		无家族病史			luanjiangwei	luanjiangwei	43187.836053240739	43187.85119212963	1
+445	PD11111788	luanjiangwei		张妍熙	女	汉族	湖北	2014-02-14	3300	-	足月	-		2岁10月		无家族病史			luanjiangwei	luanjiangwei	43187.852650462963	43187.894467592596	1
+446	PD11111789	luanjiangwei		张雨涵	女	汉族	湖北	2014-07-24	3200	-	足月			0岁11月		无家族病史			luanjiangwei	luanjiangwei	43187.871018518519	43187.874895833331	1
+447	PD11111790	luanjiangwei		周万怡	男	汉族	湖北	2006-07-22	4150	-	足月			10岁1月		无家族病史			luanjiangwei	luanjiangwei	43187.883831018517	43187.886921296296	1
+448	PD11111791	luanjiangwei		朱子健	男	汉族	湖北	2011-05-10	3350	-	足月			1岁10月		无家族病史			luanjiangwei	luanjiangwei	43187.896956018521	43187.909178240741	1
+449	PD11111792	luanjiangwei		杨启航	男	汉族	湖北	2014-10-31	2700	-	足月			2岁1月		无家族病史			luanjiangwei	luanjiangwei	43187.910451388889	43187.919745370367	1
+450	PD11111793																				43188.821412037039		0
+451	PD11111794																				43188.821423611109		0
+452	PD11111795	tangxiaoshan																	tangxiaoshan		43188.821504629632		0
+453	PD11111796	tangxiaoshan																	tangxiaoshan		43188.821979166663		0
+454	PD11111797	tangxiaoshan																	tangxiaoshan		43188.822256944448		0
+455	PD11111798	tangxiaoshan																	tangxiaoshan		43188.822731481479		0
+456	PD11111799	tangxiaoshan																	tangxiaoshan		43188.823333333334		0
+457	PD11111800	tangxiaoshan																	tangxiaoshan		43188.829201388886		0
+458	PD11111801	tangxiaoshan																	tangxiaoshan		43188.829722222225		0
+459	PD11111802	tangxiaoshan																	tangxiaoshan		43188.832280092596		0
+460	PD11111803	tangxiaoshan																	tangxiaoshan		43188.832280092596		0
+461	PD11111804	tangxiaoshan																	tangxiaoshan		43188.832280092596		0
+462	PD11111805	tangxiaoshan																	tangxiaoshan		43188.833460648151		0
+463	PD11111806	tangxiaoshan																	tangxiaoshan		43188.833460648151		0
+464	PD11111807	tangxiaoshan																	tangxiaoshan		43188.833460648151		0
+465	PD11111808	tangxiaoshan		胡念	女	汉族	安徽	2004-11-03	3000		足月			11岁月	11岁6月	无家族病史			tangxiaoshan	tangxiaoshan	43188.833715277775	43188.834837962961	1
+466	PD11111809	tangxiaoshan		蒋利文	男	汉族	江西	2006-01-13	2400		早产	35周剖宫产		10岁月		无家族病史			tangxiaoshan	tangxiaoshan	43188.835289351853	43188.838518518518	1
+467	PD11111810	tangxiaoshan		李彬	男	汉族	江苏	2008-09-16	3600		足月			2岁4月		有家族病史	母亲血尿皮肤活检提示Alport综合征，舅舅肾功能衰竭，血液透析		tangxiaoshan	tangxiaoshan	43188.839525462965	43188.842118055552	1
+468	PD11111811	tangxiaoshan		李方恩	男	汉族	上海	2011-01-03	3550		足月			3岁5月		有家族病史	外祖母曾有蛋白尿，自行恢复正常；父母未见异常		tangxiaoshan	tangxiaoshan	43188.842592592591	43188.845277777778	1
+469	PD11111812	tangxiaoshan		李昊林	男	汉族	河南	2007-10-23	不详		早产	不详		8岁3月	8岁5月				tangxiaoshan	tangxiaoshan	43188.845613425925	43188.850613425922	1
+470	PD11111813	tangxiaoshan		李翔	男	汉族	上海	2014-09-13	2400		早产	36+1周剖宫产		0岁11月					tangxiaoshan	tangxiaoshan	43188.850937499999	43188.856724537036	1
+471	PD11111814	tangxiaoshan		李嫣然	女	汉族	江苏	2013-12-04	2430		早产	36+周“胎膜早破”顺产							tangxiaoshan	tangxiaoshan	43188.853865740741	43188.855983796297	1
+472	PD11111815	tangxiaoshan																	tangxiaoshan		43188.856238425928		0
+473	PD11111816	tangxiaoshan		刘鸿浩	男	汉族	浙江	2002-08-20	3000		足月			12岁月		无家族病史			tangxiaoshan	tangxiaoshan	43188.856805555559	43188.859537037039	1
+474	PD11111817	tangxiaoshan		刘帅帅	男	汉族	安徽	2009-09-20	3250		足月			2岁3月		无家族病史			tangxiaoshan	tangxiaoshan	43188.859594907408	43188.861481481479	1
+475	PD11111818	tangxiaoshan		刘馨蕾	女	汉族													tangxiaoshan	tangxiaoshan	43188.861516203702	43188.864849537036	1
+476	PD11111819	tangxiaoshan		王蕊	女														tangxiaoshan	tangxiaoshan	43188.865208333336	43188.865902777776	1
+477	PD11111820	tangxiaoshan		潘跃	男	汉族	江苏	2015-10-12	不详		足月			0岁6月		无家族病史			tangxiaoshan	tangxiaoshan	43188.866076388891	43188.868726851855	1
+478	PD11111821	tangxiaoshan		彭宇泽	男	汉族	江西	2015-12-11	NA		NA			0岁2月					tangxiaoshan	tangxiaoshan	43188.869050925925	43188.870856481481	1
+479	PD11111822	tangxiaoshan		秦艺菲	女						NA					NA			tangxiaoshan	tangxiaoshan	43188.87091435185	43188.873101851852	1
+480	PD11111823	tangxiaoshan		尚诗语	女	汉族	安徽	2013-04-09	3800		足月			3岁月		无家族病史			tangxiaoshan	tangxiaoshan	43188.873148148145	43188.87636574074	1
+481	PD11111824	tangxiaoshan		邵奕萌	女	汉族	江苏	2006-03-19	NA		足月			6岁月		无家族病史			tangxiaoshan	tangxiaoshan	43188.87641203704	43188.878750000003	1
+482	PD11111825	tangxiaoshan		史可欣	女	汉族	浙江	2010-08-27	3250		早产	36周顺产		5岁2月		无家族病史			tangxiaoshan	tangxiaoshan	43188.878819444442	43188.88318287037	1
+483	PD11111826	tangxiaoshan		斯焓瑀	男	汉族	浙江	2003-08-29	3900		足月			10岁月		无家族病史			tangxiaoshan	tangxiaoshan	43188.883229166669	43188.888877314814	1
+484	PD11111827	tangxiaoshan		王浩然	男	汉族					NA					NA			tangxiaoshan	tangxiaoshan	43188.888923611114	43188.88989583333	1
+485	PD11111828	tangxiaoshan		吴星瑶	女	汉族	江苏	2007-10-02	NA		足月			7岁5月		无家族病史			tangxiaoshan	tangxiaoshan	43188.88994212963	43188.891863425924	1
+486	PD11111829	tangxiaoshan		谢祥生	男	汉族	江苏	2009-03-19	NA		足月	41周因脐带绕颈、羊水浑浊剖宫产		6岁3月		无家族病史			tangxiaoshan	tangxiaoshan	43188.891898148147	43188.893969907411	1
+487	PD11111830	tangxiaoshan		徐睿	男	汉族	安徽	2006-12-22	NA		足月			7岁月		无家族病史			tangxiaoshan	tangxiaoshan	43188.894004629627	43188.895624999997	1
+488	PD11111831	tangxiaoshan		徐睿博	男	汉族	江苏	2015-06-19	4000		足月			0岁8月		无家族病史			tangxiaoshan	tangxiaoshan	43188.895671296297	43188.897418981483	1
+489	PD11111832	tangxiaoshan		徐紫欣	女	汉族	安徽	2008-01-23	2600		足月			7岁1月		有家族病史	奶奶患尿毒症		tangxiaoshan	tangxiaoshan	43188.897453703707	43188.899201388886	1
+490	PD11111833	tangxiaoshan		杨浩	男						NA					NA			tangxiaoshan	tangxiaoshan	43188.899652777778	43188.90047453704	1
+491	PD11111834	tangxiaoshan		杨竣博	男	汉族	江苏	2008-07-18	3900		足月			7岁2月		无家族病史			tangxiaoshan	tangxiaoshan	43188.900567129633	43188.902627314812	1
+492	PD11111835	tangxiaoshan		杨其岩	男	汉族	安徽	2003-01-05	3500		足月			12岁8月		无家族病史			tangxiaoshan	tangxiaoshan	43188.902777777781	43188.906504629631	1
+493	PD11111836	tangxiaoshan		叶宇峰	男	汉族	福建	2010-10-12	3200		足月			5岁1月		无家族病史			tangxiaoshan	tangxiaoshan	43188.906539351854	43188.908472222225	1
+494	PD11111837	tangxiaoshan		于正源	男	苗族	贵州		NA		足月			3岁月		无家族病史			tangxiaoshan	tangxiaoshan	43188.908726851849	43188.91505787037	1
+495	PD11111838	tangxiaoshan		余嘉倪	女	汉族	江苏	2013-12-21	3400	54	足月			1岁3月		有家族病史	患儿母亲5岁因血尿行肾穿诊断，系膜增生性肾小球肾炎		tangxiaoshan	tangxiaoshan	43188.91511574074	43188.919791666667	1
+496	PD11111839	tangxiaoshan		袁豪宇	男	汉族	河南	2007-07-09	3150		足月			5岁9月		有家族病史	外婆因尿毒症去世，急性肾炎后慢性肾炎		tangxiaoshan	tangxiaoshan	43188.91982638889	43188.924039351848	1
+497	PD11111840	tangxiaoshan		张帆	男						NA					NA			tangxiaoshan	tangxiaoshan	43188.924085648148	43188.924814814818	1
+498	PD11111841	tangxiaoshan		张家豪	男	汉族	安徽	2009-11-22	2500		足月			6岁3月		无家族病史			tangxiaoshan	tangxiaoshan	43188.924861111111	43188.926874999997	1
+499	PD11111842	tangxiaoshan		张妙妙	女	汉族	安徽	2005-11-19	3800		足月			7岁7月	7岁7月				tangxiaoshan	tangxiaoshan	43188.926921296297	43188.928715277776	1
+500	PD11111843	tangxiaoshan		张振宇	女	汉族	贵州	2002-03-12	4250		足月			9岁8月		有家族病史	父母系近亲结婚（爷爷、奶奶、外婆均系姨表亲），弟弟3岁出现血尿、蛋白尿，诊断肾病综合征，轻中度系膜增生性肾小球病，伴部分肾小球硬化，遗传性肾病Alport综合征？ NPHS1 ACKD4基因纯合突变		tangxiaoshan	tangxiaoshan	43188.928773148145	43188.933217592596	1
+501	PD11111844	tangxiaoshan		赵芷瑶	女	汉族	河南	2016-03-04	3500		足月			岁2月		无家族病史			tangxiaoshan	tangxiaoshan	43188.933263888888	43188.939502314817	1
+502	PD11111845	tangxiaoshan		周耀	男	汉族	江苏	2007-05-22	3000		足月			6岁2月		无家族病史			tangxiaoshan	tangxiaoshan	43188.940416666665	43188.944247685184	1
+504	PD11111847	tangxiaoshan		邱宏达	男	汉族	安徽	2011-05-06	NA		足月			5岁月		无家族病史			tangxiaoshan	tangxiaoshan	43188.945717592593	43188.949918981481	1
+505	PD11111848	tangxiaoshan		王毅鸣	男	汉族	江苏	2014-07-08	NA		足月			1岁10月		无家族病史			tangxiaoshan	tangxiaoshan	43188.949953703705	43188.955416666664	1
+506	PD11111849	tangxiaoshan		韩庆尚	男			2002-12-01	NA		NA			3岁月		NA			tangxiaoshan	tangxiaoshan	43188.955752314818	43188.958275462966	1
+507	PD11111850	tangxiaoshan		王敏宇	男			2014-04-23	4000		足月			2岁4月		有家族病史	父母、爷爷均有肾结石		tangxiaoshan	tangxiaoshan	43188.958379629628	43188.962685185186	1
+508	PD11111851	tangxiaoshan		N16011	男														tangxiaoshan	tangxiaoshan	43189.585405092592	43189.610578703701	1
+509	PD11111852	tangxiaoshan																	tangxiaoshan		43189.610682870371		0
+510	PD11111853	tangxiaoshan																	tangxiaoshan		43189.610879629632		0
+511	PD11111854	tangxiaoshan		N16012	男														tangxiaoshan	tangxiaoshan	43189.614583333336	43189.618611111109	1
+512	PD11111855	tangxiaoshan																	tangxiaoshan		43189.618750000001		0
+513	PD11111856	tangxiaoshan		N16013	男														tangxiaoshan	tangxiaoshan	43189.618935185186	43189.623495370368	1
+514	PD11111857	tangxiaoshan		陈浩	男														tangxiaoshan	tangxiaoshan	43189.627604166664	43189.634814814817	1
+515	PD11111858	tangxiaoshan		陈良超	男														tangxiaoshan	tangxiaoshan	43189.634884259256	43189.641631944447	1
+516	PD11111859	tangxiaoshan		陈一怡	女														tangxiaoshan	tangxiaoshan	43189.641805555555	43189.642337962963	1
+517	PD11111860	tangxiaoshan		陈奕昂	男														tangxiaoshan	tangxiaoshan	43189.64403935185	43189.646168981482	1
+518	PD11111861	tangxiaoshan		陈月华	女														tangxiaoshan	tangxiaoshan	43189.647777777776	43189.650300925925	1
+519	PD11111862	tangxiaoshan		陈姿含	女														tangxiaoshan	tangxiaoshan	43189.650358796294	43189.653263888889	1
+520	PD11111863	tangxiaoshan		范家硕	男														tangxiaoshan	tangxiaoshan	43189.653321759259	43189.655497685184	1
+521	PD11111864	tangxiaoshan		冯洢灵	女														tangxiaoshan	tangxiaoshan	43189.65556712963	43189.656469907408	1
+522	PD11111865	tangxiaoshan		郭涛涛	男														tangxiaoshan	tangxiaoshan	43189.65834490741	43189.660057870373	1
+523	PD11111866	tangxiaoshan		贺哲轩	男														tangxiaoshan	tangxiaoshan	43189.660300925927	43189.661956018521	1
+524	PD11111867	tangxiaoshan		胡苗	女														tangxiaoshan	tangxiaoshan	43189.66202546296	43189.662430555552	1
+525	PD11111868	tangxiaoshan		计晨涛	男														tangxiaoshan	tangxiaoshan	43189.664189814815	43189.666817129626	1
+526	PD11111869	tangxiaoshan		李熠恺	男														tangxiaoshan	tangxiaoshan	43189.666875000003	43189.6721412037	1
+527	PD11111870	tangxiaoshan		蒋奕萱	女														tangxiaoshan	tangxiaoshan	43189.668136574073	43189.67050925926	1
+528	PD11111871	tangxiaoshan		郦柳茵	女														tangxiaoshan	tangxiaoshan	43189.674016203702	43189.675937499997	1
+529	PD11111872	tangxiaoshan		梁禹哲	男														tangxiaoshan	tangxiaoshan	43189.676006944443	43189.678611111114	1
+530	PD11111873	tangxiaoshan		林丰满	男														tangxiaoshan	tangxiaoshan	43189.678657407407	43189.679143518515	1
+531	PD11111874	tangxiaoshan		林珂伟	男														tangxiaoshan	tangxiaoshan	43189.681435185186	43189.683356481481	1
+532	PD11111875	tangxiaoshan		陆瑶	女														tangxiaoshan	tangxiaoshan	43189.683645833335	43189.68550925926	1
+533	PD11111876	tangxiaoshan		罗禹宸	男														tangxiaoshan	tangxiaoshan	43189.685590277775	43189.686168981483	1
+534	PD11111877	tangxiaoshan		吕湘楠	女														tangxiaoshan	tangxiaoshan	43189.687604166669	43189.689560185187	1
+535	PD11111878	tangxiaoshan		欧子佳	女														tangxiaoshan	tangxiaoshan	43189.689652777779	43189.690081018518	1
+536	PD11111879	tangxiaoshan		乔欣晨	女														tangxiaoshan	tangxiaoshan	43189.693425925929	43189.693738425929	1
+537	PD11111880	tangxiaoshan		施心月	男														tangxiaoshan	tangxiaoshan	43189.697141203702	43189.699108796296	1
+538	PD11111881	tangxiaoshan		童伟彬	男														tangxiaoshan	tangxiaoshan	43189.699155092596	43189.699687499997	1
+539	PD11111882	tangxiaoshan		王靖凯	男														tangxiaoshan	tangxiaoshan	43189.701053240744	43189.702916666669	1
+540	PD11111883	tangxiaoshan		王艳	女														tangxiaoshan	tangxiaoshan	43189.703055555554	43189.703321759262	1
+541	PD11111884	tangxiaoshan																	tangxiaoshan		43189.704780092594		0
+542	PD11111885	tangxiaoshan		吴佳潮	男														tangxiaoshan	tangxiaoshan	43189.707233796296	43189.707615740743	1
+543	PD11111886	tangxiaoshan		吴莉萱	女														tangxiaoshan	tangxiaoshan	43189.709594907406	43189.711782407408	1
+544	PD11111887	tangxiaoshan		吴琦	女														tangxiaoshan	tangxiaoshan	43189.712060185186	43189.720208333332	1
+545	PD11111888	tangxiaoshan		吴雨轩	男														tangxiaoshan	tangxiaoshan	43189.722569444442	43189.723402777781	1
+546	PD11111889	tangxiaoshan		徐畅文	男														tangxiaoshan	tangxiaoshan	43189.728425925925	43189.730740740742	1
+547	PD11111890	tangxiaoshan		徐琳然	男														tangxiaoshan	tangxiaoshan	43189.731608796297	43189.733402777776	1
+548	PD11111891	tangxiaoshan		徐子轩	男														tangxiaoshan	tangxiaoshan	43189.734085648146	43189.736527777779	1
+549	PD11111892	tangxiaoshan		叶子淇	女														tangxiaoshan	tangxiaoshan	43189.736863425926	43189.738981481481	1
+550	PD11111893	tangxiaoshan		袁麒阳	男														tangxiaoshan	tangxiaoshan	43189.739189814813	43189.7425	1
+551	PD11111894	tangxiaoshan		张嘉鑫	男														tangxiaoshan	tangxiaoshan	43189.742673611108	43189.744571759256	1
+552	PD11111895	tangxiaoshan		张佩瑜	女														tangxiaoshan	tangxiaoshan	43189.744629629633	43189.746469907404	1
+553	PD11111896	tangxiaoshan		郑博瀚	男														tangxiaoshan	tangxiaoshan	43189.746516203704	43189.76599537037	1
+554	PD11111897	tangxiaoshan		郑子博	男														tangxiaoshan	tangxiaoshan	43189.750138888892	43189.752256944441	1
+555	PD11111898	tangxiaoshan		周红浩	男														tangxiaoshan	tangxiaoshan	43189.752800925926	43189.754467592589	1
+556	PD11111899	tangxiaoshan		周建辉	男														tangxiaoshan	tangxiaoshan	43189.754513888889	43189.754803240743	1
+557	PD11111900	tangxiaoshan		周旭	男														tangxiaoshan	tangxiaoshan	43189.756365740737	43189.758298611108	1
+558	PD11111901	tangxiaoshan		周子墨	女														tangxiaoshan	tangxiaoshan	43189.758553240739	43189.758831018517	1
+559	PD11111902	tangxiaoshan		诸辰	女														tangxiaoshan	tangxiaoshan	43189.760254629633	43189.762615740743	1
+560	PD11111903	tangxiaoshan																	tangxiaoshan		43189.764467592591		0
+561	PD11111904	tangxiaoshan																	tangxiaoshan		43192.823738425926		0
+563	PD11111906	tangxiaoshan		郭恩睿	男														tangxiaoshan	tangxiaoshan	43192.859317129631	43192.871435185189	1
+564	PD11111907	tangxiaoshan		胡新禹	男														tangxiaoshan	tangxiaoshan	43192.871620370373	43192.874537037038	1
+565	PD11111908	tangxiaoshan		柯蕊熙	女														tangxiaoshan	tangxiaoshan	43192.874594907407	43192.876631944448	1
+566	PD11111909	tangxiaoshan		李鑫涛	男														tangxiaoshan	tangxiaoshan	43192.87667824074	43192.878229166665	1
+567	PD11111910	tangxiaoshan		阙嘉译	男														tangxiaoshan	tangxiaoshan	43192.878275462965	43192.882361111115	1
+568	PD11111911	tangxiaoshan		唐一心	女														tangxiaoshan	tangxiaoshan	43192.882407407407	43192.883217592593	1
+569	PD11111912	tangxiaoshan		王迪	男														tangxiaoshan	tangxiaoshan	43192.884756944448	43192.885243055556	1
+570	PD11111913	tangxiaoshan		王俞昌	男														tangxiaoshan	tangxiaoshan	43192.886770833335	43192.887291666666	1
+571	PD11111914																				43192.888124999998		0
+572	PD11111915																				43192.888124999998		0
+573	PD11111916																				43192.888506944444		0
+574	PD11111917	tangxiaoshan		肖礼轩	男														tangxiaoshan	tangxiaoshan	43192.891469907408	43192.89199074074	1
+575	PD11111918	tangxiaoshan		严静	女														tangxiaoshan	tangxiaoshan	43192.89366898148	43192.894965277781	1
+576	PD11111919	tangxiaoshan		杨家嘉	女														tangxiaoshan	tangxiaoshan	43192.89508101852	43192.896990740737	1
+577	PD11111920	tangxiaoshan		张宸瑜	女														tangxiaoshan	tangxiaoshan	43192.897083333337	43192.897650462961	1
+578	PD11111921	tangxiaoshan		张辉	男														tangxiaoshan	tangxiaoshan	43192.900983796295	43192.902708333335	1
+580	PD11111923	tangxiaoshan																	tangxiaoshan		43192.904039351852		0
+582	PD11111925	tangxiaoshan																	tangxiaoshan		43192.910833333335		0
+584	PD11111927	tangxiaoshan		李子瑜	男														tangxiaoshan	tangxiaoshan	43192.918761574074	43192.920069444444	1
+585	PD11111928																				43193.869745370372		0
+586	PD11111929																				43193.869756944441		0
+587	PD11111930																				43195.742037037038		0
+588	PD11111931																				43195.742060185185		0
+589	PD11111932																				43195.837453703702		0
+590	PD11111933																				43195.837465277778		0
+591	PD11111934																				43195.925185185188		0
+592	PD11111935																				43195.925185185188		0
+593	PD11111936																				43196.836284722223		0
+594	PD11111937																				43196.836296296293		0
+595	PD11111938	tangxiaoshan																	tangxiaoshan		43198.437210648146		0
+596	PD11111939																				43199.441261574073		0
+597	PD11111940																				43199.441261574073		0
+598	PD11111941																				43199.497094907405		0
+599	PD11111942																				43199.497141203705		0
+600	PD11111943																				43200.897523148145		0
+601	PD11111944																				43200.897627314815		0
+602	PD11111945																				43201.056493055556		0
+603	PD11111946																				43201.056493055556		0
+604	PD11111947																				43201.596875000003		0
+605	PD11111948																				43201.596875000003		0
+606	PD11111949																				43201.939444444448		0
+607	PD11111950																				43201.939456018517		0
+608	PD11111951																				43206.848368055558		0
+609	PD11111952																				43206.848379629628		0
+610	PD11111953																				43206.898923611108		0
+611	PD11111954																				43206.898935185185		0
+612	PD11111955																				43207.888842592591		0
+613	PD11111956																				43207.888842592591		0
+614	PD11111957																				43209.862893518519		0
+615	PD11111958																				43209.862905092596		0
+616	PD11111959																				43209.919131944444		0
+617	PD11111960																				43209.91914351852		0
+618	PD11111961																				43218.970138888886		0
+619	PD11111962																				43218.970150462963		0
+620	PD11111963																				43220.484571759262		0
+621	PD11111964																				43220.484583333331		0
+622	PD11111965																				43227.003078703703		0
+623	PD11111966																				43227.003078703703		0
+624	PD11111967																				43227.858726851853		0
+625	PD11111968																				43227.858738425923		0
+626	PD11111969																				43229.924421296295		0
+627	PD11111970																				43229.924432870372		0
+628	PD11111971																				43230.905173611114		0
+629	PD11111972																				43230.905185185184		0
+630	PD11111973																				43230.961030092592		0
+631	PD11111974																				43230.961030092592		0
+632	PD11111975																				43233.925034722219		0
+633	PD11111976																				43233.925057870372		0
+634	PD11111977																				43233.967523148145		0
+635	PD11111978																				43233.967523148145		0
+636	PD11111979																				43234.420046296298		0
+637	PD11111980																				43234.420057870368		0
+638	PD11111981																				43234.58121527778		0
+639	PD11111982																				43234.581226851849		0
+640	PD11111983																				43234.665891203702		0
+641	PD11111984																				43234.665891203702		0
+642	PD11111985																				43235.79277777778		0
+643	PD11111986																				43235.79278935185		0
+644	PD11111987																				43237.727430555555		0
+645	PD11111988																				43237.727430555555		0
+646	PD11111989																				43238.977361111109		0
+647	PD11111990																				43238.977384259262		0
+648	PD11111991																				43239.421481481484		0
+649	PD11111992																				43239.421493055554		0
+650	PD11111993																				43240.585358796299		0
+651	PD11111994																				43240.585370370369		0
+652	PD11111995																				43240.710462962961		0
+653	PD11111996																				43240.710462962961		0
+654	PD11111997																				43240.897893518515		0
+655	PD11111998																				43240.897893518515		0
+656	PD11111999																				43240.959166666667		0
+657	PD11112000																				43241.358275462961		0
+658	PD11112001																				43241.358275462961		0
+659	PD11112002																				43241.464537037034		0
+660	PD11112003																				43241.464537037034		0
+661	PD11112004																				43242.908703703702		0
+662	PD11112005																				43242.908715277779		0
+663	PD11112006																				43243.660300925927		0
+664	PD11112007																				43243.660312499997		0
+665	PD11112008																				43243.734039351853		0
+666	PD11112009																				43243.734039351853		0
+667	PD11112010	tangxiaoshan																	tangxiaoshan		43244.506828703707		0
+668	PD11112011	tangxiaoshan																	tangxiaoshan		43244.510115740741		0
+669	PD11112012																				43249.397523148145		0
+670	PD11112013																				43249.397534722222		0
+671	PD11112014																				43261.954733796294		0
+672	PD11112015																				43261.954745370371		0
+673	PD11112016																				43262.005810185183		0
+674	PD11112017																				43262.005810185183		0
+675	PD11112018																				43262.338877314818		0
+676	PD11112019																				43262.338888888888		0
+677	PD11112020																				43270.854930555557		0
+678	PD11112021																				43270.854942129627		0
+679	PD11112022																				43270.96670138889		0
+680	PD11112023																				43270.96670138889		0
+681	PDN11111192	zhangranshmily																					1
+682	PDN11111197	yangsh																					1
+683	PD11112024	shaoxiaoshan		唐剑平	男	苗族	贵州	2008-08-16	不详	不详	足月			5岁1月	7岁7月	无家族病史			shaoxiaoshan	shaoxiaoshan	43274.770590277774	43274.902916666666	1
+684	PD11112025	shaoxiaoshan		林佳璐	女	侗族	贵州	2014-01-21			足月			2岁6月		有家族病史	哥哥于7岁大时发现“肾病”，肾活检示肾小球硬化，有一个姐姐于4岁时发现肾脏疾病，二者均于13岁大时因“尿毒症”去世。		shaoxiaoshan	shaoxiaoshan	43278.91479166667	43278.951828703706	1
+685	PD11112026	dangxiqiang																	dangxiqiang		43283.962013888886		0
+686	PD11112027	dangxiqiang																	dangxiqiang		43283.980567129627		0
+687	PD11112028	dangxiqiang		肖伟祺	男	汉族	湖南	2016-01-04	34000		足月			1岁8月		无家族病史			dangxiqiang	dangxiqiang	43283.980868055558	43283.982951388891	1
+688	PD11112029																				43284.006516203706		0
+689	PD11112030																				43284.006921296299		0
+690	PD11112031	shaoxiaoshan		余君瑶	女	汉族	云南	2017-01-08	2800	不详	足月			岁1月		有家族病史	父母亲为近亲婚配		shaoxiaoshan	shaoxiaoshan	43284.878252314818	43284.90520833333	1
+691	PD11112032	shaoxiaoshan		卫津铭	男	汉族	贵州	2009-05-20	不详	不详	足月			7岁1月		有家族病史	患儿母亲在妊娠期间查尿常规提示有蛋白尿，具体不详，后未复查。		shaoxiaoshan	shaoxiaoshan	43284.950868055559	43288.714733796296	1
+692	PD11112033	tangxiaoshan																	tangxiaoshan		43285.683645833335		0
+693	PD11112034	tangxiaoshan																	tangxiaoshan		43286.851307870369		0
+694	PD11112035	tangxiaoshan		王子斌	男	汉族	浙江	2010-05-14	5050	NA	足月			4岁2月	7岁1月	有家族病史	患儿祖父、祖母、哥哥均有肾结石病史	/upload/image/29b8dae5f9934308bbcc4e344291af67.pptx	tangxiaoshan	tangxiaoshan	43288.475219907406	43292.541608796295	1
+695	PD11112036	shaoxiaoshan		李平桥	男	苗族	贵州	2009-09-26	不详	不详	足月			6岁1月		无家族病史			shaoxiaoshan	shaoxiaoshan	43288.714224537034	43288.895879629628	1
+696	PD11112037																				43290.535787037035		0
+697	PD11112038																				43290.535798611112		0
+698	PD11112039	tangxiaoshan																	tangxiaoshan		43292.538483796299		0
+699	PD11112040																				43292.645752314813		0
+700	PD11112041																				43294.467962962961		0
+701	PD11112042																				43294.467974537038		0
+702	PD11112043	wangfeiyan																	wangfeiyan		43297.681400462963		0
+703	PD11112044	wangfeiyan																	wangfeiyan		43297.681400462963		0
+704	PD11112045	wangfeiyan																	wangfeiyan		43297.698692129627		0
+705	PD11112046																				43297.713275462964		0
+706	PDN11111203	haoziyeung																					1
+707	PD11112047																				43301.718182870369		0
+708	PD11112048																				43301.718194444446		0
+709	PD11112049																				43303.643275462964		0
+710	PD11112050																				43303.803599537037		0
+711	PD11112051																				43303.80363425926		0
+712	PD11112052																				43303.977858796294		0
+713	PD11112053																				43304.659155092595		0
+714	PD11112054																				43304.659166666665		0
+715	PD11112055	liumingming																	liumingming		43304.740358796298		0
+716	PD11112056																				43304.740995370368		0
+717	PD11112057	liumingming																	liumingming		43305.469652777778		0
+718	PD11112058	liumingming																	liumingming		43305.710185185184		0
+719	PD11112059	liumingming																	liumingming		43305.7184375		0
+720	PD11112060	lvyang																	lvyang		43306.375		0
+721	PD11112061	tangxiaoshan																	tangxiaoshan		43306.523449074077		0
+722	PD11112062	tangxiaoshan																	tangxiaoshan		43306.529340277775		0
+723	PD11112063	tangxiaoshan																	tangxiaoshan		43306.531956018516		0
+724	PD11112064	tangxiaoshan																	tangxiaoshan		43306.539629629631		0
+725	PD11112065																				43306.908750000002		0
+726	PD11112066	tangxiaoshan																	tangxiaoshan		43307.97388888889		0
+727	PD11112067																				43308.019050925926		0
+728	PD11112068	tangxiaoshan																	tangxiaoshan		43308.533541666664		0
+729	PD11112069	tangxiaoshan		徐亚玲	女	汉族	江西	2007-05-18	NA	NA	足月			5岁6月		无家族病史			tangxiaoshan	tangxiaoshan	43308.8200462963	43312.914212962962	1
+730	PD11112070																				43308.83965277778		0
+731	PD11112071																				43309.115543981483		0
+732	PD11112072	tangxiaoshan		顾昊	男	汉族	上海	2004-04-13	3150	NA	足月			13岁5月		有家族病史	患儿爷爷的哥哥、弟弟，患儿奶奶，患儿爸爸均有多囊肾。	/upload/image/d6f8ea68654a4f09ab6d17fec64a6192.pptx	tangxiaoshan	tangxiaoshan	43309.433715277781	43309.869351851848	1
+733	PD11112073	tangxiaoshan																	tangxiaoshan		43309.82135416667		0
+734	PD11112074																				43309.828622685185		0
+735	PD11112075	tangxiaoshan																	tangxiaoshan		43309.883738425924		0
+736	PD11112076	tangxiaoshan																	tangxiaoshan		43309.884583333333		0
+737	PD11112077	tangxiaoshan																	tangxiaoshan		43309.884583333333		0
+738	PD11112078	tangxiaoshan		张晨阳	男	汉族	江苏	2007-02-20			足月			10岁月		无家族病史		/upload/image/61e248e3cd674b7bb5d25b55ea9d72be.pptx	tangxiaoshan	tangxiaoshan	43309.912465277775	43309.93650462963	1
+739	PD11112079	tangxiaoshan		潘鑫	男	汉族	上海	2003-03-07	3770		足月			13岁8月		无家族病史		/upload/image/a1eefdf3e5c6405caf269c66e8a0de41.pptx	tangxiaoshan	tangxiaoshan	43310.714571759258	43310.859965277778	1
+740	PD11112080	tangxiaoshan																	tangxiaoshan		43311.388460648152		0
+741	PD11112081	tangxiaoshan		郑歆怡	女	汉族	浙江	2012-11-26	3600	NA	足月	因胎动减少剖宫产		3岁8月		有家族病史	患儿父亲有血尿伴蛋白尿、左肾囊肿病史		tangxiaoshan	tangxiaoshan	43311.413981481484	43311.431643518517	1
+742	PD11112082	tangxiaoshan		占宸硕	男	汉族	江西	2016-10-16	3650	NA	足月			0岁1月		无家族病史			tangxiaoshan	tangxiaoshan	43311.432245370372	43311.451898148145	1
+743	PD11112083																				43311.990532407406		0
+744	PD11112084																				43311.990543981483		0
+745	PD11112085	tangxiaoshan																	tangxiaoshan		43312.827835648146		0
+746	PD11112086	tangxiaoshan																	tangxiaoshan		43312.875520833331		0
+747	PD11112087	tangxiaoshan																	tangxiaoshan		43312.875740740739		0
+748	PD11112088	tangxiaoshan		袁熙雅	女	汉族	江西	2010-08-19	不详	不详	足月			4岁9月		有家族病史	母亲2012年（23岁）发现有血尿，少量当爱尿病史，目前肾功能正常，舅舅尿毒症，目前血透治疗中，患儿奶奶有肾炎病史	/upload/image/069ff52323944135bc6cda87a1eb47bc.pptx	tangxiaoshan	tangxiaoshan	43312.875879629632	43312.88721064815	1
+749	PD11112089	tangxiaoshan		周涵宇	男	汉族	浙江	2012-02-02	3000	不详	足月					有家族病史	姐姐10岁，因其弟弟发现蛋白尿而检查发现蛋白尿，CKD4期		tangxiaoshan	tangxiaoshan	43312.887430555558	43312.908888888887	1
+750	PDN11111207	13120592537																					1
+751	PDN11111207	13120592537																					1
+752	PDN11111207	13120592537																					1
+753	PDN11111207	13120592537																					1
+754	PDN11111207	13120592537																					1
+755	PDN11111208	13120592537																					1
+756	PDN11111208	13120592537																					1
+757	PD11112090																				43314.772430555553		0
+758	PD11112091																				43314.77244212963		0
