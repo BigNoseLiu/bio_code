@@ -59,6 +59,17 @@ while( $line = <STDIN> ){
 	my %h_record = ('task_id'=>$task_id);
 	#sample info
 	$h_record{'sample'}{'id'} = "S100011";
+
+	#init tags for filter
+	$h_record{'tags'}{'reported_path'} = 0;
+	$h_record{'tags'}{'freq_1'} = 0;
+	$h_record{'tags'}{'freq_5'} = 0;
+	$h_record{'tags'}{'strong_mut'} = 0;
+	#$h_record{'tags'}{'related_path'} = 0;
+	#$h_record{'tags'}{'second_finding'} = 0;
+	#$h_record{'tags'}{'report_path'} = 0;
+	#$h_record{'tags'}{'denovo_mut'} = 0;
+	#$h_record{'tags'}{'match_mode'} = 0;
 	
 	#location
 	$h_record{'location'}{'hg19'}{'chr'} = $arr[$h_header{'Chr'}];
@@ -67,12 +78,6 @@ while( $line = <STDIN> ){
 	$h_record{'location'}{'hg19'}{'ref'} = $arr[$h_header{'Ref'}];
 	$h_record{'location'}{'hg19'}{'alt'} = $arr[$h_header{'Alt'}];
 
-	#tags init
-	$h_record{'tags'}{'related_path'} = 0;
-	$h_record{'tags'}{'second_finding'} = 0;
-	$h_record{'tags'}{'report_path'} = 0;
-	$h_record{'tags'}{'denovo_mut'} = 0;
-	$h_record{'tags'}{'match_mode'} = 0;
 
 
 	#result gatk
@@ -142,7 +147,8 @@ while( $line = <STDIN> ){
 								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'mut_name'} = $1;
 							}
 							if( $var_anno =~ /Pathogenicity="([^;]+)";/ ){
-								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'path'} = $1;
+								my $t_hgmd_path = $1;
+								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'path'} = $t_hgmd_path;
 							}
 							if( $var_anno =~ /Disease="([^;]+)";/ ){
 								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'disease'} = $1;
@@ -159,8 +165,10 @@ while( $line = <STDIN> ){
 								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'mut_name'} = $1;
 							}
 							if( $var_anno =~ /CLNSIG=([^;]+);/ ){
-								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'path'} = $1;
-								$h_record{'known_vars'}{'report_path_stat'}{'name'} = $1 if($known_var_type eq "same_mut");
+								my $t_clinvar_path = $1;
+								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'path'} = $t_clinvar_path;
+								$h_record{'known_vars'}{'report_path_stat'}{'name'} = $t_clinvar_path if($known_var_type eq "same_mut");
+								#$h_record{'tags'}{'reported_path'} = 1 if(defined($h_record{'known_vars'}{'report_path_stat'}{'name'}) && $h_record{'known_vars'}{'report_path_stat'}{'name'} =~ /path/i);
 							}
 							if( $var_anno =~ /CLNREVSTAT=([^;]+);/ ){
 								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'path_level'} = $1;
@@ -180,6 +188,8 @@ while( $line = <STDIN> ){
 			}
 		}
 	}
+	#only the same
+	$h_record{'tags'}{'reported_path'} = 1 if(defined($h_record{'known_vars'}{'report_path_stat'}{'name'}) && $h_record{'known_vars'}{'report_path_stat'}{'name'} =~ /path/i);
 
 
 	#hgvs
@@ -199,6 +209,7 @@ while( $line = <STDIN> ){
                         my $t_trans_type = "-";
                         $t_arr[2] = "-" if( !defined($t_arr[2]) );
                         $t_arr[6] = "-" if( !defined($t_arr[6]) );
+			$h_record{'tags'}{'strong_mut'} = 1 if($t_arr[2] =~ /HIGH/i);
 
 			my %h_hgvs = ();
 			$h_hgvs{'gene'} = $t_arr[3];
@@ -332,6 +343,8 @@ while( $line = <STDIN> ){
 			$h_record{'popfreq'}{'detail'}{$t_db}{$t_pop}{'het'} = -1;
 		}
 	}
+	$h_record{'tags'}{'freq_1'} = 1 if( $h_record{'popfreq'}{'used_freq'}{"freq"} <=0.01 );
+	$h_record{'tags'}{'freq_5'} = 1 if( $h_record{'popfreq'}{'used_freq'}{"freq"} <=0.05 );
 
 	#预测
 	#$h_record{'predicted'}{'note'} = encode("utf-8",decode("GB2312","PP3:多种统计方法预测出该变异会对基因或基因产物造成有害的影响，包括保守性预测、进化预测、剪接位点影响等\nBP4:多种统计方法预测出该变异会对基因或基因产物无影响，包括保守性预测、进化预测、剪接位点影响等。\nBP7:同义变异且预测不影响剪接。"));
