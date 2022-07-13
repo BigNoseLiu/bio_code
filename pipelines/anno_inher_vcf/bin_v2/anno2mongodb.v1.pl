@@ -128,6 +128,7 @@ while( $line = <STDIN> ){
 	$h_known_var{'flank'}{'clinvar'}{$arr[$h_header{'clinvar_20220416_flank5'}]}++;
 	$h_known_var{'same_mut'}{'clinvar'}{$arr[$h_header{'clinvar_anno'}]}++;
 
+	my %h_known_path = ();
 	foreach my $known_var_type( sort {$a cmp $b} keys(%h_known_var) ){
 		#if(defined($h_known_var{$known_var_type}{'hgmd'})){
 		foreach my $db_name(sort {$a cmp $b} keys(%{$h_known_var{$known_var_type}})){
@@ -149,6 +150,7 @@ while( $line = <STDIN> ){
 							if( $var_anno =~ /Pathogenicity="([^;]+)";/ ){
 								my $t_hgmd_path = $1;
 								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'path'} = $t_hgmd_path;
+								$h_known_path{$known_var_type}{$t_hgmd_path}++;
 							}
 							if( $var_anno =~ /Disease="([^;]+)";/ ){
 								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'disease'} = $1;
@@ -167,6 +169,7 @@ while( $line = <STDIN> ){
 							if( $var_anno =~ /CLNSIG=([^;]+);/ ){
 								my $t_clinvar_path = $1;
 								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'path'} = $t_clinvar_path;
+								$h_known_path{$known_var_type}{$t_clinvar_path}++;
 								$h_record{'known_vars'}{'report_path_stat'}{'name'} = $t_clinvar_path if($known_var_type eq "same_mut");
 								#$h_record{'tags'}{'reported_path'} = 1 if(defined($h_record{'known_vars'}{'report_path_stat'}{'name'}) && $h_record{'known_vars'}{'report_path_stat'}{'name'} =~ /path/i);
 							}
@@ -239,6 +242,7 @@ while( $line = <STDIN> ){
 			}
 			$h_hgvs{'c_point'} = $t_arr[9] if(defined($t_arr[9]) && $t_arr[9] =~ /\S/);
 			$h_hgvs{'p_point'} = $t_arr[10] if(defined($t_arr[10]) && $t_arr[10] =~ /\S/);
+			$h_hgvs{'impact'} = $t_arr[2];
 			if( $t_arr[1] =~ /\S/ ){
 				my $t_count = 0;
 				foreach my $t_type(split(/&/,$t_arr[1])){

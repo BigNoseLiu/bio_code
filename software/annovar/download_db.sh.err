@@ -1,0 +1,36 @@
+nohup: 忽略输入
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20210501.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20210501.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20210501.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_clinvar_20210501.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_dbnsfp42c.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_dbnsfp42c.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_dbnsfp42c.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_dbnsfp42c.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_dbnsfp42a.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_dbnsfp42a.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_dbnsfp42a.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_dbnsfp42a.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_avsnp150.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_avsnp150.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_avsnp150.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_avsnp150.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_gnomad211_exome.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_gnomad211_exome.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_gnomad211_exome.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_gnomad211_exome.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_gnomad30_genome.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_gnomad30_genome.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_gnomad30_genome.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_gnomad30_genome.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_dbscsnv11.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_dbscsnv11.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_dbscsnv11.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_dbscsnv11.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_REVEL.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_REVEL.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_REVEL.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_REVEL.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_1000g2015aug.zip ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_1000g2015aug.zip

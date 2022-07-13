@@ -38,3 +38,17 @@ Watching for file changes with StatReloader
 [11/Jul/2022 11:12:22] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
 [11/Jul/2022 11:12:26] "GET /admin/cancer_database/disease/1019/change/ HTTP/1.1" 200 17704
 [11/Jul/2022 11:12:26] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[13/Jul/2022 09:53:11] "GET /admin/ HTTP/1.1" 302 0
+[13/Jul/2022 09:53:11] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2216
+[13/Jul/2022 09:53:11] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[13/Jul/2022 09:53:11] "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[13/Jul/2022 09:53:11] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[13/Jul/2022 09:53:11] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[13/Jul/2022 09:53:12] "GET /static/admin/css/base.css HTTP/1.1" 200 19525
+[13/Jul/2022 09:53:12] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[13/Jul/2022 09:53:12] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[13/Jul/2022 09:53:12] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[13/Jul/2022 09:53:12] "GET /favicon.ico HTTP/1.1" 404 2112
+[13/Jul/2022 09:53:15] "GET /admin/ HTTP/1.1" 302 0
+[13/Jul/2022 09:53:16] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2216
