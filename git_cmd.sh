@@ -11,3 +11,10 @@ git pull bio_code master
 git add .
 git commit -m 'logs'
 git push bio_code master
+
+
+
+
+#FAQ
+#1. 遇到超过>100M的文件，移除相关的文件，修改git的历史记录，移除相应的commit结点。然后才能push
+git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch software/annovar/annovar.latest.tar.gz'
