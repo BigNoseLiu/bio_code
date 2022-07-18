@@ -14,7 +14,7 @@ $docker_cmd "java -jar /biodata/software/snpeff/snpEff5_0/snpEff.jar -v GRCh37.p
 
 
 #prepare for annovar
- perl ../../../software/annovar/annovar/convert2annovar.pl -format vcf4  clinvar_20220416.vcf.gz -outfile clinvar_20220416.conver2annovar -includeinfo
+perl ../../../software/annovar/annovar/convert2annovar.pl -format vcf4  clinvar_20220416.vcf.gz -outfile clinvar_20220416.conver2annovar -includeinfo
 echo -e "#Chr\tStart\tEnd\tRef\tAlt\tclinvar_anno" >hg19_clinvar_20220416.txt
 awk -F "\t" '{print $1"\t"$2"\t"$3"\t"$4"\t"$5"\tPOS="$1":"$2":"$3":"$4":"$5";CLNVARID="$8";"$13}' clinvar_20220416.conver2annovar|perl ../bin/fix_comma.pl >>hg19_clinvar_20220416.txt
 perl ../../../software/annovar/buid_index.pl -in hg19_clinvar_20220416.txt -bin 1000

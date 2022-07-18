@@ -1,0 +1,11 @@
+ANNOVAR Version:
+	$Date: 2020-06-07 23:56:37 -0400 (Sun,  7 Jun 2020) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	bin/annotate_variation.pl -buildver hg19 -downdb -webfrom annovar 1000g2015aug humandb/
+ANNOVAR Started:
+	Fri Jul 15 11:58:34 2022
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_1000g2015aug.zip ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_1000g2015aug.zip
