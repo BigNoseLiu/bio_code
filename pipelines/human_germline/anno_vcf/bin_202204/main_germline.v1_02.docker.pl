@@ -261,10 +261,10 @@ my $bin_exomiser	=	"$docker_cmd java -Xms2g -Xmx4g -jar /biodata/software/exomis
 my $config_exomiser	=	"/biodata/software/exomiser/software/exomiser-cli-12.1.0/application.properties";
 my $bin_create_exomiser_exome=	"$docker_cmd cat $bin_dir/exomiser/exome.yml|perl $bin_dir/exomiser/create_yml.pl";
 #annovar
-my $bin_annovar		=	"/biodata/software/annovar/annovar/";
-my $annovar_humandb	=	"$bin_annovar/humandb";
+my $bin_annovar		=	"/biodata/git_code/software/annovar/bin";
+my $annovar_humandb	=	"/biodata/databases/annovar_humandb";
 #my $annovar_para	= 	'-protocol clinvar_20210501,HGMD2017,gwasCatalog,avsnp150,gnomad211_genome,gnomad211_exome,esp6500siv2_all,dbnsfp42a,dbscsnv11,1000g2014oct_all,1000g2014oct_eas,1000g2014oct_eur,1000g2014oct_amr,1000g2014oct_afr,1000g2014oct_sas -operation f,f,r,f,f,f,f,f,f,f,f,f,f,f,f';
-my $annovar_para	= 	'-protocol clinvar_20210501,avsnp150,gnomad211_genome,gnomad211_exome,dbnsfp42a,dbscsnv11 -operation f,f,f,f,f,f';
+my $annovar_para	= 	'-protocol clinvar_20220416,clinvar_samepos_20220416,clinvar_flank5_20220416,HGMD2017_samepos,HGMD2017_flank5,avsnp150,gnomad211_genome,gnomad211_exome,exac03,1000g2015aug_all,1000g2015aug_eas,1000g2015aug_eur,1000g2015aug_amr,1000g2015aug_afr,1000g2015aug_sas,dbnsfp42a,dbscsnv11 -operation f,r,r,r,r,f,f,f,f,f,f,f,f,f,f,f,f';
 my $bin_annovar_withPara=	"perl $bin_annovar/table_annovar.pl -buildver hg19 $annovar_para --remove --otherinfo --nastring . --vcfinput";
 #my $bin_annovar_withPara=	"perl $bin_annovar/table_annovar.pl -buildver hg19 -protocol refGeneWithVer,cosmic70,cosmic81,civic_20200317,civicRegion4SmallMut_20200317,clinvar_20190305,HGMD2017,gwasCatalog,avsnp150,gnomad211_genome,gnomad211_exome,esp6500siv2_all,dbnsfp35a,nci60,1000g2014oct_all,1000g2014oct_eas,1000g2014oct_eur,1000g2014oct_amr,1000g2014oct_afr,1000g2014oct_sas,ljb26_all -operation gx,f,f,f,r,f,f,r,f,f,f,f,f,f,f,f,f,f,f,f,f --remove --otherinfo --nastring . --vcfinput";
 my $bin_anno_gene	=	"perl $bin_dir/var_inter/anno_gene.v2.01.pl";
