@@ -349,6 +349,16 @@ while( $line = <STDIN> ){
 	}
 	$h_record{'tags'}{'freq_1'} = 1 if( $h_record{'popfreq'}{'used_freq'}{"freq"} <=0.01 );
 	$h_record{'tags'}{'freq_5'} = 1 if( $h_record{'popfreq'}{'used_freq'}{"freq"} <=0.05 );
+	
+	if( $h_record{'popfreq'}{'used_freq'}{"freq"} > 0.05 ){
+		$h_record{'auto_acmg'}{'BA1'} = 'A';
+	}
+	elsif( $h_record{'popfreq'}{'used_freq'}{"freq"} > 0.015 ){
+		$h_record{'auto_acmg'}{'BS1'} = 'S';
+	}
+	elsif( $h_record{'popfreq'}{'used_freq'}{"freq"} <= 0.005 ){
+		$h_record{'auto_acmg'}{'PM2'} = 'M';
+	}
 
 	#预测
 	#$h_record{'predicted'}{'note'} = encode("utf-8",decode("GB2312","PP3:多种统计方法预测出该变异会对基因或基因产物造成有害的影响，包括保守性预测、进化预测、剪接位点影响等\nBP4:多种统计方法预测出该变异会对基因或基因产物无影响，包括保守性预测、进化预测、剪接位点影响等。\nBP7:同义变异且预测不影响剪接。"));

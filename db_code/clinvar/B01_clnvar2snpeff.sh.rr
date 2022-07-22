@@ -451,3 +451,340 @@ nohup: 忽略输入
 00:05:10		740000 variants (2573 variants per second), 739985 VCF entries
 00:05:13		750000 variants (2581 variants per second), 749985 VCF entries
 00:05:16		760000 variants (2595 variants per second), 759985 VCF entries
+00:05:17	Loading sequences for chromosome '11' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.11.bin'
+00:05:19	Building sequence tree for chromosome '11'
+00:05:19	Done. Loaded 1846 sequences.
+00:05:19		770000 variants (2597 variants per second), 769985 VCF entries
+00:05:21		780000 variants (2614 variants per second), 779955 VCF entries
+00:05:25		790000 variants (2617 variants per second), 789955 VCF entries
+00:05:27		800000 variants (2633 variants per second), 799955 VCF entries
+00:05:29		810000 variants (2646 variants per second), 809955 VCF entries
+00:05:30		820000 variants (2666 variants per second), 819955 VCF entries
+00:05:32		830000 variants (2683 variants per second), 829955 VCF entries
+00:05:36		840000 variants (2685 variants per second), 839955 VCF entries
+00:05:39		850000 variants (2686 variants per second), 849955 VCF entries
+00:05:40	Loading sequences for chromosome '12' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.12.bin'
+00:05:42	Building sequence tree for chromosome '12'
+00:05:42	Done. Loaded 1466 sequences.
+00:05:46		860000 variants (2665 variants per second), 859955 VCF entries
+00:05:47		870000 variants (2680 variants per second), 869955 VCF entries
+00:05:50		880000 variants (2691 variants per second), 879952 VCF entries
+00:05:51		890000 variants (2709 variants per second), 889952 VCF entries
+00:05:53		900000 variants (2725 variants per second), 899952 VCF entries
+00:05:55		910000 variants (2743 variants per second), 909952 VCF entries
+00:05:55	Loading sequences for chromosome '13' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.13.bin'
+00:05:56	Building sequence tree for chromosome '13'
+00:05:56	Done. Loaded 746 sequences.
+00:05:57		920000 variants (2752 variants per second), 919952 VCF entries
+00:05:59		930000 variants (2762 variants per second), 929949 VCF entries
+00:06:02		940000 variants (2773 variants per second), 939949 VCF entries
+00:06:05		950000 variants (2775 variants per second), 949949 VCF entries
+00:06:05	Loading sequences for chromosome '14' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.14.bin'
+00:06:07	Building sequence tree for chromosome '14'
+00:06:07	Done. Loaded 953 sequences.
+00:06:08		960000 variants (2784 variants per second), 959946 VCF entries
+00:06:10		970000 variants (2790 variants per second), 969946 VCF entries
+00:06:13		980000 variants (2802 variants per second), 979946 VCF entries
+00:06:15		990000 variants (2813 variants per second), 989946 VCF entries
+00:06:15	Loading sequences for chromosome '15' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.15.bin'
+00:06:17	Building sequence tree for chromosome '15'
+00:06:17	Done. Loaded 938 sequences.
+00:06:19		1000000 variants (2804 variants per second), 999946 VCF entries
+00:06:21		1010000 variants (2819 variants per second), 1009946 VCF entries
+00:06:22		1020000 variants (2836 variants per second), 1019946 VCF entries
+00:06:25		1030000 variants (2847 variants per second), 1029946 VCF entries
+00:06:26		1040000 variants (2863 variants per second), 1039946 VCF entries
+00:06:27	Loading sequences for chromosome '16' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.16.bin'
+00:06:28	Building sequence tree for chromosome '16'
+00:06:28	Done. Loaded 1155 sequences.
+00:06:29		1050000 variants (2869 variants per second), 1049937 VCF entries
+00:06:33		1060000 variants (2866 variants per second), 1059937 VCF entries
+00:06:37		1070000 variants (2857 variants per second), 1069937 VCF entries
+00:06:39		1080000 variants (2867 variants per second), 1079937 VCF entries
+00:06:41		1090000 variants (2884 variants per second), 1089937 VCF entries
+00:06:43		1100000 variants (2895 variants per second), 1099937 VCF entries
+00:06:44		1110000 variants (2910 variants per second), 1109937 VCF entries
+00:06:46		1120000 variants (2924 variants per second), 1119937 VCF entries
+00:06:47	Loading sequences for chromosome '17' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.17.bin'
+00:06:48	Building sequence tree for chromosome '17'
+00:06:48	Done. Loaded 1437 sequences.
+00:06:49		1130000 variants (2925 variants per second), 1129937 VCF entries
+00:06:52		1140000 variants (2927 variants per second), 1139937 VCF entries
+00:06:54		1150000 variants (2939 variants per second), 1149937 VCF entries
+00:06:58		1160000 variants (2932 variants per second), 1159937 VCF entries
+00:07:00		1170000 variants (2945 variants per second), 1169937 VCF entries
+00:07:05		1180000 variants (2936 variants per second), 1179937 VCF entries
+00:07:07		1190000 variants (2946 variants per second), 1189937 VCF entries
+00:07:10		1200000 variants (2950 variants per second), 1199937 VCF entries
+00:07:11		1210000 variants (2963 variants per second), 1209937 VCF entries
+00:07:13		1220000 variants (2978 variants per second), 1219937 VCF entries
+00:07:13	Loading sequences for chromosome '18' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.18.bin'
+00:07:14	Building sequence tree for chromosome '18'
+00:07:14	Done. Loaded 511 sequences.
+00:07:15		1230000 variants (2984 variants per second), 1229937 VCF entries
+00:07:17		1240000 variants (2996 variants per second), 1239937 VCF entries
+00:07:20	Loading sequences for chromosome '19' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.19.bin'
+00:07:21	Building sequence tree for chromosome '19'
+00:07:21	Done. Loaded 1780 sequences.
+00:07:21		1250000 variants (2990 variants per second), 1249937 VCF entries
+00:07:22		1260000 variants (3006 variants per second), 1259937 VCF entries
+00:07:25		1270000 variants (3010 variants per second), 1269937 VCF entries
+00:07:26		1280000 variants (3022 variants per second), 1279937 VCF entries
+00:07:28		1290000 variants (3035 variants per second), 1289937 VCF entries
+00:07:29		1300000 variants (3047 variants per second), 1299934 VCF entries
+00:07:31		1310000 variants (3058 variants per second), 1309934 VCF entries
+00:07:32	Loading sequences for chromosome '20' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.20.bin'
+00:07:33	Building sequence tree for chromosome '20'
+00:07:33	Done. Loaded 751 sequences.
+00:07:34		1320000 variants (3062 variants per second), 1319934 VCF entries
+00:07:35		1330000 variants (3074 variants per second), 1329934 VCF entries
+00:07:37		1340000 variants (3086 variants per second), 1339934 VCF entries
+00:07:38	Loading sequences for chromosome '21' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.21.bin'
+00:07:38	Building sequence tree for chromosome '21'
+00:07:38	Done. Loaded 406 sequences.
+00:07:41		1350000 variants (3084 variants per second), 1349934 VCF entries
+00:07:42		1360000 variants (3097 variants per second), 1359934 VCF entries
+00:07:42	Loading sequences for chromosome '22' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.22.bin'
+00:07:43	Building sequence tree for chromosome '22'
+00:07:43	Done. Loaded 598 sequences.
+00:07:45		1370000 variants (3101 variants per second), 1369934 VCF entries
+00:07:48		1380000 variants (3102 variants per second), 1379934 VCF entries
+00:07:49		1390000 variants (3113 variants per second), 1389934 VCF entries
+00:07:50	Loading sequences for chromosome 'X' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.X.bin'
+00:07:51	Building sequence tree for chromosome 'X'
+00:07:51	Done. Loaded 1529 sequences.
+00:07:56		1400000 variants (3092 variants per second), 1399934 VCF entries
+00:08:04		1410000 variants (3058 variants per second), 1409934 VCF entries
+00:08:06		1420000 variants (3066 variants per second), 1419934 VCF entries
+00:08:07		1430000 variants (3078 variants per second), 1429934 VCF entries
+00:08:10		1440000 variants (3079 variants per second), 1439934 VCF entries
+00:08:13	Loading sequences from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.bin'
+00:08:14	Building sequence tree for chromosome 'HG50_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG385_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG858_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG957_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG75_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG883_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR12_1_CTG2_1'
+00:08:14	Building sequence tree for chromosome 'HSCHR15_1_CTG8'
+00:08:14	Building sequence tree for chromosome 'HSCHR19LRC_COX1_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG418_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG946_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1500_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG686_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG311_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG747_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR3_1_CTG1'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG1'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG23'
+00:08:14	Building sequence tree for chromosome 'HG506_HG507_HG1000_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1458_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG151_NOVEL_TEST'
+00:08:14	Building sequence tree for chromosome 'HG388_HG400_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1133_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG748_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1293_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1304_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR5_3_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG375_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR19_1_CTG3'
+00:08:14	Building sequence tree for chromosome 'HSCHR19LRC_LRC_T_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG271_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1441_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR16_2_CTG3_1'
+00:08:14	Building sequence tree for chromosome 'HG1082_HG167_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1473_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR12_1_CTG5'
+00:08:14	Building sequence tree for chromosome 'HG1591_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG357_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR12_2_CTG2_1'
+00:08:14	Building sequence tree for chromosome 'HG729_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1063_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1453_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR17_5_CTG4'
+00:08:14	Building sequence tree for chromosome 'HSCHR17_3_CTG4'
+00:08:14	Building sequence tree for chromosome 'HSCHR15_1_CTG4'
+00:08:14	Building sequence tree for chromosome 'HG142_HG150_NOVEL_TEST'
+00:08:14	Building sequence tree for chromosome 'HG1595_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR3_1_CTG2_1'
+00:08:14	Building sequence tree for chromosome 'HG544_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG19_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR17_1_CTG5'
+00:08:14	Building sequence tree for chromosome 'HG281_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG329_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1032_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1146_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG325_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG104_HG975_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1699_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG2'
+00:08:14	Building sequence tree for chromosome 'HG865_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG989_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG280_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG237_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR21_4_CTG1_1'
+00:08:14	Building sequence tree for chromosome 'HSCHR9_2_CTG35'
+00:08:14	Building sequence tree for chromosome 'HG1438_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR22_1_CTG1'
+00:08:14	Building sequence tree for chromosome 'HSCHR10_1_CTG2'
+00:08:14	Building sequence tree for chromosome 'HG996_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1471_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1440_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR19LRC_PGF2_CTG1'
+00:08:14	Building sequence tree for chromosome 'HSCHR1_2_CTG31'
+00:08:14	Building sequence tree for chromosome 'HSCHR19LRC_LRC_S_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG1502_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR4_1_CTG9'
+00:08:14	Building sequence tree for chromosome 'HG14_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG21'
+00:08:14	Building sequence tree for chromosome 'HG115_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR16_1_CTG3_1'
+00:08:14	Building sequence tree for chromosome 'HSCHR2_1_CTG12'
+00:08:14	Building sequence tree for chromosome 'HG745_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG480_HG481_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR18_2_CTG2_1'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG16'
+00:08:14	Building sequence tree for chromosome 'HG1488_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1437_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG186_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1426_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG979_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG256_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG706_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1501_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG873_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR22_1_CTG2'
+00:08:14	Building sequence tree for chromosome 'HG953_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR2_2_CTG12'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG5'
+00:08:14	Building sequence tree for chromosome 'HG1079_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1439_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG348_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG193_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1435_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1490_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG174_HG254_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG999_1_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR1_1_CTG31'
+00:08:14	Building sequence tree for chromosome 'HG305_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR19_1_CTG3_1'
+00:08:14	Building sequence tree for chromosome 'HSCHR17_1_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG306_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG905_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR19LRC_COX2_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG1424_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1322_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR6_MHC_APD_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG417_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR9_3_CTG35'
+00:08:14	Building sequence tree for chromosome 'HG122_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG34'
+00:08:14	Building sequence tree for chromosome 'HSCHR19_2_CTG3'
+00:08:14	Building sequence tree for chromosome 'HG444_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR5_1_CTG1'
+00:08:14	Building sequence tree for chromosome 'HSCHR22_2_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG1308_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1442_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR6_1_CTG5'
+00:08:14	Building sequence tree for chromosome 'HG971_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG990_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG243_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG10'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG24'
+00:08:14	Building sequence tree for chromosome 'HG1074_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG27_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG987_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1208_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG299_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG7_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG736_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR7_1_CTG6'
+00:08:14	Building sequence tree for chromosome 'HG1211_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG871_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR10_1_CTG5'
+00:08:14	Building sequence tree for chromosome 'HG536_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG11'
+00:08:14	Building sequence tree for chromosome 'HSCHR17_RANDOM_CTG3'
+00:08:14	Building sequence tree for chromosome 'HG79_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1425_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR18_2_CTG2'
+00:08:14	Building sequence tree for chromosome 'HG944_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG185_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR12_3_CTG2_1'
+00:08:14	Building sequence tree for chromosome 'HSCHR19LRC_LRC_J_CTG1'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG28'
+00:08:14	Building sequence tree for chromosome 'HSCHR9_1_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG1487_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR4_RANDOM_CTG2'
+00:08:14	Building sequence tree for chromosome 'HSCHR5_1_CTG5'
+00:08:14	Building sequence tree for chromosome 'MT'
+00:08:14	Building sequence tree for chromosome 'HG1007_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR12_1_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG1463_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG531_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR21_2_CTG1_1'
+00:08:14	Building sequence tree for chromosome 'HSCHR17_1_CTG4'
+00:08:14	Building sequence tree for chromosome 'HSCHR18_2_CTG1_1'
+00:08:14	Building sequence tree for chromosome 'HG998_2_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1423_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR7_RANDOM_CTG1'
+00:08:14	Building sequence tree for chromosome 'HSCHR1_RANDOM_CTG12'
+00:08:14	Building sequence tree for chromosome 'HG1472_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG414_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1443_HG1444_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1479_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR19LRC_LRC_I_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG1091_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG730_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR18_1_CTG1_1'
+00:08:14	Building sequence tree for chromosome 'HSCHR21_3_CTG1_1'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG9'
+00:08:14	Building sequence tree for chromosome 'HG998_1_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1350_HG959_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG1462_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR1_3_CTG31'
+00:08:14	Building sequence tree for chromosome 'HSCHR19_3_CTG3'
+00:08:14	Building sequence tree for chromosome 'HG999_2_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR4_RANDOM_CTG3'
+00:08:14	Building sequence tree for chromosome 'HSCHR4_1_CTG12'
+00:08:14	Building sequence tree for chromosome 'HSCHR17_4_CTG4'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG3'
+00:08:14	Building sequence tree for chromosome 'HG991_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG962_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR19LRC_PGF1_CTG1'
+00:08:14	Building sequence tree for chromosome 'HSCHR9_1_CTG35'
+00:08:14	Building sequence tree for chromosome 'HG344_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR4_2_CTG9'
+00:08:14	Building sequence tree for chromosome 'HSCHR2_1_CTG1'
+00:08:14	Building sequence tree for chromosome 'HG1434_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG497_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG183_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHRUN_RANDOM_CTG22'
+00:08:14	Building sequence tree for chromosome 'HG1292_PATCH'
+00:08:14	Building sequence tree for chromosome 'HG339_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR12_2_CTG2'
+00:08:14	Building sequence tree for chromosome 'HG29_PATCH'
+00:08:14	Building sequence tree for chromosome 'HSCHR17_6_CTG4'
+00:08:14	Creating sequences from exon information 'MT'
+00:08:14	Building sequence tree for chromosome 'MT'
+00:08:14	Building sequence tree for genome sequences
+00:08:14	Done.
+00:08:14	Done. Loaded 54 sequences.
+00:08:14		1450000 variants (3075 variants per second), 1449934 VCF entries
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+INFO_REALIGN_3_PRIME	209059
+WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS	63666
+WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS&INFO_REALIGN_3_PRIME	73
+WARNING_TRANSCRIPT_NO_START_CODON	1243
+WARNING_TRANSCRIPT_NO_START_CODON&INFO_REALIGN_3_PRIME	4
+WARNING_TRANSCRIPT_NO_STOP_CODON	24
+
+
+00:08:15	Creating summary file: /mnt//data/backup/home/liumingming/biodata/databases/clinvar/clinvar_20220416/clinvar_20220416.snpeff.stat.html
+00:08:16	Creating genes file: /mnt/data/backup/home/liumingming/biodata/databases/clinvar/clinvar_20220416/clinvar_20220416.snpeff.stat.genes.txt
+00:08:18	done.
+00:08:18	Logging
+00:08:20	Checking for updates...
+00:08:22	Done.
