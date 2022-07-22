@@ -125,7 +125,8 @@ while( $line = <STDIN> ){
 	#Clinvar	
 	$h_known_var{'same_pos'}{'hgmd'}{$arr[$h_header{'HGMD2017_samepos'}]}++;
 	$h_known_var{'flank'}{'hgmd'}{$arr[$h_header{'HGMD2017_flank5'}]}++;
-	$h_known_var{'flank'}{'clinvar'}{$arr[$h_header{'clinvar_20220416_flank5'}]}++;
+	$h_known_var{'flank'}{'clinvar'}{$arr[$h_header{'clinvar_flank5_20220416'}]}++;
+	$h_known_var{'flank'}{'clinvar'}{$arr[$h_header{'clinvar_samepos_20220416'}]}++;
 	$h_known_var{'same_mut'}{'clinvar'}{$arr[$h_header{'clinvar_anno'}]}++;
 
 	my %h_known_path = ();
@@ -168,7 +169,27 @@ while( $line = <STDIN> ){
 							}
 							if( $var_anno =~ /CLNSIG=([^;]+);/ ){
 								my $t_clinvar_path = $1;
+								my $t_clinvar_path_raw = $t_clinvar_path;
+								if($t_clinvar_path =~ /Likely_benign/i){
+									$t_clinvar_path = decode_utf8('可能良性');
+								}
+								elsif($t_clinvar_path =~ /benign/i){
+									$t_clinvar_path = decode_utf8('良性');
+								}
+								elsif($t_clinvar_path =~ /Uncertain_significance/i){
+									$t_clinvar_path = decode_utf8('VUS');
+								}
+								elsif($t_clinvar_path =~ /Conflicting_interpretations_of_pathogenicity/i){
+									$t_clinvar_path = decode_utf8('冲突');
+								}
+								elsif($t_clinvar_path =~ /Likely_pathogenic/i){
+									$t_clinvar_path = decode_utf8('可能致病');
+								}
+								elsif($t_clinvar_path =~ /Pathogenic/i){
+									$t_clinvar_path = decode_utf8('致病');
+								}
 								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'path'} = $t_clinvar_path;
+								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'path_raw'} = $t_clinvar_path_raw;
 								$h_known_path{$known_var_type}{$t_clinvar_path}++;
 								$h_record{'known_vars'}{'report_path_stat'}{'name'} = $t_clinvar_path if($known_var_type eq "same_mut");
 								#$h_record{'tags'}{'reported_path'} = 1 if(defined($h_record{'known_vars'}{'report_path_stat'}{'name'}) && $h_record{'known_vars'}{'report_path_stat'}{'name'} =~ /path/i);
@@ -306,26 +327,24 @@ while( $line = <STDIN> ){
 
 	#popfreq
 	$h_record{'popfreq'}{'note'} = decode_utf8("待修改");
-	my $freq_database = 'gnomad_genome';
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'all'}{'freq'} = $arr[$h_header{'AF'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'afr'}{'freq'} = $arr[$h_header{'AF_afr'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'sas'}{'freq'} = $arr[$h_header{'AF_sas'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'amr'}{'freq'} = $arr[$h_header{'AF_amr'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'eas'}{'freq'} = $arr[$h_header{'AF_eas'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'nfe'}{'freq'} = $arr[$h_header{'AF_nfe'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'fin'}{'freq'} = $arr[$h_header{'AF_fin'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'asj'}{'freq'} = $arr[$h_header{'AF_asj'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'oth'}{'freq'} = $arr[$h_header{'AF_oth'}];
-	$freq_database = 'gnomad_exome';
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'all'}{'freq'} = $arr[$h_header{'AF_2'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'afr'}{'freq'} = $arr[$h_header{'AF_afr_2'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'sas'}{'freq'} = $arr[$h_header{'AF_sas_2'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'amr'}{'freq'} = $arr[$h_header{'AF_amr_2'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'eas'}{'freq'} = $arr[$h_header{'AF_eas_2'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'nfe'}{'freq'} = $arr[$h_header{'AF_nfe_2'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'fin'}{'freq'} = $arr[$h_header{'AF_fin_2'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'asj'}{'freq'} = $arr[$h_header{'AF_asj_2'}];
-	$h_record{'popfreq'}{'detail'}{$freq_database}{'oth'}{'freq'} = $arr[$h_header{'AF_oth_2'}];
+	$h_record{'popfreq'}{'detail'}{'gnomad_genome'}{'all'}{'freq'} = $arr[$h_header{'AF'}];
+	$h_record{'popfreq'}{'detail'}{'gnomad_exome'}{'all'}{'freq'} = $arr[$h_header{'AF_2'}];
+	foreach my $af_header( keys(%h_header) ){
+		if( $af_header =~ /^ExAC_(\S+)$/ ){
+			$h_record{'popfreq'}{'detail'}{'ExAC'}{$1}{'freq'} = $arr[$h_header{$af_header}];
+		}
+		elsif( $af_header =~ /^1000g2015aug_(\S+)$/ ){
+			$h_record{'popfreq'}{'detail'}{'1000genome'}{$1}{'freq'} = $arr[$h_header{$af_header}];
+		}
+		elsif( $af_header !~ /popmax/i && $af_header !~ /female/i && $af_header !~ /male/i && $af_header ne "AF_2" && $af_header ne "AF"){
+			if( $af_header =~ /^AF_(\S+)_2$/ ){
+				$h_record{'popfreq'}{'detail'}{'gnomad_exome'}{$1}{'freq'} = $arr[$h_header{$af_header}];
+			}
+			elsif( $af_header =~ /^AF_(\S+)$/ ){
+				$h_record{'popfreq'}{'detail'}{'gnomad_genome'}{$1}{'freq'} = $arr[$h_header{$af_header}];
+			}
+		}
+	}
 	
 	$h_record{'popfreq'}{'used_freq'}{"freq"} = -1;
 	$h_record{'popfreq'}{'used_freq'}{"source"} = "not_detected";
@@ -347,9 +366,12 @@ while( $line = <STDIN> ){
 			$h_record{'popfreq'}{'detail'}{$t_db}{$t_pop}{'het'} = -1;
 		}
 	}
+
+	#人群频率标签
 	$h_record{'tags'}{'freq_1'} = 1 if( $h_record{'popfreq'}{'used_freq'}{"freq"} <=0.01 );
 	$h_record{'tags'}{'freq_5'} = 1 if( $h_record{'popfreq'}{'used_freq'}{"freq"} <=0.05 );
 	
+	#基于人群频率的证据项判断
 	if( $h_record{'popfreq'}{'used_freq'}{"freq"} > 0.05 ){
 		$h_record{'auto_acmg'}{'BA1'} = 'A';
 	}

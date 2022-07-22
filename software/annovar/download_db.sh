@@ -2,3 +2,9 @@ for db in 'dbnsfp42a' 'avsnp150' 'gnomad211_exome' 'gnomad30_genome' 'dbscsnv11'
 do
 	perl bin/annotate_variation.pl -buildver hg19 -downdb -webfrom annovar $db humandb/
 done
+
+
+for db in 'tfbsConsSites' 'phastConsElements46way'
+do
+	perl bin/annotate_variation.pl -buildver hg19 -downdb $db humandb/
+done
