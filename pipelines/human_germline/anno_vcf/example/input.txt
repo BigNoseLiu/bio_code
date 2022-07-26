@@ -1,1 +1,2 @@
-test	/data/backup/home/liumingming/biodata/biopipe/human_germline/anno_vcf/example/test_father.vcf
+#test	-	/data/backup/home/liumingming/biodata/biopipe/human_germline/anno_vcf/example/test_father.vcf
+cohort_test	HP:0001156,HP:0001363,HP:0011304,HP:0010055	/data/backup/home/liumingming/biodata/big_data/example_data/anno_vcf_data/cohort.vcf

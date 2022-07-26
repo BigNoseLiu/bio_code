@@ -1,0 +1,630 @@
+nohup: 忽略输入
+07:36:28.593 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/opt/conda/share/gatk4-4.1.9.0-0/gatk-package-4.1.9.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jul 25, 2022 7:36:28 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+07:36:28.860 INFO  LeftAlignAndTrimVariants - ------------------------------------------------------------
+07:36:28.861 INFO  LeftAlignAndTrimVariants - The Genome Analysis Toolkit (GATK) v4.1.9.0
+07:36:28.861 INFO  LeftAlignAndTrimVariants - For support and documentation go to https://software.broadinstitute.org/gatk/
+07:36:28.861 INFO  LeftAlignAndTrimVariants - Executing as ?@3516bea24381 on Linux v3.10.0-1160.el7.x86_64 amd64
+07:36:28.861 INFO  LeftAlignAndTrimVariants - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_312-b07
+07:36:28.861 INFO  LeftAlignAndTrimVariants - Start Date/Time: July 25, 2022 7:36:28 AM UTC
+07:36:28.861 INFO  LeftAlignAndTrimVariants - ------------------------------------------------------------
+07:36:28.861 INFO  LeftAlignAndTrimVariants - ------------------------------------------------------------
+07:36:28.862 INFO  LeftAlignAndTrimVariants - HTSJDK Version: 2.23.0
+07:36:28.862 INFO  LeftAlignAndTrimVariants - Picard Version: 2.23.3
+07:36:28.862 INFO  LeftAlignAndTrimVariants - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+07:36:28.862 INFO  LeftAlignAndTrimVariants - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+07:36:28.862 INFO  LeftAlignAndTrimVariants - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+07:36:28.862 INFO  LeftAlignAndTrimVariants - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+07:36:28.862 INFO  LeftAlignAndTrimVariants - Deflater: IntelDeflater
+07:36:28.862 INFO  LeftAlignAndTrimVariants - Inflater: IntelInflater
+07:36:28.862 INFO  LeftAlignAndTrimVariants - GCS max retries/reopens: 20
+07:36:28.862 INFO  LeftAlignAndTrimVariants - Requester pays: disabled
+07:36:28.862 INFO  LeftAlignAndTrimVariants - Initializing engine
+07:36:29.208 INFO  FeatureManager - Using codec VCFCodec to read file file:///mnt/data/backup/home/liumingming/biodata/big_data/example_data/anno_vcf_data/cohort.vcf
+07:36:29.329 INFO  LeftAlignAndTrimVariants - Done initializing engine
+07:36:29.372 INFO  ProgressMeter - Starting traversal
+07:36:29.372 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+07:36:30.968 INFO  LeftAlignAndTrimVariants - Indel is too long (231) at position 1:152327436; skipping that record. Set --max-indel-length >= 231
+07:36:39.863 INFO  ProgressMeter -           7:99662511              0.2                 19000         108664.6
+07:36:49.897 INFO  ProgressMeter -          17:66872802              0.3                 41000         119853.8
+07:36:54.083 INFO  ProgressMeter -           X:49114808              0.4                 50649         122979.2
+07:36:54.083 INFO  ProgressMeter - Traversal complete. Processed 50649 total variants in 0.4 minutes.
+07:36:55.045 INFO  LeftAlignAndTrimVariants - Shutting down engine
+[July 25, 2022 7:36:55 AM UTC] org.broadinstitute.hellbender.tools.walkers.variantutils.LeftAlignAndTrimVariants done. Elapsed time: 0.44 minutes.
+Runtime.totalMemory()=2613051392
+Using GATK jar /opt/conda/share/gatk4-4.1.9.0-0/gatk-package-4.1.9.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /opt/conda/share/gatk4-4.1.9.0-0/gatk-package-4.1.9.0-local.jar LeftAlignAndTrimVariants --split-multi-allelics -R /biodata/databases/gatk_bundle/b37/human_g1k_v37_decoy.fasta -V /mnt//data/backup/home/liumingming/biodata/big_data/example_data/anno_vcf_data/cohort.vcf -O /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.vcf
+00:00:00	SnpEff version SnpEff 5.0e (build 2021-03-09 06:01), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'GRCh37.p13.RefSeq'
+00:00:00	Reading config file: /snpEff.config
+00:00:00	Reading config file: /biodata/git_code/software/snpeff/snpEff5_0/snpEff.config
+00:00:00	done
+00:00:00	Reading database for genome version 'GRCh37.p13.RefSeq' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/snpEffectPredictor.bin' (this might take a while)
+00:00:15	done
+00:00:15	Loading Motifs and PWMs
+00:00:15	Building interval forest
+00:00:17	done.
+00:00:17	Genome stats :
+#-----------------------------------------------
+# Genome name                : 'Human genome GRCh37 using RefSeq transcripts'
+# Genome version             : 'GRCh37.p13.RefSeq'
+# Genome ID                  : 'GRCh37.p13.RefSeq[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 48285
+# Protein coding genes       : 21645
+#-----------------------------------------------
+# Transcripts                : 82443
+# Avg. transcripts per gene  : 1.71
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :  56455 ( 95.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 59427
+#              Length errors :    284 ( 0.48% )
+#  STOP codons in CDS errors :    163 ( 0.27% )
+#         START codon errors :    259 ( 0.44% )
+#        STOP codon warnings :    102 ( 0.17% )
+#              UTR sequences :  58895 ( 71.44% )
+#               Total Errors :    414 ( 0.70% )
+#-----------------------------------------------
+# Cds                        : 608984
+# Exons                      : 781368
+# Exons with sequence        : 781368
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 9.48
+#-----------------------------------------------
+# Number of chromosomes      : 298
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'1'	249250621	Standard
+#		'2'	243199373	Standard
+#		'3'	198022430	Standard
+#		'4'	191154276	Standard
+#		'5'	180915260	Standard
+#		'6'	171115067	Standard
+#		'7'	159138663	Standard
+#		'X'	155270560	Standard
+#		'8'	146364022	Standard
+#		'9'	141213431	Standard
+#		'10'	135534747	Standard
+#		'11'	135006516	Standard
+#		'12'	133851895	Standard
+#		'13'	115169878	Standard
+#		'14'	107349540	Standard
+#		'15'	102531392	Standard
+#		'16'	90354753	Standard
+#		'17'	81195210	Standard
+#		'18'	78077248	Standard
+#		'20'	63025520	Standard
+#		'Y'	59373566	Standard
+#		'19'	59128983	Standard
+#		'22'	51304566	Standard
+#		'21'	48129895	Standard
+#		'HG1287_PATCH'	7283150	Standard
+#		'HG1459_PATCH'	6530008	Standard
+#		'HSCHR6_MHC_SSTO_CTG1'	4928567	Standard
+#		'HSCHR6_MHC_MCF_CTG1'	4833398	Standard
+#		'HSCHR6_MHC_COX_CTG1'	4795371	Standard
+#		'HSCHR6_MHC_MANN_CTG1'	4683263	Standard
+#		'HSCHR6_MHC_APD_CTG1'	4622290	Standard
+#		'HSCHR6_MHC_QBL_CTG1'	4611984	Standard
+#		'HSCHR6_MHC_DBB_CTG1'	4610396	Standard
+#		'HG1433_PATCH'	4110759	Standard
+#		'HG1257_PATCH'	3821770	Standard
+#		'HG1497_PATCH'	3110903	Standard
+#		'HG1436_HG1432_PATCH'	2418393	Standard
+#		'HG1211_PATCH'	2281126	Standard
+#		'HSCHR17_1_CTG5'	1680828	Standard
+#		'HG1292_PATCH'	1676126	Standard
+#		'HSCHR5_1_CTG1'	1612928	Standard
+#		'HG1592_PATCH'	1523386	Standard
+#		'HG1425_PATCH'	1461188	Standard
+#		'HG1462_PATCH'	1389764	Standard
+#		'HG7_PATCH'	1284284	Standard
+#		'HG1458_PATCH'	1214327	Standard
+#		'HSCHR19LRC_LRC_J_CTG1'	1091840	Standard
+#		'HSCHR19LRC_LRC_S_CTG1'	1066389	Standard
+#		'HSCHR19LRC_LRC_I_CTG1'	1064303	Standard
+#		'HG1079_PATCH'	1058686	Standard
+#		'HG1443_HG1444_PATCH'	1045622	Standard
+#		'HG979_PATCH'	1020827	Standard
+#		'HSCHR19LRC_LRC_T_CTG1'	1002682	Standard
+#		'HSCHR19LRC_COX1_CTG1'	987716	Standard
+#		'HSCHR19LRC_PGF1_CTG1'	987100	Standard
+#		'HG1453_PATCH'	899320	Standard
+#		'HG1423_PATCH'	898979	Standard
+#		'HG1437_PATCH'	882083	Standard
+#		'HG865_PATCH'	872115	Standard
+#		'HG1434_PATCH'	862483	Standard
+#		'HG1438_PATCH'	835911	Standard
+#		'HSCHR19LRC_PGF2_CTG1'	796478	Standard
+#		'HG1293_PATCH'	758378	Standard
+#		'HG1426_PATCH'	752267	Standard
+#		'HSCHR19LRC_COX2_CTG1'	729519	Standard
+#		'HG1308_PATCH'	716227	Standard
+#		'HG1463_PATCH'	713266	Standard
+#		'HG987_PATCH'	644425	Standard
+#		'HG19_PATCH'	608579	Standard
+#		'HG953_PATCH'	599580	Standard
+#		'HSCHR4_1_CTG9'	590426	Standard
+#		'HG730_PATCH'	580393	Standard
+#		'HG1350_HG959_PATCH'	579598	Standard
+#		'HSCHR1_RANDOM_CTG12'	547496	Standard
+#		'HG306_PATCH'	546435	Standard
+#		'HG1082_HG167_PATCH'	543325	Standard
+#		'HG75_PATCH'	534288	Standard
+#		'HG1424_PATCH'	522319	Standard
+#		'HG174_HG254_PATCH'	503215	Standard
+#		'HG357_PATCH'	478993	Standard
+#		'HG29_PATCH'	469972	Standard
+#		'HG256_PATCH'	462282	Standard
+#		'HG183_PATCH'	457041	Standard
+#		'HG1146_PATCH'	454385	Standard
+#		'HG1441_PATCH'	444074	Standard
+#		'HG871_PATCH'	437946	Standard
+#		'HG104_HG975_PATCH'	429806	Standard
+#		'HG1442_PATCH'	413927	Standard
+#		'HG185_PATCH'	412535	Standard
+#		'HG122_PATCH'	408430	Standard
+#		'HSCHR12_2_CTG2'	408271	Standard
+#		'HG1091_PATCH'	393769	Standard
+#		'HG544_PATCH'	392792	Standard
+#		'HG1440_PATCH'	390496	Standard
+#		'HG686_PATCH'	389939	Standard
+#		'HG1439_PATCH'	389631	Standard
+#		'HSCHR15_1_CTG8'	388773	Standard
+#		'HG747_PATCH'	388340	Standard
+#		'HSCHR19_1_CTG3'	385657	Standard
+#		'HG748_PATCH'	376223	Standard
+#		'HSCHR4_1_CTG6'	376187	Standard
+#		'HG1133_PATCH'	372609	Standard
+#		'HSCHR1_3_CTG31'	366579	Standard
+#		'HG115_PATCH'	356330	Standard
+#		'HG736_PATCH'	354970	Standard
+#		'HG417_PATCH'	342635	Standard
+#		'HG1591_PATCH'	341712	Standard
+#		'HG745_PATCH'	338640	Standard
+#		'HG1595_PATCH'	334922	Standard
+#		'HG79_PATCH'	330164	Standard
+#		'HG946_PATCH'	327774	Standard
+#		'HG388_HG400_PATCH'	326647	Standard
+#		'HG281_PATCH'	321004	Standard
+#		'HSCHR10_1_CTG5'	309802	Standard
+#		'HG237_PATCH'	307252	Standard
+#		'HG1074_PATCH'	305900	Standard
+#		'HG1032_PATCH'	297485	Standard
+#		'HSCHR15_1_CTG4'	296527	Standard
+#		'HG962_PATCH'	295379	Standard
+#		'HSCHR18_1_CTG1_1'	289831	Standard
+#		'HG480_HG481_PATCH'	284527	Standard
+#		'HG944_PATCH'	283551	Standard
+#		'HSCHR17_4_CTG4'	278131	Standard
+#		'HG536_PATCH'	276448	Standard
+#		'HG444_PATCH'	274521	Standard
+#		'HG27_PATCH'	273386	Standard
+#		'HG344_PATCH'	273128	Standard
+#		'HG1435_PATCH'	270630	Standard
+#		'HSCHR17_1_CTG1'	270261	Standard
+#		'HG1063_PATCH'	266316	Standard
+#		'HG957_PATCH'	263861	Standard
+#		'HG1304_PATCH'	262912	Standard
+#		'HG14_PATCH'	251823	Standard
+#		'HG706_PATCH'	248177	Standard
+#		'HG729_PATCH'	245473	Standard
+#		'HG348_PATCH'	240775	Standard
+#		'HG1699_PATCH'	228602	Standard
+#		'HSCHR5_3_CTG1'	226852	Standard
+#		'HSCHR17_2_CTG4'	223995	Standard
+#		'HG329_PATCH'	212298	Standard
+#		'HG385_PATCH'	211416	Standard
+#		'HG1502_PATCH'	211307	Standard
+#		'HSCHRUN_RANDOM_CTG17'	211173	Standard
+#		'HG243_PATCH'	203777	Standard
+#		'HSCHR21_2_CTG1_1'	201198	Standard
+#		'HG142_HG150_NOVEL_TEST'	200998	Standard
+#		'HG1322_PATCH'	200195	Standard
+#		'HSCHR18_2_CTG2'	198278	Standard
+#		'HG311_PATCH'	196262	Standard
+#		'HG883_PATCH'	194862	Standard
+#		'HSCHR16_1_CTG3_1'	192462	Standard
+#		'HSCHR4_RANDOM_CTG3'	191469	Standard
+#		'HG151_NOVEL_TEST'	191409	Standard
+#		'HG414_PATCH'	191402	Standard
+#		'HSCHR4_RANDOM_CTG2'	189789	Standard
+#		'HSCHR19_3_CTG3'	188024	Standard
+#		'HSCHR6_2_CTG5'	187824	Standard
+#		'HSCHR9_RANDOM_CTG4'	187035	Standard
+#		'HSCHRUN_RANDOM_CTG14'	186861	Standard
+#		'HSCHRUN_RANDOM_CTG2'	186858	Standard
+#		'HG271_PATCH'	186059	Standard
+#		'HSCHR12_1_CTG5'	184319	Standard
+#		'HG1490_PATCH'	182949	Standard
+#		'HSCHR7_RANDOM_CTG1'	182896	Standard
+#		'HSCHR1_1_CTG31'	182439	Standard
+#		'HSCHR3_1_CTG2_1'	180671	Standard
+#		'HSCHRUN_RANDOM_CTG15'	180455	Standard
+#		'HG506_HG507_HG1000_PATCH'	179899	Standard
+#		'HSCHRUN_RANDOM_CTG16'	179693	Standard
+#		'HSCHR10_1_CTG2'	179254	Standard
+#		'HSCHRUN_RANDOM_CTG10'	179198	Standard
+#		'HG339_PATCH'	177920	Standard
+#		'HSCHR17_RANDOM_CTG3'	174588	Standard
+#		'HSCHR5_1_CTG5'	173459	Standard
+#		'HSCHR3_1_CTG1'	173151	Standard
+#		'HSCHRUN_RANDOM_CTG5'	172545	Standard
+#		'HSCHRUN_RANDOM_CTG6'	172294	Standard
+#		'HSCHRUN_RANDOM_CTG7'	172149	Standard
+#		'HG186_PATCH'	171362	Standard
+#		'HSCHR9_2_CTG35'	171286	Standard
+#		'HSCHR19_2_CTG3'	170222	Standard
+#		'HG971_PATCH'	170033	Standard
+#		'HSCHR9_RANDOM_CTG2'	169874	Standard
+#		'HG1501_PATCH'	169437	Standard
+#		'HSCHR12_1_CTG2_1'	169178	Standard
+#		'HG905_PATCH'	168465	Standard
+#		'HSCHR18_1_CTG2_1'	167950	Standard
+#		'HG873_PATCH'	167437	Standard
+#		'HSCHR12_1_CTG1'	167313	Standard
+#		'HG1486_PATCH'	167183	Standard
+#		'HSCHRUN_RANDOM_CTG1'	166566	Standard
+#		'HG996_PATCH'	165247	Standard
+#		'HSCHR18_2_CTG1_1'	164789	Standard
+#		'HSCHR4_1_CTG12'	164536	Standard
+#		'HSCHRUN_RANDOM_CTG3'	164239	Standard
+#		'HG858_PATCH'	163298	Standard
+#		'HSCHR9_1_CTG1'	162988	Standard
+#		'HSCHR22_1_CTG1'	162811	Standard
+#		'HSCHRUN_RANDOM_CTG11'	161802	Standard
+#		'HSCHRUN_RANDOM_CTG9'	161147	Standard
+#		'HSCHR18_2_CTG2_1'	159547	Standard
+#		'HSCHR19_RANDOM_CTG2'	159169	Standard
+#		'HG50_PATCH'	155926	Standard
+#		'HSCHR19_1_CTG3_1'	155864	Standard
+#		'HSCHRUN_RANDOM_CTG13'	155397	Standard
+#		'HSCHR11_1_CTG1_1'	154407	Standard
+#		'HSCHR12_3_CTG2_1'	152874	Standard
+#		'HG989_PATCH'	151551	Standard
+#		'HG193_PATCH'	149443	Standard
+#		'HSCHR2_1_CTG1'	143390	Standard
+#		'HSCHR12_2_CTG2_1'	138655	Standard
+#		'HSCHRUN_RANDOM_CTG4'	137718	Standard
+#		'HSCHR17_1_CTG4'	133151	Standard
+#		'HSCHRUN_RANDOM_CTG21'	129120	Standard
+#		'HSCHR20_1_CTG1'	128385	Standard
+#		'HG995_PATCH'	128378	Standard
+#		'HSCHRUN_RANDOM_CTG20'	128374	Standard
+#		'HSCHR6_1_CTG5'	124736	Standard
+#		'HSCHR2_1_CTG12'	123821	Standard
+#		'HSCHR4_2_CTG9'	121345	Standard
+#		'HSCHR12_1_CTG2'	120804	Standard
+#		'HG305_PATCH'	120441	Standard
+#		'HSCHR7_1_CTG6'	119183	Standard
+#		'HSCHR21_4_CTG1_1'	116690	Standard
+#		'HSCHR1_2_CTG31'	110268	Standard
+#		'HG299_PATCH'	108875	Standard
+#		'HSCHR1_RANDOM_CTG5'	106433	Standard
+#		'HSCHR18_1_CTG2'	104552	Standard
+#		'HG418_PATCH'	102251	Standard
+#		'HSCHR5_1_CTG2'	101241	Standard
+#		'HG325_PATCH'	100694	Standard
+#		'HG1208_PATCH'	97345	Standard
+#		'HSCHR22_1_CTG2'	96924	Standard
+#		'HSCHR2_2_CTG12'	96131	Standard
+#		'HG1479_PATCH'	93149	Standard
+#		'HSCHR19_RANDOM_CTG1'	92689	Standard
+#		'HSCHR17_3_CTG4'	90219	Standard
+#		'HSCHR9_RANDOM_CTG1'	90085	Standard
+#		'HSCHR16_2_CTG3_1'	89672	Standard
+#		'HSCHR17_6_CTG4'	88070	Standard
+#		'HSCHR5_2_CTG1'	82728	Standard
+#		'HSCHR17_RANDOM_CTG2'	81310	Standard
+#		'HG280_PATCH'	78793	Standard
+#		'HSCHR21_3_CTG1_1'	74652	Standard
+#		'HSCHR22_2_CTG1'	74013	Standard
+#		'HG1488_PATCH'	73505	Standard
+#		'HSCHR9_1_CTG35'	71551	Standard
+#		'HG1487_PATCH'	70876	Standard
+#		'HG144_PATCH'	70483	Standard
+#		'HSCHR17_5_CTG4'	70345	Standard
+#		'HG1007_PATCH'	66021	Standard
+#		'HG991_PATCH'	65063	Standard
+#		'HG375_PATCH'	65034	Standard
+#		'HSCHR21_1_CTG1_1'	63917	Standard
+#		'HG998_1_PATCH'	62435	Standard
+#		'HSCHR9_3_CTG35'	60032	Standard
+#		'HG999_2_PATCH'	49352	Standard
+#		'HG999_1_PATCH'	49316	Standard
+#		'HG998_2_PATCH'	49281	Standard
+#		'HG1473_PATCH'	47409	Standard
+#		'HSCHRUN_RANDOM_CTG26'	45941	Standard
+#		'HSCHRUN_RANDOM_CTG30'	45867	Standard
+#		'HG990_PATCH'	45551	Standard
+#		'HSCHRUN_RANDOM_CTG23'	43691	Standard
+#		'HG497_PATCH'	43543	Standard
+#		'HSCHRUN_RANDOM_CTG35'	43523	Standard
+#		'HSCHRUN_RANDOM_CTG36'	43341	Standard
+#		'HSCHRUN_RANDOM_CTG34'	42152	Standard
+#		'HSCHRUN_RANDOM_CTG29'	41934	Standard
+#		'HSCHRUN_RANDOM_CTG33'	41933	Standard
+#		'HSCHR17_RANDOM_CTG4'	41001	Standard
+#		'HSCHRUN_RANDOM_CTG25'	40652	Standard
+#		'HSCHRUN_RANDOM_CTG27'	40531	Standard
+#		'HSCHR11_RANDOM_CTG2'	40103	Standard
+#		'HSCHRUN_RANDOM_CTG31'	39939	Standard
+#		'HSCHRUN_RANDOM_CTG37'	39929	Standard
+#		'HSCHRUN_RANDOM_CTG41'	39786	Standard
+#		'HSCHR8_RANDOM_CTG1'	38914	Standard
+#		'HSCHRUN_RANDOM_CTG42'	38502	Standard
+#		'HSCHRUN_RANDOM_CTG39'	38154	Standard
+#		'HSCHR17_RANDOM_CTG1'	37498	Standard
+#		'HSCHR8_RANDOM_CTG4'	37175	Standard
+#		'HSCHRUN_RANDOM_CTG38'	36651	Standard
+#		'HSCHRUN_RANDOM_CTG40'	36422	Standard
+#		'HSCHR9_RANDOM_CTG5'	36148	Standard
+#		'HG531_PATCH'	34662	Standard
+#		'HSCHRUN_RANDOM_CTG28'	34474	Standard
+#		'HSCHRUN_RANDOM_CTG32'	33824	Standard
+#		'HSCHR21_RANDOM_CTG9'	27682	Standard
+#		'HSCHRUN_RANDOM_CTG24'	27386	Standard
+#		'HG1471_PATCH'	24680	Standard
+#		'HG1472_PATCH'	22982	Standard
+#		'HG1500_PATCH'	22394	Standard
+#		'HSCHRUN_RANDOM_CTG22'	19913	Standard
+#		'MT'	16569	Vertebrate_Mitochondrial
+#		'HSCHRUN_RANDOM_CTG19'	15008	Standard
+#		'HSCHR18_RANDOM_CTG1'	4262	Standard
+#		'M'	1	Vertebrate_Mitochondrial
+#-----------------------------------------------
+
+00:00:23	Predicting variants
+00:00:23	Loading sequences for chromosome '1' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.1.bin'
+00:00:26	Building sequence tree for chromosome '1'
+00:00:26	Done. Loaded 2973 sequences.
+00:00:28	Loading sequences for chromosome '2' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.2.bin'
+00:00:31	Building sequence tree for chromosome '2'
+00:00:31	Done. Loaded 2063 sequences.
+00:00:32	Loading sequences for chromosome '3' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.3.bin'
+00:00:35	Building sequence tree for chromosome '3'
+00:00:35	Done. Loaded 1599 sequences.
+00:00:35		10000 variants (816 variants per second), 10000 VCF entries
+00:00:35	Loading sequences for chromosome '4' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.4.bin'
+00:00:37	Building sequence tree for chromosome '4'
+00:00:37	Done. Loaded 1391 sequences.
+00:00:37	Loading sequences for chromosome '5' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.5.bin'
+00:00:40	Building sequence tree for chromosome '5'
+00:00:40	Done. Loaded 1421 sequences.
+00:00:41	Loading sequences for chromosome '6' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.6.bin'
+00:00:43	Building sequence tree for chromosome '6'
+00:00:43	Done. Loaded 1793 sequences.
+00:00:44	Loading sequences for chromosome '7' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.7.bin'
+00:00:46	Building sequence tree for chromosome '7'
+00:00:46	Done. Loaded 1494 sequences.
+00:00:46		20000 variants (838 variants per second), 20000 VCF entries
+00:00:46	Loading sequences for chromosome '8' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.8.bin'
+00:00:48	Building sequence tree for chromosome '8'
+00:00:48	Done. Loaded 1193 sequences.
+00:00:48	Loading sequences for chromosome '9' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.9.bin'
+00:00:50	Building sequence tree for chromosome '9'
+00:00:50	Done. Loaded 1254 sequences.
+00:00:50	Loading sequences for chromosome '10' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.10.bin'
+00:00:52	Building sequence tree for chromosome '10'
+00:00:52	Done. Loaded 1175 sequences.
+00:00:52	Loading sequences for chromosome '11' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.11.bin'
+00:00:54	Building sequence tree for chromosome '11'
+00:00:54	Done. Loaded 1846 sequences.
+00:00:55		30000 variants (928 variants per second), 30000 VCF entries
+00:00:55	Loading sequences for chromosome '12' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.12.bin'
+00:00:57	Building sequence tree for chromosome '12'
+00:00:57	Done. Loaded 1466 sequences.
+00:00:57	Loading sequences for chromosome '13' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.13.bin'
+00:00:58	Building sequence tree for chromosome '13'
+00:00:58	Done. Loaded 746 sequences.
+00:00:58	Loading sequences for chromosome '14' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.14.bin'
+00:01:00	Building sequence tree for chromosome '14'
+00:01:00	Done. Loaded 953 sequences.
+00:01:00	Loading sequences for chromosome '15' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.15.bin'
+00:01:01	Building sequence tree for chromosome '15'
+00:01:01	Done. Loaded 938 sequences.
+00:01:02	Loading sequences for chromosome '16' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.16.bin'
+00:01:03	Building sequence tree for chromosome '16'
+00:01:03	Done. Loaded 1155 sequences.
+00:01:04	Loading sequences for chromosome '17' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.17.bin'
+00:01:05	Building sequence tree for chromosome '17'
+00:01:05	Done. Loaded 1437 sequences.
+00:01:05		40000 variants (932 variants per second), 40000 VCF entries
+00:01:06	Loading sequences for chromosome '18' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.18.bin'
+00:01:07	Building sequence tree for chromosome '18'
+00:01:07	Done. Loaded 511 sequences.
+00:01:07	Loading sequences for chromosome '19' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.19.bin'
+00:01:08	Building sequence tree for chromosome '19'
+00:01:08	Done. Loaded 1780 sequences.
+00:01:09	Loading sequences for chromosome '20' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.20.bin'
+00:01:10	Building sequence tree for chromosome '20'
+00:01:10	Done. Loaded 751 sequences.
+00:01:10	Loading sequences for chromosome '21' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.21.bin'
+00:01:10	Building sequence tree for chromosome '21'
+00:01:10	Done. Loaded 406 sequences.
+00:01:10	Loading sequences for chromosome '22' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.22.bin'
+00:01:11	Building sequence tree for chromosome '22'
+00:01:11	Done. Loaded 598 sequences.
+00:01:11		50000 variants (1031 variants per second), 50000 VCF entries
+00:01:11	Loading sequences for chromosome 'X' from file '/biodata/git_code/software/snpeff/snpEff5_0/../../../../databases/snpeff_data/GRCh37.p13.RefSeq/sequence.X.bin'
+00:01:12	Building sequence tree for chromosome 'X'
+00:01:12	Done. Loaded 1529 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+INFO_REALIGN_3_PRIME	2582
+WARNING_TRANSCRIPT_INCOMPLETE	2
+WARNING_TRANSCRIPT_INCOMPLETE&INFO_REALIGN_3_PRIME	3
+WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS	1787
+WARNING_TRANSCRIPT_NO_START_CODON	43
+WARNING_TRANSCRIPT_NO_STOP_CODON	7
+WARNING_TRANSCRIPT_NO_STOP_CODON&INFO_REALIGN_3_PRIME	1
+
+
+00:01:13	Creating summary file: /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/snpeff.cohort_test.stat.html
+00:01:13	Creating genes file: /mnt/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/snpeff.cohort_test.stat.genes.txt
+00:01:15	done.
+00:01:15	Logging
+00:01:17	Checking for updates...
+00:01:19	Done.
+NOTICE: the --polish argument is set ON automatically (use --nopolish to change this behavior)
+
+NOTICE: Running with system command <convert2annovar.pl  -includeinfo -allsample -withfreq -format vcf4 /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.vcf > /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput>
+NOTICE: Finished reading 51060 lines from VCF file
+NOTICE: A total of 50921 locus in VCF file passed QC threshold, representing 49034 SNPs (36522 transitions and 12512 transversions) and 1887 indels/substitutions
+NOTICE: Finished writing allele frequencies based on 392272 SNP genotypes (292176 transitions and 100096 transversions) and 15096 indels/substitutions for 8 samples
+
+NOTICE: Running with system command </biodata/git_code/software/annovar/bin/table_annovar.pl -buildver hg19 -protocol clinvar_20220416,clinvar_samepos_20220416,clinvar_flank5_20220416,HGMD2017_samepos,HGMD2017_flank5,avsnp150,gnomad211_genome,gnomad211_exome,exac03,1000g2015aug_all,1000g2015aug_eas,1000g2015aug_eur,1000g2015aug_amr,1000g2015aug_afr,1000g2015aug_sas,dbnsfp42a,dbscsnv11 -operation f,r,r,r,r,f,f,f,f,f,f,f,f,f,f,f,f --remove --otherinfo --nastring . -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb -otherinfo -nastring .>
+NOTICE: the --polish argument is set ON automatically (use --nopolish to change this behavior)
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=clinvar_20220416
+NOTICE: Finished reading 1 column headers for '-dbtype clinvar_20220416'
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype clinvar_20220416 -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb -otherinfo>
+NOTICE: the --dbtype clinvar_20220416 is assumed to be in generic ANNOVAR database format
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_clinvar_20220416_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_clinvar_20220416_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 91768 and the number of bins to be scanned is 16178
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_clinvar_20220416.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=r protocol=clinvar_samepos_20220416
+
+NOTICE: Running with system command <annotate_variation.pl -regionanno -dbtype clinvar_samepos_20220416 -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_clinvar_samepos_20220416
+NOTICE: Reading annotation database /biodata/databases/annovar_humandb/hg19_clinvar_samepos_20220416.txt ... Done with 1451857 regions
+NOTICE: Finished region-based annotation on 50921 genetic variants
+-----------------------------------------------------------------
+NOTICE: Processing operation=r protocol=clinvar_flank5_20220416
+
+NOTICE: Running with system command <annotate_variation.pl -regionanno -dbtype clinvar_flank5_20220416 -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_clinvar_flank5_20220416
+NOTICE: Reading annotation database /biodata/databases/annovar_humandb/hg19_clinvar_flank5_20220416.txt ... Done with 1451857 regions
+NOTICE: Finished region-based annotation on 50921 genetic variants
+-----------------------------------------------------------------
+NOTICE: Processing operation=r protocol=HGMD2017_samepos
+
+NOTICE: Running with system command <annotate_variation.pl -regionanno -dbtype HGMD2017_samepos -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_HGMD2017_samepos
+NOTICE: Reading annotation database /biodata/databases/annovar_humandb/hg19_HGMD2017_samepos.txt ... Done with 166742 regions
+NOTICE: Finished region-based annotation on 50921 genetic variants
+-----------------------------------------------------------------
+NOTICE: Processing operation=r protocol=HGMD2017_flank5
+
+NOTICE: Running with system command <annotate_variation.pl -regionanno -dbtype HGMD2017_flank5 -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_HGMD2017_flank5
+NOTICE: Reading annotation database /biodata/databases/annovar_humandb/hg19_HGMD2017_flank5.txt ... Done with 166742 regions
+NOTICE: Finished region-based annotation on 50921 genetic variants
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=avsnp150
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype avsnp150 -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_avsnp150_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_avsnp150_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 28258790 and the number of bins to be scanned is 42928
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_avsnp150.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=gnomad211_genome
+NOTICE: Finished reading 17 column headers for '-dbtype gnomad211_genome'
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype gnomad211_genome -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb -otherinfo>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_gnomad211_genome_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_gnomad211_genome_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 28119985 and the number of bins to be scanned is 42897
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_gnomad211_genome.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=gnomad211_exome
+NOTICE: Finished reading 17 column headers for '-dbtype gnomad211_exome'
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype gnomad211_exome -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb -otherinfo>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_gnomad211_exome_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_gnomad211_exome_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 773145 and the number of bins to be scanned is 42444
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_gnomad211_exome.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=exac03
+NOTICE: Finished reading 8 column headers for '-dbtype exac03'
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype exac03 -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb -otherinfo>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_exac03_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_exac03_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 749886 and the number of bins to be scanned is 42358
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_exac03.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=1000g2015aug_all
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype 1000g2015aug_all -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_ALL.sites.2015_08_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_ALL.sites.2015_08_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 2824642 and the number of bins to be scanned is 33589
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_ALL.sites.2015_08.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=1000g2015aug_eas
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype 1000g2015aug_eas -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_EAS.sites.2015_08_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_EAS.sites.2015_08_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 2812769 and the number of bins to be scanned is 33557
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_EAS.sites.2015_08.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=1000g2015aug_eur
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype 1000g2015aug_eur -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_EUR.sites.2015_08_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_EUR.sites.2015_08_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 2812033 and the number of bins to be scanned is 33550
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_EUR.sites.2015_08.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=1000g2015aug_amr
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype 1000g2015aug_amr -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_AMR.sites.2015_08_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_AMR.sites.2015_08_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 2815096 and the number of bins to be scanned is 33556
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_AMR.sites.2015_08.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=1000g2015aug_afr
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype 1000g2015aug_afr -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_AFR.sites.2015_08_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_AFR.sites.2015_08_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 2820101 and the number of bins to be scanned is 33583
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_AFR.sites.2015_08.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=1000g2015aug_sas
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype 1000g2015aug_sas -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_SAS.sites.2015_08_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_SAS.sites.2015_08_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 2815886 and the number of bins to be scanned is 33567
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_SAS.sites.2015_08.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=dbnsfp42a
+NOTICE: Finished reading 107 column headers for '-dbtype dbnsfp42a'
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype dbnsfp42a -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb -otherinfo>
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_dbnsfp42a_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_dbnsfp42a_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 553468 and the number of bins to be scanned is 41885
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_dbnsfp42a.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=dbscsnv11
+NOTICE: Finished reading 2 column headers for '-dbtype dbscsnv11'
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype dbscsnv11 -buildver hg19 -outfile /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.avinput /biodata/databases/annovar_humandb -otherinfo>
+NOTICE: the --dbtype dbscsnv11 is assumed to be in generic ANNOVAR database format
+NOTICE: Output file with variants matching filtering criteria is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_dbscsnv11_dropped, and output file with other variants is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_dbscsnv11_filtered
+NOTICE: Processing next batch with 50919 unique variants in 50921 input lines
+NOTICE: Database index loaded. Total number of bins is 421415 and the number of bins to be scanned is 18084
+NOTICE: Scanning filter database /biodata/databases/annovar_humandb/hg19_dbscsnv11.txt...Done
+-----------------------------------------------------------------
+NOTICE: Multianno output file is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_multianno.txt
+NOTICE: Reading from /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_multianno.txt
+-----------------------------------------------------------------
+NOTICE: VCF output is written to /mnt//data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/cohort_test/cohort_test.final.leftalign.annoGene.annoVar.hg19_multianno.vcf

@@ -239,7 +239,7 @@ my $bin_facterastat	=	"perl $bin_dir/factera/stat_factera.pl";
 my $bin_filter_umi_cfbestV2=	"perl $bin_dir/umi/trimfq_cfbest_umi_v2.pl";
 my $bin_fgbio		=	"$docker_cmd fgbio";
 my $bin_varscan		=	"$docker_cmd varscan";
-my $bin_snpeff		=	"java -jar /biodata/software/snpeff/snpEff5_0/snpEff.jar -v GRCh37.p13.RefSeq";
+my $bin_snpeff		=	"java -jar /biodata/git_code/software/snpeff/snpEff5_0/snpEff.jar -v GRCh37.p13.RefSeq";
 my $bin_select_snpeff	=	"perl $bin_dir/snpeff/select_standard_hgvs_from_snpeff_Eff.v1.01.pl";
 my $bin_fix_snpeff	=	"perl $bin_dir/snpeff/fix_snpeff_Eff.v1.pl";
 my $bin_bedtools	=	"$docker_cmd bedtools";
@@ -257,9 +257,9 @@ my $bin_picard		=	"$docker_cmd picard";
 my $bin_samtools	=	"$docker_cmd samtools";
 my $bin_bcftools	=	"$docker_cmd bcftools";
 #exomiser
-my $bin_exomiser	=	"$docker_cmd java -Xms2g -Xmx4g -jar /biodata/software/exomiser/software/exomiser-cli-12.1.0/exomiser-cli-12.1.0.jar";
-my $config_exomiser	=	"/biodata/software/exomiser/software/exomiser-cli-12.1.0/application.properties";
-my $bin_create_exomiser_exome=	"$docker_cmd cat $bin_dir/exomiser/exome.yml|perl $bin_dir/exomiser/create_yml.pl";
+my $bin_exomiser	=	"java -Xms2g -Xmx4g -jar /biodata/git_code/software/exomiser/exomiser-cli-13.0.0/exomiser-cli-13.0.0.jar";
+my $config_exomiser	=	"/biodata/git_code/software/exomiser/exomiser-cli-13.0.0/application.properties";
+my $bin_create_exomiser_exome=	"cat $bin_dir/exomiser/exome.yml|perl $bin_dir/exomiser/create_yml.pl";
 #annovar
 my $bin_annovar		=	"/biodata/git_code/software/annovar/bin";
 my $annovar_humandb	=	"/biodata/databases/annovar_humandb";
@@ -324,8 +324,9 @@ my @lines = <IN>;
 chomp @lines;
 #&germline_pip(@lines);
 foreach my $line( @lines ){
+	next if($line =~ /^#/);
 	my @arr =split(/\t/,$line);
-	my ( $sample_id, $to_anno_vcf ) = @arr;
+	my ( $sample_id,$hpo_ids, $to_anno_vcf ) = @arr;
 	$to_anno_vcf = "/mnt/$to_anno_vcf";
 	my $anno_type = "germline_anno";
 	my $data_dir="$docker_out_dir/$anno_type/$sample_id";
@@ -344,16 +345,11 @@ foreach my $line( @lines ){
 	&docker_print("mkdir -p $data_dir");
 	&docker_print("$bin_gatk LeftAlignAndTrimVariants --split-multi-allelics -R $ref_fa -V $to_anno_vcf -O $left_align_vcf");
 	my $anno_exomiser_cmd = "";
-=pod
-			#if( defined( $h_sample_info{"call_variant"}{$anno_type}{$sample_id}{"hpo"} ) ){
-			if( defined($h_sample_info{"sample"}{$sample_id}{"hpo"}) ){
-				my $hpo_ids = join(",",keys(%{ $h_sample_info{"sample"}{$sample_id}{"hpo"} }));
-				#my $hpo_ids = join(",",keys(%{$h_sample_info{"call_variant"}{$anno_type}{$sample_id}{"hpo"}}));
-				&cmd_print("$bin_create_exomiser_exome liumm_vcf_file_path:$left_align_vcf liumm_output_prefix:$exomiser_anno_prefix liumm_hpo_ids:$hpo_ids >$yml_exomiser_file");
-				&cmd_print("$bin_exomiser --analysis $yml_exomiser_file --spring.config.location=$config_exomiser");
-				$anno_exomiser_cmd = "-exomiser $exomiser_anno_prefix.vcf";
-			}
-=cut
+	if( $hpo_ids ne "-" ){
+		&docker_print("$bin_create_exomiser_exome liumm_vcf_file_path:$left_align_vcf liumm_output_prefix:$exomiser_anno_prefix liumm_hpo_ids:$hpo_ids >$yml_exomiser_file");
+		&docker_print("$bin_exomiser --analysis $yml_exomiser_file --spring.config.location=$config_exomiser");
+		$anno_exomiser_cmd = "-exomiser $exomiser_anno_prefix.vcf";
+	}
 	&docker_print("$bin_snpeff -s $snpeff_anno_stat $left_align_vcf >$snpeff_anno_vcf");
 	&docker_print("cat $snpeff_anno_vcf|$bin_fix_snpeff|$bin_select_snpeff|$bin_tag_nearbyOverlap_variant -ref $ref_fa >$anno_gene_vcf");#|$bin_anno_gene $anno_exomiser_cmd -clinvar_all $database_clinvar_stat_all -clinvar_mul $database_clinvar_stat_mul -hpo_g2p $database_g2p_hpo -hpo_p2g $database_p2g_hpo >$anno_gene_vcf");
 	#注释各类数据库信息by annovar

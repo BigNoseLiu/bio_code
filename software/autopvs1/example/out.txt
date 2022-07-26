@@ -1,0 +1,1 @@
+NM_000504.4:c.1043G>A NP_000495.1:p.Trp348Ter nonsense NF5 Strength.Strong Strength.Moderate
