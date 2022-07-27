@@ -214,14 +214,18 @@ my $temp_dir = "$docker_out_dir/temp";
 my $ug_id='1020:1022';
 my $docker_name='liumingming1988/biodocker';
 my $docker_cmd="docker run --rm -v /:/mnt -v $biodata_dir:/biodata --env LD_LIBRARY_PATH=/usr/local/BerkeleyDB/lib/ -u $ug_id $docker_name ";
+my $docker_java_cmd ="docker run --rm -v /:/mnt -v $biodata_dir:/biodata -u $ug_id openjdk";
 
 sub docker_print{
 	foreach my $t_cmd( @_ ){
-		print $docker_cmd.' bash -c "'.$t_cmd.'"'."\n";
+		if( $t_cmd =~ /exomiser.*\.jar/ ){
+			print $docker_java_cmd.' bash -c "'.$t_cmd.'"'."\n";
+		}
+		else{
+			print $docker_cmd.' bash -c "'.$t_cmd.'"'."\n";
+		}
 	}
 }
-
-
 
 
 my $bin_mkdir		=	"$docker_cmd mkdir -p";
@@ -247,6 +251,7 @@ my $bin_qualimap="$bin_dir/../../software/QualiMap/qualimap_v2.2.1/qualimap";
 my $bin_filterMutect	=	"$docker_cmd perl $bin_dir/gatk4_somatic_SNVIndel/filter_mutect2_pair.leftSplit.pl";
 my $bin_fixVcf4		=	"$docker_cmd perl $bin_dir/gatk4_germline_SNVIndel/fix_gatk4_vcf4_2.pl";
 my $bin_tag_nearbyOverlap_variant="perl $bin_dir/gatk4_germline_SNVIndel/tag_nearbyOverlap_variant.v1.01.pl";
+my $bin_split_multi_allelics="perl $bin_dir/gatk4_germline_SNVIndel/split_multi_allelics.v1.01.pl";
 my $bin_statsex		=	"$docker_cmd perl $bin_dir/sex_stat/stat_sex.v1.01.pl";
 my $bin_statQC		=	"$docker_cmd perl $bin_dir/QC/stat_qc.v1.01.pl";
 my $bin_statPicardQC	=	"$docker_cmd perl $bin_dir/QC/stat_picardQC.v1.01.pl";
@@ -326,11 +331,13 @@ chomp @lines;
 foreach my $line( @lines ){
 	next if($line =~ /^#/);
 	my @arr =split(/\t/,$line);
-	my ( $sample_id,$hpo_ids, $to_anno_vcf ) = @arr;
+	my ( $sample_id,$proband,$hpo_ids,$ped_file, $to_anno_vcf ) = @arr;
 	$to_anno_vcf = "/mnt/$to_anno_vcf";
+	$ped_file = "/mnt/$ped_file";
 	my $anno_type = "germline_anno";
 	my $data_dir="$docker_out_dir/$anno_type/$sample_id";
 	#print STDERR "$anno_type\t$sample_id\t$to_anno_vcf\n";
+	my $split_anno_vcf = "$data_dir/$sample_id.final.split_multi.vcf";
 	my $left_align_vcf = "$data_dir/$sample_id.final.leftalign.vcf";
 	my $yml_exomiser_file = "$data_dir/exomiser.$sample_id.yml";
 	my $exomiser_anno_prefix ="$data_dir/exomiser.$sample_id";
@@ -343,10 +350,17 @@ foreach my $line( @lines ){
 	&cmd_print("#&J	$sample_id\_AnnoVariant_$anno_type	$last_job");
 	my $anno_job_ids .= ",$sample_id\_AnnoVariant_$anno_type";
 	&docker_print("mkdir -p $data_dir");
-	&docker_print("$bin_gatk LeftAlignAndTrimVariants --split-multi-allelics -R $ref_fa -V $to_anno_vcf -O $left_align_vcf");
+	if( $to_anno_vcf =~ /\.gz$/ ){
+		&docker_print("gunzip -c $to_anno_vcf|$bin_split_multi_allelics >$split_anno_vcf");
+	}
+	else{
+		&docker_print("cat $to_anno_vcf|$bin_split_multi_allelics >$split_anno_vcf");
+	}
+	&docker_print("$bin_gatk LeftAlignAndTrimVariants --split-multi-allelics -R $ref_fa -V $split_anno_vcf -O $left_align_vcf");
+	#&docker_print("$bin_gatk LeftAlignAndTrimVariants --split-multi-allelics -R $ref_fa -V $to_anno_vcf -O $left_align_vcf");
 	my $anno_exomiser_cmd = "";
 	if( $hpo_ids ne "-" ){
-		&docker_print("$bin_create_exomiser_exome liumm_vcf_file_path:$left_align_vcf liumm_output_prefix:$exomiser_anno_prefix liumm_hpo_ids:$hpo_ids >$yml_exomiser_file");
+		&docker_print("$bin_create_exomiser_exome liumm_proband:$proband liumm_ped_file_path:$ped_file liumm_vcf_file_path:$left_align_vcf liumm_output_prefix:$exomiser_anno_prefix liumm_hpo_ids:$hpo_ids >$yml_exomiser_file");
 		&docker_print("$bin_exomiser --analysis $yml_exomiser_file --spring.config.location=$config_exomiser");
 		$anno_exomiser_cmd = "-exomiser $exomiser_anno_prefix.vcf";
 	}

@@ -7,8 +7,8 @@ analysis:
     genomeAssembly: hg19
     vcf: liumm_vcf_file_path
 #    vcf: /home/liumingming/bio_pipeline/software/exomiser/software/exomiser-cli-12.1.0/examples/Pfeiffer.vcf
-    ped:
-    proband:
+    ped: liumm_ped_file_path
+    proband: liumm_proband
     hpoIds: [ liumm_hpo_ids ]
     #hpoIds: ['HP:0001156', 'HP:0001363', 'HP:0011304', 'HP:0010055']
     # These are the default settings, with values representing the maximum minor allele frequency in percent (%) permitted for an

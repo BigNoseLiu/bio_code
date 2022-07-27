@@ -47,6 +47,7 @@ for(my$i=0;$i<@arr_header;$i++){
 }
 
 
+my %h_mut_type2name = ('missense_variant'=> decode_utf8('错义'),'synonymous_variant'=> decode_utf8('同义'),'frameshift_variant'=> decode_utf8('移码'),'intron_variant'=> decode_utf8('内含子'),'splice_region_variant'=> decode_utf8('剪切'));
 print `date`;
 my $line;
 my %h_temp = ();
@@ -268,7 +269,9 @@ while( $line = <STDIN> ){
 				my $t_count = 0;
 				foreach my $t_type(split(/&/,$t_arr[1])){
 					$t_count ++;
-					$h_hgvs{'type'}{$t_type}{'ch_name'} = $t_type;
+					my $t_name = $t_type;
+					$t_name = $h_mut_type2name{$t_type} if( defined( $h_mut_type2name{$t_type} ) );
+					$h_hgvs{'type'}{$t_type}{'ch_name'} = $t_name;
 					$h_hgvs{'type'}{$t_type}{'priority'} = $t_count;
 				}
 			}
