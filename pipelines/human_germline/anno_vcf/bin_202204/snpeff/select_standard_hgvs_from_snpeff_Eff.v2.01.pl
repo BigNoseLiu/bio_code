@@ -55,11 +55,23 @@ while( my $line = <IN> ){
 	for( my $i=1;$i<scalar@arr;$i+=2 ){
 		if(!defined( $h_stand_trans{$arr[$i]})){
 			$h_stand_trans{$arr[$i]}{'len'} = $arr[$i+1];
-			$h_stand_trans{$arr[$i]}{'prior'} = $prior_c;
+			$h_stand_trans{$arr[$i]}{'prior'} = $arr[$i+1];
 		}
 	}
 }
 close IN;
+
+
+#HGMD中试用的转录本优先级最高
+my $hgmd_prior = 100000000;
+open IN,"$Bin/transcript_info/hg19_HGMD2017.trans_info.txt" or die $!;
+while( my $line = <IN> ){
+	chomp $line;
+	$h_stand_trans{$line}{'prior'} = $hgmd_prior if(defined($h_stand_trans{$line}));
+}
+close IN;
+
+
 #get snpeff annotated vcf file
 sub sortImpact{
 	my $a1 = 6;
@@ -95,36 +107,34 @@ foreach my $line( @lines ){
 			for(my $i=$t_count;$i<16;$i++){
 				$t_arr[$i] = "";
 			}
-			$h_impact{$t_arr[2]}{$t_arr[6]}{'prior'} =  100000000000000000;
+			$h_impact{$t_arr[2]}{$t_arr[6]}{'prior'} =  -1;
 			my $trans = $t_arr[6];
 			$trans =~ s/\.\d+$//;
 			if( defined( $h_stand_trans{$trans}{'prior'} ) ){
 				$h_impact{$t_arr[2]}{$t_arr[6]}{'prior'} = $h_stand_trans{$trans}{'prior'};
 				if( $t_arr[11]  eq "" ){
 					$t_arr[11] = "-1/".$h_stand_trans{$trans}{'len'};
-					if( $trans eq "NM_001146310" ){
-						print STDERR "dfdfd\n";
-					}
 				}
 			}
+			#补全转录本长度信息
 			$h_impact{$t_arr[2]}{$t_arr[6]}{'anno'} =  join('|',@t_arr);
 		}
 		my $t_snpeff_annos_new = "";
+		#1. 首先，选择impact最高的作为标准转录本
 		foreach my $t_impact( 'HIGH','MODERATE','LOW','MODIFIER','' ){
 			if( defined($h_impact{$t_impact}) ){
-				foreach my $trans( sort {$h_impact{$t_impact}{$a}{'prior'} <=> $h_impact{$t_impact}{$b}{'prior'} } keys(%{$h_impact{$t_impact}}) ){
+				#2. 其次，优先用HGMD的转录本
+				#3. 再则，优先用最长的转录本
+				foreach my $trans( sort {$h_impact{$t_impact}{$b}{'prior'} <=> $h_impact{$t_impact}{$a}{'prior'} } keys(%{$h_impact{$t_impact}}) ){
 					$select_snpeff_anno = $h_impact{$t_impact}{$trans}{'anno'} if($select_snpeff_anno eq "-");
 					$t_snpeff_annos_new .= ",".$h_impact{$t_impact}{$trans}{'anno'};
 				}
 			}
 		}
 		$t_snpeff_annos_new =~ s/^,//;
-	print STDERR $line."\n";
 		#$line =~ s/ANN=/abc/;
 		#$line =~ s/ANN=$t_snpeff_annos/ANN_STANDARD=$select_snpeff_anno;ANN=$t_snpeff_annos_new/;
 		$line =~ s/ANN=[^;\t]+([;\t])/ANN_STANDARD=$select_snpeff_anno;ANN=$t_snpeff_annos_new$1/;
-	print STDERR $line."\n";
-		exit;
 		#$h_stand_trans{$arr[$i]}{'prior'} = $prior_c if(!defined( $h_stand_trans{$arr[$i]}{'prior'} ));
         	#2. effect最强的
 		#my @t_arr_impact = sort sortImpact keys(%{$h_impact{$t_arr_trans_types[0]}});
@@ -133,5 +143,5 @@ foreach my $line( @lines ){
 		#$select_snpeff_anno = $h_impact{$t_arr_trans_types[0]}{$t_arr_impact[0]}{$t_arr_trans[0]};
 	}
 	#选好的注释，插入vcf Info
-	#print $line;
+	print $line;
 }

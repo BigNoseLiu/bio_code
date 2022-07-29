@@ -14,8 +14,6 @@ my $client = MongoDB::MongoClient->new(
 );
 $client->connect;
 
-
-
 my $collection = $client->ns( $ARGV[0] );
 
 

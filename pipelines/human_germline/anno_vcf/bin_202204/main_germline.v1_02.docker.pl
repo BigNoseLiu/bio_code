@@ -244,7 +244,7 @@ my $bin_filter_umi_cfbestV2=	"perl $bin_dir/umi/trimfq_cfbest_umi_v2.pl";
 my $bin_fgbio		=	"$docker_cmd fgbio";
 my $bin_varscan		=	"$docker_cmd varscan";
 my $bin_snpeff		=	"java -jar /biodata/git_code/software/snpeff/snpEff5_0/snpEff.jar -v GRCh37.p13.RefSeq";
-my $bin_select_snpeff	=	"perl $bin_dir/snpeff/select_standard_hgvs_from_snpeff_Eff.v1.01.pl";
+my $bin_select_snpeff	=	"perl $bin_dir/snpeff/select_standard_hgvs_from_snpeff_Eff.v2.01.pl";
 my $bin_fix_snpeff	=	"perl $bin_dir/snpeff/fix_snpeff_Eff.v1.pl";
 my $bin_bedtools	=	"$docker_cmd bedtools";
 my $bin_qualimap="$bin_dir/../../software/QualiMap/qualimap_v2.2.1/qualimap";
@@ -252,6 +252,9 @@ my $bin_filterMutect	=	"$docker_cmd perl $bin_dir/gatk4_somatic_SNVIndel/filter_
 my $bin_fixVcf4		=	"$docker_cmd perl $bin_dir/gatk4_germline_SNVIndel/fix_gatk4_vcf4_2.pl";
 my $bin_tag_nearbyOverlap_variant="perl $bin_dir/gatk4_germline_SNVIndel/tag_nearbyOverlap_variant.v1.01.pl";
 my $bin_split_multi_allelics="perl $bin_dir/gatk4_germline_SNVIndel/split_multi_allelics.v1.01.pl";
+my $bin_merge_final ="perl $bin_dir/gatk4_germline_SNVIndel/merge_result.v1.01.pl";
+my $bin_filter_final ="perl $bin_dir/gatk4_germline_SNVIndel/filter_clinical_variant.v1.01.pl";
+my $bin_anno2mongodb ="perl $bin_dir/mongodb/anno2mongodb.v1.01.pl";
 my $bin_statsex		=	"$docker_cmd perl $bin_dir/sex_stat/stat_sex.v1.01.pl";
 my $bin_statQC		=	"$docker_cmd perl $bin_dir/QC/stat_qc.v1.01.pl";
 my $bin_statPicardQC	=	"$docker_cmd perl $bin_dir/QC/stat_picardQC.v1.01.pl";
@@ -345,6 +348,8 @@ foreach my $line( @lines ){
 	my $snpeff_anno_stat="$data_dir/snpeff.$sample_id.stat.html";
 	my $anno_gene_vcf="$data_dir/$sample_id.final.leftalign.annoGene.vcf";
 	my $annoVar_out="$data_dir/$sample_id.final.leftalign.annoGene.annoVar";
+	my $merge_out="$data_dir/$sample_id.final.leftalign.annoGene.annoVar.hg19_merge.txt";
+	my $merge_filter_out ="$data_dir/$sample_id.final.leftalign.annoGene.annoVar.hg19_merge.filter.txt";
 
 	my $last_job = "$sample_id\_CallVariant$anno_type";
 	&cmd_print("#&J	$sample_id\_AnnoVariant_$anno_type	$last_job");
@@ -368,6 +373,9 @@ foreach my $line( @lines ){
 	&docker_print("cat $snpeff_anno_vcf|$bin_fix_snpeff|$bin_select_snpeff|$bin_tag_nearbyOverlap_variant -ref $ref_fa >$anno_gene_vcf");#|$bin_anno_gene $anno_exomiser_cmd -clinvar_all $database_clinvar_stat_all -clinvar_mul $database_clinvar_stat_mul -hpo_g2p $database_g2p_hpo -hpo_p2g $database_p2g_hpo >$anno_gene_vcf");
 	#注释各类数据库信息by annovar
 	&docker_print("$bin_annovar_withPara -out $annoVar_out $anno_gene_vcf $annovar_humandb");
+	&docker_print("$bin_merge_final -exomiser  $exomiser_anno_prefix.variants.tsv $annoVar_out.hg19_multianno.vcf $annoVar_out.hg19_multianno.txt >$merge_out");
+	&docker_print("$bin_filter_final $merge_out >$merge_filter_out");
+	&docker_print("cat $merge_filter_out|$bin_anno2mongodb Genetic.Tests A10010101 $proband");
 	#$vcf_files_to_stat .= " $sample_id\_$anno_type:$anno_type:$annoVar_out\.hg19_multianno.vcf";
 }
 close IN;

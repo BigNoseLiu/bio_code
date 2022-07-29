@@ -48,7 +48,7 @@ class GeneAdmin(ImportExportActionModelAdmin):
     list_max_show_all = 10000
     list_filter  = ('type',)
     search_fields  = ('name','cancer_descr')
-    list_display = [ 'id', 'name', 'type','cancer_descr' ]
+    list_display = [ 'id', 'name', 'type','cancer_descr','bak_descr' ]
 admin.site.register(Gene,GeneAdmin)
 
 

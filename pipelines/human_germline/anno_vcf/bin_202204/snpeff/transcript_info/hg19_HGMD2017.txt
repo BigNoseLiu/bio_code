@@ -1,1 +1,1 @@
-../../../../../../databases/annovar_humandb/hg19_HGMD2017.txt
+../../../../../../../databases/annovar_humandb/hg19_HGMD2017.txt

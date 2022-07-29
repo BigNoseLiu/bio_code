@@ -1,2 +1,2 @@
 test	8339	HP:0001156,HP:0001363,HP:0011304,HP:0010055	/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/test.ped	/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/test_father.vcf
-#cohort_test	XB025	HP:0000407,HP:0000365	/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/cohort.ped	/data/backup/home/liumingming/biodata/big_data/example_data/anno_vcf_data/cohort.vcf
+cohort_test	XB025	HP:0000407,HP:0000365	/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/cohort.ped	/data/backup/home/liumingming/biodata/big_data/example_data/anno_vcf_data/cohort.vcf

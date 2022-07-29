@@ -3,11 +3,11 @@ from django.db import models
 # Create your models here.
 class Gene(models.Model):
     GETYPE = [
-        ('onco', '原癌基因'),
-        ('anti', '抑癌基因'),
-        ('oncoandanti', '原癌&抑癌基因'),
-        ('other', '其他'),
-        ('na', '未定义'),
+        ('原癌基因', '原癌基因'),
+        ('抑癌基因', '抑癌基因'),
+        ('原癌基因&抑癌基因', '原癌基因&抑癌基因'),
+        ('其他', '其他'),
+        ('未定义', '未定义'),
     ]
     type = models.CharField(blank=True, null=True, max_length=200, choices=GETYPE, verbose_name='基因类型')
     name = models.CharField(blank=True, max_length=200, verbose_name='基因名称')

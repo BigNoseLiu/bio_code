@@ -7,4 +7,4 @@ in_vcf=../../human_germline/anno_vcf/example/out_data/germline_anno/test/test.fi
 #head -1 $in_vcf >test.annovar.xls
 #cat $in_vcf|awk -F "\t" '$13<=0.05' >>test.annovar.xls
 $docker_cmd "perl /mnt/$current_dir/../bin_v2/delete_all_mongodb.pl Genetic.Tests"
-$docker_cmd "cat /mnt/$current_dir/test.annovar.xls|perl /mnt/$current_dir/../bin_v2/anno2mongodb.v1.pl Genetic.Tests A10010101 "
+#$docker_cmd "cat /mnt/$current_dir/test.annovar.xls|perl /mnt/$current_dir/../bin_v2/anno2mongodb.v1.pl Genetic.Tests A10010101 "

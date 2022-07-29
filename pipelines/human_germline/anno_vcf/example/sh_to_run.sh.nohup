@@ -36,3 +36,18 @@ SUCCESS
 2022-07-27 05:59:52.597  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : PathogenicityFilter{keepNonPathogenic=true}
 2022-07-27 05:59:52.598  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Wrapping PathogenicityFilter{keepNonPathogenic=true} with VariantDataProvider for sources [POLYPHEN, MUTATION_TASTER, SIFT]
 2022-07-27 05:59:52.599  INFO 1 --- [           main] o.m.e.core.genome.VariantFactoryImpl     : Annotating variant records, trimming sequences and normalising positions...
+2022-07-27 06:02:48.348  INFO 1 --- [           main] o.m.e.core.genome.VariantFactoryImpl     : Processed 70355 variant records into 70556 single allele variants (including 0 structural variants)
+2022-07-27 06:02:48.348  INFO 1 --- [           main] o.m.e.core.genome.VariantFactoryImpl     : Variant annotation finished in 2m 55s 749ms (175749 ms)
+2022-07-27 06:02:48.349  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Loaded 70556 variants - 4690 passed variant filters
+2022-07-27 06:02:48.398  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Checking inheritance mode compatibility with [] for genes which passed filters
+2022-07-27 06:02:48.515  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Running Prioritiser: OmimPrioritiser{}
+2022-07-27 06:02:49.564  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Running Prioritiser: HiPhivePriority{options=HiPhiveOptions{diseaseId='', candidateGeneSymbol='', benchmarkingEnabled=false, runPpi=true, runHuman=true, runMouse=true, runFish=true}}
+2022-07-27 06:02:52.192  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Variant filter stats are:
+2022-07-27 06:02:52.193  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : FREQUENCY_FILTER: pass=4690 fail=65866
+2022-07-27 06:02:52.193  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : PATHOGENICITY_FILTER: pass=70556 fail=0
+2022-07-27 06:02:52.193  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Scoring genes
+2022-07-27 06:02:52.333  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Analysed 15258 genes containing 70556 filtered variants
+2022-07-27 06:02:52.333  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Creating analysis results from VCF /mnt/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/test/test.final.leftalign.vcf
+2022-07-27 06:02:52.335  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Finished analysis in 3m 0s 19ms (180019 ms)
+2022-07-27 06:02:52.335  INFO 1 --- [           main] o.m.e.cli.ExomiserCommandLineRunner      : Writing results...
+2022-07-27 06:03:03.176  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : Exomising finished - Bye!
