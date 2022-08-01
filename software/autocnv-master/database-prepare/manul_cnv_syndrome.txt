@@ -1,0 +1,75 @@
+#chrom	start	end	Syndrome	source	Genotype	Class	Size	Grade	note
+chr12	65071919	68645525	12q14 microdeletion syndrome	decipher	Heterozygous	Deletion	3.57 Mb		
+chr15	30910306	32445407	15q13.3 microdeletion syndrome	decipher	Heterozygous	Deletion	1.54 Mb		
+chr15	74412643	75972911	15q24 recurrent microdeletion syndrome	decipher	Heterozygous	Deletion	1.56 Mb		
+chr15	99357970	102521392	15q26 overgrowth syndrome	decipher	Heterozygous	Duplication	3.17 Mb		
+chr16	29606852	30199855	16p11.2 microduplication syndrome	decipher	Heterozygous	Duplication	593.00 kb		
+chr16	21512062	30199854	16p11.2-p12.2 microdeletion syndrome	decipher	Heterozygous	Deletion	8.69 Mb		
+chr16	21475060	29284077	16p11.2-p12.2 microduplication syndrome	decipher	Heterozygous	Duplication	7.81 Mb		
+chr16	14986684	16486684	16p13.11 recurrent microdeletion (neurocognitive disorder susceptibility locus)	decipher	Heterozygous	Deletion	1.50 Mb		
+chr16	14986684	16486684	16p13.11 recurrent microduplication (neurocognitive disorder susceptibility locus)	decipher	Heterozygous	Duplication	1.50 Mb		
+chr17	43705166	44294406	17q21.31 recurrent microdeletion syndrome (Koolen de Vries syndrome)	decipher	Heterozygous	Deletion	589.24 kb	1	
+chr1	10001	12840259	1p36 microdeletion syndrome	decipher	Heterozygous	Deletion	12.77 Mb	1	
+chr1	146533376	147883376	1q21.1 recurrent microdeletion (susceptibility locus for neurodevelopmental disorders)	decipher	Heterozygous	Deletion	1.35 Mb	3	
+chr1	146533376	147883376	1q21.1 recurrent microduplication (possible susceptibility locus for neurodevelopmental disorders)	decipher	Heterozygous	Duplication	1.35 Mb	3	
+chr1	145386505	145748066	1q21.1 susceptibility locus for Thrombocytopenia-Absent Radius (TAR) syndrome	decipher	Heterozygous	Deletion	361.50 kb	3	
+chr22	19009792	21452445	22q11 deletion syndrome (Velocardiofacial / DiGeorge syndrome)	decipher	Heterozygous	Deletion	2.08 Mb	1	
+chr22	19009792	21452445	22q11 duplication syndrome	decipher	Heterozygous	Duplication	2.08 Mb	3	
+chr22	21917117	23722445	22q11.2 distal deletion syndrome	decipher	Heterozygous	Deletion	1.82 Mb		
+chr22	51045516	51187844	22q13 deletion syndrome (Phelan-Mcdermid syndrome)	decipher	Heterozygous	Deletion	142.33 kb	1	
+chr2	59285696	61819815	2p15-16.1 microdeletion syndrome	decipher	Heterozygous	Deletion	2.53 Mb		
+chr2	44410451	44589584	2p21 Microdeletion Syndrome	decipher	Heterozygous	Deletion	179.13 kb		
+chr2	196925121	205206939	2q33.1 deletion syndrome	decipher	Heterozygous	Deletion	8.28 Mb	1	
+chr2	239969863	240322643	2q37 monosomy	decipher	Heterozygous	Deletion	352.78 kb	1	
+chr3	195726835	197344663	3q29 microdeletion syndrome	decipher	Heterozygous	Deletion	1.62 Mb		
+chr3	195726835	197344663	3q29 microduplication syndrome	decipher	Heterozygous	Duplication	1.62 Mb		
+chr7	72744455	74142672	7q11.23 duplication syndrome	decipher	Heterozygous	Duplication	1.40 Mb		
+chr8	8100055	11764629	8p23.1 deletion syndrome	decipher	Heterozygous	Deletion	3.66 Mb		
+chr8	8100055	11764629	8p23.1 duplication syndrome	decipher	Heterozygous	Duplication	3.66 Mb		
+chr8	77226464	77766239	8q21.11 Microdeletion Syndrome	decipher	Heterozygous	Deletion	539.77 kb		
+chr9	140513443	140730578	9q subtelomeric deletion syndrome	decipher	Heterozygous	Deletion	217.14 kb	1	
+chr16	60001	834372	ATR-16 syndrome	decipher	Heterozygous	Deletion	774.37 kb	1	
+chrY	14352761	15154862	AZFa	decipher	Hemizygous	Deletion	810.89 kb		
+chrY	20118045	26065197	AZFb	decipher	Hemizygous	Deletion	5.91 Mb		
+chrY	19964826	27793830	AZFb+AZFc	decipher	Hemizygous	Deletion	7.79 Mb		
+chrY	24977425	28033929	AZFc	decipher	Hemizygous	Deletion	3.06 Mb		
+chr5	126112314	126172712	Adult-onset autosomal dominant leukodystrophy (ADLD)	decipher	Heterozygous	Duplication	60.40 kb		
+chr15	23400537	28438266	Angelman syndrome (Type 1)	decipher	Heterozygous	Deletion	5.52 Mb	1	lift by 0.85 Minimum ratio
+chr15	23619912	28438266	Angelman syndrome (Type 2)	decipher	Heterozygous	Deletion	4.82 Mb	1	
+chr17	14097915	15470903	Charcot-Marie-Tooth syndrome type 1A (CMT1A)	decipher	Heterozygous	Duplication	1.37 Mb	1	
+chr5	10001	12533304	Cri du Chat Syndrome (5p deletion)	decipher	Heterozygous	Deletion	12.52 Mb	1	
+chr21	27252860	27543446	Early-onset Alzheimer disease with cerebral amyloid angiopathy	decipher	Heterozygous	Duplication	290.58 kb		
+chr5	112043201	112181936	Familial Adenomatous Polyposis	decipher	Heterozygous	Deletion	138.74 kb		
+chr17	14097915	15470903	Hereditary Liability to Pressure Palsies (HNPP)	decipher	Heterozygous	Deletion	1.37 Mb	1	
+chrX	751878	867875	Leri-Weill dyschondrostosis (LWD) - SHOX deletion	decipher	Heterozygous	Deletion	116.00 kb		
+chrX	460558	753877	Leri-Weill dyschondrostosis (LWD) - SHOX deletion	decipher	Heterozygous	Deletion	293.32 kb		
+chr17	1	2588909	Miller-Dieker syndrome (MDS)	decipher	Heterozygous	Deletion	2.54 Mb	1	
+chr17	29107097	30263321	NF1-microdeletion syndrome	decipher	Heterozygous	Deletion	1.16 Mb	1	
+chrX	103031438	103047547	Pelizaeus-Merzbacher disease	decipher	Unknown	Duplication	16.11 kb		
+chr17	16773072	20222149	Potocki-Lupski syndrome (17p11.2 duplication syndrome)	decipher	Heterozygous	Duplication	3.45 Mb		
+chr11	43994800	46052450	Potocki-Shaffer syndrome	decipher	Heterozygous	Deletion	2.06 Mb	1	
+chr15	23619912	28438266	Prader-Willi Syndrome (Type 2)	decipher	Heterozygous	Deletion	4.82 Mb	1	
+chr15	23400537	28438266	Prader-Willi syndrome (Type 1)	decipher	Heterozygous	Deletion	5.52 Mb	1	lift by 0.85 Minimum ratio
+chr17	34815073	36215917	RCAD (renal cysts and diabetes)	decipher	Heterozygous	Deletion	1.40 Mb		
+chr16	21946524	22467284	Recurrent 16p12.1 microdeletion (neurodevelopmental susceptibility locus)	decipher	Heterozygous	Deletion	520.76 kb		
+chr16	3775055	3930121	Rubinstein-Taybi Syndrome	decipher	Heterozygous	Deletion	155.07 kb	1	
+chr17	16773072	20222149	Smith-Magenis Syndrome	decipher	Heterozygous	Deletion	3.45 Mb	1	
+chr5	175724636	177052116	Sotos syndrome	decipher	Heterozygous	Deletion	1.33 Mb	1	
+chr7	96318078	96339203	Split hand/foot malformation 1 (SHFM1)	decipher	Heterozygous	Deletion	21.13 kb		
+chrX	6455812	8133195	Steroid sulphatase deficiency (STS)	decipher	Hemizygous	Deletion	1.63 Mb		
+chr11	31806339	32457087	WAGR 11p13 deletion syndrome	decipher	Heterozygous	Deletion	650.75 kb		
+chr7	72744455	74142672	Williams-Beuren Syndrome (WBS)	decipher	Heterozygous	Deletion	1.40 Mb	1	
+chr4	1569197	2110236	Wolf-Hirschhorn Syndrome	decipher	Heterozygous	Deletion	541.04 kb	1	
+chrX	53401070	53683275	Xp11.22-linked intellectual disability	decipher	Unknown	Duplication	282.18 kb		
+chrX	48334549	52117661	Xp11.22-p11.23 Microduplication	decipher	Unknown	Duplication	3.90 Mb		lift by 0.9 Minimum ratio
+chrX	153287263	153363188	Xq28 (MECP2) duplication	decipher	Unknown	Duplication	75.92 kb		
+chrX	153624563	153881853	Xq28 Microduplication	decipher	Unknown	Duplication	257.36 kb		
+chr1	146577486	147394506	1q21.1 Recurrent Microdeletion	genereview	Heterozygous	Deletion	1.35 Mb		ISCA-37421
+chr3	195756054	197344665	3q29 Recurrent Deletion	genereview	Heterozygous	Deletion	1.6 Mb		ISCA-37443
+chr7	72744455	74142510	7q11.23 Duplication Syndrome	genereview	Heterozygous	Duplication	1.5 Mb		ISCA-37392
+chr15	30792203	32792201	15q13.3 Microdeletion	genereview	Heterozygous	Deletion	2.0 Mb		ISCA-37411
+chr16	29649997	30199852	16p11.2 Recurrent Deletion	genereview	Heterozygous	Deletion	593 kb		ISCA-37400
+chr16	21948445	22430805	16p12.2 Recurrent Deletion	genereview	Heterozygous	Deletion	520 kb		ISCA-37409
+chr17	34815073	36192489	17q12 Recurrent Duplication	genereview	Heterozygous	Duplication	1.4 Mb		ISCA-37432
+chr17	34815072	36214235	17q12 Recurrent Deletion Syndrome	genereview	Heterozygous	Deletion	1.4 Mb		ISCA-37432
+chr22	18899744	21819961	22q11.2 Deletion Syndrome	genereview	Heterozygous	Deletion	2.54 Mb		ISCA-37446

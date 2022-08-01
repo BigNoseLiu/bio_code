@@ -1,0 +1,31 @@
+#hpo编号	英文缩写	中文缩写	中文名	英文名
+HP:0000006	AD	常显	常染色体显性遗传	Autosomal dominant inheritance
+HP:0000007	AR	常隐	常染色体隐性遗传	Autosomal recessive inheritance
+HP:0001417	XL	X连锁	X连锁遗传	X-linked inheritance
+HP:0001419	XLR	X隐	X连锁隐性遗传	X-linked recessive inheritance
+HP:0001423	XLD	X显	X连锁显性遗传	X-linked dominant inheritance
+HP:0001425	Hetero	异质性	异质性	Heterogeneous
+HP:0001426	Mu	多因素	多因素遗传	Multifactorial inheritance
+HP:0001427	Mito	线粒体	线粒体遗传	Mitochondrial inheritance
+HP:0001428	SMu	体细胞	体细胞突变	Somatic mutation
+HP:0001442	SMo	体细胞嵌合	体细胞嵌合体	Somatic mosaicism
+HP:0001444	AD SMo	常显体细胞	常染色体显性体细胞突变	Autosomal dominant somatic cell mutation
+HP:0001450	YL	Y连锁	Y连锁遗传	Y-linked inheritance
+HP:0001452	AD CGS	常显邻近基因	常染色体显性邻近基因综合征	Autosomal dominant contiguous gene syndrome
+HP:0001466	CGS	邻近基因	邻近基因综合征	Contiguous gene syndrome
+HP:0001470	SEX AD	性别限性常显	性别限性常染色体显性遗传	Sex-limited autosomal dominant
+HP:0003743	GA	遗传早现	遗传早现	Genetic anticipation
+HP:0003744	Paternal GA	父遗传早现	父系传递的遗传早现	Genetic anticipation with paternal anticipation bias
+HP:0003745	Sporadic	散发	散发	Sporadic
+HP:0010982	Polygenic	多基因	多基因遗传	Polygenic inheritance
+HP:0010983	Oligogenic	寡基因	寡基因遗传	Oligogenic inheritance
+HP:0010984	Digenic	双基因	双基因遗传	Digenic inheritance
+HP:0012275	AD MI	母源印记常显	母源印记基因常染色体显性遗传	Autosomal dominant inheritance with maternal imprinting
+HP:0025352	AD germline de novo	常显胚系新发	常染色体显性胚系新发突变	Autosomal dominant germline de novo mutation
+HP:0032382	UPD	单亲二体	单亲二倍体	Uniparental disomy
+OMIM_PR1	PR	假常隐	假常染色体隐性遗传	Pseudoautosomal recessive
+OMIM_PD	PD	假常显	假常染色体显性遗传	Pseudoautosomal dominant
+OMIM_DD	DD	双基因显性	双基因显性遗传	Digenic dominant
+OMIM_DR	DR	双基因隐性	双基因隐性遗传	Digenic recessive
+OMIM_IC	IC	个别病例	个别病例	Isolated cases
+OMIM_ICB	ICB	染色体不平衡	染色体不平衡遗传	Inherited chromosomal imbalance

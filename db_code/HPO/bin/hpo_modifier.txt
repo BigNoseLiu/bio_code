@@ -1,0 +1,31 @@
+#类型en	类型	HPO	英文	中文
+death_age	死亡年龄	HP:0001522	Death in infancy 	婴儿期死亡
+onset_age	发病年龄	HP:0003577	Congenital onset	新生儿发病
+onset_age	发病年龄	HP:0003581	Adult onset	成人发病
+onset_age	发病年龄	HP:0003584	Late onset	迟发的
+onset_age	发病年龄	HP:0003587	Insidious onset	起病隐匿
+onset_age	发病年龄	HP:0003593	Infantile onset	婴儿期发病
+onset_age	发病年龄	HP:0003596	Middle age onset	中年发病
+onset_age	发病年龄	HP:0003621	Juvenile onset	青少年发病
+onset_age	发病年龄	HP:0003623	Neonatal onset	新生儿发病
+onset_age	发病年龄	HP:0003674	Onset	发病
+progressive	进展程度	HP:0003676	Progressive	进展性的
+progressive	进展程度	HP:0003677	Slowly progressive	进展缓慢的
+progressive	进展程度	HP:0003678	Rapidly progressive	进展迅速的
+progressive	进展程度	HP:0003680	Nonprogressive	非进展性的
+death_age	死亡年龄	HP:0003811	Neonatal death	新生儿死亡
+death_age	死亡年龄	HP:0003819	Death in childhood	儿童期死亡
+death_age	死亡年龄	HP:0003826	Stillbirth	死胎
+death_age	死亡年龄	HP:0005268	Miscarriage	流产
+death_age	死亡年龄	HP:0011421	Death in adolescence	青春期死亡
+onset_age	发病年龄	HP:0011461	Fetal onset	胎儿发病
+onset_age	发病年龄	HP:0011462	Young adult onset	青壮年发病
+onset_age	发病年龄	HP:0011463	Childhood onset	儿童期发病
+onset_age	发病年龄	HP:0025708	Early young adult onset	青壮年早期发病
+onset_age	发病年龄	HP:0025709	Intermediate young adult onset	青壮年中期发病
+onset_age	发病年龄	HP:0025710	Late young adult onset	青壮年晚期发病
+onset_age	发病年龄	HP:0030674	Antenatal onset	产前发病
+other_c	其他	HP:0031796	Recurrent	反复的
+other_c	其他	HP:0033349	Seizure cluster	癫痫密集发作
+death_age	死亡年龄	HP:0100613	Death in early adulthood	成年早期死亡
+onset_age	发病年龄	HP:0410280	Pediatric onset	小儿发病

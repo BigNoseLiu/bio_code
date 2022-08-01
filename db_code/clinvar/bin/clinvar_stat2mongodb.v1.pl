@@ -14,15 +14,12 @@ my $task_id = $ARGV[1];
 
 
 my $client = MongoDB::MongoClient->new(
-   host => '1.12.236.215:27017',
+   host => '10.10.9.35:31112',
    username => 'lintop',
    password => 'lintop.hx321.mongo'
 );
-$client->connect;
-my $client2 = MongoDB->connect( '10.10.9.22:27017' );
-
-
-my $collection = $client2->ns( $db_col_name );
+$client->reconnect;
+my $collection = $client->ns( $db_col_name );
 
 my %h_stat = ();
 my %h_sig= ();
@@ -74,4 +71,3 @@ foreach my $gene( sort {$a cmp $b} keys(%h_stat) ){
 
 
 $client->disconnect;
-$client2->disconnect;

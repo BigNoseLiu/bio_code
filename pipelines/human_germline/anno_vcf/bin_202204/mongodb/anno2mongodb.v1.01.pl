@@ -72,8 +72,8 @@ while( $line = <STDIN> ){
 
 
 	#result gatk
-	$h_record{'test_result'}{'standard_result'} = "wild";
-	$h_record{'test_result'}{'standard_result_en'} = decode_utf8('野生型');
+	$h_record{'test_result'}{'standard_result_en'} = "wild";
+	$h_record{'test_result'}{'standard_result'} = decode_utf8('野生型');
 
 	#获取各样本数据
 	my @arr_result = ();
@@ -93,8 +93,8 @@ while( $line = <STDIN> ){
 				$h_result{'result'} = decode_utf8('纯合');
 			}
 			if( $main_sample eq $sample_id ){
-				$h_record{'test_result'}{'standard_result'} = $h_result{'result_en'};
-				$h_record{'test_result'}{'standard_result_en'} = $h_result{'result'};
+				$h_record{'test_result'}{'standard_result_en'} = $h_result{'result_en'};
+				$h_record{'test_result'}{'standard_result'} = $h_result{'result'};
 			}
 			$h_result{'info'} = "-";
 			$h_result{'detail'} = "-";
