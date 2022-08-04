@@ -1,0 +1,6 @@
+### Ignore the files/directories that you don't want to update to the repository. ###
+
+
+# Database files
+db/
+

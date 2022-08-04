@@ -1,0 +1,92 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+__author__ = 'qiuwancen'
+__email__ = '972538446@qq.com'
+__date__ = '2021-06-16'
+__version__ = 'V1.0'
+
+import os
+import re
+import sys
+import time
+import json
+from sys import argv
+from pathlib import Path
+from argparse import ArgumentParser
+Bin = Path(__file__).resolve().parent
+print("Bin",Bin)
+sys.path.append(os.path.join(Bin, '/conf'))
+import configure as cfg
+from configure import checkFile, createPath, parseVersion
+
+LibraryType2tag = {'DNA': 'DNA', 'RNA': 'RNA', '去宿主DNA': 'DNA'}
+SampleType2tag = {'RT': 'RT', 'Plasma': 'Plasma', 'CSF': 'CSF', 'Others': 'Others'}
+
+def readArg(args):
+		parser = ArgumentParser(description='{} {} ({}) {}'.format(\
+				os.path.basename(os.path.abspath(__file__)), __version__, __date__, __email__))
+		args = parser.add_argument
+		args('--json', type=str, action='store', required=True, \
+			help='Input json file.')
+		args('--outdir', type=str, action='store', default='./', \
+			help='Output Path. [%(default)s]')
+		args('--version', action='version', version='{} {} ({})'.format(\
+			os.path.basename(os.path.abspath(__file__)), __version__, __date__), \
+			help='Print the current version and exit.')
+		return vars(parser.parse_args())
+
+def generateScripts(L, outdir):
+	createPath(outdir)
+	Slide = ''
+	Lane = ''
+	Samples = []
+
+	with open( f'{outdir}/work.sh', 'w') as pipe, open(L) as j, open(f'{outdir}/sample.list', 'w') as List:
+		jfile = json.load(j)
+		if jfile["runPipelineParameter"]["SequenceWay"] == 'SE':
+			for i in jfile["SampleList"]:
+				nt = LibraryType2tag.get(i['NucleinType'], 'DNA')
+				st = SampleType2tag.get(i["SampleType"], 'Others')
+				List.write(f'{i["SampleName"]}\t{nt}\t{i["FastQ1"]}\t{st}\n')
+				Slide = i["FastQ1"].split('/')[-3]
+				Lane = i["FastQ1"].split('/')[-2]
+				Samples.append(i["SampleName"])
+		elif jfile["runPipelineParameter"]["SequenceWay"] == 'PE':
+			for i in jfile["SampleList"]:
+				nt = LibraryType2tag.get(i['NucleinType'], 'DNA')
+				st = sample_types.get(i["SampleType"], 'Others')
+				List.write(f'{i["SampleName"]}\t{nt}\t{i["FastQ1"]}\t{i["FastQ2"]}\t{st}\n')
+				Slide = i["FastQ1"].split('/')[-3]
+				Lane = i["FastQ1"].split('/')[-2]
+				Samples.append(i["SampleName"])
+		else:
+			print('Check json\n')
+			exit(0)
+#		pipe.write(f'{Bin}/{jfile["runPipelineParameter"]["FlowVer"]}/bin/PIP --list {outdir}/sample.list --analysis Merge-QC:Fastp,RemoveHost-Annotation:Taxonomy,ResistanceGene,VFDB --pathodb {jfile["runPipelineParameter"]["PathogenyDbVer"]} --vfdb {jfile["runPipelineParameter"]["VFDbVer"]} --ardb {jfile["runPipelineParameter"]["DrugFastDbVer"]} --run_mode {jfile["runPipelineParameter"]["TaskRunType"]} --type {jfile["runPipelineParameter"]["SequenceWay"]} --outdir {outdir}\n')
+		pipe.write(f'{Bin}/{jfile["runPipelineParameter"]["FlowVer"]}/bin/PIP --list {outdir}/sample.list --analysis Merge-QC:Fastp,RemoveHost-Annotation:Taxonomy,ResistanceGene,VFDB --pathodb {jfile["runPipelineParameter"]["PathogenyDbVer"]} --vfdb {jfile["runPipelineParameter"]["VFDbVer"]} --run_mode {jfile["runPipelineParameter"]["TaskRunType"]} --type {jfile["runPipelineParameter"]["SequenceWay"]} --outdir {outdir}\n')
+	os.system(f'sh {outdir}/work.sh')
+	os.system(f'sh {outdir}/shell/pipeline.sh >{outdir}/shell/pipeline.sh.o 2>{outdir}/shell/pipeline.sh.e')
+#	if not os.path.exists(f'{outdir}/basecaller_results'):
+#		os.system(f'mkdir {outdir}/basecaller_results')
+#	os.system(f'cp {Bin}/../Result/basecaller_results/summaryReport.html {outdir}/basecaller_results/{Slide}_{Lane}.summaryReport.html')
+#	if not os.path.exists(f'{outdir}/plugin_out/Result'):
+#		os.system(f'mkdir -p {outdir}/plugin_out/Result')
+#	os.system(f'cp {Bin}/Result/plugin_out/Result/*.html {outdir}/plugin_out/Result')
+#	os.system(f'cp {Bin}/Result/plugin_out/Result/*.txt {outdir}/plugin_out/Result')
+#	os.system(f'cp {Bin}/Result/plugin_out/Result/*.xlsx {outdir}/plugin_out/Result')
+#	os.system(f'cp {Bin}/Result/plugin_out/Result/QC.* {outdir}/plugin_out/Result')
+#	for i in Samples:
+#		os.system(f'cp -fr {Bin}/Result/plugin_out/Result/demo/* {outdir}/plugin_out/Result/{i}')
+#	os.system(f'echo "All done." >> {outdir}/shell/pipeline.sh.o')
+
+
+	
+
+if __name__ == '__main__':
+		args = readArg(argv)
+		jsonfile = os.path.abspath(args['json'])
+		outdir = os.path.abspath(args['outdir'])
+		checkFile(jsonfile)
+
+		generateScripts(jsonfile, outdir)

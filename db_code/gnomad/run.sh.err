@@ -1,0 +1,4 @@
+nohup: 忽略输入
+NOTICE: Finished reading 17210872 lines from VCF file
+NOTICE: A total of 17209972 locus in VCF file passed QC threshold, representing 16027830 SNPs (10377942 transitions and 5649888 transversions) and 1182142 indels/substitutions
+NOTICE: Finished writing 16027830 SNP genotypes (10377942 transitions and 5649888 transversions) and 1182142 indels/substitutions for 1 sample

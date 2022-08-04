@@ -1,0 +1,2 @@
+Demo  DNA  /path/to/data/DNA_1.fq.gz  /path/to/data/DNA_2.fq.gz  100
+Demo  RNA  /path/to/data/RNA_1.fq.gz  /path/to/data/RNA_2.fq.gz  100

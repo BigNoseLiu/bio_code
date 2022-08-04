@@ -1,0 +1,1 @@
+ln -s -f /data/sequencer/V100410210158/V350071671/L04/V350071671_L04_TM-26.fq.gz /data/application/pathongen/data/result/V350071671_20220728163235/78/00.Merge/N220728902RAAAA/RNA/N220728902RAAAA_1.fq.gz

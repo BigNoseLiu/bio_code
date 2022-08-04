@@ -1,0 +1,538 @@
+Locus,Allele,Position,Nucleotide Change,Amino Acid Change,Plasmy Reports (Homo/Hetero),Disease,Status,GB Freq FL(CR),GB Seqs FL(CR),References
+MT-CR,m.114C>T,114,C-T,noncoding,+/-,BD-associated,Reported,0.429%<br>(0.148%),234 (112),1
+MT-CR,m.146T>C,146,T-C,noncoding,+/-,Absence of Endometriosis,Reported,19.526%<br>(11.552%),10660 (8713),1
+MT-CR,m.150C>T,150,C-T,noncoding,+/+,Longevity / Cervical Carcinoma / HPV infection risk,Conflicting reports,12.990%<br>(9.538%),7092 (7194),9
+MT-CR,m.185G>A,185,G-A,noncoding,+/-,Low VO2max response,Reported,3.977%<br>(2.027%),2171 (1529),1
+MT-CR,m.195T>C,195,T-C,noncoding,+/+,BD-associated / melanoma pts,Reported,18.859%<br>(11.658%),10296 (8793),3
+MT-CR,m.228G>A,228,G-A,noncoding,+/-,Low VO2max response,Reported,2.623%<br>(0.860%),1432 (649),1
+MT-CR,m.295C>T,295,C-T,noncoding,+/-,Low VO2max response,Reported,4.717%<br>(1.787%),2575 (1348),2
+MT-CR,m.309_310insC,309,C-CC,noncoding,nr/nr,AD-weakly associated,Reported,1.121%<br>(1.267%),612 (956),1
+MT-CR,m.309_310insCC,309,C-CCC,noncoding,nr/nr,Higher in melanoma patient group,Reported,0.022%<br>(0.020%),12 (15),1
+MT-CR,m.310T>C,310,T-C,noncoding,/,Possible protective factor for normal tension glaucoma,Reported,41.003%<br>(27.594%),22385 (20813),1
+MT-CR,m.315_316insC,315,C-CC,noncoding,nr/nr,Melanoma patients,Reported,30.926%<br>(19.793%),16884 (14929),1
+MT-CR,m.351A>G,351,A-G,noncoding,nr/nr,Patient with CPEO,Reported,0.000%<br>(0.003%),0 (2),1
+MT-CR,m.462C>T,462,C-T,noncoding,+/-,Low VO2max response,Reported,3.482%<br>(0.947%),1901 (714),2
+MT-CR,m.489T>C,489,T-C,noncoding,+/-,Low VO2max response,Reported,25.818%<br>(14.269%),14095 (10763),1
+MT-CR,m.499G>A,499,G-A,noncoding,+/-,Endometriosis / possible protective factor for high altitude sicknes,Reported,3.784%<br>(1.904%),2066 (1436),2
+MT-CR,m.547A>T,547,A-T,noncoding,+/-,Tubulointerstitial kidney disease,Reported,0.000%<br>(0.000%),,1
+MT-CR,m.573_574insCC,573,C-CCC,noncoding,+/-,Absence of Endometriosis,Reported,1.044%<br>(0.003%),570 (2),1
+MT-CR,m.576A>G,576,A-G,noncoding MT-TF precursor,nr/nr,Hearing loss patient,Reported,0.005%<br>(0.008%),3 (6),1
+MT-ND1,m.3308T>C,3308,T-C,M1T,-/+,MELAS / DEAF enhancer / hypertension / LVNC / putative LHON,P.M.-possibly synergistic,0.643%<br>(0.000%),351 (0),16
+MT-ND1,m.3308T>G,3308,T-G,M1term,+/+,Sudden Infant Death,Reported,0.011%<br>(0.000%),6 (0),1
+MT-ND1,m.3310C>T,3310,C-T,P2S,+/+,Diabetes / HCM,Reported,0.024%<br>(0.000%),13 (0),7
+MT-ND1,m.3316G>A,3316,G-A,A4T,+/-,Diabetes / LHON / PEO / vascular dementia,Unclear,0.976%<br>(0.000%),533 (0),22
+MT-ND1,m.3335T>C,3335,T-C,I10T,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.103%<br>(0.000%),56 (0),1
+MT-ND1,m.3336T>C,3336,T-C,I10I,-/+,Carotid atherosclerosis risk,Reported,0.370%<br>(0.000%),202 (0),3
+MT-ND1,m.3337G>A,3337,G-A,V11M,+/-,<a href='/MITOMAP/DiseaseList#Cardiomyopathy'>Cardiomyopathy</a>,Possibly synergistic,0.158%<br>(0.000%),86 (0),2
+MT-ND1,m.3340C>T,3340,C-T,P12S,+/-,Encephaloneuromyopathy,Reported,0.005%<br>(0.000%),3 (0),3
+MT-ND1,m.3376G>A,3376,G-A,E24K,+/+,LHON MELAS overlap,Cfrm,0.000%<br>(0.000%),,4
+MT-ND1,m.3380G>A,3380,G-A,R25Q,-/+,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.005%<br>(0.000%),3 (0),1
+MT-ND1,m.3388C>A,3388,C-A,L28M,nr/nr,Materally Inherited Nonsyndromic Deafness,Reported,0.046%<br>(0.000%),25 (0),1
+MT-ND1,m.3391G>A,3391,G-A,G29S,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.097%<br>(0.000%),53 (0),1
+MT-ND1,m.3394T>C,3394,T-C,Y30H,+/-,LHON / Diabetes / CPTdeficiency / high altitude adaptation,Reported / Population-dependent,1.227%<br>(0.000%),670 (0),38
+MT-ND1,m.3395A>G,3395,A-G,Y30C,+/+,LHON / HCM with hearing loss,Reported,0.048%<br>(0.000%),26 (0),8
+MT-ND1,m.3396T>C,3396,T-C,Y30Y,+/-,NSHL / MIDD,Reported / Unclear,0.760%<br>(0.000%),415 (0),2
+MT-ND1,m.3397A>G,3397,A-G,M31V,+/-,ADPD / possibly LVNC-cardiomyopathy associated / resistance to high altitude pulmonary edema,Reported,0.295%<br>(0.000%),161 (0),11
+MT-ND1,m.3398T>C,3398,T-C,M31T,+/-,DMDF+HCM / GDM / possibly LVNC cardiomyopathy-associated,Reported,0.449%<br>(0.000%),245 (0),5
+MT-ND1,m.3399A>T,3399,A-T,M31I,+/-,Gestational Diabetes (GDM),Reported,0.048%<br>(0.000%),26 (0),1
+MT-ND1,m.3407G>A,3407,G-A,R34H,+/-,HCM / Muscle involvement,Conflicting reports,0.002%<br>(0.000%),1 (0),3
+MT-ND1,m.3418A>G,3418,A-G,N38D,+/-,AMegL,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ND1,m.3421G>A,3421,G-A,V39I,+/-,<a href='/MITOMAP/DiseaseList#MIDD'>MIDD</a>,Reported,0.141%<br>(0.000%),77 (0),2
+MT-ND1,m.3460G>A,3460,G-A,A52T,+/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.057%<br>(0.000%),31 (0),202
+MT-ND1,m.3461C>T,3461,C-T,A52V,nr/nr,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,2
+MT-ND1,m.3472T>C,3472,T-C,F56L,+/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.009%<br>(0.000%),5 (0),7
+MT-ND1,m.3481G>A,3481,G-A,E59K,-/+,MELAS / Progressive Encephalomyopathy,Reported,0.000%<br>(0.000%),,3
+MT-ND1,m.3488T>C,3488,T-C,L61P,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ND1,m.3496G>T,3496,G-T,A64S,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported / Secondary,0.018%<br>(0.000%),10 (0),3
+MT-ND1,m.3497C>T,3497,C-T,A64V,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported / Secondary,0.354%<br>(0.000%),193 (0),6
+MT-ND1,m.3502T>C,3502,T-C,S66P,nr/nr,Unspecified suspected mitochondrial disorder,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3548T>C,3548,T-C,I81T,nr/nr,Possible LHON helper (one 14484 patient),Reported,0.064%<br>(0.000%),35 (0),1
+MT-ND1,m.3551C>T,3551,C-T,A82V,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3552T>A,3552,T-A,A82A,+/-,Resistance to high altitude pulmonary edema (HAPE) / matrilineal hypertension,Reported /hg C marker,3.588%<br>(0.000%),1959 (0),2
+MT-ND1,m.3571del,3571,C-del,frameshift,nr/nr,Unspecified suspected mitochondrial disorder,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3571C>T,3571,C-T,L89F,nr/nr,Possible LHON helper mut.,Reported,0.233%<br>(0.000%),127 (0),4
+MT-ND1,m.3632C>T,3632,C-T,S109F,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,2
+MT-ND1,m.3634A>G,3634,A-G,S110G,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,2
+MT-ND1,m.3635G>A,3635,G-A,S110N,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.016%<br>(0.000%),9 (0),16
+MT-ND1,m.3644T>C,3644,T-C,V113A,nr/nr,BD-associated,Reported,0.399%<br>(0.000%),218 (0),4
+MT-ND1,m.3667T>G,3667,T-G,W121G,+/-,Peripheral neuropathy of T2 diabetes,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ND1,m.3688G>A,3688,G-A,A128T,+/-,Leigh Syndrome,Reported,0.000%<br>(0.000%),,2
+MT-ND1,m.3697G>A,3697,G-A,G131S,+/+,MELAS / Leigh Syndrome / LDYT / BSN,Cfrm,0.000%<br>(0.000%),,17
+MT-ND1,m.3700G>A,3700,G-A,A132T,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.005%<br>(0.000%),3 (0),6
+MT-ND1,m.3713T>C,3713,T-C,V136A,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3733G>A,3733,G-A,E143K,+/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.004%<br>(0.000%),2 (0),10
+MT-ND1,m.3733G>C,3733,G-C,E143Q,-/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3736G>A,3736,G-A,V144I,nr/nr,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.159%<br>(0.000%),87 (0),2
+MT-ND1,m.3745G>A,3745,G-A,A147T,+/+,LHON / high altitude variant,Reported / Population-dependent,0.194%<br>(0.000%),106 (0),4
+MT-ND1,m.3761C>A,3761,C-A,S152term,-/+,Deafness w relapsing/remitting neurological symptoms,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3769C>G,3769,C-G,L155V,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3781T>C,3781,T-C,S159P,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3796A>G,3796,A-G,T164A,-/+,Adult-Onset Dystonia,Reported,0.465%<br>(0.000%),254 (0),5
+MT-ND1,m.3833T>A,3833,T-A,L176Q,+/-,<a href='/MITOMAP/DiseaseList#PEG'>PEG</a>,Reported,0.000%<br>(0.000%),,2
+MT-ND1,m.3866T>C,3866,T-C,I187T,nr/nr,LHON + limb claudication,Reported / synergistic?,0.269%<br>(0.000%),147 (0),8
+MT-ND1,m.3890G>A,3890,G-A,R195Q,-/+,Progressive Encephalomyopathy / Leigh Syndrome / Optic Atrophy,Cfrm,0.002%<br>(0.000%),1 (0),7
+MT-ND1,m.3902_3908inv,3902,ACCTTGC-GCAAGGT,DLA-GKV,-/+,EXIT+myalgia / severe LA+cardiac / 3-MGA aciduria / nephropathy+deafness+diabetes,Cfrm,0.000%<br>(0.000%),,4
+MT-ND1,m.3919T>C,3919,T-C,S205P,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3945C>A,3945,C-A,I213M,nr/nr,Leigh-like phenotype,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3946G>A,3946,G-A,E214K,+/+,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.002%<br>(0.000%),1 (0),9
+MT-ND1,m.3949T>C,3949,T-C,Y215H,-/+,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.002%<br>(0.000%),1 (0),7
+MT-ND1,m.3958G>A,3958,G-A,G218S,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,3
+MT-ND1,m.3959G>A,3959,G-A,G218D,nr/nr,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.3995A>G,3995,A-G,N230S,nr/nr,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.033%<br>(0.000%),18 (0),4
+MT-ND1,m.4081T>C,4081,T-C,F259L,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ND1,m.4115T>C,4115,T-C,F270S,nr/nr,Possible LHON helper (one 11778 patient),Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.4123A>T,4123,A-T,I273F,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.4132G>A,4132,G-A,A276T,+/-,NAION-associated,Reported,0.015%<br>(0.000%),8 (0),2
+MT-ND1,m.4136A>G,4136,A-G,Y277C,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Possibly synergistic,0.126%<br>(0.000%),69 (0),11
+MT-ND1,m.4142G>A,4142,G-A,R279Q,-/+,"Developmental delay, seizure, hypotonia",Reported,0.000%<br>(0.000%),,3
+MT-ND1,m.4142G>T,4142,G-T,R279L,-/+,Leigh Syndrome,Reported,0.000%<br>(0.000%),,1
+MT-ND1,m.4160T>C,4160,T-C,L285P,+/-,LHON / LHON plus,Reported,0.002%<br>(0.000%),1 (0),16
+MT-ND1,m.4163T>C,4163,T-C,M286T,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ND1,m.4171C>A,4171,C-A,L289M,+/+,LHON / Leigh-like phenotype,Cfrm,0.004%<br>(0.000%),2 (0),13
+MT-ND1,m.4215A>G,4215,A-G,W303W,+/-,Low VO2max response,Reported,0.009%<br>(0.000%),5 (0),1
+MT-ND1,m.4216T>C,4216,T-C,Y304H,+/-,LHON / Insulin Resistance /possible adaptive high altitude variant / miscarriage,Conflicting reports,10.008%<br>(0.000%),5464 (0),50
+MT-ND2,m.4491G>A,4491,G-A,V8I,+/-,High altitude pulmonary edema susceptibility,Reported,1.671%<br>(0.000%),912 (0),1
+MT-ND2,m.4516G>A,4516,G-A,G16D,+/-,Possible LHON modulator,Reported,0.000%<br>(0.000%),,1
+MT-ND2,m.4611del,4611,A-del,M-Term,nr/nr,Unspecified suspected mitochondrial disorder,Reported,0.000%<br>(0.000%),,1
+MT-ND2,m.4633C>G,4633,C-G,A55G,+/-,LHON candidate,Reported,0.000%<br>(0.000%),,1
+MT-ND2,m.4640C>A,4640,C-A,I57M,+/-,LHON / Epilepsy,Reported,0.346%<br>(0.000%),189 (0),9
+MT-ND2,m.4648T>C,4648,T-C,F60S,+/-,<a href='/MITOMAP/DiseaseList#PEG'>PEG</a>,Reported,0.002%<br>(0.000%),1 (0),2
+MT-ND2,m.4659G>A,4659,G-A,A64T,+/-,possible PD risk factor / LHON,Reported,0.178%<br>(0.000%),97 (0),3
+MT-ND2,m.4681T>C,4681,T-C,L71P,-/+,Leigh Syndrome,Reported,0.002%<br>(0.000%),1 (0),4
+MT-ND2,m.4769=,4769,A-A,M100M,+/-,SZ-associated,Reported,2.381%<br>(0.000%),1300 (0),2
+MT-ND2,m.4833A>G,4833,A-G,T122A,+/-,"Diabetes helper mutation  AD, PD",Reported,1.031%<br>(0.000%),563 (0),4
+MT-ND2,m.4852T>A,4852,T-A,L128Q,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND2,m.4883C>T,4883,C-T,P138P,+/-,Glaucoma,Conflicting reports,4.755%<br>(0.000%),2596 (0),2
+MT-ND2,m.4917A>G,4917,A-G,N150D,+/-,LHON / Insulin Resistance / AMD / NRTI-PN,Reported,4.812%<br>(0.000%),2627 (0),28
+MT-ND2,m.4924G>T,4924,G-T,S152I,nr/nr,Possible LHON helper (one 11778 patient),Reported,0.000%<br>(0.000%),,1
+MT-ND2,m.4935A>G,4935,A-G,T156A,-/+,Lipomatosis+EXIT,Reported,0.000%<br>(0.000%),,3
+MT-ND2,m.4944A>G,4944,A-G,I159V,+/-,High altitude pulmonary edema susceptibility,Reported,0.015%<br>(0.000%),8 (0),1
+MT-ND2,m.4959G>A,4959,G-A,A164T,nr/nr,Possible LHON helper (one 11778 patient),Reported,0.103%<br>(0.000%),56 (0),1
+MT-ND2,m.5001_5002insA,5001,A-AA,frameshift,-/+,"Developmental delay, seizure, cardiomyopathy, lactic acidosis",Reported,0.000%<br>(0.000%),,3
+MT-ND2,m.5095T>C,5095,T-C,I209T,nr/nr,Proximal muscle weakness and atrophy,Reported,0.033%<br>(0.000%),18 (0),1
+MT-ND2,m.5133_5134del,5133,AA-del,frameshift,nr/nr,Exercise intolerance (EXIT),Reported,0.000%<br>(0.000%),,5
+MT-ND2,m.5153A>G,5153,A-G,L228L,nr/nr,Recurrent pregnancy loss,Reported,0.641%<br>(0.000%),350 (0),1
+MT-ND2,m.5178C>A,5178,C-A,L237M,+/+,Longevity / Extraversion / diabetes / AMS protection / blood iron metabolism / correlation with myocardial infarction / atherosclerosis,Reported,4.711%<br>(0.000%),2572 (0),23
+MT-ND2,m.5244G>A,5244,G-A,G259S,-/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,8
+MT-ND2,m.5367_5385del,5367,ACCTCAATCACACTACTCC-del,frameshift,nr/nr,Unspecified suspected mitochondrial disorder,Reported,0.000%<br>(0.000%),,1
+MT-ND2,m.5452C>T,5452,C-T,T328M,+/-,Progressive Encephalomyopathy,Reported,0.037%<br>(0.000%),20 (0),2
+MT-ND2,m.5460G>A,5460,G-A,A331T,+/+,AD / PD / LHON,Conflicting reports,6.779%<br>(0.000%),3701 (0),10
+MT-ND2,m.5460G>T,5460,G-T,A331S,+/+,<a href='/MITOMAP/DiseaseList#AD'>AD</a>,Reported,0.000%<br>(0.000%),,5
+MT-CO1,m.5911C>T,5911,C-T,A3V,+/-,Prostate Cancer,Reported,0.454%<br>(0.000%),248 (0),1
+MT-CO1,m.5913G>A,5913,G-A,D4N,+/-,Prostate Cancer / hypertension,Reported,0.947%<br>(0.000%),517 (0),3
+MT-CO1,m.5920G>A,5920,G-A,W6term,-/+,Myoglobinuria / EXIT,Reported,0.000%<br>(0.000%),,4
+MT-CO1,m.5935A>G,5935,A-G,N11S,+/-,Prostate Cancer,Reported,0.002%<br>(0.000%),1 (0),1
+MT-CO1,m.5973G>A,5973,G-A,A24T,+/-,Prostate Cancer,Reported,0.026%<br>(0.000%),14 (0),1
+MT-CO1,m.6020C>A,6020,C-A,A39A,-/+,Possible association with sepsis,Reported,0.000%<br>(0.000%),,2
+MT-CO1,m.6020_6024del,6020,CGAGC-del,AELGQ-AGPATerm,-/+,Motor Neuron Disease,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6081G>A,6081,G-A,A60T,+/-,Prostate Cancer,Reported,0.002%<br>(0.000%),1 (0),1
+MT-CO1,m.6145G>A,6145,G-A,W81term,nr/nr,Unspecified suspected mitochondrial disorder,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6150G>A,6150,G-A,V83I,+/-,Prostate Cancer / enriched in POAG cohort,Reported,0.423%<br>(0.000%),231 (0),2
+MT-CO1,m.6253T>C,6253,T-C,M117T,+/-,Prostate Cancer / enriched in POAG cohort,Reported,1.026%<br>(0.000%),560 (0),3
+MT-CO1,m.6261G>A,6261,G-A,A120T,+/-,Prostate Cancer / LHON,Reported,0.733%<br>(0.000%),400 (0),4
+MT-CO1,m.6267G>A,6267,G-A,A122T,+/-,Prostate Cancer,Reported,0.158%<br>(0.000%),86 (0),1
+MT-CO1,m.6285G>A,6285,G-A,V128I,+/-,Prostate Cancer,Reported,0.223%<br>(0.000%),122 (0),1
+MT-CO1,m.6307A>G,6307,A-G,N135S,./+,Asthenozoospermic infertility,Reported,0.004%<br>(0.000%),2 (0),1
+MT-CO1,m.6328C>T,6328,C-T,S142F,+/-,EXIT (Exercise Intolerance),Reported,0.000%<br>(0.000%),,2
+MT-CO1,m.6340C>T,6340,C-T,T146I,+/-,Prostate Cancer,Reported,0.178%<br>(0.000%),97 (0),2
+MT-CO1,m.6367T>C,6367,T-C,V155A,-/+,Possible association with sepsis,Reported,0.040%<br>(0.000%),22 (0),1
+MT-CO1,m.6459T>C,6459,T-C,W186R,+/-,Sepsis susceptibility,Reported,0.000%<br>(0.000%),,2
+MT-CO1,m.6474A>G,6474,A-G,T191A,+/-,Maternally inherited childhood epilepsy and ataxia,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6480G>A,6480,G-A,V193I,+/-,Prostate Cancer / enriched in POAG cohort,Reported,0.275%<br>(0.000%),150 (0),4
+MT-CO1,m.6489C>A,6489,C-A,L196I,-/+,CO1 deficiency with epilepsia partialis continua,Reported,0.158%<br>(0.000%),86 (0),3
+MT-CO1,m.6526T>C,6526,T-C,M208T,nr/nr,"Developmental delay, hypotonia, myopathy, failure to thrive",Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6544A>C,6544,A-C,N214T,-/+,Possible association with sepsis,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6547T>C,6547,T-C,L215P,-/+,Leigh Syndrome,Reported,0.007%<br>(0.000%),4 (0),3
+MT-CO1,m.6579G>A,6579,G-A,G226term,-/+,Leigh Syndrome,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6597C>A,6597,C-A,Q232K,-/+,MELAS-like syndrome,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6649C>T,6649,C-T,P249L,-/+,Possible association with sepsis,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6663A>G,6663,A-G,I254V,+/-,Prostate Cancer,Reported,0.280%<br>(0.000%),153 (0),3
+MT-CO1,m.6698del,6698,A-del,K-K_frameshift,-/+,<a href='/MITOMAP/DiseaseList#Myopathy'>Myopathy</a>,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6708G>A,6708,G-A,G269term,-/+,MM & Rhabdomyolysis,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6721T>C,6721,T-C,M273T,-/+,Acquired Idiopathic Sideroblastic Anemia,Reported,0.000%<br>(0.000%),,2
+MT-CO1,m.6742T>C,6742,T-C,I280T,-/+,Acquired Idiopathic Sideroblastic Anemia,Reported,0.000%<br>(0.000%),,2
+MT-CO1,m.6860A>C,6860,A-C,K319N,+/-,Dilated Cardiomyopathy,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.6930G>A,6930,G-A,G343term,-/+,Multisystem Disorder,Reported,0.000%<br>(0.000%),,3
+MT-CO1,m.6955G>A,6955,G-A,G351D,+/+,Mild EXIT and MR,Reported,0.002%<br>(0.000%),1 (0),1
+MT-CO1,m.6962G>A,6962,G-A,L353L,+/-,Possible helper variant for 15927A,Reported,2.467%<br>(0.000%),1347 (0),1
+MT-CO1,m.7023G>A,7023,G-A,V374M,-/+,MELAS-like syndrome,Reported,0.002%<br>(0.000%),1 (0),1
+MT-CO1,m.7041G>A,7041,G-A,V380I,+/-,Prostate Cancer,Reported,0.011%<br>(0.000%),6 (0),1
+MT-CO1,m.7065G>A,7065,G-A,A388T,-/+,Possible association with sepsis,Reported,0.000%<br>(0.000%),,2
+MT-CO1,m.7080T>C,7080,T-C,F393L,+/-,Prostate Cancer,Reported,0.115%<br>(0.000%),63 (0),1
+MT-CO1,m.7083A>G,7083,A-G,I394V,+/-,Prostate Cancer,Reported,0.027%<br>(0.000%),15 (0),1
+MT-CO1,m.7158A>G,7158,A-G,I419V,+/-,Prostate Cancer,Reported,0.070%<br>(0.000%),38 (0),1
+MT-CO1,m.7222A>G,7222,A-G,Y440C,nr/nr,Unspecified suspected mitochondrial disorder,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.7299A>G,7299,A-G,M466V,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.148%<br>(0.000%),81 (0),1
+MT-CO1,m.7305A>C,7305,A-C,M468L,+/-,Prostate Cancer,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.7379G>A,7379,G-A,L492L,-/+,Possible association with sepsis,Reported,0.042%<br>(0.000%),23 (0),1
+MT-CO1,m.7402del,7402,C-del,frameshift,-/+,Isolated complex IV deficiency,Reported,0.000%<br>(0.000%),,1
+MT-CO1,m.7443A>G,7443,A-G,term514G,+/-,<a href='/MITOMAP/DiseaseList#DEAF'>DEAF</a>,Reported,0.002%<br>(0.000%),1 (0),4
+MT-CO1,m.7444G>A,7444,G-A,term514K,+/-,LHON / SNHL / DEAF modulator,Reported,0.355%<br>(0.000%),194 (0),30
+MT-CO1,m.7445A>C,7445,A-C,term514S,+/-,<a href='/MITOMAP/DiseaseList#DEAF'>DEAF</a>,Reported,0.027%<br>(0.000%),15 (0),8
+MT-CO1,m.7445A>G,7445,A-G,term514term,+/+,<a href='/MITOMAP/DiseaseList#SNHL'>SNHL</a>,Cfrm,0.002%<br>(0.000%),1 (0),32
+MT-CO2,m.7587T>C,7587,T-C,M1T,-/+,Mitochondrial Encephalomyopathy,Reported,0.000%<br>(0.000%),,2
+MT-CO2,m.7598G>A,7598,G-A,A5T,-/+,Possible LHON helper variant,Reported,1.141%<br>(0.000%),623 (0),2
+MT-CO2,m.7623C>T,7623,C-T,T13I,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-CO2,m.7630del,7630,T-del,frameshift,-/+,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.000%<br>(0.000%),,1
+MT-CO2,m.7637G>A,7637,G-A,E18K,-/+,PD risk factor,Reported,0.004%<br>(0.000%),2 (0),1
+MT-CO2,m.7671T>A,7671,T-A,M29K,-/+,<a href='/MITOMAP/DiseaseList#MM'>MM</a>,Reported,0.000%<br>(0.000%),,2
+MT-CO2,m.7695T>C,7695,T-C,L37P,-/+,Cerebellar and pyramidal syndrome with cognitive impairment,Reported,0.000%<br>(0.000%),,1
+MT-CO2,m.7697G>A,7697,G-A,V38I,+/-,"Possible HCM susceptibility, high altitude adaptation",Reported,0.506%<br>(0.000%),276 (0),5
+MT-CO2,m.7706G>A,7706,G-A,A41T,+/+,Alpers-Huttenlocher-like,Reported,0.020%<br>(0.000%),11 (0),2
+MT-CO2,m.7749T>C,7749,T-C,I55T,-/+,Possible association with sepsis,Reported,0.002%<br>(0.000%),1 (0),2
+MT-CO2,m.7859G>A,7859,G-A,D92N,+/-,Progressive Encephalomyopathy,Reported,0.284%<br>(0.000%),155 (0),1
+MT-CO2,m.7868C>T,7868,C-T,L95F,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Possibly synergistic,0.026%<br>(0.000%),14 (0),1
+MT-CO2,m.7877A>C,7877,A-C,K98Q,+/-,PEG glaucoma,Reported,0.000%<br>(0.000%),,1
+MT-CO2,m.7896G>A,7896,G-A,W104term,-/+,Multisystem Disorder,Reported,0.000%<br>(0.000%),,1
+MT-CO2,m.7943T>C,7943,T-C,S120P,-/+,Possible association with sepsis,Reported,0.000%<br>(0.000%),,2
+MT-CO2,m.7965T>C,7965,T-C,F127S,./+,Hepatic failure / COX deficiency,Reported,0.002%<br>(0.000%),1 (0),3
+MT-CO2,m.7970G>T,7970,G-T,E129term,-/+,Encephalopathy,Reported,0.000%<br>(0.000%),,1
+MT-CO2,m.7989T>C,7989,T-C,L135P,-/+,Rhabdomyolysis,Reported,0.000%<br>(0.000%),,2
+MT-CO2,m.8010T>C,8010,T-C,V142A,-/+,"Developmental delay, ataxia, seizure, hypotonia, lactic acidosis",Reported,0.004%<br>(0.000%),2 (0),1
+MT-CO2,m.8021A>G,8021,A-G,I146V,+/-,Asthenozoospermia,Reported,0.007%<br>(0.000%),4 (0),1
+MT-CO2,m.8042_8043del,8042,AT-del,frameshift,-/+,Lactic Acidosis,Reported,0.000%<br>(0.000%),,1
+MT-CO2,m.8078G>A,8078,G-A,V165I,+/-,<a href='/MITOMAP/DiseaseList#DEAF'>DEAF</a>,Reported,0.048%<br>(0.000%),26 (0),2
+MT-CO2,m.8088del,8088,T-del,frameshift,-/+,Mitochondrial myopathy with complex IV deficiency,Reported,0.000%<br>(0.000%),,1
+MT-CO2,m.8108A>G,8108,A-G,I175V,+/-,<a href='/MITOMAP/DiseaseList#SNHL'>SNHL</a>,Reported,0.132%<br>(0.000%),72 (0),1
+MT-CO2,m.8119del,8119,T-del,frameshift,-/+,Biliary atresia,Reported,0.000%<br>(0.000%),,1
+MT-CO2,m.8156del,8156,G-del,frameshift,-/+,Multi-system mitochondrial disorder,Reported,0.000%<br>(0.000%),,1
+MT-CO2,m.8241T>G,8241,T-G,F219C,-/+,MIDD+retinopathy,Conflicting reports,0.000%<br>(0.000%),,2
+MT-CO2,m.8249G>A,8249,G-A,G222term,+/-,Mitochondrial myopathy,Reported,0.002%<br>(0.000%),1 (0),2
+MT-ATP8,m.8381A>G,8381,A-G,T6A,+/-,MIDD / LVNC cardiomyopathy-assoc.,Reported,0.024%<br>(0.000%),13 (0),2
+MT-ATP8,m.8393C>T,8393,C-T,P10S,-/+,Reversible brain pseudoatrophy,Reported,0.368%<br>(0.000%),201 (0),2
+MT-ATP8,m.8403T>C,8403,T-C,I13T,+/-,Episodic weakness and progressive neuropathy,Reported,0.005%<br>(0.000%),3 (0),1
+MT-ATP8,m.8411A>G,8411,A-G,M16V,+/-,Severe mitochondrial disorder,Reported,0.004%<br>(0.000%),2 (0),1
+MT-ATP8,m.8412T>C,8412,T-C,M16T,+/-,Possible LHON helper mutation,Reported,0.035%<br>(0.000%),19 (0),1
+MT-ATP8,m.8414C>T,8414,C-T,L17F,+/-,Increased risk of T2DM and high altitude polycythemia (HAPC) in haplogroup D4 / Longevity,Reported,3.934%<br>(0.000%),2148 (0),3
+MT-ATP8,m.8418T>C,8418,T-C,L18P,+/-,Mitochondrial Respiratory Chain Disorder,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ATP8,m.8481C>T,8481,C-T,P39L,+/-,Tetralogy of Fallot patient,Reported,0.015%<br>(0.000%),8 (0),1
+MT-ATP8,m.8490T>C,8490,T-C,M42T,+/-,Peripheral neuropathy of T2DM,Reported,0.046%<br>(0.000%),25 (0),4
+MT-ATP8,m.8519G>A,8519,G-A,E52K,+/-,Susceptibility to bullous pemphigoid,Reported,0.227%<br>(0.000%),124 (0),1
+MT-ATP8/6,m.8527A>G,8527,A-G,ATP8:K54K ATP6:M1M,+/-,"Neuromuscular disorder, possible helper mutation",Reported,0.386%<br>(0.000%),211 (0),1
+MT-ATP8/6,m.8528T>C,8528,T-C,ATP8:W55R ATP6:M1T,+/+,Infantile cardiomyopathy,Cfrm,0.000%<br>(0.000%),,5
+MT-ATP8/6,m.8529G>A,8529,G-A,ATP8:W55term ATP6:M1M,+/-,Apical HCM,Reported,0.000%<br>(0.000%),,2
+MT-ATP8/6,m.8551T>C,8551,T-C,ATP8:H62H ATP6:F9L,+/-,Possible LHON helper mutation,Reported,0.033%<br>(0.000%),18 (0),1
+MT-ATP8/6,m.8558C>T,8558,C-T,ATP8:P65S ATP6:A11V,+/-,Possibly LVNC cardiomyopathy-associated,Reported,0.027%<br>(0.000%),15 (0),1
+MT-ATP8/6,m.8561C>G,8561,C-G,ATP8:P66A ATP6:P12R,+/+,"Ataxia w neuropathy, DM, SNHL, and hypogonadism",Reported,0.000%<br>(0.000%),,1
+MT-ATP8/6,m.8561C>T,8561,C-T,ATP8:P66S ATP6:P12L,-/+,Ataxia w psychomotor delay,Reported,0.000%<br>(0.000%),,1
+MT-ATP8/6,m.8572G>A,8572,G-A,ATP8:term69term ATP6:G16S,+/-,Spinocerebellar ataxia,Reported,0.341%<br>(0.000%),186 (0),1
+MT-ATP6,m.8573G>A,8573,G-A,G16D,+/-,Patient with suspected mitochondrial disease,Reported by paper as Benign,0.104%<br>(0.000%),57 (0),1
+MT-ATP6,m.8578C>T,8578,C-T,P18S,+/-,Spinocerebellar ataxia,Reported,0.055%<br>(0.000%),30 (0),1
+MT-ATP6,m.8597T>C,8597,T-C,I24T,-/+,Leigh Syndrome,Reported,0.031%<br>(0.000%),17 (0),2
+MT-ATP6,m.8606C>T,8606,C-T,P27L,-/+,Possible association with sepsis,Reported,0.000%<br>(0.000%),,2
+MT-ATP6,m.8608C>T,8608,C-T,P28S,+/-,Patient with suspected mitochondrial disease,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ATP6,m.8611_8612insC,8611,C-CC,frameshift,-/+,"Ataxia, microcephaly, developmental delay, intellectual disability",Reported,0.000%<br>(0.000%),,2
+MT-ATP6,m.8612T>C,8612,T-C,L29P,+/-,Patient with suspected mitochondrial disease,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8618_8619insT,8618,T-TT,frameshift,-/+,NARP/cognitive decline+abnormal brain MRI+impaired kidney function,Reported,0.000%<br>(0.000%),,3
+MT-ATP6,m.8639T>C,8639,T-C,I38T,+/-,Possible LHON modulator,Reported,0.027%<br>(0.000%),15 (0),2
+MT-ATP6,m.8668T>C,8668,T-C,W48R,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.060%<br>(0.000%),33 (0),1
+MT-ATP6,m.8691A>G,8691,A-G,K55K,nr/nr,Infantile mito disease w subclinical hypothyroidism,Reported,0.013%<br>(0.000%),7 (0),2
+MT-ATP6,m.8719G>A,8719,G-A,G65term,-/+,Suspected mito disease,Reported,0.000%<br>(0.000%),,2
+MT-ATP6,m.8723G>T,8723,G-T,R66L,99%/-,Patient with suspected mitochondrial disease,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8741T>G,8741,T-G,L72R,-/+,MILS protective factor,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8779C>T,8779,C-T,L85F,+/-,Possible LHON modulator,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8782G>A,8782,G-A,G86term,-/+,Cerebellar ataxia+diabetes+kidney disease / ataxia+myoclonic epilepsy,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8783G>A,8783,G-A,G86E,nr/nr,Unspecified suspected mitochondrial disorder,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ATP6,m.8794C>T,8794,C-T,H90Y,+/-,Exercise Endurance / Coronary Atherosclerosis risk,Reported,2.824%<br>(0.000%),1542 (0),2
+MT-ATP6,m.8795A>G,8795,A-G,H90R,-/+,MILS protective factor,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8812A>G,8812,A-G,T96A,-/+,Spinocerebellar ataxia,Reported,0.114%<br>(0.000%),62 (0),1
+MT-ATP6,m.8821T>G,8821,T-G,S99A,nr/nr,Possible LHON helper variant,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8836A>G,8836,A-G,M104V,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.302%<br>(0.000%),165 (0),3
+MT-ATP6,m.8839G>C,8839,G-C,A105P,-/+,NARP syndrome,Reported,0.000%<br>(0.000%),,3
+MT-ATP6,m.8843T>C,8843,T-C,I106T,+/-,Patient with suspected mitochondrial disease,Reported by paper as Likely Benign,0.328%<br>(0.000%),179 (0),1
+MT-ATP6,m.8851T>C,8851,T-C,W109R,+/+,BSN / Leigh syndrome,Cfrm,0.005%<br>(0.000%),3 (0),9
+MT-ATP6,m.8881T>C,8881,T-C,S119P,nr/nr,Patient with suspected mitochondrial disease,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ATP6,m.8890A>G,8890,A-G,K122E,-/+,Juvenile-onset metabolic syndrome,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8909T>C,8909,T-C,F128S,+/-,Recurrent severe kidney disease and multiple systemic dysfunctions,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8921G>A,8921,G-A,G132D,+/-,Patient with suspected mitochondrial disease,Reported,0.013%<br>(0.000%),7 (0),1
+MT-ATP6,m.8932C>T,8932,C-T,P136S,+/-,Prostate tumor / Neuromuscular disorder,Reported,0.386%<br>(0.000%),211 (0),3
+MT-ATP6,m.8936T>A,8936,T-A,L137H,-/+,Atypical Leigh syndrome,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8938A>G,8938,A-G,I138V,+/-,Patient with suspected mitochondrial disease,Reported,0.082%<br>(0.000%),45 (0),1
+MT-ATP6,m.8950G>A,8950,G-A,V142I,+/-,LDYT / Spinocerebellar Ataxia,Reported,0.148%<br>(0.000%),81 (0),4
+MT-ATP6,m.8951T>C,8951,T-C,V142A,nr/nr,Patient with ataxia,Reported,0.016%<br>(0.000%),9 (0),1
+MT-ATP6,m.8959G>A,8959,G-A,E145K,+/+,"Developmental delay, intellectual disability, low citrilline",Reported,0.007%<br>(0.000%),4 (0),2
+MT-ATP6,m.8969G>A,8969,G-A,S148N,-/+,"Mitochondrial myopathy, lactic acidosis and sideroblastic anemia (MLASA) / IgG nephropathy",Cfrm,0.002%<br>(0.000%),1 (0),5
+MT-ATP6,m.8989G>C,8989,G-C,A155P,-/+,NARP syndrome,Reported,0.000%<br>(0.000%),,2
+MT-ATP6,m.8993T>C,8993,T-C,L156P,-/+,NARP / Leigh Disease / MILS / other,Cfrm,0.004%<br>(0.000%),2 (0),48
+MT-ATP6,m.8993T>G,8993,T-G,L156R,+/+,NARP / Leigh Disease / MILS / other,Cfrm,0.011%<br>(0.000%),6 (0),158
+MT-ATP6,m.8993TG>CA,8993,TG-CA,L156?,+/+,Developmental delay & myopathy,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.8999T>C,8999,T-C,V158A,+/-,Patient with suspected mitochondrial disease,Reported,0.013%<br>(0.000%),7 (0),1
+MT-ATP6,m.9010G>A,9010,G-A,A162T,-/+,Unspecified neurological disorder,Reported,0.049%<br>(0.000%),27 (0),1
+MT-ATP6,m.9016A>G,9016,A-G,I164V,-/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.024%<br>(0.000%),13 (0),2
+MT-ATP6,m.9017T>C,9017,T-C,I164T,-/+,Unspecified neurological disorder,Reported,0.024%<br>(0.000%),13 (0),1
+MT-ATP6,m.9025G>A,9025,G-A,G167S,+/-,"Motor neuropathy, Leigh-like, colon cancer",Reported,0.062%<br>(0.000%),34 (0),2
+MT-ATP6,m.9026G>A,9026,G-A,G167D,-/+,Spinocerebellar ataxia / patient with suspected mitochondrial disease,Reported,0.005%<br>(0.000%),3 (0),4
+MT-ATP6,m.9029A>G,9029,A-G,H168R,+/+,LHON-like,Reported,0.002%<br>(0.000%),1 (0),4
+MT-ATP6,m.9032T>C,9032,T-C,L169P,-/+,"NARP / Complex phenotype with microcephaly, ataxia, hearing loss, lactic acidosis",Reported,0.000%<br>(0.000%),,4
+MT-ATP6,m.9035T>C,9035,T-C,L170P,+/+,Ataxia syndromes,Cfrm,0.000%<br>(0.000%),,5
+MT-ATP6,m.9041A>G,9041,A-G,H172R,-/+,Patient with suspected mitochondrial disease,Reported,0.095%<br>(0.000%),52 (0),1
+MT-ATP6,m.9049G>A,9049,G-A,G175term,nr/nr,Unspecified suspected mitochondrial disorder,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.9055G>A,9055,G-A,A177T,+/-,PD protective factor,Reported,4.215%<br>(0.000%),2301 (0),2
+MT-ATP6,m.9058A>G,9058,A-G,T178A,+/-,"Patients with (1) LVNC cardiomyopathy; (2) autism, intellectual disability, epilepsy",Reported as (1) possible association or as (2) benign,0.051%<br>(0.000%),28 (0),1
+MT-ATP6,m.9071C>T,9071,C-T,S182L,+/-,Potentially functional variant cosegregating with LHON3635A,Reported,0.027%<br>(0.000%),15 (0),1
+MT-ATP6,m.9088T>C,9088,T-C,S188P,-/+,Patient with suspected mitochondrial disease,Reported by paper as Likely Benign,0.042%<br>(0.000%),23 (0),1
+MT-ATP6,m.9098T>C,9098,T-C,I191T,+/-,Predisposition to anti-retroviral mito disease,Reported,0.099%<br>(0.000%),54 (0),1
+MT-ATP6,m.9101T>C,9101,T-C,I192T,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.088%<br>(0.000%),48 (0),8
+MT-ATP6,m.9115A>G,9115,A-G,I197V,+/-,Patient with suspected mitochondrial disease,Reported,0.048%<br>(0.000%),26 (0),1
+MT-ATP6,m.9127_9128del,9127,AT-del,IL-Pterm,-/+,<a href='/MITOMAP/DiseaseList#NARP'>NARP</a>,Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.9133G>A,9133,G-A,E203K,+/-,Patient with suspected mitochondrial disease,Reported,0.007%<br>(0.000%),4 (0),1
+MT-ATP6,m.9134A>G,9134,A-G,E203G,nr/nr,"Hypotonia, lactic acidosis, HCM, IUGR",Reported,0.000%<br>(0.000%),,3
+MT-ATP6,m.9139G>A,9139,G-A,A205T,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported - possibly synergistic,0.084%<br>(0.000%),46 (0),1
+MT-ATP6,m.9152T>C,9152,T-C,I209T,-/+,Patient with suspected mitochondrial disease,Reported,0.027%<br>(0.000%),15 (0),1
+MT-ATP6,m.9155A>G,9155,A-G,Q210R,-/+,"MIDD, renal insufficiency",Cfrm,0.000%<br>(0.000%),,4
+MT-ATP6,m.9155A>T,9155,A-T,Q210L,+/+,"Developmental delay, intellectual disability, low citrilline",Reported,0.000%<br>(0.000%),,1
+MT-ATP6,m.9166T>C,9166,T-C,F214L,+/+,EXIT+more /  bilateral optic neuropathy,Reported,0.000%<br>(0.000%),,2
+MT-ATP6,m.9176T>C,9176,T-C,L217P,+/+,FBSN / Leigh Disease / Spinocerebellar Ataxia,Cfrm,0.005%<br>(0.000%),3 (0),34
+MT-ATP6,m.9176T>G,9176,T-G,L217R,+/+,Leigh Disease / Spastic Paraplegia / Spinocerebellar Ataxia,Cfrm,0.002%<br>(0.000%),1 (0),11
+MT-ATP6,m.9185T>C,9185,T-C,L220P,+/+,Leigh Disease / Ataxia syndromes / NARP-like disease / Episodic weakness and Charcot-Marie-Tooth,Cfrm,0.005%<br>(0.000%),3 (0),34
+MT-ATP6,m.9191T>C,9191,T-C,L222P,-/+,Leigh Disease,Reported,0.000%<br>(0.000%),,5
+MT-ATP6,m.9205_9206del,9205,TA-del,Ter-M,+/-,Encephalopathy / Seizures / Lacticacidemia,Cfrm,0.000%<br>(0.000%),,9
+MT-CO3,m.9237G>A,9237,G-A,V11M,na/na,Mitochondrial Respiratory Chain Disorder,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9266G>T,9266,G-T,G20G,-/+,Possible association with sepsis,Reported,0.002%<br>(0.000%),1 (0),2
+MT-CO3,m.9267G>C,9267,G-C,A21P,-/+,<a href='/MITOMAP/DiseaseList#MIDD'>MIDD</a>,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9331T>C,9331,T-C,L42P,+/-,"Failure to thrive with metabolic acidosis, cognitive impairment, optic atrophy",Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9379G>A,9379,G-A,W58term,-/+,MM w lactic acidosis,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9387G>A,9387,G-A,V61M,-/+,Asthenozoospermia,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9399A>G,9399,A-G,S65G,nr/nr,"Patient with epilepsy, myopathy, hypoacusis, psychiatric disorders",Reported,0.002%<br>(0.000%),1 (0),1
+MT-CO3,m.9403C>A,9403,C-A,T66K,-/+,Possible association with sepsis,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9415A>G,9415,A-G,H70R,-/+,Possible association with sepsis,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9438G>A,9438,G-A,G78S,+/-,LHON / gout,Conflicting reports,1.042%<br>(0.000%),569 (0),14
+MT-CO3,m.9444C>T,9444,C-T,R80W,+/-,Possible LHON helper mutation,Reported,0.002%<br>(0.000%),1 (0),1
+MT-CO3,m.9478T>C,9478,T-C,V91A,-/+,Leigh Disease,Reported,0.038%<br>(0.000%),21 (0),3
+MT-CO3,m.9480_9494del,9480,TTTTTCTTCGCAGGA-del,FFFAG-del,-/+,<a href='/MITOMAP/DiseaseList#Myoglobinuria'>Myoglobinuria</a>,Reported,0.000%<br>(0.000%),,5
+MT-CO3,m.9487_9501del,9487,TCGCAGGATTTTTCT-del,FFAGFF-del,-/+,<a href='/MITOMAP/DiseaseList#Myoglobinuria'>Myoglobinuria</a>,Reported  (alt loc),0.000%<br>(0.000%),,1
+MT-CO3,m.9490C>T,9490,C-T,A95V,+/-,Gout,Reported,0.042%<br>(0.000%),23 (0),1
+MT-CO3,m.9537_9538insC,9537,C-CC,frameshift,+/-,Leigh Disease,Reported,0.000%<br>(0.000%),,2
+MT-CO3,m.9544G>A,9544,G-A,G113E,nr/nr,Sporadic bilateral optic neuropathy,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9559del,9559,C-del,frameshift,-/+,Rhabdomyolysis,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9660A>C,9660,A-C,M152L,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9738G>T,9738,G-T,A178S,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9789T>C,9789,T-C,S195P,-/+,<a href='/MITOMAP/DiseaseList#Myopathy'>Myopathy</a>,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9804G>A,9804,G-A,A200T,+/+,LHON / MS,Reported,0.300%<br>(0.000%),164 (0),13
+MT-CO3,m.9856T>C,9856,T-C,I217T,+/-,LVNC cardiomyopathy / gout,Reported,0.029%<br>(0.000%),16 (0),2
+MT-CO3,m.9861T>C,9861,T-C,F219L,+/-,<a href='/MITOMAP/DiseaseList#AD'>AD</a>,Reported,0.216%<br>(0.000%),118 (0),1
+MT-CO3,m.9921G>A,9921,G-A,A239T,+/-,Possible LHON helper mutation,Reported,0.110%<br>(0.000%),60 (0),1
+MT-CO3,m.9952G>A,9952,G-A,W249term,-/+,Mitochondrial Encephalopathy,Reported,0.000%<br>(0.000%),,1
+MT-CO3,m.9957T>C,9957,T-C,F251L,-/+,PEM / MELAS / NAION / HCM / gout,Reported,0.082%<br>(0.000%),45 (0),9
+MT-CO3,m.9966G>A,9966,G-A,V254I,nr/nr,LHON possible helper variant,Reported,0.676%<br>(0.000%),369 (0),1
+MT-CO3,m.9972A>C,9972,A-C,I256L,-/+,EXIT & APS2 - possible link,Reported,0.002%<br>(0.000%),1 (0),1
+MT-CO3,m.9984G>A,9984,G-A,G260term,nr/nr,Suspected mito disease,Reported,0.000%<br>(0.000%),,2
+MT-ND3,m.10086A>G,10086,A-G,N10D,+/-,Hypertensive end-stage renal disease,Reported,0.777%<br>(0.000%),424 (0),4
+MT-ND3,m.10134C>A,10134,C-A,Q26K,-/+,Leigh Disease,Reported,0.000%<br>(0.000%),,1
+MT-ND3,m.10142C>T,10142,C-T,N28N,nr/nr,Recurrent pregnancy loss,Reported,1.255%<br>(0.000%),685 (0),1
+MT-ND3,m.10158T>C,10158,T-C,S34P,+/+,Leigh Disease / MELAS,Cfrm,0.000%<br>(0.000%),,32
+MT-ND3,m.10189T>C,10189,T-C,M44T,-/+,Behavior alteration with dilated cardiomyopathy,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ND3,m.10191T>C,10191,T-C,S45P,-/+,Leigh Disease / Leigh-like Disease / ESOC,Cfrm,0.000%<br>(0.000%),,27
+MT-ND3,m.10197G>A,10197,G-A,A47T,+/+,Leigh Disease / Dystonia / Stroke / LDYT,Cfrm,0.007%<br>(0.000%),4 (0),23
+MT-ND3,m.10237T>C,10237,T-C,I60T,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.170%<br>(0.000%),93 (0),4
+MT-ND3,m.10254G>A,10254,G-A,D66N,-/+,Leigh Disease,Reported,0.000%<br>(0.000%),,1
+MT-ND3,m.10350C>A,10350,C-A,L98M,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND3,m.10397A>G,10397,A-G,W113W,+/-,Low VO2max response,Reported,0.811%<br>(0.000%),443 (0),1
+MT-ND3,m.10398=,10398,A-A,T114T,+/-,Invasive Breast Cancer risk factor  AD  PD  BD lithium response  Type 2 DM,Reported; lineage N marker except  hg IJK,56.521%<br>(0.000%),30857 (0),21
+MT-ND3,m.10398A>G,10398,A-G,T114A,+/-,PD protective factor / longevity / altered cell pH / metabolic syndrome / breast cancer risk / Leigh Syndrome risk / ADHD / cognitive decline / SCA2 age of onset / Fuchs endothelial corneal dystrophy,"Reported; lineage L & M marker, also hg IJK",43.413%<br>(0.000%),23701 (0),38
+MT-ND4L,m.10543A>G,10543,A-G,H25R,-/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND4L,m.10591T>G,10591,T-G,F41C,-/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND4L,m.10609T>C,10609,T-C,M47T,nr/nr,Type 2 diabetes patients with underlying 3243G / LHON patient with 10663C,Reported,2.431%<br>(0.000%),1327 (0),2
+MT-ND4L,m.10652T>C,10652,T-C,I61I,-/+,BD / MDD-associated,Reported,0.103%<br>(0.000%),56 (0),1
+MT-ND4L,m.10663T>C,10663,T-C,V65A,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.004%<br>(0.000%),2 (0),16
+MT-ND4L,m.10676C>G,10676,C-G,C69W,nr/nr,Type 2 cataract patients with underlying 3243G,Reported,0.002%<br>(0.000%),1 (0),1
+MT-ND4L,m.10680G>A,10680,G-A,A71T,+/-,LHON / synergistic combo 10680A + 12033G + 14258A,Reported / possibly synergistic,0.031%<br>(0.000%),17 (0),4
+MT-ND4,m.11042T>C,11042,T-C,Y95H,-/+,Biliary atresia,Reported,0.000%<br>(0.000%),,1
+MT-ND4,m.11048del,11048,T-del,frameshift,-/+,Biliary atresia,Reported,0.000%<br>(0.000%),,1
+MT-ND4,m.11084A>G,11084,A-G,T109A,+/+,"AD, PD  MELAS",Conflicting reports,0.399%<br>(0.000%),218 (0),7
+MT-ND4,m.11150G>A,11150,G-A,A131T,+/-,Found in a Multiple Sclerosis patient,Reported,0.231%<br>(0.000%),126 (0),1
+MT-ND4,m.11232T>C,11232,T-C,L158P,-/+,<a href='/MITOMAP/DiseaseList#CPEO'>CPEO</a>,Reported,0.000%<br>(0.000%),,5
+MT-ND4,m.11240C>T,11240,C-T,L161F,-/+,Leigh Syndrome,Reported,0.000%<br>(0.000%),,2
+MT-ND4,m.11250T>C,11250,T-C,L164P,+/-,Low VO2max response,Reported,0.000%<br>(0.000%),,1
+MT-ND4,m.11251A>G,11251,A-G,L164L,nr/nr,Reduced risk of PD,Reported,9.349%<br>(0.000%),5104 (0),2
+MT-ND4,m.11253T>C,11253,T-C,I165T,+/-,LHON  PD,Reported,0.509%<br>(0.000%),278 (0),9
+MT-ND4,m.11365T>C,11365,T-C,A202A,+/-,found in HCM patient,Reported,0.216%<br>(0.000%),118 (0),1
+MT-ND4,m.11375A>C,11375,A-C,K206Q,+/-,found in sCJD patient,Reported,0.000%<br>(0.000%),,1
+MT-ND4,m.11406T>A,11406,T-A,L216H,-/+,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND4,m.11467A>G,11467,A-G,L236L,+/-,Altered brain pH / sCJD patients,Reported,12.461%<br>(0.000%),6803 (0),3
+MT-ND4,m.11470A>C,11470,A-C,K237N,-/+,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND4,m.11519A>C,11519,A-C,T254P,+/-,ND4 mutation set found in a Multiple Sclerosis patient,Reported,0.000%<br>(0.000%),,1
+MT-ND4,m.11523A>C,11523,A-C,K255T,+/-,ND4 mutation set found in a Multiple Sclerosis patient,Reported,0.000%<br>(0.000%),,1
+MT-ND4,m.11527C>T,11527,C-T,H256H,+/-,ND4 mutation set found in a Multiple Sclerosis patient,Reported,0.040%<br>(0.000%),22 (0),1
+MT-ND4,m.11621_11622del,11621,TA-del,frameshift,-/+,"CPEO, exercise intolerance",Reported,0.000%<br>(0.000%),,2
+MT-ND4,m.11696G>A,11696,G-A,V313I,+/+,LHON / LDYT / DEAF / hypertension helper mut.,Reported - possibly synergistic,0.643%<br>(0.000%),351 (0),17
+MT-ND4,m.11777C>A,11777,C-A,R340S,-/+,Leigh Disease,Cfrm,0.000%<br>(0.000%),,12
+MT-ND4,m.11778G>A,11778,G-A,R340H,+/+,LHON / Progressive Dystonia,Cfrm,0.341%<br>(0.000%),186 (0),390
+MT-ND4,m.11832G>A,11832,G-A,W358term,-/+,EXIT / oncocytoma,Reported,0.000%<br>(0.000%),,6
+MT-ND4,m.11874C>A,11874,C-A,T372N,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,2
+MT-ND4,m.11919C>T,11919,C-T,S387F,+/-,Thyroid Cancer Cell Line,Reported,0.002%<br>(0.000%),1 (0),2
+MT-ND4,m.11984T>C,11984,T-C,Y409H,+/-,Leigh Syndrome,Reported,0.112%<br>(0.000%),61 (0),1
+MT-ND4,m.11994C>T,11994,C-T,T412I,+/-,Oligoasthenoteratozoospermia (OAT),Conflicting reports,0.000%<br>(0.000%),,3
+MT-ND4,m.12015T>C,12015,T-C,L419P,-/+,Atypical MELAS,Reported,0.004%<br>(0.000%),2 (0),2
+MT-ND4,m.12026A>G,12026,A-G,I423V,+/-,<a href='/MITOMAP/DiseaseList#DM'>DM</a>,Reported,0.463%<br>(0.000%),253 (0),4
+MT-ND4,m.12027T>C,12027,T-C,I423T,nr/nr,SZ-associated,Reported,0.004%<br>(0.000%),2 (0),2
+MT-ND4,m.12033A>G,12033,A-G,N425S,+/-,LHON synergistic combo 10680A + 12033G + 14258A,Reported: individually neutral variants causing LHON in combination,0.038%<br>(0.000%),21 (0),1
+MT-ND4,m.12063C>T,12063,C-T,T435I,nr/nr,Recurrent pregnancy loss,Reported,0.075%<br>(0.000%),41 (0),1
+MT-ND5,m.12338T>C,12338,T-C,M1T,+/-,DEAF1555 increased penetrance / LHON,Conflicting reports,0.341%<br>(0.000%),186 (0),11
+MT-ND5,m.12361A>G,12361,A-G,T9A,+/-,Non-alcoholic fatty liver disease,Reported,0.623%<br>(0.000%),340 (0),2
+MT-ND5,m.12372G>A,12372,G-A,L12L,+/-,Altered brain pH / sCJD patients,Reported,13.425%<br>(0.000%),7329 (0),3
+MT-ND5,m.12397A>G,12397,A-G,T21A,+/-,"PD, early onset",Reported,0.654%<br>(0.000%),357 (0),3
+MT-ND5,m.12414del,12414,T-del,frameshift,nr/nr,<a href='/MITOMAP/DiseaseList#EXIT'>EXIT</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.12425del,12425,A-del,frameshift,-/+,Mitochondrial myopathy & renal failure,Reported,0.005%<br>(0.000%),3 (0),1
+MT-ND5,m.12477T>C,12477,T-C,S47S,+/-,possible HCM susceptibility,Reported,0.495%<br>(0.000%),270 (0),1
+MT-ND5,m.12622G>A,12622,G-A,V96I,+/+,Leigh Disease,Significance unclear,0.018%<br>(0.000%),10 (0),3
+MT-ND5,m.12631T>A,12631,T-A,S99T,+/-,found in 2 sCJD patients,Reported,0.000%<br>(0.000%),,2
+MT-ND5,m.12634A>G,12634,A-G,I100V,+/+,Thyroid Cancer Cell Line,Reported,0.295%<br>(0.000%),161 (0),3
+MT-ND5,m.12662A>G,12662,A-G,N109S,nr/nr,Recurrent pregnancy loss,Reported,0.136%<br>(0.000%),74 (0),1
+MT-ND5,m.12686T>A,12686,T-A,F117Y,+/-,Dilated Cardiomyopathy,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.12705C>T,12705,C-T,I123I,nr/nr,Possible protective factor for normal tension glaucoma,Reported,40.688%<br>(0.000%),22213 (0),1
+MT-ND5,m.12706T>C,12706,T-C,F124L,-/+,Leigh Disease,Cfrm,0.000%<br>(0.000%),,13
+MT-ND5,m.12770A>G,12770,A-G,E145G,-/+,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.002%<br>(0.000%),1 (0),5
+MT-ND5,m.12778G>C,12778,G-C,G148R,+/-,Dilated Cardiomyopathy,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.12782T>G,12782,T-G,I149S,-/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.12811T>C,12811,T-C,Y159H,+/-,Possible LHON factor,Reported,1.172%<br>(0.000%),640 (0),11
+MT-ND5,m.12848C>T,12848,C-T,A171V,-/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,4
+MT-ND5,m.12858C>A,12858,C-A,Y174term,nr/nr,Unspecified suspected mitochondrial disorder,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.12955A>G,12955,A-G,N207D,-/+,EXIT and developmental delay,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.13042G>A,13042,G-A,A236T,-/+,Optic neuropathy/ retinopathy/ LD,Cfrm,0.002%<br>(0.000%),1 (0),8
+MT-ND5,m.13045A>C,13045,A-C,M237L,-/+,MELAS / LHON / Leigh overlap syndrome,Reported,0.000%<br>(0.000%),,4
+MT-ND5,m.13046T>C,13046,T-C,M237T,-/+,LHON/MELAS overlap syndrome,Reported,0.000%<br>(0.000%),,3
+MT-ND5,m.13051G>A,13051,G-A,G239S,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.000%<br>(0.000%),,4
+MT-ND5,m.13063G>A,13063,G-A,V243I,-/+,Adult-onset Encephalopathy / Ataxia,Reported,0.004%<br>(0.000%),2 (0),4
+MT-ND5,m.13084A>T,13084,A-T,S250C,-/+,MELAS / Leigh Disease,Reported,0.000%<br>(0.000%),,5
+MT-ND5,m.13091T>C,13091,T-C,M252T,-/+,MELAS+Migraine,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.13094T>C,13094,T-C,V253A,+/+,"Ataxia+PEO / MELAS, LD, LHON, myoclonus, fatigue",Cfrm,0.002%<br>(0.000%),1 (0),11
+MT-ND5,m.13135G>A,13135,G-A,A267T,+/-,possible HCM susceptibility,Reported,0.949%<br>(0.000%),518 (0),2
+MT-ND5,m.13138G>A,13138,G-A,E268K,+/-,Possible LHON modulator,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.13204G>A,13204,G-A,V290I,+/-,Peripheral neuropathy of T2 diabetes,Reported,0.075%<br>(0.000%),41 (0),4
+MT-ND5,m.13271T>C,13271,T-C,L312P,-/+,Exercise intolerance (EXIT),Reported,0.002%<br>(0.000%),1 (0),2
+MT-ND5,m.13276A>G,13276,A-G,M314V,+/-,MIDD+retinopathy,Conflicting reports,3.017%<br>(0.000%),1647 (0),2
+MT-ND5,m.13340T>C,13340,T-C,F335S,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.13345G>A,13345,G-A,A337T,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,2
+MT-ND5,m.13376T>C,13376,T-C,I347T,+/-,MELAS w medial temporal lobe atrophy,Reported,0.002%<br>(0.000%),1 (0),2
+MT-ND5,m.13379A>C,13379,A-C,H348P,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.000%<br>(0.000%),,2
+MT-ND5,m.13379A>G,13379,A-G,H348R,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.13511A>T,13511,A-T,K392M,-/+,Leigh-like syndrome,Reported,0.000%<br>(0.000%),,3
+MT-ND5,m.13513G>A,13513,G-A,D393N,-/+,Leigh Disease / MELAS / LHON-MELAS Overlap Syndrome / negative association w Carotid Atherosclerosis,Cfrm,0.002%<br>(0.000%),1 (0),50
+MT-ND5,m.13514A>G,13514,A-G,D393G,-/+,Leigh Disease / MELAS / Ca2+ downregulation,Cfrm,0.000%<br>(0.000%),,16
+MT-ND5,m.13528A>G,13528,A-G,T398A,+/-,"LHON-like, LHON, MELAS",Reported,0.104%<br>(0.000%),57 (0),6
+MT-ND5,m.13580C>G,13580,C-G,A415G,-/+,Thyroid Cancer,Reported,0.000%<br>(0.000%),,1
+MT-ND5,m.13590G>A,13590,G-A,L418L,nr/nr,Possible protective factor for high altitude sickness,Reported,5.513%<br>(0.000%),3010 (0),1
+MT-ND5,m.13637A>G,13637,A-G,Q434R,+/-,Possible LHON factor,Reported,0.771%<br>(0.000%),421 (0),5
+MT-ND5,m.13702C>G,13702,C-G,R456G,nr/nr,Possible LHON helper (one 14484 patient),Reported,0.031%<br>(0.000%),17 (0),1
+MT-ND5,m.13707G>A,13707,G-A,L457L,+/-,Low VO2max response,Reported,0.049%<br>(0.000%),27 (0),1
+MT-ND5,m.13708G>A,13708,G-A,A458T,+/+,LHON / Increased MS risk / higher freq in PD-ADS,Conflicting reports,7.175%<br>(0.000%),3917 (0),52
+MT-ND5,m.13712C>T,13712,C-T,A459V,nr/nr,Possible LHON helper (one 11778 patient),Reported,0.016%<br>(0.000%),9 (0),1
+MT-ND5,m.13730G>A,13730,G-A,G465E,-/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,8
+MT-ND5,m.13759G>A,13759,G-A,A475T,+/-,Possible LHON factor,Reported,3.590%<br>(0.000%),1960 (0),1
+MT-ND5,m.13831C>A,13831,C-A,L499M,-/+,Thyroid Cancer Cell Line,Reported,0.005%<br>(0.000%),3 (0),2
+MT-ND5,m.13849A>C,13849,A-C,N505H,+/-,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported - possibly secondary,0.002%<br>(0.000%),1 (0),2
+MT-ND5,m.13967C>T,13967,C-T,T544M,+/-,Possible LHON factor,Reported,0.326%<br>(0.000%),178 (0),4
+MT-ND5,m.14002A>G,14002,A-G,T556A,+/-,High altitude pulmonary edema susceptibility,Reported,0.231%<br>(0.000%),126 (0),1
+MT-ND5,m.14063T>C,14063,T-C,I576T,+/-,Potentially functional variant cosegregating with LHON3635A,Reported,0.044%<br>(0.000%),24 (0),2
+MT-ND5,m.14091A>T,14091,A-T,K585N,-/+,"Developmental delay, seizure, hearing loss, diabetes",Reported,0.000%<br>(0.000%),,2
+MT-ND6,m.14163C>T,14163,C-T,A171T,+/-,Possible deafness factor,Conflicting reports,0.024%<br>(0.000%),13 (0),3
+MT-ND6,m.14179A>G,14179,A-G,Y165Y,nr/nr,Recurrent pregnancy loss,Reported,0.513%<br>(0.000%),280 (0),1
+MT-ND6,m.14258G>A,14258,G-A,P139L,+/-,LHON synergistic combo 10680A + 12033G + 14258A  also combo 14258A + 14582G,Reported: individually neutral variants causing LHON in combination,0.053%<br>(0.000%),29 (0),1
+MT-ND6,m.14263C>T,14263,C-T,E137E,nr/nr,Recurrent pregnancy loss,Reported,0.011%<br>(0.000%),6 (0),1
+MT-ND6,m.14279G>A,14279,G-A,S132L,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.011%<br>(0.000%),6 (0),6
+MT-ND6,m.14319T>C,14319,T-C,N119D,+/-,"PD, early onset",Reported,0.136%<br>(0.000%),74 (0),3
+MT-ND6,m.14325T>C,14325,T-C,N117D,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.095%<br>(0.000%),52 (0),4
+MT-ND6,m.14340C>T,14340,C-T,V112M,+/-,<a href='/MITOMAP/DiseaseList#SNHL'>SNHL</a>,Reported,0.037%<br>(0.000%),20 (0),2
+MT-ND6,m.14342C>A,14342,C-A,G111V,-/+,Possible association with sepsis,Reported,0.000%<br>(0.000%),,1
+MT-ND6,m.14430A>G,14430,A-G,W82R,+/-,Thyroid Cancer / Leigh Syndrome,Reported,0.000%<br>(0.000%),,2
+MT-ND6,m.14439G>A,14439,G-A,P79S,+/-,Mitochondrial Respiratory Chain Disorder,Reported,0.000%<br>(0.000%),,3
+MT-ND6,m.14441T>C,14441,T-C,Y78C,nr/nr,Leigh-like phenotype,Reported,0.000%<br>(0.000%),,1
+MT-ND6,m.14453G>A,14453,G-A,A74V,-/+,MELAS / Leigh Disease,Cfrm,0.000%<br>(0.000%),,10
+MT-ND6,m.14459G>A,14459,G-A,A72V,+/+,LDYT / Leigh Disease / dystonia / carotid atherosclerosis risk,Cfrm,0.005%<br>(0.000%),3 (0),43
+MT-ND6,m.14465G>A,14465,G-A,T70I,-/+,LHON / various supected mitochondrial disease,Reported,0.000%<br>(0.000%),,2
+MT-ND6,m.14482C>A,14482,C-A,M64I,+/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.004%<br>(0.000%),2 (0),15
+MT-ND6,m.14482C>G,14482,C-G,M64I,+/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.000%<br>(0.000%),,7
+MT-ND6,m.14484T>C,14484,T-C,M64V,+/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.117%<br>(0.000%),64 (0),212
+MT-ND6,m.14487T>C,14487,T-C,M63V,-/+,Dystonia / Leigh Disease / ataxia / ptosis / epilepsy,Cfrm,0.000%<br>(0.000%),,34
+MT-ND6,m.14495A>G,14495,A-G,L60S,-/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.004%<br>(0.000%),2 (0),12
+MT-ND6,m.14498T>C,14498,T-C,Y59C,+/+,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,5
+MT-ND6,m.14502T>C,14502,T-C,I58V,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported - possibly synergistic,0.350%<br>(0.000%),191 (0),9
+MT-ND6,m.14512_14513del,14512,TA-del,frameshift,-/+,EXIT w mild myopathy & hyperCKaemia,Reported,0.000%<br>(0.000%),,1
+MT-ND6,m.14535_14536insC,14535,C-CC,frameshift,nr/nr,<a href='/MITOMAP/DiseaseList#DMDF'>DMDF</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND6,m.14538A>G,14538,A-G,F46L,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,1
+MT-ND6,m.14568C>T,14568,C-T,G36S,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Cfrm,0.011%<br>(0.000%),6 (0),11
+MT-ND6,m.14577T>C,14577,T-C,I33V,-/+,<a href='/MITOMAP/DiseaseList#MIDM'>MIDM</a>,Reported,0.782%<br>(0.000%),427 (0),1
+MT-ND6,m.14582A>G,14582,A-G,V31A,+/-,LHON synergistic combo 14258A + 14582G,Reported: individually neutral variants causing LHON in combination,0.520%<br>(0.000%),284 (0),1
+MT-ND6,m.14596A>T,14596,A-T,I26M,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.000%<br>(0.000%),,6
+MT-ND6,m.14597A>G,14597,A-G,I26T,-/+,LHON / Leigh Syndrome,Reported,0.000%<br>(0.000%),,2
+MT-ND6,m.14600G>A,14600,G-A,P25L,+/+,Leigh Disease w/optic atrophy / ASD mouse model,Reported,0.000%<br>(0.000%),,4
+MT-ND6,m.14668C>T,14668,C-T,M2M,+/-,Depressive Disorder associated,Reported,4.114%<br>(0.000%),2246 (0),1
+MT-CYB,m.14783T>C,14783,T-C,L13L,nr/nr,Possible role in high altitude sickness,Reported,21.273%<br>(0.000%),11614 (0),1
+MT-CYB,m.14787_14790del,14787,TTAA-del,frameshift,-/+,PD / MELAS,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.14797A>G,14797,A-G,S17S,+/-,Low VO2max response,Reported,0.013%<br>(0.000%),7 (0),1
+MT-CYB,m.14831G>A,14831,G-A,A29T,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.201%<br>(0.000%),110 (0),3
+MT-CYB,m.14841A>G,14841,A-G,N32S,-/+,LHON helper mut.,Reported,0.038%<br>(0.000%),21 (0),1
+MT-CYB,m.14846G>A,14846,G-A,G34S,-/+,"EXIT / possibly antiatherogenic, poss. myocardial infarction association",Reported,0.000%<br>(0.000%),,9
+MT-CYB,m.14849T>C,14849,T-C,S35P,-/+,EXIT / Septo-Optic Dysplasia,Cfrm,0.000%<br>(0.000%),,3
+MT-CYB,m.14864T>C,14864,T-C,C40R,-/+,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.004%<br>(0.000%),2 (0),1
+MT-CYB,m.14894T>C,14894,T-C,F50L,nr/nr,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.015%<br>(0.000%),8 (0),1
+MT-CYB,m.14970A>G,14970,A-G,Y75C,nr/nr,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.013%<br>(0.000%),7 (0),1
+MT-CYB,m.15024G>A,15024,G-A,C93Y,+/-,Possible DEAF modifier,Reported,0.060%<br>(0.000%),33 (0),1
+MT-CYB,m.15043G>A,15043,G-A,G99G,+/-,MDD-associated / possible factor in high altitude sickness,Reported,23.598%<br>(0.000%),12883 (0),3
+MT-CYB,m.15059G>A,15059,G-A,G105term,-/+,MM / carotid atherosclerosis risk / essential hypertension,Reported,0.000%<br>(0.000%),,7
+MT-CYB,m.15060G>A,15060,G-A,G105E,+/-,Mitochondrial Respiratory Chain Disorder,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15077G>A,15077,G-A,E111K,+/-,DEAF / LHON,Reported,0.231%<br>(0.000%),126 (0),3
+MT-CYB,m.15084G>A,15084,G-A,W113term,-/+,<a href='/MITOMAP/DiseaseList#EXIT'>EXIT</a>,Reported,0.000%<br>(0.000%),,2
+MT-CYB,m.15092G>A,15092,G-A,G116S,-/+,<a href='/MITOMAP/DiseaseList#MELAS'>MELAS</a>,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15150G>A,15150,G-A,W135term,-/+,<a href='/MITOMAP/DiseaseList#EXIT'>EXIT</a>,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15153G>A,15153,G-A,G136D,-/+,Suspected mito disease,Reported,0.011%<br>(0.000%),6 (0),1
+MT-CYB,m.15158A>G,15158,A-G,M138V,-/+,Suspected mito disease,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15168G>A,15168,G-A,W141term,-/+,<a href='/MITOMAP/DiseaseList#EXIT'>EXIT</a>,Reported,0.000%<br>(0.000%),,2
+MT-CYB,m.15170G>A,15170,G-A,G142term,-/+,<a href='/MITOMAP/DiseaseList#EXIT'>EXIT</a>,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15197T>C,15197,T-C,S151P,-/+,<a href='/MITOMAP/DiseaseList#EXIT'>EXIT</a>,Reported,0.000%<br>(0.000%),,2
+MT-CYB,m.15200G>T,15200,G-T,A152S,-/+,Possible factor in sepsis,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15209T>C,15209,T-C,Y155H,+/-,Prader-Willi syndrome,Reported,0.009%<br>(0.000%),5 (0),1
+MT-CYB,m.15218A>G,15218,A-G,T158A,+/-,Possible LHON modulator,Reported,1.692%<br>(0.000%),924 (0),1
+MT-CYB,m.15234G>A,15234,G-A,W163term,nr/nr,Leigh stroke-like leukodystrophy,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15236A>G,15236,A-G,I164V,nr/nr,Possible LHON helper (one 11778 patient),Reported,1.555%<br>(0.000%),849 (0),1
+MT-CYB,m.15237T>C,15237,T-C,I164T,+/-,Potentially functional variant cosegregating with LHON3635A,Reported,0.011%<br>(0.000%),6 (0),1
+MT-CYB,m.15242G>A,15242,G-A,G166term,-/+,Mitochondrial Encephalomyopathy,Reported,0.000%<br>(0.000%),,2
+MT-CYB,m.15243G>A,15243,G-A,G166E,-/+,<a href='/MITOMAP/DiseaseList#HCM'>HCM</a>,Reported,0.000%<br>(0.000%),,2
+MT-CYB,m.15246G>A,15246,G-A,G167D,-/+,Mitochondrial Respiratory Chain Disorder,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15256A>G,15256,A-G,V170V,+/-,Peripheral neuropathy of T2 diabetes,Reported,0.007%<br>(0.000%),4 (0),1
+MT-CYB,m.15257G>A,15257,G-A,D171N,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Conflicting reports,1.504%<br>(0.000%),821 (0),46
+MT-CYB,m.15287T>C,15287,T-C,F181L,-/+,Possible DEAF helper mut.,Reported; hg I6a & H10c marker,0.161%<br>(0.000%),88 (0),2
+MT-CYB,m.15301G>A,15301,G-A,L185L,nr/nr,"Possible factor in high altitude sickness, LHON",Reported,28.096%<br>(0.000%),15339 (0),2
+MT-CYB,m.15324C>G,15324,C-G,A193G,nr/nr,Possible LHON helper (one 11778 patient),Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15350G>A,15350,G-A,E202K,-/+,Possible sepsis factor,Reported,0.000%<br>(0.000%),,2
+MT-CYB,m.15395A>G,15395,A-G,K217E,+/-,Possible LHON factor,Reported,0.004%<br>(0.000%),2 (0),1
+MT-CYB,m.15436C>A,15436,C-A,L230L,nr/nr,Possible role in high altitude sickness,Reported,0.005%<br>(0.000%),3 (0),1
+MT-CYB,m.15451C>T,15451,C-T,F235F,+/-,Low VO2max response,Reported,0.097%<br>(0.000%),53 (0),1
+MT-CYB,m.15453T>C,15453,T-C,L236P,+/-,Isolated complex III deficiency,Reported,0.020%<br>(0.000%),11 (0),1
+MT-CYB,m.15497G>A,15497,G-A,G251S,+/-,EXIT / Obesity,Reported,0.520%<br>(0.000%),284 (0),5
+MT-CYB,m.15498_15521del,15498,24bp_deletion,GDPDNYTL-del,-/+,<a href='/MITOMAP/DiseaseList#EXIT'>EXIT</a>,Reported,0.000%<br>(0.000%),,2
+MT-CYB,m.15498G>A,15498,G-A,G251D,-/+,DEAF / Infantile histiocytoid cardiomyopathy,Reported,0.027%<br>(0.000%),15 (0),8
+MT-CYB,m.15579A>G,15579,A-G,Y278C,-/+,"Multisystem Disorder, EXIT",Cfrm,0.000%<br>(0.000%),,5
+MT-CYB,m.15615G>A,15615,G-A,G290D,-/+,EXIT / Antimycin resistance,Reported,0.000%<br>(0.000%),,4
+MT-CYB,m.15620C>A,15620,C-A,L292I,-/+,Leigh Syndrome helper mut,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15635T>C,15635,T-C,S297P,+/-,Polyvisceral failure,Reported,0.004%<br>(0.000%),2 (0),1
+MT-CYB,m.15649_15666del,15649,18bp_deletion,ILAMIP-del,-/+,"Multisystem Disorder, EXIT",Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15662A>G,15662,A-G,I306V,+/+,Complex mitochondriopathy-associated,Reported,0.366%<br>(0.000%),200 (0),1
+MT-CYB,m.15674T>C,15674,T-C,S310P,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported,0.289%<br>(0.000%),158 (0),2
+MT-CYB,m.15693T>C,15693,T-C,M316T,+/-,Possibly LVNC cardiomyopathy-associated,Reported,1.181%<br>(0.000%),645 (0),1
+MT-CYB,m.15699G>C,15699,G-C,R318P,-/+,Muscle Weakness SNHL and Migraine,Reported,0.000%<br>(0.000%),,2
+MT-CYB,m.15723G>A,15723,G-A,W326term,-/+,<a href='/MITOMAP/DiseaseList#EXIT'>EXIT</a>,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15761G>A,15761,G-A,G339term,/+,<a href='/MITOMAP/DiseaseList#MM'>MM</a>,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15762G>A,15762,G-A,G339E,-/+,<a href='/MITOMAP/DiseaseList#MM'>MM</a>,Reported,0.000%<br>(0.000%),,1
+MT-CYB,m.15773G>A,15773,G-A,V343M,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Possibly synergistic,0.119%<br>(0.000%),65 (0),1
+MT-CYB,m.15784T>C,15784,T-C,P346P,+/-,POAG - potential for association,Reported,3.229%<br>(0.000%),1763 (0),3
+MT-CYB,m.15800C>T,15800,C-T,Q352term,-/+,EXIT / Myopathy,Reported,0.000%<br>(0.000%),,2
+MT-CYB,m.15804T>C,15804,T-C,V353A,+/-,Fibromyalgia,Reported,0.064%<br>(0.000%),35 (0),2
+MT-CYB,m.15812G>A,15812,G-A,V356M,+/-,<a href='/MITOMAP/DiseaseList#LHON'>LHON</a>,Reported / Secondary,0.903%<br>(0.000%),493 (0),21
+MT-CR,m.16068T>C,16068,T-C,noncoding,+/-,Low VO2max response,Reported,0.024%<br>(0.053%),13 (40),1
+MT-CR,m.16081A>G,16081,A-G,noncoding,-/+,Cyclic Vomiting Syndrome,Reported,0.002%<br>(0.041%),1 (31),1
+MT-CR,m.16093T>C,16093,T-C,noncoding,-/+,Cyclic Vomiting Syndrome,Reported,5.757%<br>(6.374%),3143 (4808),2
+MT-CR,m.16125G>A,16125,G-A,noncoding,+/-,Low VO2max response,Reported,0.004%<br>(0.036%),2 (27),1
+MT-CR,m.16129G>A,16129,G-A,noncoding,-/+,Cyclic Vomiting Syndrome with Migraine,Reported,13.263%<br>(15.473%),7241 (11671),1
+MT-CR,m.16176C>T,16176,C-T,noncoding,-/+,Cyclic Vomiting Syndrome with Migraine,Reported,0.799%<br>(0.780%),436 (588),1
+MT-CR,m.16183A>C,16183,A-C,noncoding,nr/+,Melanoma patients,Reported,13.518%<br>(15.087%),7380 (11380),1
+MT-CR,m.16188_16189insC,16188,C-CC,noncoding,-/+,Possible association with sepsis,Reported,0.042%<br>(0.281%),23 (212),1
+MT-CR,m.16189T>C,16189,T-C,noncoding,+/-,Diabetes / Cardiomyopathy /cancer risk / mtDNA copy nbr / Metabolic Syndrome / Melanoma patients,Reported,25.345%<br>(25.999%),13837 (19610),34
+MT-CR,m.16192C>T,16192,C-T,noncoding,nr/nr,Melanoma patients,Reported,4.229%<br>(4.297%),2309 (3241),1
+MT-CR,m.16217T>C,16217,T-C,noncoding,+/-,Endometriosis,Reported,7.461%<br>(6.575%),4073 (4959),1
+MT-CR,m.16270C>T,16270,C-T,noncoding,nr/nr,Melanoma patients,Reported,4.700%<br>(3.203%),2566 (2416),1
+MT-CR,m.16300A>G,16300,A-G,noncoding,+/-,BD-associated,Reported,0.533%<br>(0.668%),291 (504),2
+MT-CR,m.16318A>C,16318,A-C,noncoding,nr/nr,Non-alcoholic steatohepatitis - potential for association,Reported,0.172%<br>(0.150%),94 (113),1
+MT-CR,m.16390G>A,16390,G-A,noncoding,+/-,POAG - potential for association,Reported,5.519%<br>(6.003%),3013 (4528),3
+MT-CR,m.16519=,16519,T-T,noncoding,+/-,Cyclic Vomiting Syndrome with Migraine /metastasis,Reported,37.033%<br>(0.000%),20218 (0),4

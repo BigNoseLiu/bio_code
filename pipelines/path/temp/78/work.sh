@@ -1,0 +1,1 @@
+/data/Pipeline/01.PIP-release/PIPv1.1.0rc7/bin/PIP --list /data/application/pathongen/data/result/V350071671_20220728163235/78/sample.list --analysis Merge-QC:Fastp,RemoveHost-Annotation:Taxonomy,ResistanceGene,VFDB --pathodb PIDB_v1.3.0_rc5 --vfdb 20210709 --run_mode local --type SE --outdir /data/application/pathongen/data/result/V350071671_20220728163235/78

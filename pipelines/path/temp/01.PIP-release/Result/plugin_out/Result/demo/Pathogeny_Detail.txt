@@ -1,0 +1,71 @@
+Kingdom	GenusName	GenusCN	GenusReads	GroupName	GroupReads	ScientificName	ChineseName	Comment	Reads_Number	GMRN	TPM	RH-RPM	Normalization	Verification	Focus	Coverage
+Bacteria	Escherichia	埃希菌属	16536	-	0	Escherichia coli	大肠埃希菌	11/21	13127	13127	969727.2	971506.81	8735	100.00	+	100
+Bacteria	Escherichia	埃希菌属	16536	-	0	Escherichia marmotae	旱獭埃希氏菌	1/21	7	13127	603.48	518.06	5	81.25	-	0
+Bacteria	Escherichia	埃希菌属	16536	-	0	Escherichia albertii	艾伯特埃希菌	1/21	3	13127	246.26	222.02	2	True	-	0
+Bacteria	Escherichia	埃希菌属	16536	-	0	Escherichia fergusonii	弗格森埃希菌	2/21	2	13127	160.95	148.02	2	True	-	0
+Bacteria	Pseudomonas	假单胞菌属	1174	Pseudomonas fluorescens group	133	Pseudomonas fluorescens	荧光假单胞菌	21/21	42	42	2497.01	3108.35	28	100.00	-	2
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas grimontii	格氏假单胞菌	14/21	15	42	809.69	1110.12	10	100.00	-	10
+Bacteria	Pseudomonas	假单胞菌属	1174	Pseudomonas fluorescens group	133	Pseudomonas veronii	维罗纳假单胞菌	16/21	14	42	760.75	1036.12	10	100.00	-	5
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas panacis	人参假单胞菌	16/21	12	42	663.15	888.1	8	100.00	-	10
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas fildesensis	假单胞菌属*	10/21	12	42	729.25	888.1	8	68.75	-	7
+Bacteria	Pseudomonas	假单胞菌属	1174	Pseudomonas aeruginosa group	6	Pseudomonas aeruginosa	铜绿假单胞菌	16/21	6	42	346.72	444.05	4	81.25	+	1
+Bacteria	Pseudomonas	假单胞菌属	1174	Pseudomonas fluorescens group	133	Pseudomonas azotoformans	产氮假单胞菌	11/21	5	42	286.08	370.04	4	True	-	4
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas palleroniana	帕氏假单胞菌	8/21	4	42	249.41	296.03	3	True	-	3
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas antarctica	南极假单胞菌	9/21	4	42	240.65	296.03	3	68.75	-	3
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas kitaguniensis	假单胞菌属*	12/21	4	42	261.34	296.03	3	100.00	-	1
+Bacteria	Pseudomonas	假单胞菌属	1174	Pseudomonas fluorescens group	133	Pseudomonas trivialis	平凡假单胞菌	10/21	3	42	204.27	222.02	2	True	-	2
+Bacteria	Pseudomonas	假单胞菌属	1174	Pseudomonas stutzeri group	3	Pseudomonas stutzeri	司徒茨假单胞菌	11/21	2	42	167.76	148.02	2	81.25	-	1
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas reactans	假单胞菌属*	8/21	2	42	116.35	148.02	2	100.00	-	1
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas arsenicoxydans	假单胞菌属菌	11/21	2	42	118.0	148.02	2	100.00	-	1
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas cremoris	假单胞菌属*	8/21	2	42	106.24	148.02	2	100.00	-	1
+Bacteria	Pseudomonas	假单胞菌属	1174	Pseudomonas stutzeri group	3	Pseudomonas balearica	巴利阿里假单胞菌	5/21	1	42	85.01	74.01	1	100.00	-	1
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas simiae	猿猴假单胞菌	10/21	1	42	62.45	74.01	1	True	-	1
+Bacteria	Pseudomonas	假单胞菌属	1174	-	0	Pseudomonas kribbensis	假单胞菌	4/21	1	42	60.67	74.01	1	True	-	1
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas parapaucimobilis	类少动鞘氨醇单胞菌	21/21	82	82	7876.02	6068.68	55	100.00	-	50
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas melonis	瓜类鞘氨醇单胞菌	21/21	8	82	770.27	592.07	6	100.00	-	4
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas pseudosanguinis	伪血鞘氨醇单胞菌	20/21	5	82	495.33	370.04	4	100.00	-	3
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas zeae	鞘氨醇单胞菌属*	16/21	4	82	368.54	296.03	3	68.75	-	2
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas yabuuchiae	鞘氨醇单胞菌	17/21	3	82	274.55	222.02	2	81.25	-	2
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas hominis	鞘氨醇单胞菌属*	20/21	3	82	323.49	222.02	2	100.00	-	3
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas paucimobilis	少动鞘氨醇单胞菌	21/21	2	82	184.17	148.02	2	True	-	1
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas adhaesiva	粘连鞘氨醇单胞菌	15/21	2	82	197.24	148.02	2	100.00	-	1
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas echinoides	刺状鞘氨醇单胞菌	19/21	2	82	179.92	148.02	2	100.00	-	2
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas ginsenosidimutans	转化人参皂苷鞘氨醇单胞菌	19/21	2	82	196.71	148.02	2	100.00	-	2
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas koreensis	韩国鞘氨醇单胞菌	20/21	1	82	84.71	74.01	1	100.00	-	1
+Bacteria	Sphingomonas	鞘氨醇单胞菌属	229	-	0	Sphingomonas phyllosphaerae	叶球鞘氨醇单胞菌	11/21	1	82	97.86	74.01	1	100.00	-	1
+Bacteria	Methylobacterium	甲基杆菌属	96	-	0	Methylobacterium phyllostachyos	甲基杆菌属*	8/21	25	25	1594.63	1850.21	17	100.00	-	21
+Bacteria	Methylobacterium	甲基杆菌属	96	-	0	Methylobacterium mesophilicum	嗜中温甲基杆菌	7/21	8	25	468.23	592.07	6	75.00	-	7
+Bacteria	Methylobacterium	甲基杆菌属	96	-	0	Methylobacterium pseudosasicola	甲基杆菌属*	6/21	6	25	336.29	444.05	4	100.00	-	6
+Bacteria	Methylobacterium	甲基杆菌属	96	-	0	Methylobacterium brachiatum	分枝甲基杆菌	9/21	4	25	242.08	296.03	3	75.00	-	3
+Bacteria	Methylobacterium	甲基杆菌属	96	-	0	Methylobacterium radiotolerans	耐辐射甲基杆菌	10/21	2	25	107.41	148.02	2	True	-	1
+Bacteria	Methylobacterium	甲基杆菌属	96	-	0	Methylobacterium nodulans	结瘤甲基杆菌	4/21	1	25	43.41	74.01	1	True	-	0
+Bacteria	Cutibacterium	丙酸杆菌属	16	-	0	Cutibacterium acnes	痤疮丙酸杆菌	19/21	13	13	1993.82	962.11	9	100.00	+	11
+Bacteria	Salmonella	沙门氏菌属	15	-	0	Salmonella enterica	肠沙门菌亚利桑那亚种	7/21	14	14	1126.62	1036.12	10	True	+	3
+Bacteria	Xanthomonas	黄单胞菌属	11	-	0	Xanthomonas campestris	野油菜黄单胞菌	12/21	3	3	227.58	222.02	2	100.00	-	3
+Bacteria	Acinetobacter	不动杆菌属	7	-	0	Acinetobacter guillouiae	吉洛不动杆菌	16/21	5	5	397.47	370.04	4	100.00	-	4
+Bacteria	Citrobacter	枸橼酸杆菌属	7	Citrobacter freundii complex	2	Citrobacter werkmanii	乌克曼柠檬酸杆菌	3/21	1	1	76.05	74.01	1	True	-	0
+Bacteria	Shigella	志贺氏菌属	7	-	0	Shigella flexneri	福氏志贺氏菌	4/21	1	1	84.78	74.01	1	True	+	1
+Bacteria	Acinetobacter	不动杆菌属	7	-	0	Acinetobacter junii	琼氏不动杆菌	11/21	1	5	111.86	74.01	1	100.00	-	1
+Bacteria	Ralstonia	罗尔斯顿菌属	6	-	0	Ralstonia pickettii	皮氏罗尔斯顿菌	20/21	3	3	216.92	222.02	2	100.00	-	3
+Bacteria	Ralstonia	罗尔斯顿菌属	6	-	0	Ralstonia mannitolilytica	解甘露醇罗尔斯顿菌	13/21	2	3	158.44	148.02	2	100.00	+	1
+Bacteria	Corynebacterium	棒状杆菌属	6	-	0	Corynebacterium accolens	拥挤棒杆菌	5/21	2	2	305.29	148.02	2	81.25	-	2
+Bacteria	Comamonas	丛毛单胞菌属	6	-	0	Comamonas kerstersii	凯斯特丛毛单胞菌	8/21	1	1	108.14	74.01	1	87.50	-	1
+Bacteria	Corynebacterium	棒状杆菌属	6	-	0	Corynebacterium amycolatum	无枝菌酸棒杆菌	3/21	1	2	154.54	74.01	1	100.00	-	1
+Bacteria	Corynebacterium	棒状杆菌属	6	-	0	Corynebacterium striatum	纹带棒状杆菌	6/21	1	2	133.82	74.01	1	100.00	+	1
+Bacteria	Proteus	变形菌属	5	-	0	Proteus penneri	彭氏变形杆菌	8/21	4	4	396.31	296.03	3	87.50	-	4
+Bacteria	Vibrio	弧菌属	5	-	0	Vibrio ouci	弧菌属*	8/21	1	1	69.96	74.01	1	68.75	-	1
+Bacteria	Enterococcus	肠球菌属	4	-	0	Enterococcus casseliflavus	铅黄肠球菌	10/21	2	2	217.25	148.02	2	100.00	-	1
+Bacteria	Methylorubrum	甲基杆菌属	4	-	0	Methylorubrum populi	-	7/21	1	1	68.24	74.01	1	100.00	-	0
+Bacteria	Enterococcus	肠球菌属	4	-	0	Enterococcus cecorum	盲肠肠球菌	5/21	1	2	158.49	74.01	1	True	+	1
+Bacteria	Mycobacterium	分枝杆菌属	3	Mycobacterium tuberculosis complex	2	Mycobacterium tuberculosis	牛分枝杆菌	5/21	2	2	174.09	148.02	2	87.50	+	0
+Bacteria	Mycobacterium	分枝杆菌属	3	Mycobacterium tuberculosis complex	2	Mycobacterium tuberculosis complex	结核分枝杆菌复合群	8/21	2	2	-	-	2	-	*	0
+Bacteria	Micrococcus	微球菌属	3	-	0	Micrococcus luteus	藤黄微球菌	8/21	1	1	151.29	74.01	1	True	+	1
+Bacteria	Haemophilus	嗜血杆菌属	2	-	0	Haemophilus influenzae	流感嗜血杆菌	7/21	2	2	404.44	148.02	2	True	+	0
+Bacteria	Neisseria	奈氏球菌属	2	-	0	Neisseria subflava	微黄奈瑟菌	7/21	1	1	170.95	74.01	1	75.00	-	0
+Bacteria	Atlantibacter	亚特兰大杆菌属	1	-	0	Atlantibacter hermannii	赫尔曼亚特兰大杆菌	1/21	1	1	87.09	74.01	1	True	-	1
+Bacteria	Photobacterium	发光杆菌属	1	-	0	Photobacterium damselae	美人鱼发光杆菌	8/21	1	1	82.02	74.01	1	True	-	1
+Bacteria	Acidovorax	噬酸菌属	1	-	0	Acidovorax avenae	燕麦噬酸菌	15/21	1	1	69.05	74.01	1	100.00	-	1
+Bacteria	Microbacterium	微杆菌属	1	-	0	Microbacterium wangchenii	细杆菌属*	2/21	1	1	100.22	74.01	1	75.00	-	1
+Bacteria	Streptococcus	链球菌属	1	-	0	Streptococcus parasanguinis	副血链球菌	8/21	1	1	180.08	74.01	1	100.00	+	1
+Bacteria	Staphylococcus	葡萄球菌属	1	-	0	Staphylococcus epidermidis	表皮葡萄球菌	12/21	1	1	152.21	74.01	1	87.50	+	1
+Eukaryota:Fungi	Rhizopus	根霉属	9	-	0	Rhizopus oryzae	少根根霉	17/21	9	9	79.42	666.07	6	100.00	-	0

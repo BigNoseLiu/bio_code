@@ -1,0 +1,63 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+__author__ = 'qiuwancen'
+__email__ = '972538446@qq.com'
+__date__ = '2020-08-26'
+__version__ = 'V1.0'
+
+import os
+from configparser import ConfigParser
+
+config = os.path.abspath(__file__).rstrip('py') + 'ini'
+cfg = ConfigParser()
+cfg.read(config)
+MaxMem = cfg.get('resource', 'MaxMem')
+MaxThread = cfg.get('resource', 'MaxThread')
+python = cfg.get('software', 'python')
+sbatch = cfg.get('software', 'sbatch')
+watchDog = cfg.get('software', 'watchDog')
+fastp = cfg.get('software', 'fastp')
+sortmerna = cfg.get('software', 'sortmerna')
+kraken = cfg.get('software', 'kraken')
+krakenMR = cfg.get('software', 'krakenMR')
+krakenR = cfg.get('software', 'krakenR')
+bwa2 = cfg.get('software', 'bwa2')
+bamdst = cfg.get('software', 'bamdst')
+samtools = cfg.get('software', 'samtools')
+bedtools = cfg.get('software', 'bedtools')
+freebayesP = cfg.get('software', 'freebayesP')
+pigz = cfg.get('software', 'pigz')
+bwa = cfg.get('software', 'bwa')
+hostDB = cfg.get('database', 'hostDB')
+KrakenDB = cfg.get('database', 'KrakenDB')
+MEGARes = cfg.get('database', 'MEGARes')
+rRNADB = cfg.get('database', 'rRNADB')
+
+def createPath(*paths):
+	for path in paths:
+		if not os.path.exists(path):
+			os.makedirs(path)
+
+def printInfo(script, flag):
+	import time
+	if int(flag) == 1:
+		print('[%(Time)s] INFO: Start program %(script)s' % \
+			{'Time': time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), 'script': script})
+	else:
+		print('[%(Time)s] INFO: Finish program %(script)s' % \
+			{'Time': time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), 'script': script})
+	
+def checkType(Type, l):
+	if (Type == 'SE' and len(l) != 4) or (Type == 'PE' and len(l) != 5):
+		print("Error: there is a conflict between the input file format and the sequencing sequence type.")
+		exit(0)
+
+def checkFile(infile):
+	infile = os.path.abspath(infile)
+	if not os.path.isfile(infile):
+		print('%(infile)s is not exist!' % {'infile': infile})
+		exit(0)
+	
+#if __name__ == '__main__':
+#	load_configure()

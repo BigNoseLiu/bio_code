@@ -1,0 +1,108 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+__author__ = 'qiuwancen'
+__email__ = '972538446@qq.com'
+__date__ = '2022-06-23'
+__version__ = 'v1.1.0rc6'
+
+import os
+import re
+import sys
+from sys import argv
+from pathlib import Path
+from argparse import ArgumentParser
+Bin = Path(__file__).resolve().parent
+sys.path.append(os.path.join(Bin, '../conf'))
+import configure as cfg
+from configure import checkFile, createPath, parseVersion
+
+def readArg(args):
+		parser = ArgumentParser(description='{} {} ({}) {}'.format(\
+				os.path.basename(os.path.abspath(__file__)), __version__, __date__, __email__))
+		args = parser.add_argument
+		args('--list', type=str, action='store', required=True, \
+			help='List of input path, format: format: "sample\\tDNA|RNA\\tread1[\\tread2]\\tsample type". sample type: RT|Blood|CSF|[Others]')
+		args('--analysis', type=str, action='store', default='Merge-QC:Fastp,RemoveHost,rRNAFilter-Annotation:Taxonomy,ResistanceGene,VFDB-Summary:ActiveExpression,PathogenyExtract', \
+			help='The analytic steps you want to do. The main steps separated by "-", \
+			the sub-steps for every main step follow the ":" and separated by ",". [%(default)s]')
+		args('--pathodb', type=str, action='store', default='PIDB_v1.2.0', \
+#			choices=['PIDB202101_Middle_addHPV18_taxidCorr', 'PIDB_v1.0.1', 'PIDB_v1.0.2', 'PIDB_v1.0.3', 'PIDB_v1.1.0', 'PIDB_v1.1.1', 'PIDB_v1.2.0'], \
+			help='Database version of PIS. [%(default)s]')
+		args('--vfdb', type=str, action='store', default='20210709', \
+			help='Database version of VFDB. [%(default)s]')
+		args('--type', type=str, action='store', default='SE', choices=['SE', 'PE'], \
+			help='Sequence type. [%(default)s]')
+		args('--run_mode', type=str, action='store', default='local', choices=['local', 'Slurm', 'SGE'], \
+			help='Set the run mode, local, Slurm or SGE, the option --partition must be set if you set run mode to Slurm or SGE. [%(default)s]')
+		args('--partition', type=str, action='store', choices=['ngs-node1', 'ngs-node2', 'ngs-node3'], \
+			help='Partition requested, it need to be set if you set --run_mode to Slurm or SGE.')
+		args('--outdir', type=str, action='store', default='./', \
+			help='Output Path. [%(default)s]')
+		args('--version', action='version', version='{} {} ({})'.format(\
+			os.path.basename(os.path.abspath(__file__)), __version__, __date__), \
+			help='Print the current version and exit.')
+		return vars(parser.parse_args())
+
+def generateScripts(L, outdir, analysis):
+	Scripts = {
+		'Merge': Bin / '0.Merge/Merge.py',
+		'QC': Bin / '1.QC/QC.py',
+		'Annotation': Bin / '2.Annotation/Annotation.py',
+		'Summary': Bin / '3.Summary/Summary.py',
+		'Stat': Bin / '4.Stat/Stat.py',
+		'Check': Bin / '4.Stat/CheckTasks.py'
+	}
+	Workdir = {
+		'Merge': outdir / '00.Merge',
+		'QC': outdir / '01.QC',
+		'Annotation': outdir / '02.Annotation',
+		'Summary': outdir / '03.Summary',
+	}
+
+	shell = outdir / 'shell'
+	createPath(outdir, shell)
+	with open(shell / 'pipeline.sh', 'w') as pipe:
+		pipe.write('#!/usr/bin/bash\n')
+		pipe.write('################## Check Tasks\n')
+		pipe.write(f"{cfg.python} {Scripts['Check']} --samples {L} --workdir {outdir} &\n")
+		analysis = re.sub('Taxonomy', f'Taxonomy={args["pathodb"]}', analysis)
+		analysis = re.sub('VFDB', f'VFDB={args["vfdb"]}', analysis)
+		for step in analysis.split('-'):
+			steps = step.split(':')
+			createPath(Workdir[steps[0]])
+			pipe.write(f'################## {steps[0]}\n')
+			if len(steps) == 1:
+				pipe.write(f'{cfg.python} {Scripts[steps[0]]} --list {L} --type {args["type"]} {mode} --outdir {Workdir[steps[0]]}\n')
+			else:
+				pipe.write(f'{cfg.python} {Scripts[steps[0]]} --list {L} --type {args["type"]} {mode} --outdir {Workdir[steps[0]]} --analysis {steps[1]}\n')
+			L = f'{Workdir[steps[0]]}/sample.list'
+		pipe.write(f'################## Upload\n')
+		pipe.write(f'{cfg.python} {Scripts["Stat"]} --samples {infile} --analysis {analysis} --workdir {outdir} > '
+				   f'{outdir}/04.Stat.log 2>&1')
+
+if __name__ == '__main__':
+		args = readArg(argv)
+		infile = Path(args['list']).resolve()
+		analysis = args['analysis']
+		outdir = Path(args['outdir']).resolve()
+		mode = args['run_mode']
+		checkFile(infile)
+
+#		if mode.upper() == 'SLURM' and not args['partition']:
+#			print('Error: the option --partition must be set when you set --run_mode to Slurm')
+#			exit(0)
+		if mode.upper() == 'SLURM' or mode.upper() == 'SGE':
+			mode = f"--run_mode {mode}"
+			if args['partition']:
+				mode += f" --partition {args['partition']}"
+		else:
+			mode = f"--run_mode {mode}"
+
+		generateScripts(infile, outdir, analysis)
+		parseVersion(str(outdir))
+
+		with open(outdir / 'Versions.log', 'a+') as log:
+			log.write('[Database]\n')
+			log.write(f'Pathogeny Database: {args["pathodb"]}\n')
+			log.write(f'Virulence Genes Database: VFDB {args["vfdb"]}\n')

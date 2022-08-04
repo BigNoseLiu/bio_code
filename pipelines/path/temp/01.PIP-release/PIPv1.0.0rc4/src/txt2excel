@@ -1,0 +1,57 @@
+#!/usr/bin/env perl
+
+#===============================================================================
+#   FileName: txt2excel
+#   Author  : qiuwancen@genomics.cn
+#   Version : 4.0
+#   Date    : 2020-06-18
+#   Description: Convert the file separated by Tab to excel.
+#===============================================================================
+
+use warnings;
+use strict;
+use Cwd qw(abs_path);
+use File::Basename;
+use lib dirname(abs_path(__FILE__)) . "/../lib/perl5";
+use Excel::Writer::XLSX;
+use Encode;
+
+die "perl $0 <input> <output> <optional: highlight list>\n" unless (@ARGV >= 2);
+#my($file_in, $file_out) = @ARGV;
+
+my $workbook = Excel::Writer::XLSX->new("$ARGV[1]");
+
+my $worksheet = $workbook->add_worksheet("Sheet1");
+
+my $format = $workbook->add_format();
+$format->set_color('red');
+
+my %highlight;
+if($ARGV[2]){
+	open HL,"$ARGV[2]" or die $!;
+	while(<HL>){
+		chomp;
+		$highlight{$_} = 1;
+	}
+	close HL;
+}
+
+open IN, "$ARGV[0]" or die $!;
+my $i = 0;
+while(<IN>){
+	chomp;
+	my @t = split /\t/,$_;
+	
+	for(my $j = 0; $j < @t; $j++){
+		$t[$j] = decode("utf-8", $t[$j]);
+		if(exists $highlight{$t[$j]}){
+			$worksheet->write($i, $j, $t[$j], $format);
+		}else{
+			$worksheet->write($i, $j, $t[$j]);
+		}
+	}
+	$i++;
+}
+close IN;
+
+$workbook->close();

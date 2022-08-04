@@ -1,0 +1,2 @@
+Sample	Total_Reads	Unclassified_Reads_Number	Unclassified_Rate	Classified_Reads_Number	Classified_Rate	Viruses	Bacteria	Archaea	Fungi	Protozoa	Metazoa_Parasite	Human
+DR22041512E_DNA	749583	70229	9.37	679354	90.63	2	52915	0	32	71928	449	242345

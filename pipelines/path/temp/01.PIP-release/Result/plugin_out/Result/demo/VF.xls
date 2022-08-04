@@ -1,0 +1,272 @@
+tax_id	refname	gene	VFgene	summary	species	identity	type_judge
+487	VFG000236(gi:902558)	opa	pseudogene (opacity protein)	Opa (VF0076)	Neisseria meningitidis MC58	100.0	-
+623	VFG000616(gb|NP_709455)	iucB	aerobactin synthesis protein IucB	Aerobactin (VF0123)	Shigella flexneri 2a str. 301	100.0	-
+562	VFG000872(gb|NP_757240)	fimE	Type 1 fimbriae Regulatory protein fimE	Type 1 fimbriae (VF0221)	Escherichia coli CFT073	100.0	-
+562	VFG000873(gb|NP_757241)	fimA	Type-1 fimbrial protein, A chain precursor	Type 1 fimbriae (VF0221)	Escherichia coli CFT073	100.0	-
+562	VFG000874(gb|NP_757242)	fimI	Fimbrin-like protein fimI precursor	Type 1 fimbriae (VF0221)	Escherichia coli CFT073	100.0	-
+562	VFG000876(gb|NP_757244)	fimD	Outer membrane usher protein fimD precursor	Type 1 fimbriae (VF0221)	Escherichia coli CFT073	100.0	-
+562	VFG000878(gb|NP_757247)	fimG	FimG protein precursor	Type 1 fimbriae (VF0221)	Escherichia coli CFT073	100.0	-
+562	VFG000903(gb|NP_752289)	pic	serine protease precursor	Pic (VF0232)	Escherichia coli CFT073	100.0	-
+562	VFG000909(gb|NP_753153)	focA	F1C major fimbrial subunit precursor	F1C fimbriae (VF0224)	Escherichia coli CFT073	100.0	-
+562	VFG000911(gb|NP_753155)	focC	F1C periplasmic chaperone	F1C fimbriae (VF0224)	Escherichia coli CFT073	100.0	-
+562	VFG000912(gb|NP_753156)	focD	F1C fimbrial usher	F1C fimbriae (VF0224)	Escherichia coli CFT073	100.0	-
+562	VFG000914(gb|NP_753158)	focG	F1C minor fimbrial subunit protein G presursor	F1C fimbriae (VF0224)	Escherichia coli CFT073	100.0	-
+562	VFG000916(gb|NP_756169)	chuS	heme oxygenase ChuS	Chu (VF0227)	Escherichia coli CFT073	100.0	-
+562	VFG000917(gb|NP_756170)	chuA	Outer membrane heme/hemoglobin receptor ChuA	Chu (VF0227)	Escherichia coli CFT073	100.0	-
+562	VFG000919(gb|NP_756176)	chuW	Putative oxygen independent coproporphyrinogen III oxidase	Chu (VF0227)	Escherichia coli CFT073	100.0	-
+562	VFG000920(gb|NP_756177)	chuX	putative heme-binding protein ChuX	Chu (VF0227)	Escherichia coli CFT073	100.0	-
+562	VFG000921(gb|NP_756178)	chuY	ChuY	Chu (VF0227)	Escherichia coli CFT073	100.0	-
+562	VFG000923(gb|NP_752600)	fepA	ferrienterobactin outer membrane transporter	Enterobactin (VF0228)	Escherichia coli CFT073	100.0	-
+562	VFG000925(gb|NP_752606)	fepC	ferrienterobactin ABC transporter ATPase	Enterobactin (VF0228)	Escherichia coli CFT073	100.0	-
+562	VFG000926(gb|NP_752608)	fepD	ferrienterobactin ABC transporter permease	Enterobactin (VF0228)	Escherichia coli CFT073	100.0	-
+562	VFG000928(gb|NP_752607)	fepG	iron-enterobactin ABC transporter permease	Enterobactin (VF0228)	Escherichia coli CFT073	100.0	-
+562	VFG000931(gb|NP_752611)	entC	isochorismate synthase 1	Enterobactin (VF0228)	Escherichia coli CFT073	100.0	-
+562	VFG000934(gi:26246575)	entA	2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase	Enterobactin (VF0228)	Escherichia coli CFT073	100.0	-
+562	VFG000935(gb|NP_753164)	iroN	salmochelin receptor IroN	IroN (VF0230)	Escherichia coli CFT073	100.0	-
+562	VFG001443(gb|AAF37887)	ompA	outer membrane protein A	OmpA (VF0236)	Escherichia coli O18:K1:H7 str. RS218	100.0	-
+622	VFG002053(gb|YP_404606)	gspJ	general secretion pathway protein J	T2SS (VF0333)	Shigella dysenteriae Sd197	100.0	-
+1314	VFG005259(gi:94994324)	sclB	Collagen-like surface protein	Streptococcal collagen-like proteins (CVF116)	Streptococcus pyogenes MGAS10750	100.0	-
+562	VFG012223(gi:117625203)	papE	PapE protein	P fimbriae (CVF425)	Escherichia coli APEC O1	100.0	-
+562	VFG012228(gi:117625204)	papK	pilus assembly protein PapK	P fimbriae (CVF425)	Escherichia coli APEC O1	100.0	-
+562	VFG012232(gi:91213839)	papJ	PapJ protein precursor	pyelonephritis-associated pilus, Pap pilus (AI001)	Escherichia coli UTI89	100.0	-
+562	VFG012247(gi:91213842)	papH	minor pilin subunit PapH	pyelonephritis-associated pilus, Pap pilus (AI001)	Escherichia coli UTI89	100.0	-
+562	VFG012324(gi:91213965)	fimH	type 1 fimbiral adhesin FimH	type 1 fimbriae (AI002)	Escherichia coli UTI89	100.0	-
+562	VFG012329(gb|YP_540123)	sfaB	S fimbrial switch regulatory protein SfaB	S fimbriae (VF0222)	Escherichia coli UTI89	100.0	-
+562	VFG012338(gi:110640503)	sfaG	F1C minor fimbrial subunit F precursor	S fimbriae (CVF427)	Escherichia coli 536	100.0	-
+562	VFG012501(gb|NP_753165)	iroE	esterase	Salmochelin (IA013)	Escherichia coli CFT073	100.0	-
+562	VFG012505(gb|NP_753166)	iroD	esterase	Salmochelin (IA013)	Escherichia coli CFT073	100.0	-
+562	VFG012532(gi:110642109)	ybtX	putative cytoplasmic transmembrane protein	Yersiniabactin siderophore (CVF458)	Escherichia coli 536	100.0	-
+562	VFG012536(gi:110642110)	ybtQ	inner membrane ABC-transporter YbtQ	Yersiniabactin siderophore (CVF458)	Escherichia coli 536	100.0	-
+562	VFG012559(gi:26248284)	ybtT	Putative thioesterase	yersiniabactin (IA006)	Escherichia coli CFT073	100.0	-
+562	VFG012573(gi:91210366)	sitA	putative iron transport protein, periplasmic-binding protein SitA	Iron/manganese transport (CVF459)	Escherichia coli UTI89	100.0	-
+562	VFG012581(gi:26247466)	sitC	SitC protein	Iron/manganese transport (CVF459)	Escherichia coli CFT073	100.0	-
+562	VFG012586(gi:26247465)	sitD	SitD protein	Iron/manganese transport (CVF459)	Escherichia coli CFT073	100.0	-
+562	VFG012633(gi:26250982)	ireA	Putative iron-regulated outer membrane virulence protein	Iron-regulated element (CVF461)	Escherichia coli CFT073	100.0	-
+624	VFG012786(gi:3670809)	ospC4	-	Mxi-Spa TTSS effectors controlled by VirB (CVF463)	Shigella sonnei Ss046	100.0	-
+562	VFG018195(gi:110640562)	ecpR	hypothetical protein YkgK	E. coli common pilus (ECP) (CVF625)	Escherichia coli 536	100.0	-
+562	VFG018204(gi:117622567)	ecpA	Hypothetical protein yagZ precursor	E. coli common pilus (ECP) (CVF625)	Escherichia coli APEC O1	100.0	-
+562	VFG018228(gi:26246298)	ecpE	Hypothetical protein yagV precursor	E. coli common pilus (ECP) (CVF625)	Escherichia coli CFT073	100.0	-
+562	VFG033079(gi:386640462)	papX	MarR family transcriptional regulator	P fimbriae (CVF425)	Escherichia coli ABU 83972	100.0	-
+562	VFG033089(gi:218559963)	papG) Fimbrial PapG protein (P pilus class II adhesin	(PapGII)	P fimbriae (CVF425)	Escherichia coli O45:K1:H7 str. S88	100.0	-
+562	VFG033098(gi:386627095)	papF	fimbrial adapter PapF	P fimbriae (CVF425)	Escherichia coli O7:K1 str. CE10	100.0	-
+562	VFG033128(gi:386641964)	papC	outer membrane usher protein PapC	P fimbriae (CVF425)	Escherichia coli ABU 83972	100.0	-
+562	VFG033146(gi:386625714)	papA	major pilin subunit PapA	P fimbriae (CVF425)	Escherichia coli O7:K1 str. CE10	100.0	-
+562	VFG033159(gi:386625716)	papI	pap operon regulatory protein PapI	P fimbriae (CVF425)	Escherichia coli O7:K1 str. CE10	100.0	-
+562	VFG033160(gi:386627086)	papI	pap operon regulatory protein PapI	P fimbriae (CVF425)	Escherichia coli O7:K1 str. CE10	100.0	-
+562	VFG033284(gi:387607091)	fimD	fimbrial outer membrane usher protein	Type I fimbriae (CVF426)	Escherichia coli O44:H18 042	100.0	-
+562	VFG033286(gi:386642063)	fimD	outer membrane usher protein FimD	Type I fimbriae (CVF426)	Escherichia coli ABU 83972	100.0	-
+562	VFG033313(gi:386642064)	fimF	type 1 fimbriae minor subunit precursor FimF	Type I fimbriae (CVF426)	Escherichia coli ABU 83972	100.0	-
+562	VFG033339(gi:387607089)	fimG	fimbrial protein	Type I fimbriae (CVF426)	Escherichia coli O44:H18 042	100.0	-
+562	VFG033397(gi:386638427)	focI	minor F1C fimbrial subunit SfaD	F1C fimbriae (CVF428)	Escherichia coli ABU 83972	100.0	-
+562	VFG033420(gi:386627097)	tia	Tia invasion determinant	Tia/Hek (CVF430)	Escherichia coli O7:K1 str. CE10	100.0	-
+562	VFG033905(gi:386599763)	cdtA	cytolethal distending toxin, subunit A	Cytolethal distending toxin (CVF455)	Escherichia coli O18:K1:H7 str. IHE3034	100.0	-
+562	VFG033906(gi:386599762)	cdtB	cytolethal distending toxin, subunit B	Cytolethal distending toxin (CVF455)	Escherichia coli O18:K1:H7 str. IHE3034	100.0	-
+562	VFG033907(gi:386599761)	cdtC	cytolethal distending toxin, subunit C	Cytolethal distending toxin (CVF455)	Escherichia coli O18:K1:H7 str. IHE3034	100.0	-
+562	VFG033926(gi:386638509)	iroC	ATP binding cassette ABC transporter IroC	Salmochelin siderophore (CVF456)	Escherichia coli ABU 83972	100.0	-
+562	VFG033932(gi:386638510)	iroB	putative glucosyltransferase	Salmochelin siderophore (CVF456)	Escherichia coli ABU 83972	100.0	-
+562	VFG033958(gi:218701709)	iucD	L-lysine 6-monooxygenase	Aerobactin siderophore (CVF457)	Escherichia coli O7:K1 str. IAI39	100.0	-
+562	VFG033973(gi:386640482)	iucC	aerobactin siderophore biosynthesis protein IucC	Aerobactin siderophore (CVF457)	Escherichia coli ABU 83972	100.0	-
+562	VFG034362(gi:386641117)	chuU	ABC transporter	Heme uptake (CVF460)	Escherichia coli ABU 83972	100.0	-
+562	VFG034499(gi:386637712)	ecpD	putative receptor	E. coli common pilus (ECP) (CVF625)	Escherichia coli ABU 83972	100.0	-
+562	VFG034651(gi:26246550)	ibeB	copper/silver efflux system outer membrane protein CusC	Invasion of brain endothelial cells (Ibes) (CVF429)	Escherichia coli CFT073	100.0	-
+562	VFG034686(gi:161486035)	ibeC	hypothetical protein	Invasion of brain endothelial cells (Ibes) (CVF429)	Escherichia coli CFT073	100.0	-
+562	VFG035093(gi:386640294)	ECABU_c30880	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli ABU 83972	100.0	-
+562	VFG035112(gi:386640295)	ECABU_c30890	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli ABU 83972	100.0	-
+562	VFG035144(gi:386640297)	ECABU_c30910	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli ABU 83972	100.0	-
+562	VFG035169(gi:26249226)	c3391	secreted protein Hcp	SCI-I T6SS (CVF734)	Escherichia coli CFT073	100.0	-
+562	VFG035234(gi:387618091)	NRG857_13835	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli O83:H1 str. NRG 857C	100.0	-
+562	VFG035269(gi:26249235)	c3400	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli CFT073	100.0	-
+562	VFG035275(gi:386640308)	ECABU_c31030	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli ABU 83972	100.0	-
+562	VFG035303(gi:386640310)	ECABU_c31050	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli ABU 83972	100.0	-
+562	VFG035312(gi:26249237)	c3402	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli CFT073	100.0	-
+562	VFG035347(gi:386640312)	ECABU_c31070	ImpA-related N-terminal family protein	SCI-I T6SS (CVF734)	Escherichia coli ABU 83972	100.0	-
+562	VFG035835(gi:110640448)	aec15	Vgr-like protein	ACE T6SS (CVF736)	Escherichia coli 536	100.0	-
+562	VFG035971(gi:386629132)	upaH	putative autotransporter/adhesin	UpaH, AIDA-I type (CVF741)	Escherichia coli str. clone D i2	100.0	-
+562	VFG035992(gi:91209435)	ehaB	structural protein	EhaB, AIDA-I type (CVF744)	Escherichia coli UTI89	100.0	-
+562	VFG036025(gi:387612565)	cah	putative adhesin autotransporter	Cah, AIDA-I type (CVF745)	Escherichia coli O78:H11:K80 str. H10407	100.0	-
+562	VFG036027(gi:218561452)	cah) antigen 43 precursor (AG43	(Fluffing protein)	Cah, AIDA-I type (CVF745)	Escherichia coli O45:K1:H7 str. S88	100.0	-
+562	VFG036074(gi:117622396)	usp	uropathogenic specific protein	Colicin-like Usp (CVF754)	Escherichia coli APEC O1	100.0	-
+562	VFG036076(gi:386637465)	usp	putative S-type colicin	Colicin-like Usp (CVF754)	Escherichia coli ABU 83972	100.0	-
+562	VFG042390(gb|YP_540132)	sfaX	regulatory protein SfaX	S fimbriae (VF0222)	Escherichia coli UTI89	100.0	-
+562	VFG042566(gi:26247111)	focI-2	putative F1C and S fimbrial switch regulatory protein	F1C pili (AI043)	Escherichia coli CFT073	100.0	-
+562	VFG042568(gi:26247120)	focY	hypothetical protein	F1C pili (AI043)	Escherichia coli CFT073	100.0	-
+562	VFG042713(gi:15801631)	Z2200	putative major fimbrial subunit	F9 fimbriae (AI090)	Escherichia coli O157:H7 str. EDL933	100.0	-
+562	VFG042725(gi:15801154)	csgG	curli production assembly/transport component, 2nd curli operon	curli fibers (AI093)	Escherichia coli O157:H7 str. EDL933	100.0	-
+562	VFG042726(gi:15801155)	csgF	curli assembly protein CsgF	curli fibers (AI093)	Escherichia coli O157:H7 str. EDL933	100.0	-
+562	VFG042727(gi:15801156)	csgE	curli assembly protein CsgE	curli fibers (AI093)	Escherichia coli O157:H7 str. EDL933	100.0	-
+562	VFG042731(gi:15801160)	csgC	putative autoagglutination protein	curli fibers (AI093)	Escherichia coli O157:H7 str. EDL933	100.0	-
+562	VFG043098(gi:15802304)	flhD	transcriptional activator FlhD	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	100.0	-
+562	VFG043106(gi:15802372)	fliE	flagellar hook-basal body protein FliE	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	100.0	-
+562	VFG043118(gi:15802384)	fliQ	flagellar biosynthesis protein FliQ	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	100.0	-
+562	VFG043679(gi:112292704)	clbP	putative penicillin binding protein	colibactin (TX033)	Escherichia coli O18:K1:H7 str. IHE3034	100.0	-
+562	VFG043684(gi:112292709)	clbK	putative hybrid non-ribosomal peptide-polyketide synthetase	colibactin (TX033)	Escherichia coli O18:K1:H7 str. IHE3034	100.0	-
+562	VFG043685(gi:112292710)	clbJ	putative non-ribosomal peptide synthase	colibactin (TX033)	Escherichia coli O18:K1:H7 str. IHE3034	100.0	-
+562	VFG043689(gi:112292714)	clbF	putative acyl-CoA dehydrogenase	colibactin (TX033)	Escherichia coli O18:K1:H7 str. IHE3034	100.0	-
+562	VFG043694(gi:112292719)	clbR	putative regulatory protein	colibactin (TX033)	Escherichia coli O18:K1:H7 str. IHE3034	100.0	-
+562	VFG044159(gb|NP_752602)	fes	enterobactin/ferric enterobactin esterase	enterobactin (IA019)	Escherichia coli CFT073	100.0	-
+562	VFG044171(gi:26248334)	hma	putative outer membrane receptor for iron compound or colicin	direct heme uptake system (IA048)	Escherichia coli CFT073	100.0	-
+562	VFG044172(gb|NP_756180)	chuV	ATP-binding hydrophilic protein ChuV	Chu (VF0227)	Escherichia coli CFT073	100.0	-
+573	VFG044323(gb|YP_002920243)	ybtS	yersiniabactin biosynthesis salicylate synthase YbtS	Ybt (VF0564)	Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044	100.0	-
+573	VFG044326(gb|YP_002920246)	ybtP	yersiniabactin ABC transporter ATP-binding/permease protein YbtP	Ybt (VF0564)	Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044	100.0	-
+573	VFG044332(gb|YP_002920252)	ybtE	yersiniabactin biosynthesis salycil-AMP ligase YbtE	Ybt (VF0564)	Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044	100.0	-
+562	VFG045464(gb|NP_754290)	tcpC	Tir domain containing protein TcpC	TcpC (VF0413)	Escherichia coli CFT073	100.0	-
+573	VFG049147(gb|YP_006635473.1)	clbA	colibactin biosynthesis phosphopantetheinyl transferase ClbA	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	100.0	-
+573	VFG049150(gb|YP_006635476.1)	clbD	colibactin biosynthesis dehydrogenase ClbD	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	100.0	-
+573	VFG049153(gb|YP_006635479.1)	clbG	colibactin biosynthesis acyltransferase ClbG	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	100.0	-
+573	VFG049155(gb|YP_006635481.1)	clbI	colibactin polyketide synthase ClbI	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	100.0	-
+573	VFG049159(gb|YP_006635485.1)	clbM	precolibactin export MATE transporter ClbM	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	100.0	-
+573	VFG049163(gb|YP_006635489.1)	clbQ	colibactin biosynthesis thioesterase ClbQ 	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	100.0	-
+573	VFG049164(gb|YP_006635490.1)	clbS	colibactin self-protection protein ClbS	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	100.0	-
+562	VFG043693(gi:112292718)	clbB	putative hybrid polyketide-non-ribosomal peptide synthetase	colibactin (TX033)	Escherichia coli O18:K1:H7 str. IHE3034	99.94	-
+562	VFG036019(gi:410480204)	cah	antigen 43 precursor (AG43, Fluffing protein)	Cah, AIDA-I type (CVF745)	Escherichia coli O104:H4 str. 2009EL-2050	99.92	-
+562	VFG033947(gi:386622240)	iutA	Aerobactin siderophore receptor IutA/TonB-dependent siderophore receptor	Aerobactin siderophore (CVF457)	Escherichia coli NA114	99.9	-
+562	VFG012552(gi:110642114)	irp1	yersiniabactin biosynthetic protein	Yersiniabactin siderophore (CVF458)	Escherichia coli 536	99.89	-
+562	VFG035185(gi:26249227)	c3392	ClpB protein	SCI-I T6SS (CVF734)	Escherichia coli CFT073	99.89	-
+562	VFG001731(gi:26249445)	c3610	bifunctional enterobactin receptor/adhesin protein	IrgA homolog adhesin (Iha) (AI324)	Escherichia coli CFT073	99.88	-
+562	VFG035204(gi:26249228)	c3393	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli CFT073	99.88	-
+562	VFG034542(gi:26246313)	eaeH	adhesin	EaeH (CVF679)	Escherichia coli CFT073	99.86	-
+562	VFG043687(gi:112292712)	clbH	putative non-ribosomal peptide synthase	colibactin (TX033)	Escherichia coli O18:K1:H7 str. IHE3034	99.85	-
+562	VFG000924(gb|NP_752610)	fepB	ferrienterobactin ABC transporter periplasmic binding protein	Enterobactin (VF0228)	Escherichia coli CFT073	99.83	-
+562	VFG012567(gi:26248288)	fyuA	Putative pesticin receptor precursor	yersiniabactin (IA006)	Escherichia coli CFT073	99.83	-
+562	VFG033824(gi:386640485)	sat	putative secreted autotransporter toxin sat	Sat (CVF448)	Escherichia coli ABU 83972	99.83	-
+562	VFG000904(gb|NP_752330)	vat	Haemoglobin protease	Tsh (VF0233)	Escherichia coli CFT073	99.82	-
+562	VFG000930(gb|NP_752604)	entF	enterobactin synthase multienzyme complex component, ATP-dependent	Enterobactin (VF0228)	Escherichia coli CFT073	99.82	-
+562	VFG000932(gb|NP_752612)	entE	2,3-dihydroxybenzoate-AMP ligase component of enterobactin synthase multienzyme complex	Enterobactin (VF0228)	Escherichia coli CFT073	99.82	-
+562	VFG034000(gi:218701706)	iucA	aerobactin siderophore biosynthesis protein	Aerobactin siderophore (CVF457)	Escherichia coli O7:K1 str. IAI39	99.8	-
+562	VFG035121(gi:26249222)	c3387	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli CFT073	99.8	-
+562	VFG000918(gb|NP_756175)	chuT	periplasmic heme-binding protein ChuT	Chu (VF0227)	Escherichia coli CFT073	99.79	-
+562	VFG012548(gi:110642113)	irp2	yersiniabactin biosynthetic protein	Yersiniabactin siderophore (CVF458)	Escherichia coli 536	99.78	-
+562	VFG000927(gi:26246566)	fepE	ferric enterobactin transport protein FepE	Enterobactin (VF0228)	Escherichia coli CFT073	99.77	-
+562	VFG035153(gi:26249224)	c3389	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli CFT073	99.74	-
+562	VFG018207(gi:26246301)	ecpB	Hypothetical protein yagY precursor	E. coli common pilus (ECP) (CVF625)	Escherichia coli CFT073	99.73	-
+562	VFG036039(gi:386637642)	cdiB	putative hemolysin activator ShlB-type	Contact-dependent inhibition CDI system (CVF747)	Escherichia coli ABU 83972	99.73	-
+562	VFG035940(gi:26250246)	upaG/ehaG	adhesin	UpaG (SS168)	Escherichia coli CFT073	99.69	-
+573	VFG049160(gb|YP_006635486.1)	clbN	colibactin non-ribosomal peptide synthetase ClbN	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	99.69	-
+562	VFG035237(gi:26249233)	c3398	hypothetical protein	SCI-I T6SS (CVF734)	Escherichia coli CFT073	99.67	-
+562	VFG036031(gi:26246247)	cdiA	ShlA/HecA/FhaA exofamily protein	Contact-dependent inhibition CDI system (CVF747)	Escherichia coli CFT073	99.67	-
+562	VFG000933(gb|NP_752613)	entB	isochorismatase	Enterobactin (VF0228)	Escherichia coli CFT073	99.66	-
+562	VFG012237(gi:91213840)	papD	periplasmid chaperone PapD protein	pyelonephritis-associated pilus, Pap pilus (AI001)	Escherichia coli UTI89	99.66	-
+562	VFG018214(gi:26246300)	ecpC	Hypothetical protein yagX precursor	E. coli common pilus (ECP) (CVF625)	Escherichia coli CFT073	99.63	-
+562	VFG012241(gi:110644646)	papC	outer membrane usher protein PapC precursor	P fimbriae (CVF425)	Escherichia coli 536	99.62	-
+562	VFG033843(gi:386638529)	agn43	putative antigen 43	Antigen 43, AIDA-I type (CVF451)	Escherichia coli ABU 83972	99.62	-
+562	VFG033407(gi:386638502)	focH	S-fimbrial adhesin protein SfaH	F1C fimbriae (CVF428)	Escherichia coli ABU 83972	99.6	-
+562	VFG050157(gb|YP_002392929.1)	kpsF	Polysialic acid capsule expression protein	K1 capsule (VF0239)	Escherichia coli O45:K1:H7 str. S88	99.59	-
+573	VFG049158(gb|YP_006635484.1)	clbL	colibactin biosynthesis amidase ClbL	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	99.57	-
+562	VFG043545(gi:218560235)	ECS88_3547	lipoprotein NlpI	NlpI (AI331)	Escherichia coli O45:K1:H7 str. S88	99.55	-
+562	VFG044165(gb|NP_752609)	entS	enterobactin exporter, iron-regulated	enterobactin (IA019)	Escherichia coli CFT073	99.55	-
+562	VFG035259(gi:386640307)	ECABU_c31020	ImpA-like protein	SCI-I T6SS (CVF734)	Escherichia coli ABU 83972	99.54	-
+632	VFG000361(gb|NP_405470)	ybtU	yersiniabactin biosynthetic protein YbtU	Yersiniabactin (VF0136)	Yersinia pestis CO92	99.5	-
+562	VFG033845(gi:386622094)	agn43	Putative antigen 43 precursor	Antigen 43, AIDA-I type (CVF451)	Escherichia coli NA114	99.5	-
+562	VFG033278(gi:260871037)	fimD	outer membrane usher protein FimD	Type I fimbriae (CVF426)	Escherichia coli O111:H- str. 11128	99.47	-
+632	VFG002711(gi:2765179)	cnf	-	CNF (CVF038)	Yersinia pestis biovar Microtus str. 91001	99.46	-
+573	VFG049161(gb|YP_006635487.1)	clbO	colibactin polyketide synthase ClbO	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	99.44	-
+562	VFG033311(gi:387607090)	fimF	fimbrial protein	Type I fimbriae (CVF426)	Escherichia coli O44:H18 042	99.43	-
+632	VFG000364(gb|NP_405473)	ybtA	transcriptional regulator YbtA	Yersiniabactin (VF0136)	Yersinia pestis CO92	99.4	-
+562	VFG043089(gi:15802294)	cheY	chemotaxis regulatory protein CheY	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	99.4	-
+562	VFG043692(gi:112292717)	clbC	putative polyketide synthase	colibactin (TX033)	Escherichia coli O18:K1:H7 str. IHE3034	99.37	-
+562	VFG050158(gb|YP_002392930.1)	kpsE	Capsule polysaccharide export inner-membrane protein	K1 capsule (VF0239)	Escherichia coli O45:K1:H7 str. S88	99.37	-
+562	VFG043078(gi:15801194)	flgF	flagellar basal body rod protein FlgF	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	99.31	-
+622	VFG012856(gi:3799473)	ipaH	-	Mxi-Spa TTSS effectors controlled by MxiE (CVF465)	Shigella dysenteriae Sd197	99.22	-
+562	VFG042729(gi:15801158)	csgB	curlin minor subunit	curli fibers (AI093)	Escherichia coli O157:H7 str. EDL933	99.17	-
+562	VFG012257(gi:91213844)	papB	pap operon regulatory protein PapB	pyelonephritis-associated pilus, Pap pilus (AI001)	Escherichia coli UTI89	99.11	-
+562	VFG043079(gi:15801195)	flgG	flagellar basal body rod protein FlgG	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	99.07	-
+562	VFG043077(gi:15801193)	flgE	flagellar hook protein FlgE	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	99.04	-
+562	VFG040947(gi:157156601)	gspL	GspL-like protein	gsp (SS206)	Escherichia coli E24377A	99.0	-
+562	VFG043072(gi:15801187)	flgN	flagella synthesis protein FlgN	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.98	-
+562	VFG043090(gi:15802295)	cheB	chemotaxis-specific methylesterase	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.83	-
+562	VFG043097(gi:15802303)	flhC	transcriptional activator FlhC	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.8	-
+562	VFG043116(gi:161367586)	fliO	flagellar biosynthesis protein FliO	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.67	-
+562	VFG000875(gb|NP_757243)	fimC	Chaperone protein fimC precursor	Type 1 fimbriae (VF0221)	Escherichia coli CFT073	98.66	-
+562	VFG001444(gb|AAG10151)	aslA	putative arylsulfatase	AslA (VF0238)	Escherichia coli O18:K1:H7 str. RS218	98.66	-
+573	VFG049151(gb|YP_006635477.1)	clbE	colibactin biosynthesis aminomalonyl-acyl carrier protein ClbE	Colibactin (VF0573)	Klebsiella pneumoniae subsp. pneumoniae 1084	98.63	-
+562	VFG043073(gi:15801189)	flgA	flagellar basal body P-ring biosynthesis protein FlgA	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.61	-
+562	VFG043096(gi:15802302)	motA	flagellar motor protein MotA	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.61	-
+562	VFG043101(gi:15802357)	fliA	flagellar biosynthesis sigma factor	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.59	-
+562	VFG043088(gi:15802293)	cheZ	chemotaxis regulator CheZ	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.58	-
+562	VFG043080(gi:15801196)	flgH	flagellar basal body L-ring protein	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.53	-
+622	VFG002054(gb|YP_404607)	gspK	general secretion pathway protein K	T2SS (VF0333)	Shigella dysenteriae Sd197	98.52	-
+562	VFG043094(gi:15802300)	cheA	chemotaxis protein CheA	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.46	-
+562	VFG000929(gb|NP_752599)	entD	phosphopantetheinyl transferase component of enterobactin synthase multienzyme complex	Enterobactin (VF0228)	Escherichia coli CFT073	98.44	-
+562	VFG043103(gi:15802359)	fliD	flagellar capping protein	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.43	-
+562	VFG043108(gi:15802374)	fliG	flagellar motor switch protein G	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.39	-
+562	VFG050159(gb|YP_002392931.1)	kpsD	Polysialic acid transport protein precursor	K1 capsule (VF0239)	Escherichia coli O45:K1:H7 str. S88	98.36	-
+562	VFG043110(gi:161367587)	fliI	flagellum-specific ATP synthase	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.35	-
+562	VFG035836(gi:117622516)	aec15	hypothetical protein	AEC (SS184)	Escherichia coli APEC O1	98.28	-
+622	VFG002049(gb|YP_404602)	gspF	general secretion pathway protein F	T2SS (VF0333)	Shigella dysenteriae Sd197	98.21	-
+562	VFG035891(gi:387605712)	aec7	hypothetical protein	ACE T6SS (CVF736)	Escherichia coli O44:H18 042	98.16	-
+562	VFG043081(gi:15801197)	flgI	flagellar basal body P-ring protein	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.12	-
+623	VFG012874(gi:30064027)	ipaH	hypothetical protein	Mxi-Spa TTSS effectors controlled by MxiE (CVF465)	Shigella flexneri 2a str. 2457T	98.06	-
+562	VFG043112(gi:15802378)	fliK	flagellar hook-length control protein	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.04	-
+622	VFG002056(gb|YP_404609)	gspM	general secretion pathway protein M	T2SS (VF0333)	Shigella dysenteriae Sd197	98.0	-
+562	VFG012231(gi:110644644)	papJ	protein PapJ precursor	P fimbriae (CVF425)	Escherichia coli 536	98.0	-
+621	VFG012908(gi:82545407)	gspJ	putative type II secretion protein	T2SS (Type II secretion system) (CVF466)	Shigella boydii Sb227	98.0	-
+623	VFG013030(gi:110804581)	fepD) ferric enterobactin (enterochelin	transport	Enterobactin transport (CVF478)	Shigella flexneri 5 str. 8401	98.0	-
+294	VFG019904(gi:229588522)	algF	alginate biosynthesis protein precursor	Alginate biosynthesis (CVF522)	Pseudomonas fluorescens SBW25	98.0	-
+621	VFG020152(gi:6268923)	gspD	-	T2SS (Type II secretion system) (CVF466)	Shigella boydii CDC 3083-94	98.0	-
+562	VFG036033(gi:91213894)	cdiA	ShlA/HecA/FhaA exofamily protein	CdiA-CdiB (SS125)	Escherichia coli UTI89	98.0	-
+562	VFG043076(gi:15801192)	flgD	flagellar basal body rod modification protein	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.0	-
+562	VFG043105(gi:15802361)	fliT	flagellar biosynthesis protein FliT	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	98.0	-
+562	VFG044066(gi:170650746)	EcSMS35_B0007	colicin-E1 protein	colicin E1 (TX381)	Escherichia coli SMS-3-5	98.0	-
+562	VFG033335(gi:410482685)	fimG	fimbrial-like adhesin protein	Type I fimbriae (CVF426)	Escherichia coli O104:H4 str. 2009EL-2050	97.98	-
+562	VFG043111(gi:15802377)	fliJ	flagellar biosynthesis chaperone	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.97	-
+562	VFG040948(gi:157155920)	gspK	general secretion pathway protein K	gsp (SS206)	Escherichia coli E24377A	97.96	-
+562	VFG043117(gi:15802383)	fliP	flagellar biosynthesis protein FliP	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.95	-
+562	VFG043109(gi:161367588)	fliH	flagellar assembly protein H	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.92	-
+562	VFG040956(gi:157156659)	gspC	putative type II secretion protein GspC	gsp (SS206)	Escherichia coli E24377A	97.91	-
+562	VFG043084(gi:15801200)	flgL	flagellar hook-associated protein FlgL	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.9	-
+562	VFG043087(gi:15802292)	flhB	flagellar biosynthesis protein FlhB	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.86	-
+562	VFG043086(gi:15802291)	flhA	flagellar biosynthesis protein FlhA	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.85	-
+562	VFG000886(gb|NP_755463)	papJ	P pilus assembly protein PapJ	P fimbriae (VF0220)	Escherichia coli CFT073	97.79	-
+562	VFG043095(gi:15802301)	motB	flagellar motor protein MotB	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.76	-
+562	VFG043099(gi:15802355)	fliY	cystine transporter subunit	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.75	-
+562	VFG040955(gi:157157281)	gspD	general secretion pathway protein D	gsp (SS206)	Escherichia coli E24377A	97.68	-
+562	VFG043107(gi:15802373)	fliF	flagellar MS-ring protein	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.68	-
+562	VFG043113(gi:15802379)	fliL	flagellar basal body-associated protein FliL	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.61	-
+562	VFG043114(gi:15802380)	fliM	flagellar motor switch protein FliM	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.59	-
+562	VFG043074(gi:15801190)	flgB	flagellar basal body rod protein FlgB	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.56	-
+562	VFG043120(gi:15802868)	flk	flagella biosynthesis regulator	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.55	-
+562	VFG043091(gi:15802296)	cheR	chemotaxis methyltransferase CheR	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.45	-
+562	VFG043083(gi:15801199)	flgK	flagellar hook-associated protein FlgK	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.4	-
+562	VFG043092(gi:15802298)	tar/cheM	methyl-accepting chemotaxis protein II	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.39	-
+622	VFG012837(gi:82524546)	ipaH2.5	invasion plasmid antigen, fragment	Mxi-Spa TTSS effectors controlled by MxiE (CVF465)	Shigella dysenteriae Sd197	97.35	-
+562	VFG034754(gb|NP_288154)	espL1	Type III secretion system effector espL1	TTSS (VF0191)	Escherichia coli O157:H7 str. EDL933	97.33	-
+562	VFG042714(gi:15801632)	Z2201	putative fimbrial chaperone protein	F9 fimbriae (AI090)	Escherichia coli O157:H7 str. EDL933	97.33	-
+562	VFG040950(gi:157156956)	gspI	general secretion pathway protein I	gsp (SS206)	Escherichia coli E24377A	97.25	-
+622	VFG002048(gb|YP_404601)	gspE	general secretion pathway protein E	T2SS (VF0333)	Shigella dysenteriae Sd197	97.24	-
+562	VFG042718(gi:15801636)	Z2206	putative adhesin; FimH protein	F9 fimbriae (AI090)	Escherichia coli O157:H7 str. EDL933	97.14	-
+562	VFG050162(gb|YP_002392934.1)	kpsS	Capsule polysaccharide export protein	K1 capsule (VF0239)	Escherichia coli O45:K1:H7 str. S88	97.14	-
+562	VFG050168(gb|YP_002392940.1)	kpsT	Polysialic acid transport ATP-binding protein	K1 capsule (VF0239)	Escherichia coli O45:K1:H7 str. S88	97.14	-
+562	VFG033280(gi:410482683)	fimD	fimbrial outer membrane usher protein	Type I fimbriae (CVF426)	Escherichia coli O104:H4 str. 2009EL-2050	97.11	-
+294	VFG019906(gi:229588521)	algA	alginate biosynthesis protein	Alginate biosynthesis (CVF522)	Pseudomonas fluorescens SBW25	97.1	-
+562	VFG043082(gi:15801198)	flgJ	flagellar rod assembly protein/muramidase FlgJ	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	97.03	-
+623	VFG013006(gi:110804572)	entD	enterochelin synthetase, component D	Enterobactin synthesis (CVF477)	Shigella flexneri 5 str. 8401	97.0	-
+294	VFG019896(gi:229588526)	algX	alginate biosynthesis protein precursor	Alginate biosynthesis (CVF522)	Pseudomonas fluorescens SBW25	97.0	-
+562	VFG050160(gb|YP_002392932.1)	kpsU	3-deoxy-manno-octulosonate cytidylyltransferase	K1 capsule (VF0239)	Escherichia coli O45:K1:H7 str. S88	97.0	-
+562	VFG043115(gi:15802381)	fliN	flagellar motor switch protein FliN	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	96.94	-
+562	VFG041003(gi:284924301)	aaiW	transposase	AAI/SCI-II (SS182)	Escherichia coli O44:H18 042	96.83	-
+562	VFG043104(gi:15802360)	fliS	flagellar protein FliS	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	96.81	-
+562	VFG050161(gb|YP_002392933.1)	kpsC	Capsule polysaccharide export protein	K1 capsule (VF0239)	Escherichia coli O45:K1:H7 str. S88	96.78	-
+562	VFG043102(gi:15802358)	fliC	flagellin	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	96.63	-
+621	VFG020160(gi:187733759)	gspL	GspL-like protein	T2SS (Type II secretion system) (CVF466)	Shigella boydii CDC 3083-94	96.57	-
+562	VFG043093(gi:15802299)	cheW	purine-binding chemotaxis protein	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	96.43	-
+562	VFG040953(gi:157154920)	gspF	general secretion pathway protein F	gsp (SS206)	Escherichia coli E24377A	96.4	-
+28901	VFG000477(gi:16766230)	rpoS) sigma S (sigma 38	factor of RNA polymerase, major sigmafactor during stationary phase	RpoS (VF0112)	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2	96.32	-
+562	VFG050169(gb|YP_002392941.1)	kpsM	Polysialic acid transport protein	K1 capsule (VF0239)	Escherichia coli O45:K1:H7 str. S88	96.09	-
+622	VFG002046(gb|YP_404599)	gspC	general secretion pathway protein C	T2SS (VF0333)	Shigella dysenteriae Sd197	96.0	-
+622	VFG002047(gb|YP_404600)	gspD	general secretion pathway protein D	T2SS (VF0333)	Shigella dysenteriae Sd197	96.0	-
+562	VFG012252(gi:91213843)	papA	major pilin subunit PapA	pyelonephritis-associated pilus, Pap pilus (AI001)	Escherichia coli UTI89	96.0	-
+621	VFG012898(gi:82545402)	gspE	putative type II secretion protein	T2SS (Type II secretion system) (CVF466)	Shigella boydii Sb227	96.0	-
+312306	VFG014455(gi:104782818)	fliI	flagellum-specific ATP synthase	Flagella (CVF521)	Pseudomonas entomophila L48	96.0	-
+294	VFG019925(gi:229588810)	mucP	protease	Alginate regulation (CVF523)	Pseudomonas fluorescens SBW25	96.0	-
+294	VFG020042(gi:229590602)	aprA	metalloprotease	Alkaline protease (CVF538)	Pseudomonas fluorescens SBW25	96.0	-
+1773	VFG031348(gi:15610406)	ctpC	Probable metal cation-transporting P-type ATPase C CtpC	P(1)-type Mn2+ transporting ATPase (CVF657)	Mycobacterium tuberculosis H37Rv	96.0	-
+562	VFG035854(gi:222155057)	aec15	hypothetical protein	ACE T6SS (CVF736)	Escherichia coli O83:H1 str. LF82	96.0	-
+562	VFG040946(gi:157154814)	gspM	putative general secretion pathway protein YghD	gsp (SS206)	Escherichia coli E24377A	96.0	-
+562	VFG040952(gi:157157959)	gspG	general secretion pathway protein G	gsp (SS206)	Escherichia coli E24377A	96.0	-
+562	VFG043075(gi:15801191)	flgC	flagellar basal body rod protein FlgC	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	96.0	-
+562	VFG043085(gi:15802290)	flhE	flagellar protein	peritrichous flagella (AI140)	Escherichia coli O157:H7 str. EDL933	96.0	-
+622	VFG002051(gb|YP_404604)	gspH	general secretion pathway protein H	T2SS (VF0333)	Shigella dysenteriae Sd197	95.96	-
+562	VFG040954(gi:157159001)	gspE	general secretory pathway protein E	gsp (SS206)	Escherichia coli E24377A	95.92	-
+621	VFG012785(gi:3776756)	ospC4	-	Mxi-Spa TTSS effectors controlled by VirB (CVF463)	Shigella boydii Sb227	95.54	-
+622	VFG002050(gb|YP_404603)	gspG	general secretion pathway protein G	T2SS (VF0333)	Shigella dysenteriae Sd197	95.24	-
+621	VFG012900(gi:82545403)	gspF	putative type II secretion protein	T2SS (Type II secretion system) (CVF466)	Shigella boydii Sb227	95.0	-
