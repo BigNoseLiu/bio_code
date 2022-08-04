@@ -49,10 +49,12 @@ while( $line = <STDIN> ){
 
 	#vcf headers
 	if( $line =~ /^#/ ){
+		$line =~ s/contig=<ID=chrM/contig=<ID=MT/;
 		$line =~ s/contig=<ID=chr/contig=<ID=/;
 		print $line."\n";
 		next;
 	}
+	$line =~ s/^chrM/MT/i;
 	$line =~ s/^chr//i;
 	my @arr = split(/\t/,$line);
 	#vcf format列的格式

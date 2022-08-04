@@ -107,6 +107,10 @@ foreach my $line( @lines ){
 			for(my $i=$t_count;$i<16;$i++){
 				$t_arr[$i] = "";
 			}
+			if($t_arr[1] eq "upstream_gene_variant" || $t_arr[1] eq "downstream_gene_variant" || $t_arr[1] eq "intergenic_region"){
+				next if( $line =~ /^chrm/i || $line =~ /^m/i );
+				$t_arr[2] = "";
+			}
 			$h_impact{$t_arr[2]}{$t_arr[6]}{'prior'} =  -1;
 			my $trans = $t_arr[6];
 			$trans =~ s/\.\d+$//;

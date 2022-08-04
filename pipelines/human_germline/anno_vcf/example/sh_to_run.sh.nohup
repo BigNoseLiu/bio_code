@@ -1,6 +1,6 @@
 Tool returned:
 SUCCESS
-[0.001s][warning][os,container] Duplicate cpuset controllers detected. Picking /sys/fs/cgroup/cpuset, skipping /mnt/sys/fs/cgroup/cpuset.
+[0.025s][warning][os,container] Duplicate cpuset controllers detected. Picking /sys/fs/cgroup/cpuset, skipping /mnt/sys/fs/cgroup/cpuset.
 
  Welcome to:
   _____ _            _____                     _
@@ -11,43 +11,44 @@ SUCCESS
 
  A Tool to Annotate and Prioritize Exome Variants     v13.0.0
 
-2022-07-27 05:59:45.623  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : Starting Main using Java 18.0.2 on c9f70f000228 with PID 1 (/biodata/git_code/software/exomiser/exomiser-cli-13.0.0/exomiser-cli-13.0.0.jar started by ? in /)
-2022-07-27 05:59:45.626  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : No active profile set, falling back to default profiles: default
-2022-07-27 05:59:46.488  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Exomiser home: /biodata/git_code/software/exomiser/exomiser-cli-13.0.0
-2022-07-27 05:59:46.499  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Data source directory defined in properties as: /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser
-2022-07-27 05:59:46.499  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Root data source directory set to: /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser
-2022-07-27 05:59:46.503  INFO 1 --- [           main] o.m.e.c.g.j.JannovarDataProtoSerialiser  : Deserialising Jannovar data from /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser/2109_hg19/2109_hg19_transcripts_ensembl.ser
-2022-07-27 05:59:48.568  INFO 1 --- [           main] o.m.e.c.g.j.JannovarDataProtoSerialiser  : Deserialisation took 2.064 sec.
-2022-07-27 05:59:49.318  INFO 1 --- [           main] o.m.e.c.g.dao.VariantWhiteListLoader     : Loading variant whitelist from: /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser/2109_hg19/2109_hg19_clinvar_whitelist.tsv.gz
-2022-07-27 05:59:49.641  INFO 1 --- [           main] o.m.e.c.g.dao.VariantWhiteListLoader     : Loaded 112258 variants into whitelist
-2022-07-27 05:59:50.432  INFO 1 --- [           main] g.GenomeAnalysisServiceAutoConfiguration : Configured hg19 genome analysis service
-2022-07-27 05:59:51.716  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Default results directory set to: /biodata/git_code/software/exomiser/exomiser-cli-13.0.0/results
-2022-07-27 05:59:51.947  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : Started Main in 6.743 seconds (JVM running for 7.115)
-2022-07-27 05:59:52.225  INFO 1 --- [           main] o.m.e.cli.ExomiserCommandLineRunner      : Exomiser running...
-2022-07-27 05:59:52.244  INFO 1 --- [           main] o.m.e.core.analysis.AnalysisBuilder      : Not adding an inheritance filter for undefined mode of inheritance
-2022-07-27 05:59:52.248  INFO 1 --- [           main] o.m.exomiser.core.Exomiser               : Running analysis using hg19 assembly with mode: FULL
-2022-07-27 05:59:52.251  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Starting analysis
-2022-07-27 05:59:52.252  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Using genome assembly hg19
-2022-07-27 05:59:52.252  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Checking proband and pedigree for VCF /mnt/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/test/test.final.leftalign.vcf
-2022-07-27 05:59:52.315  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Running analysis for proband 8339 (sample 1 in VCF) from samples: [8339]
-2022-07-27 05:59:52.595  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Filtering variants with:
-2022-07-27 05:59:52.595  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : FrequencyFilter{maxFreq=5.0}
-2022-07-27 05:59:52.596  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Wrapping FrequencyFilter{maxFreq=5.0} with VariantDataProvider for sources [THOUSAND_GENOMES, TOPMED, UK10K, ESP_AFRICAN_AMERICAN, ESP_EUROPEAN_AMERICAN, ESP_ALL, EXAC_AFRICAN_INC_AFRICAN_AMERICAN, EXAC_AMERICAN, EXAC_EAST_ASIAN, EXAC_FINNISH, EXAC_NON_FINNISH_EUROPEAN, EXAC_OTHER, EXAC_SOUTH_ASIAN, GNOMAD_E_AFR, GNOMAD_E_AMR, GNOMAD_E_EAS, GNOMAD_E_FIN, GNOMAD_E_NFE, GNOMAD_E_OTH, GNOMAD_E_SAS, GNOMAD_G_AFR, GNOMAD_G_AMR, GNOMAD_G_EAS, GNOMAD_G_FIN, GNOMAD_G_NFE, GNOMAD_G_OTH, GNOMAD_G_SAS]
-2022-07-27 05:59:52.597  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : PathogenicityFilter{keepNonPathogenic=true}
-2022-07-27 05:59:52.598  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Wrapping PathogenicityFilter{keepNonPathogenic=true} with VariantDataProvider for sources [POLYPHEN, MUTATION_TASTER, SIFT]
-2022-07-27 05:59:52.599  INFO 1 --- [           main] o.m.e.core.genome.VariantFactoryImpl     : Annotating variant records, trimming sequences and normalising positions...
-2022-07-27 06:02:48.348  INFO 1 --- [           main] o.m.e.core.genome.VariantFactoryImpl     : Processed 70355 variant records into 70556 single allele variants (including 0 structural variants)
-2022-07-27 06:02:48.348  INFO 1 --- [           main] o.m.e.core.genome.VariantFactoryImpl     : Variant annotation finished in 2m 55s 749ms (175749 ms)
-2022-07-27 06:02:48.349  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Loaded 70556 variants - 4690 passed variant filters
-2022-07-27 06:02:48.398  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Checking inheritance mode compatibility with [] for genes which passed filters
-2022-07-27 06:02:48.515  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Running Prioritiser: OmimPrioritiser{}
-2022-07-27 06:02:49.564  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Running Prioritiser: HiPhivePriority{options=HiPhiveOptions{diseaseId='', candidateGeneSymbol='', benchmarkingEnabled=false, runPpi=true, runHuman=true, runMouse=true, runFish=true}}
-2022-07-27 06:02:52.192  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Variant filter stats are:
-2022-07-27 06:02:52.193  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : FREQUENCY_FILTER: pass=4690 fail=65866
-2022-07-27 06:02:52.193  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : PATHOGENICITY_FILTER: pass=70556 fail=0
-2022-07-27 06:02:52.193  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Scoring genes
-2022-07-27 06:02:52.333  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Analysed 15258 genes containing 70556 filtered variants
-2022-07-27 06:02:52.333  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Creating analysis results from VCF /mnt/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/test/test.final.leftalign.vcf
-2022-07-27 06:02:52.335  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Finished analysis in 3m 0s 19ms (180019 ms)
-2022-07-27 06:02:52.335  INFO 1 --- [           main] o.m.e.cli.ExomiserCommandLineRunner      : Writing results...
-2022-07-27 06:03:03.176  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : Exomising finished - Bye!
+2022-08-04 02:27:01.477  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : Starting Main using Java 18.0.2 on e90bc9f7cd60 with PID 1 (/biodata/git_code/software/exomiser/exomiser-cli-13.0.0/exomiser-cli-13.0.0.jar started by ? in /)
+2022-08-04 02:27:01.480  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : No active profile set, falling back to default profiles: default
+2022-08-04 02:27:02.880  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Exomiser home: /biodata/git_code/software/exomiser/exomiser-cli-13.0.0
+2022-08-04 02:27:02.891  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Data source directory defined in properties as: /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser
+2022-08-04 02:27:02.891  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Root data source directory set to: /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser
+2022-08-04 02:27:02.896  INFO 1 --- [           main] o.m.e.c.g.j.JannovarDataProtoSerialiser  : Deserialising Jannovar data from /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser/2109_hg19/2109_hg19_transcripts_ensembl.ser
+2022-08-04 02:27:05.365  INFO 1 --- [           main] o.m.e.c.g.j.JannovarDataProtoSerialiser  : Deserialisation took 2.469 sec.
+2022-08-04 02:27:06.257  INFO 1 --- [           main] o.m.e.c.g.dao.VariantWhiteListLoader     : Loading variant whitelist from: /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser/2109_hg19/2109_hg19_clinvar_whitelist.tsv.gz
+2022-08-04 02:27:06.693  INFO 1 --- [           main] o.m.e.c.g.dao.VariantWhiteListLoader     : Loaded 112258 variants into whitelist
+2022-08-04 02:27:07.816  INFO 1 --- [           main] g.GenomeAnalysisServiceAutoConfiguration : Configured hg19 genome analysis service
+2022-08-04 02:27:24.378  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Default results directory set to: /biodata/git_code/software/exomiser/exomiser-cli-13.0.0/results
+2022-08-04 02:27:31.446  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : Started Main in 30.747 seconds (JVM running for 32.606)
+2022-08-04 02:27:42.432  INFO 1 --- [           main] o.m.e.cli.ExomiserCommandLineRunner      : Exomiser running...
+2022-08-04 02:27:44.509  INFO 1 --- [           main] o.m.e.core.analysis.AnalysisBuilder      : Not adding an inheritance filter for undefined mode of inheritance
+2022-08-04 02:27:44.518  INFO 1 --- [           main] o.m.exomiser.core.Exomiser               : Running analysis using hg19 assembly with mode: FULL
+2022-08-04 02:27:44.523  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Starting analysis
+2022-08-04 02:27:44.523  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Using genome assembly hg19
+2022-08-04 02:27:44.524  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Checking proband and pedigree for VCF /mnt/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/A202208020001/A202208020001.final.leftalign.vcf
+2022-08-04 02:27:47.438  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Running analysis for proband 039809_R1 (sample 1 in VCF) from samples: [039809_R1]
+2022-08-04 02:27:47.966  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Filtering variants with:
+2022-08-04 02:27:47.966  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : FrequencyFilter{maxFreq=5.0}
+2022-08-04 02:27:47.968  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Wrapping FrequencyFilter{maxFreq=5.0} with VariantDataProvider for sources [THOUSAND_GENOMES, TOPMED, UK10K, ESP_AFRICAN_AMERICAN, ESP_EUROPEAN_AMERICAN, ESP_ALL, EXAC_AFRICAN_INC_AFRICAN_AMERICAN, EXAC_AMERICAN, EXAC_EAST_ASIAN, EXAC_FINNISH, EXAC_NON_FINNISH_EUROPEAN, EXAC_OTHER, EXAC_SOUTH_ASIAN, GNOMAD_E_AFR, GNOMAD_E_AMR, GNOMAD_E_EAS, GNOMAD_E_FIN, GNOMAD_E_NFE, GNOMAD_E_OTH, GNOMAD_E_SAS, GNOMAD_G_AFR, GNOMAD_G_AMR, GNOMAD_G_EAS, GNOMAD_G_FIN, GNOMAD_G_NFE, GNOMAD_G_OTH, GNOMAD_G_SAS]
+2022-08-04 02:27:47.969  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : PathogenicityFilter{keepNonPathogenic=true}
+2022-08-04 02:27:47.970  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Wrapping PathogenicityFilter{keepNonPathogenic=true} with VariantDataProvider for sources [POLYPHEN, MUTATION_TASTER, SIFT]
+2022-08-04 02:27:47.971  INFO 1 --- [           main] o.m.e.core.genome.VariantFactoryImpl     : Annotating variant records, trimming sequences and normalising positions...
+2022-08-04 02:27:49.240  INFO 1 --- [           main] o.m.e.core.genome.VariantFactoryImpl     : Processed 1631 variant records into 1633 single allele variants (including 0 structural variants)
+2022-08-04 02:27:49.241  INFO 1 --- [           main] o.m.e.core.genome.VariantFactoryImpl     : Variant annotation finished in 0m 1s 269ms (1269 ms)
+2022-08-04 02:27:49.241  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Loaded 1633 variants - 1633 passed variant filters
+2022-08-04 02:27:49.249  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Checking inheritance mode compatibility with [] for genes which passed filters
+2022-08-04 02:27:49.303  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Running Prioritiser: OmimPrioritiser{}
+2022-08-04 02:27:50.361  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Running Prioritiser: HiPhivePriority{options=HiPhiveOptions{diseaseId='', candidateGeneSymbol='', benchmarkingEnabled=false, runPpi=true, runHuman=true, runMouse=true, runFish=true}}
+2022-08-04 02:27:54.056  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Variant filter stats are:
+2022-08-04 02:27:54.058  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : FREQUENCY_FILTER: pass=1633 fail=0
+2022-08-04 02:27:54.058  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : PATHOGENICITY_FILTER: pass=1633 fail=0
+2022-08-04 02:27:54.058  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Scoring genes
+2022-08-04 02:27:54.089  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Analysed 13 genes containing 1633 filtered variants
+2022-08-04 02:27:54.089  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Creating analysis results from VCF /mnt/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/germline_anno/A202208020001/A202208020001.final.leftalign.vcf
+2022-08-04 02:27:54.090  INFO 1 --- [           main] o.m.e.c.analysis.AbstractAnalysisRunner  : Finished analysis in 0m 6s 651ms (6651 ms)
+2022-08-04 02:27:54.091  INFO 1 --- [           main] o.m.e.cli.ExomiserCommandLineRunner      : Writing results...
+2022-08-04 02:27:57.581  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : Exomising finished - Bye!
+Thu Aug  4 02:33:20 UTC 2022

@@ -14,7 +14,7 @@ close HGMD;
 
 my %h_all_trans = ();
 #my %h_type = ();
-my @types = ('HGMD','mRNA','ncRNA','rRNA','misc_RNA','precursor_RNA');
+my @types = ('HGMD','mRNA','ncRNA','tRNA','rRNA','misc_RNA','precursor_RNA');
 open IN,"gunzip -c $ARGV[1]|"or die $!;
 while( $line = <IN> ){
 	if( $line =~ /\sexon\s(\d+)\s(\d+)\s.*gbkey=([^;]+);gene=([^;]+);.*transcript_id=([^\.;]+)\./){
@@ -25,7 +25,17 @@ while( $line = <IN> ){
 		else{
 			$h_all_trans{$gene}{$gbkey}{$trans} += ($pos2 - $pos1 + 1);
 		}
-	#	$h_type{$1}++;
+	}
+	elsif( $line =~ /^NC_012920/ && $line =~ /\sexon\s(\d+)\s(\d+)\s.*gbkey=([^;]+);gene=([^;]+)[;\s]/ ){
+		my ($pos1,$pos2,$gbkey,$gene) = ($1,$2,$3,$4);
+		foreach my $trans( $gene, "TRANSCRIPT_$gene" ){
+			if( defined($h_hgmd_trans{$trans}) ){
+				$h_all_trans{$gene}{'HGMD'}{$trans} += ($pos2 - $pos1 + 1);
+			}
+			else{
+				$h_all_trans{$gene}{$gbkey}{$trans} += ($pos2 - $pos1 + 1);
+			}
+		}
 	}
 }
 close IN;

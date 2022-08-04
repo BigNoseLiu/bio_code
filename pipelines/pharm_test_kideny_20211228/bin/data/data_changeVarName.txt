@@ -1,0 +1,3 @@
+CYP3A7*1.001	CYP3A7*1A
+CYP3A7*1.003	CYP3A7*1C
+G6PD Mediterranean, Dallas, Panama‚ Sassari, Cagliari, Birmingham	G6PD Mediterranean, Dallas, Panama, Sassari, Cagliari, Birmingham

@@ -15,8 +15,10 @@ my $main_sample = $ARGV[2];
 
 
    #host => '1.12.236.215:27017',
+   #host => 'gmbzero.tpddns.cn:31112',
+   #host => '10.10.9.35:31112',
 my $client = MongoDB::MongoClient->new(
-   host => 'gmbzero.tpddns.cn:31112',
+   host => '10.10.9.35:31112',
    username => 'lintop',
    password => 'lintop.hx321.mongo'
 );
@@ -38,7 +40,7 @@ for(my$i=0;$i<@arr_header;$i++){
 }
 
 
-my %h_mut_type2name = ('missense_variant'=> decode_utf8('错义'),'synonymous_variant'=> decode_utf8('同义'),'frameshift_variant'=> decode_utf8('移码'),'intron_variant'=> decode_utf8('内含子'),'splice_region_variant'=> decode_utf8('剪切'),'3_prime_UTR_variant'=> decode_utf8('UTR3'),'5_prime_UTR_variant'=> decode_utf8('UTR5'),'downstream_gene_variant'=> decode_utf8('下游'),'upstream_gene_variant'=> decode_utf8('上游'),'splice_region_variant'=> decode_utf8('剪切区域'),'intergenic_region'=> decode_utf8('基因间区'));
+my %h_mut_type2name = ('missense_variant'=> decode_utf8('错义'),'synonymous_variant'=> decode_utf8('同义'),'frameshift_variant'=> decode_utf8('移码'),'intron_variant'=> decode_utf8('内含子'),'splice_region_variant'=> decode_utf8('剪切'),'3_prime_UTR_variant'=> decode_utf8('UTR3'),'5_prime_UTR_variant'=> decode_utf8('UTR5'),'downstream_gene_variant'=> decode_utf8('下游'),'upstream_gene_variant'=> decode_utf8('上游'),'splice_region_variant'=> decode_utf8('剪切区域'),'intergenic_region'=> decode_utf8('基因间区'), 'non_coding_transcript_exon_variant'=> decode_utf8('外显子'), 'intragenic_variant'=>decode_utf8('基因区'));
 print `date`;
 my $line;
 my %h_temp = ();
@@ -63,17 +65,35 @@ while( $line = <STDIN> ){
 	#$h_record{'tags'}{'match_mode'} = 0;
 	
 	#location
-	$h_record{'location'}{'hg19'}{'chr'} = $arr[$h_header{'Chr'}];
-	$h_record{'location'}{'hg19'}{'pos1'} = $arr[$h_header{'Start'}];
-	$h_record{'location'}{'hg19'}{'pos2'} = $arr[$h_header{'End'}];
-	$h_record{'location'}{'hg19'}{'ref'} = $arr[$h_header{'Ref'}];
-	$h_record{'location'}{'hg19'}{'alt'} = $arr[$h_header{'Alt'}];
-
-
+	my ( $t_chr,$t_pos1,$t_pos2,$t_ref,$t_alt ) = ($arr[$h_header{'Chr'}],$arr[$h_header{'Start'}],$arr[$h_header{'End'}],$arr[$h_header{'Ref'}],$arr[$h_header{'Alt'}]);
+	$h_record{'location'}{'hg19'}{'chr'} = $t_chr;
+	$h_record{'location'}{'hg19'}{'pos1'} = $t_pos1;
+	$h_record{'location'}{'hg19'}{'pos2'} = $t_pos2;
+	$h_record{'location'}{'hg19'}{'ref'} = $t_ref;
+	$h_record{'location'}{'hg19'}{'alt'} = $t_alt;
+	if( $t_chr =~ /^chrm/i || $t_chr =~ /^m/i ){
+		$h_record{'location'}{'hg19'}{'name'} = "m.$t_pos1$t_ref>$t_alt";
+		if( $t_ref=~/^[ATCG]$/i && $t_alt=~/^[ATCG]$/i ){
+		}
+		elsif( $t_alt eq "-" ){
+			if(length($t_ref)==1){
+				$h_record{'location'}{'hg19'}{'name'} = "m.".$t_pos1."del";
+			}
+			else{
+				$h_record{'location'}{'hg19'}{'name'} = "m.$t_pos1".'_'.($t_pos1+length($t_ref)-1)."del";
+			}
+		}
+		elsif( $t_ref eq "-" ){
+			$h_record{'location'}{'hg19'}{'name'} = "m.".$t_pos1.'_'.($t_pos1+length($t_ref))."ins".$t_alt;
+		}
+		else{
+			$h_record{'location'}{'hg19'}{'name'} = "m.".$t_pos1.'_'.($t_pos1+length($t_ref))."delins".$t_alt;
+		}
+	}
 
 	#result gatk
 	$h_record{'test_result'}{'standard_result_en'} = "wild";
-	$h_record{'test_result'}{'standard_result'} = decode_utf8('野生型');
+	$h_record{'test_result'}{'standard_result'} = ".";
 
 	#获取各样本数据
 	my @arr_result = ();
@@ -83,7 +103,7 @@ while( $line = <STDIN> ){
 			my $sample_id = $1;
 			my %h_result = ();
 			$h_result{'result_en'} = 'wild';
-			$h_result{'result'} = decode_utf8('野生型');
+			$h_result{'result'} = ".";
 			if(  $arr[$h_header{$af_header}] =~ /het/ ){
 				$h_result{'result_en'} = 'het';
 				$h_result{'result'} = decode_utf8('杂合');
@@ -92,15 +112,20 @@ while( $line = <STDIN> ){
 				$h_result{'result_en'} = 'hom';
 				$h_result{'result'} = decode_utf8('纯合');
 			}
+			elsif(  $arr[$h_header{$af_header}] =~ /\d/ ){
+				$h_result{'result_en'} = $arr[$h_header{$af_header}];
+				$h_result{'result'} = $arr[$h_header{$af_header}];
+			}
 			if( $main_sample eq $sample_id ){
 				$h_record{'test_result'}{'standard_result_en'} = $h_result{'result_en'};
-				$h_record{'test_result'}{'standard_result'} = $h_result{'result'};
+				$h_record{'test_result'}{'standard_result'}    = $h_result{'result'};
 			}
 			$h_result{'info'} = "-";
 			$h_result{'detail'} = "-";
 			$h_result{'detail'} = $arr[$h_header{"Otherinfo11"}] if(defined($h_header{"Otherinfo11"}));
 			$h_result{'detail'} =~ s/^(.+;)ANN_STANDARD=.*$/$1/;
 			$h_result{'info'} = $arr[$h_header{"mut_detail_$sample_id"}] if(defined($h_header{"mut_detail_$sample_id"}));
+			$h_result{'info'} =~ s/^\.\/\.:.*$/\./;
 
 			$h_sample_result{'result1'} = \%h_result;
 			$h_sample_result{'result2'} = \%h_result;
@@ -115,7 +140,6 @@ while( $line = <STDIN> ){
 
 	#dbsnp
 	$h_record{'dbsnp'} = $arr[$h_header{'avsnp150'}];
-
 
 	my %h_known_var = ();
 	#HGMD	POS="1:865595:865595";HGMD_ID="CM1613956";Mutation="SAMD11:NM_152486:c.133A>G:p.K45E";Pathogenicity="DM?";Disease="Retinitis_pigmentosa";Pubmed="27734943"
@@ -140,6 +164,7 @@ while( $line = <STDIN> ){
 						$mut_id =~ s/:/_/g;
 						$mut_id =~ s/-/X/g;
 						$mut_id =~ s/\./X/g;
+						$h_record{'known_vars'}{$known_var_type}{$mut_id}{'pos'} = $temp_pos;
 						$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'pos'} = $temp_pos;
 						if( $db_name eq "hgmd" ){
 							if( $var_anno =~ /Mutation="([^;]+)";/ ){
@@ -163,6 +188,7 @@ while( $line = <STDIN> ){
 						if( $db_name eq "clinvar" ){
 							if( $var_anno =~ /CLNHGVS=([^;]+);/ ){
 								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'mut_name'} = $1;
+								#$h_record{'known_vars'}{$known_var_type}{$mut_id}{'pos'} = $1;
 							}
 							if( $var_anno =~ /CLNSIG=([^;]+);/ ){
 								my $t_clinvar_path = $1;
@@ -195,7 +221,9 @@ while( $line = <STDIN> ){
 								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'path_level'} = $1;
 							}
 							if( $var_anno =~ /CLNDISDB=([^;]+);/ ){
-								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'disease'} = $1;
+								my $clndisdb = $1;
+								$clndisdb =~ s/\/\//,/;
+								$h_record{'known_vars'}{$known_var_type}{$mut_id}{$db_name}{'disease'} = $clndisdb;
 							}
 							if( $var_anno =~ /CLNVARID=([^;]+);/ ){
 								my $clinvar_id = $1;
@@ -211,7 +239,6 @@ while( $line = <STDIN> ){
 	}
 	#only the same
 	$h_record{'tags'}{'reported_path'} = 1 if(defined($h_record{'known_vars'}{'report_path_stat'}{'name'}) && $h_record{'known_vars'}{'report_path_stat'}{'name'} =~ /path/i);
-
 
 	#hgvs
 	my $t_line = $line." ";
@@ -241,6 +268,7 @@ while( $line = <STDIN> ){
 			if( $t_arr[6] eq $standard_trans ){
 				$h_hgvs{'standard'} = 1;
 			}
+			$h_hgvs{'len'} = '0';
 			if( defined($t_arr[11]) ){
 				if( $t_arr[11] =~ /^[-\d]+\/(\d+)$/ ){
 					$h_hgvs{'len'} = $1;

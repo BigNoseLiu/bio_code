@@ -1,0 +1,56 @@
+my %h_grch38_chr= ();
+open IN,"data_GRch38_stat.txt" or die $!;
+while( $line = <IN> ){
+	chomp $line;
+	my @arr = split(/\t/,$line);
+	$h_grch38_chr{$arr[2]} = $arr[1];
+}
+close IN;
+
+
+while( $line = <STDIN> ){
+	chomp $line;
+	my @arr = split(/\t/,$line);
+	foreach my $nc( split( /,/, $arr[10] ) ){
+		if( $nc =~ /(NC_0\d+\.\d+):g\.(\d+)(\D)>(\D)$/ ){
+			my ($chr,$pos,$ref,$alt) = ($1,$2,$3,$4);
+			if( defined($h_grch38_chr{$chr}) ){
+				print $arr[1]."\t".$arr[3]."\t".$arr[1]."\t$chr\t$pos\t$pos\t$ref\t$alt\tsubstitution\n";
+			}
+		}
+		elsif( $nc =~ /(NC_0\d+\.\d+):g\.(\d+)_(\d+)dup$/ ){
+			my ($chr,$pos1,$pos2) = ($1,$2,$3);
+			if( defined($h_grch38_chr{$chr}) ){
+				print $arr[1]."\t".$arr[3]."\t".$arr[1]."\t$chr\t$pos1\t$pos2\t-\tdup\tinsertion\n";
+			}
+		}
+		elsif( $nc =~ /(NC_0\d+\.\d+):g\.(\d+)_(\d+)ins(\D+)$/ ){
+			my ($chr,$pos1,$pos2,$alt) = ($1,$2,$3,$4);
+			if( defined($h_grch38_chr{$chr}) ){
+				print $arr[1]."\t".$arr[3]."\t".$arr[1]."\t$chr\t$pos1\t$pos2\t-\t$alt\tinsertion\n";
+			}
+		}
+		elsif( $nc =~ /(NC_0\d+\.\d+):g\.(\d+)del$/ ){
+			my ($chr,$pos) = ($1,$2);
+			if( defined($h_grch38_chr{$chr}) ){
+				print $arr[1]."\t".$arr[3]."\t".$arr[1]."\t$chr\t$pos\t$pos\tdel\t-\tdeletion\n";
+			}
+		}
+		elsif( $nc =~ /(NC_0\d+\.\d+):g\.(\d+)_(\d+)del$/ ){
+			my ($chr,$pos1,$pos2) = ($1,$2,$3,$4);
+			if( defined($h_grch38_chr{$chr}) ){
+				print $arr[1]."\t".$arr[3]."\t".$arr[1]."\t$chr\t$pos1\t$pos2\tdel\t-\tdeletion\n";
+			}
+		}
+
+
+
+	}
+	if( $arr[4] =~ /^(.+):(.+)$/ ){
+		#print $arr[1]."\t".$arr[1]."\t".$arr[3]."\t".$arr[1]."\t$1\t$2\t$2\t-\t-\tsub\n";
+	}
+	else{
+		#print STDERR $line."\n";
+	}
+}
+#CYP2C19*1       CYP2C19*1       CYP2C19 rs3758581       NC_000010.11    94842866        94842866        A       G       substitution
