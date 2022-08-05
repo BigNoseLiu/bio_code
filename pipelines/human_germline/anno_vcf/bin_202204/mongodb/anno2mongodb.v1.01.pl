@@ -18,7 +18,7 @@ my $main_sample = $ARGV[2];
    #host => 'gmbzero.tpddns.cn:31112',
    #host => '10.10.9.35:31112',
 my $client = MongoDB::MongoClient->new(
-   host => '10.10.9.35:31112',
+   host => 'gmbzero.tpddns.cn:31112',
    username => 'lintop',
    password => 'lintop.hx321.mongo'
 );
@@ -362,18 +362,30 @@ while( $line = <STDIN> ){
 	#popfreq
 	$h_record{'popfreq'}{'note'} = decode_utf8("待修改");
 	foreach my $af_header( keys(%h_header) ){
-		if( $af_header =~ /^ExAC_(\S+)$/ ){
-			$h_record{'popfreq'}{'detail'}{'ExAC'}{$1}{'freq'} = $arr[$h_header{$af_header}];
+		#线粒体人群频率库
+		if( $t_chr =~ /^chrm/i || $t_chr =~ /^m/i ){
+			#if( $af_header =~ /^GBFreq_(\S+)$/ ){
+			if( $af_header =~ /^mitofreq\.(\S+)\.(\S+)$/ ){
+				my $t_db_type = $1;
+				my $t_af_type = $2;
+				$h_record{'popfreq'}{'detail'}{'mitofreq'}{$t_db_type}{$t_af_type} = $arr[$h_header{$af_header}];
+			}
 		}
-		elsif( $af_header =~ /^1000g2015aug_(\S+)$/ ){
-			$h_record{'popfreq'}{'detail'}{'1000genome'}{$1}{'freq'} = $arr[$h_header{$af_header}];
+		else{#非线粒体人群频率库
+			if( $af_header =~ /^ExAC_(\S+)$/ ){
+				$h_record{'popfreq'}{'detail'}{'ExAC'}{$1}{'freq'} = $arr[$h_header{$af_header}];
+			}
+			elsif( $af_header =~ /^1000g2015aug_(\S+)$/ ){
+				$h_record{'popfreq'}{'detail'}{'1000genome'}{$1}{'freq'} = $arr[$h_header{$af_header}];
+			}
+			elsif( $af_header =~ /^gnomadExome_(\S+)$/ ){
+				$h_record{'popfreq'}{'detail'}{'gnomad_exome'}{$1}{'freq'} = $arr[$h_header{$af_header}];
+			}
+			elsif( $af_header =~ /^gnomadGenome_(\S+)$/ ){
+				$h_record{'popfreq'}{'detail'}{'gnomad_genome'}{$1}{'freq'} = $arr[$h_header{$af_header}];
+			}
 		}
-		elsif( $af_header =~ /^gnomadExome_(\S+)$/ ){
-			$h_record{'popfreq'}{'detail'}{'gnomad_exome'}{$1}{'freq'} = $arr[$h_header{$af_header}];
-		}
-		elsif( $af_header =~ /^gnomadGenome_(\S+)$/ ){
-			$h_record{'popfreq'}{'detail'}{'gnomad_genome'}{$1}{'freq'} = $arr[$h_header{$af_header}];
-		}
+		#大家都有的人群频率库
 	}
 	
 	$h_record{'popfreq'}{'used_freq'}{"freq"} = -1;
@@ -383,11 +395,11 @@ while( $line = <STDIN> ){
 	foreach my $t_db( keys(%{ $h_record{'popfreq'}{'detail'} }) ){
 		foreach my $t_pop( keys(%{ $h_record{'popfreq'}{'detail'}{$t_db} }) ){
 			#change . to -1 for population freq
-			if( $h_record{'popfreq'}{'detail'}{$t_db}{$t_pop}{'freq'} eq '.' ){
+			if( !defined($h_record{'popfreq'}{'detail'}{$t_db}{$t_pop}{'freq'}) || $h_record{'popfreq'}{'detail'}{$t_db}{$t_pop}{'freq'} eq '.' ){
 				$h_record{'popfreq'}{'detail'}{$t_db}{$t_pop}{'freq'} = -1;
 			}
 			#get the max freq
-			if($h_record{'popfreq'}{'detail'}{$t_db}{$t_pop}{'freq'} > $h_record{'popfreq'}{'used_freq'}{"freq"}){
+			if( $h_record{'popfreq'}{'detail'}{$t_db}{$t_pop}{'freq'} > $h_record{'popfreq'}{'used_freq'}{"freq"} ){
 				$h_record{'popfreq'}{'used_freq'}{"freq"} = $h_record{'popfreq'}{'detail'}{$t_db}{$t_pop}{'freq'};
 				$h_record{'popfreq'}{'used_freq'}{"source"} = "$t_db:$t_pop";
 			}
@@ -415,7 +427,7 @@ while( $line = <STDIN> ){
 	#预测
 	#$h_record{'predicted'}{'note'} = encode("utf-8",decode("GB2312","PP3:多种统计方法预测出该变异会对基因或基因产物造成有害的影响，包括保守性预测、进化预测、剪接位点影响等\nBP4:多种统计方法预测出该变异会对基因或基因产物无影响，包括保守性预测、进化预测、剪接位点影响等。\nBP7:同义变异且预测不影响剪接。"));
 	$h_record{'predicted'}{'note'} = decode_utf8("PP3:多种统计方法预测出该变异会对基因或基因产物造成有害的影响，包括保守性预测、进化预测、剪接位点影响等\nBP4:多种统计方法预测出该变异会对基因或基因产物无影响，包括保守性预测、进化预测、剪接位点影响等。\nBP7:同义变异且预测不影响剪接。");
-	my @arr_predict = ('REVEL','VEST4','SIFT','SIFT4G','Polyphen2_HDIV','Polyphen2_HVAR','LRT','MutationTaster','FATHMM','PROVEAN','MetaSVM','MetaLR','MetaRNN','M-CAP','PrimateAI','DEOGEN2');
+	#my @arr_predict = ('REVEL','VEST4','SIFT','SIFT4G','Polyphen2_HDIV','Polyphen2_HVAR','LRT','MutationTaster','FATHMM','PROVEAN','MetaSVM','MetaLR','MetaRNN','M-CAP','PrimateAI','DEOGEN2');
 	my %h_predict = ();
 	$h_predict{'综合评估'}{'BayesDel_addAF'}{'note'} = '依据：多个预测工具和人群频率';
 	$h_predict{'综合评估'}{'BayesDel_noAF'}{'note'} = '依据：多个预测工具和人群频率';
@@ -429,6 +441,7 @@ while( $line = <STDIN> ){
 	$h_predict{'综合评估'}{'MetaRNN'}{'note'} = '依据：多个预测工具';
 	$h_predict{'综合评估'}{'MetaSVM'}{'note'} = '依据：多个预测工具和人群频率';
 	$h_predict{'综合评估'}{'REVEL'}{'note'} = '依据：多个预测工具';
+	$h_predict{'综合评估'}{'MitoTIP'}{'note'} = '线粒体预测工具';
 	$h_predict{'综合评估'}{'Eigen'}{'note'} = '依据：多个预测工具和人群频率';
 	$h_predict{'保守性'}{'GERP++'}{'note'} = '依据：基因组进化速率分析';
 	$h_predict{'基因组功能'}{'GenoCanyon'}{'note'} = '依据：多个预测工具和实验数据';
@@ -459,7 +472,6 @@ while( $line = <STDIN> ){
 	$h_record{'predicted'}{'damage_count'} = 0;
 	$h_record{'predicted'}{'predicted_count'} = 0;
 	foreach my $class(keys(%h_predict)){
-		#foreach my $t_db(@arr_predict){
 		foreach my $t_db(keys(%{$h_predict{$class}})){
 			if( defined($h_header{$t_db.'_score'}) ){
 				$h_record{'predicted'}{'total_count'}++;
