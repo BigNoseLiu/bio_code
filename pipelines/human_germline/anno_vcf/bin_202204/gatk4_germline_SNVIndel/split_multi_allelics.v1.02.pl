@@ -44,16 +44,30 @@ if (defined $help ) {
 }
 
 my $line;
-while( $line = <STDIN> ){
-	chomp $line;
+my $out_str_header = "";
+my @lines = <STDIN>;
+#获取所有chr
+my %h_all_chrs = ();
+foreach my $line(@lines){
+	next if( $line =~ /^#/ );
+	my @arr = split(/\t/,$line);
+	$h_all_chrs{$arr[0]}++;
+}
 
+foreach my $line(@lines){
+	chomp $line;
 	#vcf headers
 	if( $line =~ /^#/ ){
+		if($line =~ /contig=<ID=([^,]+),/){
+			my $t_chr = $1;
+			next if(!defined($h_all_chrs{$t_chr}));
+		}
 		$line =~ s/contig=<ID=chrM/contig=<ID=MT/;
 		$line =~ s/contig=<ID=chr/contig=<ID=/;
 		print $line."\n";
 		next;
 	}
+	$line =~ s/^chrMT/MT/i;
 	$line =~ s/^chrM/MT/i;
 	$line =~ s/^chr//i;
 	my @arr = split(/\t/,$line);

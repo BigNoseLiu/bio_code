@@ -54,6 +54,7 @@ class Mutation(models.Model):
     contain_mut = models.ManyToManyField('Mutation', blank=True, related_name="contain_muts", verbose_name='包含突变')
 
     #SNV&InDel 变异信息
+    rs_id = models.CharField(blank=True, null=True, max_length=200, verbose_name='dbSNP编号(rs）')
     chr_hg19 = models.CharField(blank=True, null=True, max_length=50, verbose_name='【HG19】染色体')
     pos1_hg19 = models.IntegerField(blank=True, null=True, verbose_name='【HG19】位置1')
     pos2_hg19 = models.IntegerField(blank=True, null=True, verbose_name='【HG19】位置2')

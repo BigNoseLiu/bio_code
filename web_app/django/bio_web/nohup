@@ -3,17 +3,3 @@ Operations to perform:
   Apply all migrations: admin, auth, cancer_database, contenttypes, inher_data, sessions
 Running migrations:
   No migrations to apply.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-July 11, 2022 - 09:44:18
-Django version 3.2.13, using settings 'bio_web.settings'
-Starting development server at http://10.10.9.22:6001/
-Quit the server with CONTROL-C.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-July 28, 2022 - 09:26:13
-Django version 3.2.13, using settings 'bio_web.settings'
-Starting development server at http://10.10.9.22:6001/
-Quit the server with CONTROL-C.

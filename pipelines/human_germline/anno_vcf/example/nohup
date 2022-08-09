@@ -1,0 +1,62 @@
+Tool returned:
+SUCCESS
+Tool returned:
+SUCCESS
+Tool returned:
+SUCCESS
+[0.001s][warning][os,container] Duplicate cpuset controllers detected. Picking /sys/fs/cgroup/cpuset, skipping /mnt/sys/fs/cgroup/cpuset.
+
+ Welcome to:
+  _____ _            _____                     _
+ |_   _| |__   ___  | ____|_  _____  _ __ ___ (_)___  ___ _ __
+   | | | '_ \ / _ \ |  _| \ \/ / _ \| '_ ` _ \| / __|/ _ \ '__|
+   | | | | | |  __/ | |___ >  < (_) | | | | | | \__ \  __/ |
+   |_| |_| |_|\___| |_____/_/\_\___/|_| |_| |_|_|___/\___|_|
+
+ A Tool to Annotate and Prioritize Exome Variants     v13.0.0
+
+2022-08-08 08:34:35.915  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : Starting Main using Java 18.0.2 on cae71fb8fe08 with PID 1 (/biodata/git_code/software/exomiser/exomiser-cli-13.0.0/exomiser-cli-13.0.0.jar started by ? in /)
+2022-08-08 08:34:35.917  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : No active profile set, falling back to default profiles: default
+2022-08-08 08:34:36.873  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Exomiser home: /biodata/git_code/software/exomiser/exomiser-cli-13.0.0
+2022-08-08 08:34:36.885  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Data source directory defined in properties as: /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser
+2022-08-08 08:34:36.886  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Root data source directory set to: /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser
+2022-08-08 08:34:36.891  INFO 1 --- [           main] o.m.e.c.g.j.JannovarDataProtoSerialiser  : Deserialising Jannovar data from /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser/2109_hg19/2109_hg19_transcripts_ensembl.ser
+2022-08-08 08:34:39.264  INFO 1 --- [           main] o.m.e.c.g.j.JannovarDataProtoSerialiser  : Deserialisation took 2.371 sec.
+2022-08-08 08:34:40.011  INFO 1 --- [           main] o.m.e.c.g.dao.VariantWhiteListLoader     : Loading variant whitelist from: /mnt/data/backup/home/liumingming/biodata/git_code/software/exomiser/2109_hg19/2109_hg19_clinvar_whitelist.tsv.gz
+2022-08-08 08:34:40.504  INFO 1 --- [           main] o.m.e.c.g.dao.VariantWhiteListLoader     : Loaded 112258 variants into whitelist
+2022-08-08 08:34:41.366  INFO 1 --- [           main] g.GenomeAnalysisServiceAutoConfiguration : Configured hg19 genome analysis service
+2022-08-08 08:34:43.904  INFO 1 --- [           main] o.m.exomiser.cli.config.MainConfig       : Default results directory set to: /biodata/git_code/software/exomiser/exomiser-cli-13.0.0/results
+2022-08-08 08:34:44.131  INFO 1 --- [           main] org.monarchinitiative.exomiser.cli.Main  : Started Main in 8.956 seconds (JVM running for 10.056)
+2022-08-08 08:34:44.366  INFO 1 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-08 08:34:44.380 ERROR 1 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at org.monarchinitiative.exomiser.cli.Main.main(Main.java:52)
+Caused by: java.lang.IllegalArgumentException: Unable to parse job from file /mnt/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/merge_result/exomiser.merge_all.yml please check the format.
+	at org.monarchinitiative.exomiser.core.analysis.JobReader.parseJob(JobReader.java:87)
+	at org.monarchinitiative.exomiser.core.analysis.JobReader.readJob(JobReader.java:74)
+	at org.monarchinitiative.exomiser.cli.CommandLineJobReader.readJobs(CommandLineJobReader.java:68)
+	at org.monarchinitiative.exomiser.cli.ExomiserCommandLineRunner.run(ExomiserCommandLineRunner.java:55)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 5 common frames omitted
+Caused by: org.monarchinitiative.exomiser.core.proto.ProtoParser$ProtoParserException: Unable to parse message type org.monarchinitiative.exomiser.api.v1.JobProto$Job from file /mnt/data/backup/home/liumingming/biodata/git_code/pipelines/human_germline/anno_vcf/example/out_data/merge_result/exomiser.merge_all.yml
+	at org.monarchinitiative.exomiser.core.proto.ProtoParser.parseFromJsonOrYaml(ProtoParser.java:60)
+	at org.monarchinitiative.exomiser.core.analysis.JobReader.parseJob(JobReader.java:81)
+	... 9 common frames omitted
+Caused by: com.google.protobuf.InvalidProtocolBufferException: Expect message object but got: null
+	at com.google.protobuf.util.JsonFormat$ParserImpl.mergeMessage(JsonFormat.java:1479)
+	at com.google.protobuf.util.JsonFormat$ParserImpl.merge(JsonFormat.java:1456)
+	at com.google.protobuf.util.JsonFormat$ParserImpl.merge(JsonFormat.java:1338)
+	at com.google.protobuf.util.JsonFormat$Parser.merge(JsonFormat.java:476)
+	at org.monarchinitiative.exomiser.core.proto.ProtoParser.parseYaml(ProtoParser.java:86)
+	at org.monarchinitiative.exomiser.core.proto.ProtoParser.parseFromJsonOrYaml(ProtoParser.java:56)
+	... 10 common frames omitted
+
+Mon Aug  8 08:50:42 UTC 2022
