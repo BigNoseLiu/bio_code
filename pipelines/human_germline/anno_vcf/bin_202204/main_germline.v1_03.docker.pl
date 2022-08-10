@@ -247,15 +247,15 @@ my $bin_snpeff		=	"java -jar /biodata/git_code/software/snpeff/snpEff5_0/snpEff.
 my $bin_select_snpeff	=	"perl $bin_dir/snpeff/select_standard_hgvs_from_snpeff_Eff.v2.01.pl";
 my $bin_fix_snpeff	=	"perl $bin_dir/snpeff/fix_snpeff_Eff.v1.pl";
 my $bin_bedtools	=	"$docker_cmd bedtools";
-my $bin_qualimap="$bin_dir/../../software/QualiMap/qualimap_v2.2.1/qualimap";
+my $bin_qualimap	=	"$bin_dir/../../software/QualiMap/qualimap_v2.2.1/qualimap";
 my $bin_filterMutect	=	"$docker_cmd perl $bin_dir/gatk4_somatic_SNVIndel/filter_mutect2_pair.leftSplit.pl";
 my $bin_fixVcf4		=	"$docker_cmd perl $bin_dir/gatk4_germline_SNVIndel/fix_gatk4_vcf4_2.pl";
 my $bin_tag_nearbyOverlap_variant="perl $bin_dir/gatk4_germline_SNVIndel/tag_nearbyOverlap_variant.v1.01.pl";
-my $bin_split_multi_allelics="perl $bin_dir/gatk4_germline_SNVIndel/split_multi_allelics.v1.02.pl";
-my $bin_merge_final ="perl $bin_dir/gatk4_germline_SNVIndel/merge_result.v1.02.pl";
-my $bin_merge_vcf ="perl $bin_dir/gatk4_germline_SNVIndel/merge_vcf.v1.01.pl";
-my $bin_filter_final ="perl $bin_dir/gatk4_germline_SNVIndel/filter_clinical_variant.v1.01.pl";
-my $bin_anno2mongodb ="perl $bin_dir/mongodb/anno2mongodb.v1.01.pl";
+my $bin_split_multi_allelics=	"perl $bin_dir/gatk4_germline_SNVIndel/split_multi_allelics.v1.02.pl";
+my $bin_merge_final	=	"perl $bin_dir/gatk4_germline_SNVIndel/merge_result.v1.02.pl";
+my $bin_merge_vcf	=	"perl $bin_dir/gatk4_germline_SNVIndel/merge_vcf.v1.01.pl";
+my $bin_filter_final	=	"perl $bin_dir/gatk4_germline_SNVIndel/filter_clinical_variant.v1.01.pl";
+my $bin_anno2mongodb	=	"perl $bin_dir/mongodb/anno2mongodb.v1.01.pl";
 my $bin_statsex		=	"$docker_cmd perl $bin_dir/sex_stat/stat_sex.v1.01.pl";
 my $bin_statQC		=	"$docker_cmd perl $bin_dir/QC/stat_qc.v1.01.pl";
 my $bin_statPicardQC	=	"$docker_cmd perl $bin_dir/QC/stat_picardQC.v1.01.pl";
@@ -400,6 +400,7 @@ if($is_merge_flag == 1){
 	my $merge_out="$data_dir/$sample_id.final.leftalign.annoGene.annoVar.hg19_merge.txt";
 	my $merge_filter_out ="$data_dir/$sample_id.final.leftalign.annoGene.annoVar.hg19_merge.filter.txt";
 
+	&cmd_print("#&J	$analysis_id\_merge_all");
 	&docker_print("mkdir -p $data_dir");
 	&docker_print("$bin_merge_vcf $merge_cmd >$merge_vcf_file");
 	my $anno_exomiser_cmd = "";
@@ -414,7 +415,7 @@ if($is_merge_flag == 1){
 	&docker_print("$bin_annovar_withPara -out $annoVar_out $anno_gene_vcf $annovar_humandb");
 	&docker_print("$bin_merge_final -exomiser  $exomiser_anno_prefix.variants.tsv $annoVar_out.hg19_multianno.vcf $annoVar_out.hg19_multianno.txt >$merge_out");
 	&docker_print("$bin_filter_final $merge_out >$merge_filter_out");
-	&docker_print("cat $merge_filter_out|$bin_anno2mongodb Genetic.Tests $sample_id $proband");
+	&docker_print("cat $merge_filter_out|$bin_anno2mongodb Genetic.Tests $analysis_id $proband");
 	#$vcf_files_to_stat .= " $sample_id\_$anno_type:$anno_type:$annoVar_out\.hg19_multianno.vcf";
 }
 

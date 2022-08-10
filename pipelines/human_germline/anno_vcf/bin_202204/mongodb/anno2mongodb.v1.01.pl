@@ -18,7 +18,7 @@ my $main_sample = $ARGV[2];
    #host => 'gmbzero.tpddns.cn:31112',
    #host => '10.10.9.35:31112',
 my $client = MongoDB::MongoClient->new(
-   host => 'gmbzero.tpddns.cn:31112',
+   host => '10.10.9.35:31112',
    username => 'lintop',
    password => 'lintop.hx321.mongo'
 );
@@ -41,7 +41,7 @@ for(my$i=0;$i<@arr_header;$i++){
 
 
 my %h_mut_type2name = ('missense_variant'=> decode_utf8('错义'),'synonymous_variant'=> decode_utf8('同义'),'frameshift_variant'=> decode_utf8('移码'),'intron_variant'=> decode_utf8('内含子'),'splice_region_variant'=> decode_utf8('剪切'),'3_prime_UTR_variant'=> decode_utf8('UTR3'),'5_prime_UTR_variant'=> decode_utf8('UTR5'),'downstream_gene_variant'=> decode_utf8('下游'),'upstream_gene_variant'=> decode_utf8('上游'),'splice_region_variant'=> decode_utf8('剪切区域'),'intergenic_region'=> decode_utf8('基因间区'), 'non_coding_transcript_exon_variant'=> decode_utf8('外显子'), 'intragenic_variant'=>decode_utf8('基因区'));
-print `date`;
+print "start at:\t".`date`;
 my $line;
 my %h_temp = ();
 my %h_in = ( 'task_id' => $task_id );
@@ -92,8 +92,8 @@ while( $line = <STDIN> ){
 	}
 
 	#result gatk
-	$h_record{'test_result'}{'standard_result_en'} = "wild";
-	$h_record{'test_result'}{'standard_result'} = ".";
+	$h_record{'test_result'}{'standard_result_en'} = "-";
+	$h_record{'test_result'}{'standard_result'} = "-";
 
 	#获取各样本数据
 	my @arr_result = ();
@@ -102,7 +102,7 @@ while( $line = <STDIN> ){
 		if( $af_header =~ /^mut_result_(\S+)$/ ){
 			my $sample_id = $1;
 			my %h_result = ();
-			$h_result{'result_en'} = 'wild';
+			$h_result{'result_en'} = '.';
 			$h_result{'result'} = ".";
 			if(  $arr[$h_header{$af_header}] =~ /het/ ){
 				$h_result{'result_en'} = 'het';
@@ -116,7 +116,11 @@ while( $line = <STDIN> ){
 				$h_result{'result_en'} = $arr[$h_header{$af_header}];
 				$h_result{'result'} = $arr[$h_header{$af_header}];
 			}
-			if( $main_sample eq $sample_id ){
+			if(!defined($main_sample)){
+				$h_record{'test_result'}{'standard_result_en'} .= "|".$h_result{'result_en'};
+				$h_record{'test_result'}{'standard_result'}    .= "|".$h_result{'result'};
+			}
+			elsif( $main_sample eq $sample_id ){
 				$h_record{'test_result'}{'standard_result_en'} = $h_result{'result_en'};
 				$h_record{'test_result'}{'standard_result'}    = $h_result{'result'};
 			}
@@ -133,6 +137,9 @@ while( $line = <STDIN> ){
 			push @arr_result,\%h_sample_result;
 		}
 	}
+
+	$h_record{'test_result'}{'standard_result_en'} =~ s/^-\|//;
+	$h_record{'test_result'}{'standard_result'} =~  s/^-\|//;
 
 	$h_record{'test_result'}{'mut_source'} = decode_utf8('未定义');
 	$h_record{'test_result'}{'note'} = decode_utf8("PS2:患者的新发变异，且无家族史(经双亲验证).\nPM3:在隐性遗传病中，在反式位置上检测到致病变异.\nPM6;未经父母样本验证的新发变异.\nPP1:突变与疾病在家系中共分离(在家系多个患者中检测到此变异)）注:如有更多的证据，可作为更强的证据.\nBS4:在一个家系成员中缺乏共分离.");
@@ -503,6 +510,7 @@ while( $line = <STDIN> ){
 }
 
 $client->disconnect;
+print "end at:\t".`date`;
 
 #print join("\n",(sort {$a cmp $b} keys(%h_temp)))."\n";
 #my $codec = BSON->new;

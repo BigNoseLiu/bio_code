@@ -8,9 +8,8 @@ use MongoDB;
 
 #   host => '1.12.236.215:27017',
 #   host => 'gmbzero.tpddns.cn:31112',
-   #host => '10.10.9.35:31112',
 my $client = MongoDB::MongoClient->new(
-   host => 'gmbzero.tpddns.cn:31112',
+   host => '10.10.9.35:31112',
    username => 'lintop',
    password => 'lintop.hx321.mongo'
 );
