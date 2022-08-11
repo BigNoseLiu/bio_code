@@ -1,3 +1,4 @@
+
 #1.如果新建， 去github 新建一个repository
 
 #2.1. 配置秘钥
@@ -31,3 +32,8 @@ git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch software/a
 添加如下行
 
 140.82.113.3      github.com
+
+#3. 不同人的修改冲突怎么解决
+git stash
+git pull
+git stash pop	#合并代码
