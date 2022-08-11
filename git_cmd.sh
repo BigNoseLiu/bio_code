@@ -25,4 +25,5 @@ git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch software/a
 #2. github如果访问不到，
 修改/etc/hosts文件:  sudo vi /etc/hosts
 添加如下行
+
 140.82.113.3      github.com
