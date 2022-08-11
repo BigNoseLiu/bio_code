@@ -75,7 +75,6 @@ vardict_vcf="$out_prefix.12.consensus_merge.clip.vardict.vcf"
 
 #fgbio to mark umi
 $docker_cmd "picard -Xmx8G FastqToSam F1=/mnt/$raw_fq1 F2=/mnt/$raw_fq2 O=$unmap_bam SAMPLE_NAME=$sample_id"
-exit
 $docker_cmd "fgbio  -Xmx8G ExtractUmisFromBam --input=$unmap_bam --output=$umi_unmap_bam --read-structure=$read_structure1 $read_structure2 --molecular-index-tags=ZB --single-tag=RX"
 $docker_cmd "picard -Xmx8G SamToFastq I=$umi_unmap_bam F=$umi_unmap_fq INTERLEAVE=true"
 $docker_cmd "bwa mem -p -t 5 -M $ref $umi_unmap_fq >$umi_map_sam"
