@@ -44,7 +44,7 @@ else{
 	print STDERR "Err:unable to get uid\n";
 }
 
-`mkdir -p $out_dir`;
+`mkdir -p $out_dir` if(!-d $out_dir);
 foreach my $sample( sort {$a cmp $b} keys(%h_fqs) ){
-	print "sh $Bin/DJY_UMI_PE.v1_01.sh  $uid $sample $out_dir 75T ".$h_fqs{$sample}{'R1'}." 7M1S67T ".$h_fqs{$sample}{'R2'}."\n";
+	print "sh $Bin/DJY_UMI_PE.v1_02.sh  $uid $sample $out_dir 75T ".$h_fqs{$sample}{'R1'}." 7M1S67T ".$h_fqs{$sample}{'R2'}."\n";
 }
