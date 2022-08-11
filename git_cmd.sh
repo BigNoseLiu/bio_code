@@ -1,6 +1,10 @@
 #1.如果新建， 去github 新建一个repository
 
-#2. 配置秘钥
+#2.1. 配置秘钥
+git config --global user.name "BigNoseLiu"
+git config --global user.email "liumingming.2007@163.com"
+
+#2.2. 配置秘钥
 ssh-keygen -t rsa -C 'liumingming.2007@163.com'
 #将/home/rain/.ssh/id_rsa.pub中的内容拷贝到github的setting/SSH and GPG keys中
 
