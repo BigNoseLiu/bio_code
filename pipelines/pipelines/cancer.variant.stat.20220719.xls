@@ -1,0 +1,551 @@
+#seq_id	sample_id	sample_type	mut_type	mut_name	mut_info	match	ALK-L1196M	EGFR-A763_Y764insFQEA	EGFR-A767_V769dup	EGFR-E746_A750del	EGFR-E746_S752delinsV	EGFR-E746_T751delinsA	EGFR-G719A	EGFR-G719C	EGFR-G719S	EGFR-L747_A750delinsP	EGFR-L747_P753delinsS	EGFR-L747_T751del	EGFR-L858R	EGFR-S768I	EGFR-S768_D770dup	ERBB2-A775_G776insYVMA	ERBB2-G776delinsVC	ERBB2-S310F	MET-Exon14_Splicing(D1028Ifs)	MET-Exon14_Splicing(D981E)	MET-Exon14_Splicing(D990D)	MET-Exon14_Splicing(E1012_V1014delinsD)	MET-Exon14_Splicing(F1025Sfs)	MET-Exon14_Splicing(V1002I)	MET-Exon14_Splicing(V1019Ifs)
+POOLINHG10_ZMCAFY49	ZMCAFY49	FFPE	-	阴性	阴性	-									1.9									0.9972							
+POOLINHG10_ZMCAFY50	ZMCAFY50	FFPE	-	阴性	阴性	-									1.8																
+POOLINHG10_ZMCAFY51	ZMCAFY51	FFPE	-	阴性	阴性	-																									
+POOLINHG10_ZMCAFY52	ZMCAFY52	FFPE	-	阴性	阴性	-									1.5																
+POOLINHG10_ZMCAFY53	ZMCAFY53	FFPE	-	阴性	阴性	-									1.9																
+POOLINHG10_ZMCAFY54	ZMCAFY54	FFPE	-	阴性	阴性	-																								0.7885	
+POOLINHG10_ZMCAFY55	ZMCAFY55	FFPE	-	阴性	阴性	-																									
+POOLINHG10_ZMCAFY56	ZMCAFY56	FFPE	-	阴性	阴性	-																									
+POOLINHG10_ZMCAFY57	ZMCAFY57	FFPE	-	阴性	阴性	-																									
+POOLINHG10_ZMCAFY58	ZMCAFY58	FFPE	-	阴性	阴性	-																									
+POOLINHG10_ZMCAFY59	ZMCAFY59	FFPE	-	阴性	阴性	-																									
+POOLINHG10_ZMCAFY60	ZMCAFY60	FFPE	-	阴性	阴性	-																									
+POOLINHG10_ZMCAFY61	ZMCAFY61	FFPE	-	阴性	阴性	-																									
+POOLINHG10_ZMCAFY62	ZMCAFY62	FFPE	-	阴性	阴性	-																									
+POOLINHG10_ZMCAFY63	ZMCAFY63	FFPE	-	阴性	阴性	-																									
+POOLINHG10_ZMCAFY64	ZMCAFY64	FFPE	-	阴性	阴性	-									15.6																
+POOLINHG11_ZMCAFY1065	ZMCAFY1065	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1066	ZMCAFY1066	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1067	ZMCAFY1067	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1068	ZMCAFY1068	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1069	ZMCAFY1069	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1070	ZMCAFY1070	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1071	ZMCAFY1071	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1072	ZMCAFY1072	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1073	ZMCAFY1073	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1074	ZMCAFY1074	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1075	ZMCAFY1075	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1076	ZMCAFY1076	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1077	ZMCAFY1077	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1078	ZMCAFY1078	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1079	ZMCAFY1079	FFPE	-	阴性	阴性	-																									
+POOLINHG11_ZMCAFY1080	ZMCAFY1080	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2065	ZMCAFY2065	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2066	ZMCAFY2066	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2067	ZMCAFY2067	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2068	ZMCAFY2068	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2069	ZMCAFY2069	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2070	ZMCAFY2070	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2071	ZMCAFY2071	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2072	ZMCAFY2072	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2073	ZMCAFY2073	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2074	ZMCAFY2074	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2075	ZMCAFY2075	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2076	ZMCAFY2076	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2077	ZMCAFY2077	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2078	ZMCAFY2078	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2079	ZMCAFY2079	FFPE	-	阴性	阴性	-																									
+POOLINHG12_ZMCAFY2080	ZMCAFY2080	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1081	ZMCAFY1081	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1082	ZMCAFY1082	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1083	ZMCAFY1083	FFPE	-	阴性	阴性	-													29.9												
+POOLINHG13_ZMCAFY1084	ZMCAFY1084	FFPE	-	阴性	阴性	-																				9.8					
+POOLINHG13_ZMCAFY1085	ZMCAFY1085	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1086	ZMCAFY1086	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1087	ZMCAFY1087	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1088	ZMCAFY1088	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1089	ZMCAFY1089	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1090	ZMCAFY1090	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1091	ZMCAFY1091	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1092	ZMCAFY1092	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1093	ZMCAFY1093	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1094	ZMCAFY1094	FFPE	-	阴性	阴性	-									3.2																
+POOLINHG13_ZMCAFY1095	ZMCAFY1095	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY1096	ZMCAFY1096	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2049	ZMCAFY2049	FFPE	-	阴性	阴性	-									2.4																
+POOLINHG13_ZMCAFY2050	ZMCAFY2050	FFPE	-	阴性	阴性	-									3.5																
+POOLINHG13_ZMCAFY2051	ZMCAFY2051	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2052	ZMCAFY2052	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2053	ZMCAFY2053	FFPE	-	阴性	阴性	-									2.2																
+POOLINHG13_ZMCAFY2054	ZMCAFY2054	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2055	ZMCAFY2055	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2056	ZMCAFY2056	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2057	ZMCAFY2057	FFPE	-	阴性	阴性	-									2.2																
+POOLINHG13_ZMCAFY2058	ZMCAFY2058	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2059	ZMCAFY2059	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2060	ZMCAFY2060	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2061	ZMCAFY2061	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2062	ZMCAFY2062	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2063	ZMCAFY2063	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY2064	ZMCAFY2064	FFPE	-	阴性	阴性	-									15.6																
+POOLINHG13_ZMCAFY3065	ZMCAFY3065	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3066	ZMCAFY3066	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3067	ZMCAFY3067	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3068	ZMCAFY3068	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3069	ZMCAFY3069	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3070	ZMCAFY3070	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3071	ZMCAFY3071	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3072	ZMCAFY3072	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3073	ZMCAFY3073	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3074	ZMCAFY3074	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3075	ZMCAFY3075	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3076	ZMCAFY3076	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3077	ZMCAFY3077	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3078	ZMCAFY3078	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3079	ZMCAFY3079	FFPE	-	阴性	阴性	-																									
+POOLINHG13_ZMCAFY3080	ZMCAFY3080	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2081	ZMCAFY2081	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2082	ZMCAFY2082	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2083	ZMCAFY2083	FFPE	-	阴性	阴性	-													35.6												
+POOLINHG14_ZMCAFY2084	ZMCAFY2084	FFPE	-	阴性	阴性	-																				7.6					
+POOLINHG14_ZMCAFY2085	ZMCAFY2085	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2086	ZMCAFY2086	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2087	ZMCAFY2087	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2088	ZMCAFY2088	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2089	ZMCAFY2089	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2090	ZMCAFY2090	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2091	ZMCAFY2091	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2092	ZMCAFY2092	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2093	ZMCAFY2093	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2094	ZMCAFY2094	FFPE	-	阴性	阴性	-									3.3																
+POOLINHG14_ZMCAFY2095	ZMCAFY2095	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY2096	ZMCAFY2096	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3049	ZMCAFY3049	FFPE	-	阴性	阴性	-									2																
+POOLINHG14_ZMCAFY3050	ZMCAFY3050	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3051	ZMCAFY3051	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3052	ZMCAFY3052	FFPE	-	阴性	阴性	-									1.9																
+POOLINHG14_ZMCAFY3053	ZMCAFY3053	FFPE	-	阴性	阴性	-									1.8																
+POOLINHG14_ZMCAFY3054	ZMCAFY3054	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3055	ZMCAFY3055	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3056	ZMCAFY3056	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3057	ZMCAFY3057	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3058	ZMCAFY3058	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3059	ZMCAFY3059	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3060	ZMCAFY3060	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3061	ZMCAFY3061	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3062	ZMCAFY3062	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3063	ZMCAFY3063	FFPE	-	阴性	阴性	-																									
+POOLINHG14_ZMCAFY3064	ZMCAFY3064	FFPE	-	阴性	阴性	-									16.8																
+POOLINHG17_ZMCAFY3081	ZMCAFY3081	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3082	ZMCAFY3082	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3083	ZMCAFY3083	FFPE	-	阴性	阴性	-													31.2												
+POOLINHG17_ZMCAFY3084	ZMCAFY3084	FFPE	-	阴性	阴性	-																				6					
+POOLINHG17_ZMCAFY3085	ZMCAFY3085	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3086	ZMCAFY3086	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3087	ZMCAFY3087	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3088	ZMCAFY3088	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3089	ZMCAFY3089	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3090	ZMCAFY3090	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3091	ZMCAFY3091	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3092	ZMCAFY3092	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3093	ZMCAFY3093	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3094	ZMCAFY3094	FFPE	-	阴性	阴性	-									4.3																
+POOLINHG17_ZMCAFY3095	ZMCAFY3095	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY3096	ZMCAFY3096	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4049	ZMCAFY4049	FFPE	-	阴性	阴性	-									1.8																
+POOLINHG17_ZMCAFY4050	ZMCAFY4050	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4051	ZMCAFY4051	FFPE	-	阴性	阴性	-																									1.5
+POOLINHG17_ZMCAFY4052	ZMCAFY4052	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4053	ZMCAFY4053	FFPE	-	阴性	阴性	-																		1						0.863	
+POOLINHG17_ZMCAFY4054	ZMCAFY4054	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4055	ZMCAFY4055	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4056	ZMCAFY4056	FFPE	-	阴性	阴性	-									1.4																
+POOLINHG17_ZMCAFY4057	ZMCAFY4057	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4058	ZMCAFY4058	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4059	ZMCAFY4059	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4060	ZMCAFY4060	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4061	ZMCAFY4061	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4062	ZMCAFY4062	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4063	ZMCAFY4063	FFPE	-	阴性	阴性	-																									
+POOLINHG17_ZMCAFY4064	ZMCAFY4064	FFPE	-	阴性	阴性	-									17.6																
+POOLINHG18_ZMCAFY4081	ZMCAFY4081	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4082	ZMCAFY4082	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4083	ZMCAFY4083	FFPE	-	阴性	阴性	-													35.5								0.8808				
+POOLINHG18_ZMCAFY4084	ZMCAFY4084	FFPE	-	阴性	阴性	-																				6.9					
+POOLINHG18_ZMCAFY4085	ZMCAFY4085	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4086	ZMCAFY4086	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4087	ZMCAFY4087	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4088	ZMCAFY4088	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4089	ZMCAFY4089	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4090	ZMCAFY4090	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4091	ZMCAFY4091	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4092	ZMCAFY4092	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4093	ZMCAFY4093	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4094	ZMCAFY4094	FFPE	-	阴性	阴性	-									3.3																
+POOLINHG18_ZMCAFY4095	ZMCAFY4095	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY4096	ZMCAFY4096	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY5049	ZMCAFY5049	FFPE	-	阴性	阴性	-									2																
+POOLINHG18_ZMCAFY5050	ZMCAFY5050	FFPE	-	阴性	阴性	-									2.5																
+POOLINHG18_ZMCAFY5051	ZMCAFY5051	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY5052	ZMCAFY5052	FFPE	-	阴性	阴性	-									2.7																
+POOLINHG18_ZMCAFY5053	ZMCAFY5053	FFPE	-	阴性	阴性	-									2.7																
+POOLINHG18_ZMCAFY5054	ZMCAFY5054	FFPE	-	阴性	阴性	-																								1	
+POOLINHG18_ZMCAFY5055	ZMCAFY5055	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY5056	ZMCAFY5056	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY5057	ZMCAFY5057	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY5058	ZMCAFY5058	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY5059	ZMCAFY5059	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY5060	ZMCAFY5060	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY5061	ZMCAFY5061	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY5062	ZMCAFY5062	FFPE	-	阴性	阴性	-																						1.8			
+POOLINHG18_ZMCAFY5063	ZMCAFY5063	FFPE	-	阴性	阴性	-																									
+POOLINHG18_ZMCAFY5064	ZMCAFY5064	FFPE	-	阴性	阴性	-									15.6																
+POOLINHG19_ZMBY-1	ZMBY-1	FFPE	-	阴性	阴性	-									14.5																
+POOLINHG19_ZMBY-10	ZMBY-10	FFPE	-	阴性	阴性	-													16.4												
+POOLINHG19_ZMBY-11	ZMBY-11	FFPE	-	阴性	阴性	-													3.4											2	
+POOLINHG19_ZMBY-12	ZMBY-12	FFPE	-	阴性	阴性	-													3.4												
+POOLINHG19_ZMBY-13	ZMBY-13	FFPE	-	阴性	阴性	-																									
+POOLINHG19_ZMBY-14	ZMBY-14	FFPE	-	阴性	阴性	-																									
+POOLINHG19_ZMBY-15	ZMBY-15	FFPE	-	阴性	阴性	-																									
+POOLINHG19_ZMBY-16	ZMBY-16	FFPE	-	阴性	阴性	-													15.1												
+POOLINHG19_ZMBY-17	ZMBY-17	FFPE	-	阴性	阴性	-													5.1												
+POOLINHG19_ZMBY-18	ZMBY-18	FFPE	-	阴性	阴性	-													1.9												
+POOLINHG19_ZMBY-19	ZMBY-19	FFPE	-	阴性	阴性	-								32.2						30.5										1.9	
+POOLINHG19_ZMBY-2	ZMBY-2	FFPE	-	阴性	阴性	-									7.2																
+POOLINHG19_ZMBY-20	ZMBY-20	FFPE	-	阴性	阴性	-								5.2						4.5											
+POOLINHG19_ZMBY-21	ZMBY-21	FFPE	-	阴性	阴性	-								2.7						2											
+POOLINHG19_ZMBY-22	ZMBY-22	FFPE	-	阴性	阴性	-								7.5																1.7	
+POOLINHG19_ZMBY-23	ZMBY-23	FFPE	-	阴性	阴性	-								2.5																	
+POOLINHG19_ZMBY-24	ZMBY-24	FFPE	-	阴性	阴性	-									2.1																
+POOLINHG19_ZMBY-25	ZMBY-25	FFPE	-	阴性	阴性	-																									
+POOLINHG19_ZMBY-26	ZMBY-26	FFPE	-	阴性	阴性	-																									
+POOLINHG19_ZMBY-27	ZMBY-27	FFPE	-	阴性	阴性	-																									
+POOLINHG19_ZMBY-28	ZMBY-28	FFPE	-	阴性	阴性	-																								1.8	
+POOLINHG19_ZMBY-29	ZMBY-29	FFPE	-	阴性	阴性	-																								1.4	
+POOLINHG19_ZMBY-3	ZMBY-3	FFPE	-	阴性	阴性	-									3.6															1.4	
+POOLINHG19_ZMBY-30	ZMBY-30	FFPE	-	阴性	阴性	-																									
+POOLINHG19_ZMBY-31	ZMBY-31	FFPE	-	阴性	阴性	-																									
+POOLINHG19_ZMBY-32	ZMBY-32	FFPE	-	阴性	阴性	-																								1.8	
+POOLINHG19_ZMBY-4	ZMBY-4	FFPE	-	阴性	阴性	-							11																		
+POOLINHG19_ZMBY-5	ZMBY-5	FFPE	-	阴性	阴性	-							5.8																	2.5	
+POOLINHG19_ZMBY-6	ZMBY-6	FFPE	-	阴性	阴性	-							2.8																	1.4	
+POOLINHG19_ZMBY-7	ZMBY-7	FFPE	-	阴性	阴性	-								11.4						8.5										1.9	
+POOLINHG19_ZMBY-8	ZMBY-8	FFPE	-	阴性	阴性	-								2.9						2.9										1.6	
+POOLINHG19_ZMBY-9	ZMBY-9	FFPE	-	阴性	阴性	-														1.8											
+POOLINHG1_FY1	FY1	白细胞	-	阴性	阴性	-																									
+POOLINHG1_FY2	FY2	白细胞	-	阴性	阴性	-																									
+POOLINHG1_FY21	FY21	FFPE	-	阴性	阴性	-																									
+POOLINHG1_FY27	FY27	FFPE	SNV	ERBB2-S310F	ERBB外显子2 S310F错义突变	no																									
+POOLINHG1_FY28	FY28	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	yes																									66.7
+POOLINHG1_FY3	FY3	白细胞	-	阴性	阴性	-																									
+POOLINHG1_FY31	FY31	FFPE	SNV	ERBB2-S310F	ERBB外显子2 S310F错义突变	no																									
+POOLINHG1_FY34	FY34	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	no																									
+POOLINHG1_FY37	FY37	FFPE	-	阴性	阴性	-																									
+POOLINHG1_FY38	FY38	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	yes																			3.9						
+POOLINHG1_FY39	FY39	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	no																									
+POOLINHG1_FY40	FY40	FFPE	SNV	ERBB2-S310F	ERBB外显子2 S310F错义突变	no													40.6												
+POOLINHG1_FY41	FY41	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													19.9					50							
+POOLINHG1_FY44	FY44	FFPE	-	阴性	阴性	-																									
+POOLINHG1_FY45	FY45	FFPE	-	阴性	阴性	-																									
+POOLINHG1_FY46	FY46	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-33	ZMBY-33	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-34	ZMBY-34	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-35	ZMBY-35	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-36	ZMBY-36	FFPE	-	阴性	阴性	-																								1.7	
+POOLINHG20_ZMBY-37	ZMBY-37	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-38	ZMBY-38	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-39	ZMBY-39	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-40	ZMBY-40	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-41	ZMBY-41	FFPE	-	阴性	阴性	-																								2	
+POOLINHG20_ZMBY-42	ZMBY-42	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-43	ZMBY-43	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-44	ZMBY-44	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-45	ZMBY-45	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-46	ZMBY-46	FFPE	-	阴性	阴性	-																								1.6	
+POOLINHG20_ZMBY-47	ZMBY-47	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-48	ZMBY-48	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-49	ZMBY-49	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-50	ZMBY-50	FFPE	-	阴性	阴性	-																								1.5	
+POOLINHG20_ZMBY-51	ZMBY-51	FFPE	-	阴性	阴性	-																								2.2	
+POOLINHG20_ZMBY-52	ZMBY-52	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-53	ZMBY-53	FFPE	-	阴性	阴性	-																								1.9	
+POOLINHG20_ZMBY-54	ZMBY-54	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-55	ZMBY-55	FFPE	-	阴性	阴性	-																		49.7							
+POOLINHG20_ZMBY-56	ZMBY-56	FFPE	-	阴性	阴性	-																		5.4							
+POOLINHG20_ZMBY-57	ZMBY-57	FFPE	-	阴性	阴性	-																		2.5							
+POOLINHG20_ZMBY-58	ZMBY-58	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-59	ZMBY-59	FFPE	-	阴性	阴性	-																								2.2	
+POOLINHG20_ZMBY-60	ZMBY-60	FFPE	-	阴性	阴性	-																									
+POOLINHG20_ZMBY-61	ZMBY-61	FFPE	-	阴性	阴性	-																	7								
+POOLINHG20_ZMBY-62	ZMBY-62	FFPE	-	阴性	阴性	-																	3.4								
+POOLINHG20_ZMBY-63	ZMBY-63	FFPE	-	阴性	阴性	-																	2.3							1.7	
+POOLINHG20_ZMBY-64	ZMBY-64	FFPE	-	阴性	阴性	-	16.5																								
+POOLINHG21_ZMBY-65	ZMBY-65	FFPE	indel	EGFR-E746_A750del	28-EGFR-E746_A750del-13%（COSM6223）	no	8.2																							1.8	
+POOLINHG21_ZMBY-66	ZMBY-66	FFPE	indel	EGFR-E746_A750del	28-EGFR-E746_A750del-13%（COSM6223）	no	2.7																								
+POOLINHG21_ZMBY-67	ZMBY-67	FFPE	indel	EGFR-E746_A750del	29-EGFR-E746_A750del-5%（COSM6223）	no																									
+POOLINHG21_ZMBY-68	ZMBY-68	FFPE	indel	EGFR-E746_A750del	29-EGFR-E746_A750del-5%（COSM6223）	no																									
+POOLINHG21_ZMBY-69	ZMBY-69	FFPE	indel	EGFR-E746_A750del	29-EGFR-E746_A750del-5%（COSM6223）	no																									
+POOLINHG21_ZMBY-70	ZMBY-70	FFPE	indel	EGFR-E746_A750del	30-EGFR-E746_A750del-2.5%（COSM6223）	no																									
+POOLINHG21_ZMBY-71	ZMBY-71	FFPE	indel	EGFR-L747_T751del	31-EGFR-L747_T751del-13% DNA	no																									
+POOLINHG21_ZMBY-72	ZMBY-72	FFPE	indel	EGFR-L747_T751del	31-EGFR-L747_T751del-13% DNA	no																									
+POOLINHG21_ZMBY-73	ZMBY-73	FFPE	indel	EGFR-L747_T751del	31-EGFR-L747_T751del-13% DNA	no																									
+POOLINHG21_ZMBY-74	ZMBY-74	FFPE	indel	EGFR-L747_T751del	32-EGFR-L747_T751del-5% DNA	no																								1.7	
+POOLINHG21_ZMBY-75	ZMBY-75	FFPE	indel	EGFR-L747_T751del	32-EGFR-L747_T751del-5% DNA	no																									
+POOLINHG21_ZMBY-76	ZMBY-76	FFPE	indel	EGFR-L747_T751del	32-EGFR-L747_T751del-5% DNA	no																									
+POOLINHG21_ZMBY-77	ZMBY-77	FFPE	indel	EGFR-L747_T751del	33-EGFR-L747_T751del-2.5% DNA	no																									
+POOLINHG21_ZMBY-78	ZMBY-78	FFPE	indel	EGFR-E746_T751delinsA	34-EGFR-E746_T751delinsA-24% DNA	no																								1.5	
+POOLINHG21_ZMBY-79	ZMBY-79	FFPE	indel	EGFR-E746_T751delinsA	34-EGFR-E746_T751delinsA-24% DNA	no																									
+POOLINHG21_ZMBY-80	ZMBY-80	FFPE	indel	EGFR-E746_T751delinsA	34-EGFR-E746_T751delinsA-24% DNA	no																									
+POOLINHG21_ZMBY-81	ZMBY-81	FFPE	indel	EGFR-E746_T751delinsA	35-EGFR-E746_T751delinsA-5% DNA	no																									
+POOLINHG21_ZMBY-82	ZMBY-82	FFPE	indel	EGFR-E746_T751delinsA	35-EGFR-E746_T751delinsA-5% DNA	no																									
+POOLINHG21_ZMBY-83	ZMBY-83	FFPE	indel	EGFR-E746_T751delinsA	35-EGFR-E746_T751delinsA-5% DNA	no																								1.6	
+POOLINHG21_ZMBY-84	ZMBY-84	FFPE	indel	EGFR-E746_T751delinsA	36-EGFR-E746_T751delinsA-2.5% DNA	no																									
+POOLINHG21_ZMBY-85	ZMBY-85	FFPE	indel	EGFR-L747_P753delinsS	37-EGFR-L747_P753delinsS-13% DNA	no																								1.4	
+POOLINHG21_ZMBY-86	ZMBY-86	FFPE	indel	EGFR-L747_P753delinsS	37-EGFR-L747_P753delinsS-13% DNA	no																								1.1	
+POOLINHG21_ZMBY-87	ZMBY-87	FFPE	indel	EGFR-L747_P753delinsS	37-EGFR-L747_P753delinsS-13% DNA	no																									
+POOLINHG21_ZMBY-88	ZMBY-88	FFPE	indel	EGFR-L747_P753delinsS	38-EGFR-L747_P753delinsS-5% DNA	no																									
+POOLINHG21_ZMBY-89	ZMBY-89	FFPE	indel	EGFR-L747_P753delinsS	38-EGFR-L747_P753delinsS-5% DNA	no																								1.1	
+POOLINHG21_ZMBY-90	ZMBY-90	FFPE	indel	EGFR-L747_P753delinsS	38-EGFR-L747_P753delinsS-5% DNA	no																									
+POOLINHG21_ZMBY-91	ZMBY-91	FFPE	indel	EGFR-L747_P753delinsS	39-EGFR-L747_P753delinsS-2.5% DNA	no																									
+POOLINHG21_ZMBY-92	ZMBY-92	FFPE	indel	EGFR-L747_A750delinsP	40-EGFR-L747_A750delinsP-18% DNA	no																								1.7	
+POOLINHG21_ZMBY-93	ZMBY-93	FFPE	indel	EGFR-L747_A750delinsP	40-EGFR-L747_A750delinsP-18% DNA	no																								2.4	
+POOLINHG21_ZMBY-94	ZMBY-94	FFPE	indel	EGFR-L747_A750delinsP	40-EGFR-L747_A750delinsP-18% DNA	no							92.5																		
+POOLINHG21_ZMBY-95	ZMBY-95	FFPE	indel	EGFR-L747_A750delinsP	41-EGFR-L747_A750delinsP-5% DNA	no							59.4																		
+POOLINHG21_ZMBY-96	ZMBY-96	FFPE	indel	EGFR-L747_A750delinsP	41-EGFR-L747_A750delinsP-5% DNA	no																									
+POOLINHG22_ZMBY-101	ZMBY-101	FFPE	indel	EGFR-L747_A750delinsP	41-EGFR-L747_A750delinsP-5% DNA	no																									
+POOLINHG22_ZMBY-102	ZMBY-102	FFPE	indel	EGFR-L747_A750delinsP	42-EGFR-L747_A750delinsP-2.5% DNA	no																									
+POOLINHG22_ZMBY-103	ZMBY-103	FFPE	indel	EGFR-E746_S752delinsV	43-EGFR-E746_S752delinsV-13% DNA	no																									
+POOLINHG22_ZMBY-104	ZMBY-104	FFPE	indel	EGFR-E746_S752delinsV	43-EGFR-E746_S752delinsV-13% DNA	no																									
+POOLINHG22_ZMBY-105	ZMBY-105	FFPE	indel	EGFR-E746_S752delinsV	43-EGFR-E746_S752delinsV-13% DNA	no									17.6															0.9357	
+POOLINHG22_ZMBY-106	ZMBY-106	FFPE	indel	EGFR-E746_S752delinsV	44-EGFR-E746_S752delinsV-5% DNA	no									6.6															1.7	
+POOLINHG22_ZMBY-107	ZMBY-107	FFPE	indel	EGFR-E746_S752delinsV	44-EGFR-E746_S752delinsV-5% DNA	no							9.7																		
+POOLINHG22_ZMBY-108	ZMBY-108	FFPE	indel	EGFR-E746_S752delinsV	44-EGFR-E746_S752delinsV-5% DNA	no							5.7																	1.2	
+POOLINHG22_ZMBY-109	ZMBY-109	FFPE	indel	EGFR-E746_S752delinsV	45-EGFR-E746_S752delinsV-2.5% DNA	no								11.5						12.9											
+POOLINHG22_ZMBY-110	ZMBY-110	FFPE	indel	EGFR-A763_Y764insFQEA	46-EGFR-A763_Y764insFQEA-11% DNA	no								4.2						2.9										2.3	
+POOLINHG22_ZMBY-111	ZMBY-111	FFPE	indel	EGFR-A763_Y764insFQEA	46-EGFR-A763_Y764insFQEA-11% DNA	no													16.6												
+POOLINHG22_ZMBY-112	ZMBY-112	FFPE	indel	EGFR-A763_Y764insFQEA	46-EGFR-A763_Y764insFQEA-11% DNA	no													2.9											1.7	
+POOLINHG22_ZMBY-113	ZMBY-113	FFPE	indel	EGFR-A763_Y764insFQEA	47-EGFR-A763_Y764insFQEA-5% DNA	no																									
+POOLINHG22_ZMBY-114	ZMBY-114	FFPE	indel	EGFR-A763_Y764insFQEA	47-EGFR-A763_Y764insFQEA-5% DNA	no																									
+POOLINHG22_ZMBY-115	ZMBY-115	FFPE	indel	EGFR-A763_Y764insFQEA	47-EGFR-A763_Y764insFQEA-5% DNA	no													15.1											2.3	
+POOLINHG22_ZMBY-116	ZMBY-116	FFPE	indel	EGFR-A763_Y764insFQEA	48-EGFR-A763_Y764insFQEA-2.5% DNA	no													4.4											2	
+POOLINHG22_ZMBY-117	ZMBY-117	FFPE	indel	EGFR-S768_D770dup	49-EGFR-S768_D770dup-11% DNA	no								34.4						28											
+POOLINHG22_ZMBY-118	ZMBY-118	FFPE	indel	EGFR-S768_D770dup	49-EGFR-S768_D770dup-11% DNA	no								5.7						5.1											
+POOLINHG22_ZMBY-119	ZMBY-119	FFPE	indel	EGFR-S768_D770dup	49-EGFR-S768_D770dup-11% DNA	no								9.1																	
+POOLINHG22_ZMBY-120	ZMBY-120	FFPE	indel	EGFR-S768_D770dup	50-EGFR-S768_D770dup-5% DNA	no								2.2																	
+POOLINHG22_ZMBY-121	ZMBY-121	FFPE	indel	EGFR-S768_D770dup	50-EGFR-S768_D770dup-5% DNA	no																									
+POOLINHG22_ZMBY-122	ZMBY-122	FFPE	indel	EGFR-S768_D770dup	50-EGFR-S768_D770dup-5% DNA	no																									
+POOLINHG22_ZMBY-123	ZMBY-123	FFPE	indel	EGFR-S768_D770dup	51-EGFR-S768_D770dup-2.5% DNA	no																									
+POOLINHG22_ZMBY-124	ZMBY-124	FFPE	indel	EGFR-A767_V769dup	52-EGFR-A767_V769dup-11%	no																									
+POOLINHG22_ZMBY-125	ZMBY-125	FFPE	indel	EGFR-A767_V769dup	52-EGFR-A767_V769dup-11%	no																									
+POOLINHG22_ZMBY-126	ZMBY-126	FFPE	indel	EGFR-A767_V769dup	52-EGFR-A767_V769dup-11%	no																									
+POOLINHG22_ZMBY-127	ZMBY-127	FFPE	indel	EGFR-A767_V769dup	53-EGFR-A767_V769dup-5% DNA	no																									
+POOLINHG22_ZMBY-128	ZMBY-128	FFPE	indel	EGFR-A767_V769dup	53-EGFR-A767_V769dup-5% DNA	no																								1.4	
+POOLINHG22_ZMBY-129	ZMBY-129	FFPE	indel	EGFR-A767_V769dup	53-EGFR-A767_V769dup-5% DNA	no																								1.5	
+POOLINHG22_ZMBY-130	ZMBY-130	FFPE	indel	EGFR-A767_V769dup	54-EGFR-A767_V769dup-2.5% DNA	no																									
+POOLINHG22_ZMBY-131	ZMBY-131	FFPE	SNV	ERBB2-S310F	55-ERBB2-S310F-50% DNA	no																									
+POOLINHG22_ZMBY-132	ZMBY-132	FFPE	SNV	ERBB2-S310F	55-ERBB2-S310F-50% DNA	no																								1.8	
+POOLINHG23_ZMBY-133	ZMBY-133	FFPE	SNV	ERBB2-S310F	55-ERBB2-S310F-50% DNA	no																									
+POOLINHG23_ZMBY-134	ZMBY-134	FFPE	SNV	ERBB2-S310F	56-ERBB2-S310F-5% DNA	no																								1.3	
+POOLINHG23_ZMBY-135	ZMBY-135	FFPE	SNV	ERBB2-S310F	56-ERBB2-S310F-5% DNA	no																									
+POOLINHG23_ZMBY-136	ZMBY-136	FFPE	SNV	ERBB2-S310F	56-ERBB2-S310F-5% DNA	no																								1.6	
+POOLINHG23_ZMBY-137	ZMBY-137	FFPE	SNV	ERBB2-S310F	57-ERBB2-S310F-2.5% DNA	no																								0.923	
+POOLINHG23_ZMBY-138	ZMBY-138	FFPE	indel	ERBB2-A775_G776insYVMA	58-ERBB2-A775_G776insYVMA-21% DNA	no																								1	
+POOLINHG23_ZMBY-139	ZMBY-139	FFPE	indel	ERBB2-A775_G776insYVMA	58-ERBB2-A775_G776insYVMA-21% DNA	no																								1.5	
+POOLINHG23_ZMBY-140	ZMBY-140	FFPE	indel	ERBB2-A775_G776insYVMA	58-ERBB2-A775_G776insYVMA-21% DNA	no																								1.6	
+POOLINHG23_ZMBY-141	ZMBY-141	FFPE	indel	ERBB2-A775_G776insYVMA	59-ERBB2-A775_G776insYVMA-5% DNA	no																		51.2						1.8	
+POOLINHG23_ZMBY-142	ZMBY-142	FFPE	indel	ERBB2-A775_G776insYVMA	59-ERBB2-A775_G776insYVMA-5% DNA	no																		4.6							
+POOLINHG23_ZMBY-143	ZMBY-143	FFPE	indel	ERBB2-A775_G776insYVMA	59-ERBB2-A775_G776insYVMA-5% DNA	no																								1.3	
+POOLINHG23_ZMBY-144	ZMBY-144	FFPE	indel	ERBB2-A775_G776insYVMA	60-ERBB2-A775_G776insYVMA-2.5% DNA	no																								1.8	
+POOLINHG23_ZMBY-145	ZMBY-145	FFPE	indel	ERBB2-G776delinsVC	61-ERBB2-G776delinsVC-12% DNA	yes																	8.5							1.2	
+POOLINHG23_ZMBY-146	ZMBY-146	FFPE	indel	ERBB2-G776delinsVC	61-ERBB2-G776delinsVC-12% DNA	yes																	3.8							1.4	
+POOLINHG23_ZMBY-147	ZMBY-147	FFPE	indel	ERBB2-G776delinsVC	61-ERBB2-G776delinsVC-12% DNA	no	17.2																								
+POOLINHG23_ZMBY-148	ZMBY-148	FFPE	indel	ERBB2-G776delinsVC	62-ERBB2-G776delinsVC-5% DNA	no	7.7																							1.4	
+POOLINHG23_ZMBY-149	ZMBY-149	FFPE	indel	ERBB2-G776delinsVC	62-ERBB2-G776delinsVC-5% DNA	no																								1.9	
+POOLINHG23_ZMBY-150	ZMBY-150	FFPE	indel	ERBB2-G776delinsVC	62-ERBB2-G776delinsVC-5% DNA	no																									
+POOLINHG23_ZMBY-151	ZMBY-151	FFPE	indel	ERBB2-G776delinsVC	63-ERBB2-G776delinsVC-2.5% DNA	no																									
+POOLINHG23_ZMBY-152	ZMBY-152	FFPE	SNV	ALK-L1196M	64-ALK-L1196M-13% DNA	no																									
+POOLINHG23_ZMBY-153	ZMBY-153	FFPE	SNV	ALK-L1196M	64-ALK-L1196M-13% DNA	no																									
+POOLINHG23_ZMBY-154	ZMBY-154	FFPE	SNV	ALK-L1196M	64-ALK-L1196M-13% DNA	no																									
+POOLINHG23_ZMBY-155	ZMBY-155	FFPE	SNV	ALK-L1196M	65-ALK-L1196M-5% DNA	no																								1.3	
+POOLINHG23_ZMBY-156	ZMBY-156	FFPE	SNV	ALK-L1196M	65-ALK-L1196M-5% DNA	no																								2.2	
+POOLINHG23_ZMBY-157	ZMBY-157	FFPE	SNV	ALK-L1196M	65-ALK-L1196M-5% DNA	no																									
+POOLINHG23_ZMBY-158	ZMBY-158	FFPE	SNV	ALK-L1196M	66-ALK-L1196M-2.5% DNA	no																								1.1	
+POOLINHG23_ZMBY-159	ZMBY-159	FFPE	fusion	ALK-E6_A20	67-ALK（E6-A20）-10%	no																									
+POOLINHG23_ZMBY-160	ZMBY-160	FFPE	fusion	ALK-E6_A20	67-ALK（E6-A20）-10%	no																								0.974	
+POOLINHG23_ZMBY-161	ZMBY-161	FFPE	fusion	ALK-E6_A20	67-ALK（E6-A20）-10%	no																									
+POOLINHG23_ZMBY-162	ZMBY-162	FFPE	fusion	ALK-E6_A20	68-ALK（E6-A20）-5%	no																									
+POOLINHG23_ZMBY-163	ZMBY-163	FFPE	fusion	ALK-E6_A20	68-ALK（E6-A20）-5%	no																									
+POOLINHG23_ZMBY-164	ZMBY-164	FFPE	fusion	ALK-E6_A20	68-ALK（E6-A20）-5%	no																									
+POOLINHG24_ZMBY-165	ZMBY-165	FFPE	fusion	ALK-E6_A20	69-ALK（E6-A20）-2.5%	no																									
+POOLINHG24_ZMBY-166	ZMBY-166	FFPE	fusion	ALK-E20_A20	70-ALK（E20-A20）-10%	no																									
+POOLINHG24_ZMBY-167	ZMBY-167	FFPE	fusion	ALK-E20_A20	70-ALK（E20-A20）-10%	no																								1.5	
+POOLINHG24_ZMBY-168	ZMBY-168	FFPE	fusion	ALK-E20_A20	70-ALK（E20-A20）-10%	no							92.2																		
+POOLINHG24_ZMBY-169	ZMBY-169	FFPE	fusion	ALK-E20_A20	71-ALK（E20-A20）-5%	no							58.4																	1.5	
+POOLINHG24_ZMBY-170	ZMBY-170	FFPE	fusion	ALK-E20_A20	71-ALK（E20-A20）-5%	no																									
+POOLINHG24_ZMBY-171	ZMBY-171	FFPE	fusion	ALK-E20_A20	71-ALK（E20-A20）-5%	no																									
+POOLINHG24_ZMBY-172	ZMBY-172	FFPE	fusion	ALK-E20_A20	72-ALK（E20-A20）-2.5%	no																									
+POOLINHG24_ZMBY-173	ZMBY-173	FFPE	fusion	ALK-E13_A20	73-ALK（E13-A20）-5%	no																									
+POOLINHG24_ZMBY-174	ZMBY-174	FFPE	fusion	ALK-E13_A20	73-ALK（E13-A20）-5%	no																									
+POOLINHG24_ZMBY-175	ZMBY-175	FFPE	fusion	ALK-E13_A20	73-ALK（E13-A20）-5%	no									14.6																
+POOLINHG24_ZMBY-176	ZMBY-176	FFPE	fusion	ALK-E13_A20	74-ALK（E13-A20）-2.5%	no									8																
+POOLINHG24_ZMBY-177	ZMBY-177	FFPE	fusion	ROS1-C6_R34	75-ROS1(C6-R34)-11% DNA	no							10.5																		
+POOLINHG24_ZMBY-178	ZMBY-178	FFPE	fusion	ROS1-C6_R34	75-ROS1(C6-R34)-11% DNA	no							5.8																	1.7	
+POOLINHG24_ZMBY-179	ZMBY-179	FFPE	fusion	ROS1-C6_R34	75-ROS1(C6-R34)-11% DNA	no								12.4						11.1											
+POOLINHG24_ZMBY-180	ZMBY-180	FFPE	fusion	ROS1-C6_R34	76-ROS1(C6-R34)-5% DNA	no								4.3						2.5										2.1	
+POOLINHG24_ZMBY-181	ZMBY-181	FFPE	fusion	ROS1-C6_R34	76-ROS1(C6-R34)-5% DNA	no													15.9											1.2	
+POOLINHG24_ZMBY-182	ZMBY-182	FFPE	fusion	ROS1-C6_R34	76-ROS1(C6-R34)-5% DNA	no													4.3											1.6	
+POOLINHG24_ZMBY-183	ZMBY-183	FFPE	fusion	ROS1-C6_R34	77 77-ROS1(C6-R34)-2.5% DNA	no																								1	
+POOLINHG24_ZMBY-184	ZMBY-184	FFPE	fusion	ROS1-C6_R33	78 78-ROS1(C6-R33)-12% DNA	no																								0.8531	
+POOLINHG24_ZMBY-185	ZMBY-185	FFPE	fusion	ROS1-C6_R33	78 78-ROS1(C6-R33)-12% DNA	no													14.6												
+POOLINHG24_ZMBY-186	ZMBY-186	FFPE	fusion	ROS1-C6_R33	78 78-ROS1(C6-R33)-12% DNA	no													3.9												
+POOLINHG24_ZMBY-187	ZMBY-187	FFPE	fusion	ROS1-C6_R33	79 79-ROS1(C6-R33)-5% DNA	no								30.3						28.2											
+POOLINHG24_ZMBY-188	ZMBY-188	FFPE	fusion	ROS1-C6_R33	79 79-ROS1(C6-R33)-5% DNA	no								3.9						4.1										1.3	
+POOLINHG24_ZMBY-189	ZMBY-189	FFPE	fusion	ROS1-C6_R33	79 79-ROS1(C6-R33)-5% DNA	no								7.4																1.6	
+POOLINHG24_ZMBY-190	ZMBY-190	FFPE	fusion	ROS1-C6_R33	80 80-ROS1(C6-R33)-2.5% DNA	no								1.9																1.6	
+POOLINHG24_ZMBY-191	ZMBY-191	FFPE	fusion	RET-K15_R12	81 81-RET(K15-R12)-13% DNA	no																								1.4	
+POOLINHG24_ZMBY-192	ZMBY-192	FFPE	fusion	RET-K15_R12	81 81-RET(K15-R12)-13% DNA	no																									
+POOLINHG24_ZMBY-193	ZMBY-193	FFPE	fusion	RET-K15_R12	81 81-RET(K15-R12)-13% DNA	no																								1.8	
+POOLINHG24_ZMBY-194	ZMBY-194	FFPE	fusion	RET-K15_R12	82 82-RET(K15-R12)-5% DNA	no																									
+POOLINHG24_ZMBY-195	ZMBY-195	FFPE	fusion	RET-K15_R12	82 82-RET(K15-R12)-5% DNA	no																									
+POOLINHG24_ZMBY-196	ZMBY-196	FFPE	fusion	RET-K15_R12	82 82-RET(K15-R12)-5% DNA	no																								1.4	
+POOLINHG25_ZMBY-201	ZMBY-201	FFPE	fusion	RET-K15_R12	83 83-RET(K15-R12)-2.5% DNA	no																								1.5	
+POOLINHG25_ZMBY-202	ZMBY-202	FFPE	indel	MET-Exon14_Splicing	84-MET-Exon14 Splicing Variant1-11%	yes																								2.7	
+POOLINHG25_ZMBY-203	ZMBY-203	FFPE	indel	MET-Exon14_Splicing	84-MET-Exon14 Splicing Variant1-11%	no																									
+POOLINHG25_ZMBY-204	ZMBY-204	FFPE	indel	MET-Exon14_Splicing	84-MET-Exon14 Splicing Variant1-11%	yes																								1.7	
+POOLINHG25_ZMBY-205	ZMBY-205	FFPE	indel	MET-Exon14_Splicing	85-MET-Exon14 Splicing Variant1-5%	no																									
+POOLINHG25_ZMBY-206	ZMBY-206	FFPE	indel	MET-Exon14_Splicing	85-MET-Exon14 Splicing Variant1-5%	yes																								2	
+POOLINHG25_ZMBY-207	ZMBY-207	FFPE	indel	MET-Exon14_Splicing	85-MET-Exon14 Splicing Variant1-5%	no																									
+POOLINHG25_ZMBY-208	ZMBY-208	FFPE	indel	MET-Exon14_Splicing	86-MET-Exon14 Splicing Variant1-2.5%	yes																								1.4	
+POOLINHG25_ZMBY-209	ZMBY-209	FFPE	indel	MET-Exon14_Splicing	87-MET-Exon14 Splicing Variant2-12%	no																									
+POOLINHG25_ZMBY-210	ZMBY-210	FFPE	indel	MET-Exon14_Splicing	87-MET-Exon14 Splicing Variant2-12%	yes																								2	
+POOLINHG25_ZMBY-211	ZMBY-211	FFPE	indel	MET-Exon14_Splicing	87-MET-Exon14 Splicing Variant2-12%	yes																								1.9	
+POOLINHG25_ZMBY-212	ZMBY-212	FFPE	indel	MET-Exon14_Splicing	88-MET-Exon14 Splicing Variant2-5%	yes																								1.9	
+POOLINHG25_ZMBY-213	ZMBY-213	FFPE	indel	MET-Exon14_Splicing	88-MET-Exon14 Splicing Variant2-5%	no																									
+POOLINHG25_ZMBY-214	ZMBY-214	FFPE	indel	MET-Exon14_Splicing	88-MET-Exon14 Splicing Variant2-5%	no																									
+POOLINHG25_ZMBY-215	ZMBY-215	FFPE	indel	MET-Exon14_Splicing	89-MET-Exon14 Splicing Variant2-2.5%	no																		52.2							
+POOLINHG25_ZMBY-216	ZMBY-216	FFPE	ampl	MET-ampl	90-MET 扩增-10 拷贝	no																		5.4							
+POOLINHG25_ZMBY-217	ZMBY-217	FFPE	ampl	MET-ampl	90-MET 扩增-10 拷贝	no																								1.4	
+POOLINHG25_ZMBY-218	ZMBY-218	FFPE	ampl	MET-ampl	90-MET 扩增-10 拷贝	no																								1.4	
+POOLINHG25_ZMBY-219	ZMBY-219	FFPE	ampl	MET-ampl	91-MET 扩增-4 拷贝	no																	7.7								
+POOLINHG25_ZMBY-220	ZMBY-220	FFPE	ampl	MET-ampl	91-MET 扩增-4 拷贝	no																	5.7								
+POOLINHG25_ZMBY-221	ZMBY-221	FFPE	ampl	MET-ampl	91-MET 扩增-4 拷贝	no	16.4																							2.1	
+POOLINHG25_ZMBY-222	ZMBY-222	FFPE	ampl	ERBB2-ampl	92-ERBB2 扩增-10 拷贝	no	5.3																								
+POOLINHG25_ZMBY-223	ZMBY-223	FFPE	ampl	ERBB2-ampl	92-ERBB2 扩增-10 拷贝	no																									
+POOLINHG25_ZMBY-224	ZMBY-224	FFPE	ampl	ERBB2-ampl	92-ERBB2 扩增-10 拷贝	no																									
+POOLINHG25_ZMBY-225	ZMBY-225	FFPE	ampl	ERBB2-ampl	93- ERBB2 扩增-4 拷贝	no																									
+POOLINHG25_ZMBY-226	ZMBY-226	FFPE	ampl	ERBB2-ampl	93- ERBB2 扩增-4 拷贝	no																									
+POOLINHG25_ZMBY-227	ZMBY-227	FFPE	ampl	ERBB2-ampl	93- ERBB2 扩增-4 拷贝	no																									
+POOLINHG25_ZMBY-228	ZMBY-228	FFPE	ampl	EGFR-ampl	94-EGFR 扩增-10 拷贝	no																									
+POOLINHG25_ZMBY-229	ZMBY-229	FFPE	ampl	EGFR-ampl	94-EGFR 扩增-10 拷贝	no																								1.5	
+POOLINHG25_ZMBY-230	ZMBY-230	FFPE	ampl	EGFR-ampl	94-EGFR 扩增-10 拷贝	no																								1.6	
+POOLINHG25_ZMBY-231	ZMBY-231	FFPE	ampl	EGFR-ampl	95- EGFR 扩增-4 拷贝	no																									
+POOLINHG25_ZMBY-232	ZMBY-232	FFPE	ampl	EGFR-ampl	95- EGFR 扩增-4 拷贝	no																									
+POOLINHG26_ZMBY-233	ZMBY-233	FFPE	ampl	EGFR-ampl	95- EGFR 扩增-4 拷贝	no																								2.4	
+POOLINHG26_ZMBY-234	ZMBY-234	FFPE	-	阴性	96-阴性-1	-																									
+POOLINHG26_ZMBY-235	ZMBY-235	FFPE	-	阴性	96-阴性-1	-																									
+POOLINHG26_ZMBY-236	ZMBY-236	FFPE	-	阴性	96-阴性-1	-																								1.2	
+POOLINHG26_ZMBY-237	ZMBY-237	FFPE	-	阴性	97-阴性-2	-																								1.5	
+POOLINHG26_ZMBY-238	ZMBY-238	FFPE	-	阴性	97-阴性-2	-																									
+POOLINHG26_ZMBY-239	ZMBY-239	FFPE	-	阴性	97-阴性-2	-																									
+POOLINHG26_ZMBY-240	ZMBY-240	FFPE	-	阴性	98-阴性-3	-																								0.9239	
+POOLINHG26_ZMBY-241	ZMBY-241	FFPE	-	阴性	98-阴性-3	-																								1.6	
+POOLINHG26_ZMBY-242	ZMBY-242	FFPE	-	阴性	98-阴性-3	-							92.3																		
+POOLINHG26_ZMBY-243	ZMBY-243	FFPE	-	阴性	99-阴性-4	-							58.8																	1.4	
+POOLINHG26_ZMBY-244	ZMBY-244	FFPE	-	阴性	99-阴性-4	-																									
+POOLINHG26_ZMBY-245	ZMBY-245	FFPE	-	阴性	99-阴性-4	-																									
+POOLINHG26_ZMBY-246	ZMBY-246	FFPE	-	阴性	100-阴性-5	-																									
+POOLINHG26_ZMBY-247	ZMBY-247	FFPE	-	阴性	100-阴性-5	-																									
+POOLINHG26_ZMBY-248	ZMBY-248	FFPE	-	阴性	100-阴性-5	-																									
+POOLINHG28_ZMCAFY7065	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7066	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7067	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7068	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7069	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7070	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7071	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7072	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7073	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7074	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7075	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7076	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7077	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7078	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7079	-	-	-	-	-	no																									
+POOLINHG28_ZMCAFY7080	-	-	-	-	-	no																									
+POOLINHG2_FY34	FY34	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	yes																				11.1					
+POOLINHG2_FY37	FY37	FFPE	-	阴性	阴性	-																									
+POOLINHG2_FY39	FY39	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	no																									
+POOLINHG2_FY40	FY40	FFPE	SNV	ERBB2-S310F	ERBB外显子2 S310F错义突变	no													31.4												
+POOLINHG2_FY41	FY41	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													24.1					38.7							
+POOLINHG2_FY44	FY44	FFPE	-	阴性	阴性	-																									
+POOLINHG2_FY45	FY45	FFPE	-	阴性	阴性	-																									
+POOLINHG2_FY46	FY46	FFPE	-	阴性	阴性	-																		3.1							
+POOLINHG3_FY103	FY103	FFPE	-	阴性	阴性	-																									
+POOLINHG3_FY104	FY104	FFPE	-	阴性	阴性	-																									
+POOLINHG3_FY107	FY107	FFPE	-	阴性	阴性	-																									
+POOLINHG3_FY108	FY108	FFPE	-	阴性	阴性	-																									
+POOLINHG3_FY81	FY81	FFPE	-	阴性	阴性	-																						4.4			
+POOLINHG3_FY82	FY82	FFPE	-	阴性	阴性	-																						3.7			
+POOLINHG3_FY83	FY83	FFPE	-	阴性	阴性	-																		5.6				4.1			
+POOLINHG3_FY84	FY84	FFPE	-	阴性	阴性	-																						3.7			
+POOLINHG3_FY85	FY85	FFPE	-	阴性	阴性	-																						7.9			
+POOLINHG3_FY86	FY86	FFPE	-	阴性	阴性	-																					0.7784	3			
+POOLINHG3_FY87	FY87	FFPE	-	阴性	阴性	-																									
+POOLINHG3_FY88	FY88	FFPE	-	阴性	阴性	-																						3.4			
+POOLINHG4_FY117	FY117	FFPE	fusion	ALK-fusion	ALK 融合	no																									
+POOLINHG4_FY118	FY118	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													21.1												
+POOLINHG4_FY119	FY119	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													19.1												
+POOLINHG4_FY120	FY120	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	yes																						0.2979			77.6
+POOLINHG4_FY121	FY121	FFPE	SNV	ERBB2-S310F	ERBB外显子2 S310F错义突变	yes																		44.9				4.8			
+POOLINHG4_FY122	FY122	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	yes																						3			
+POOLINHG4_FY123	FY123	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	yes																							6.1		
+POOLINHG4_FY124	FY124	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													34.4					5.9							
+POOLINHG4_FY89	FY89	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													86.1												
+POOLINHG4_FY90	FY90	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													40.5												
+POOLINHG4_FY91	FY91	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													21.6					11.7							
+POOLINHG4_FY92	FY92	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													34.3					4.5							
+POOLINHG4_FY93	FY93	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													31.7												
+POOLINHG4_FY94	FY94	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													28.4					2.4							
+POOLINHG4_FY95	FY95	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	no													2.2												
+POOLINHG4_FY96	FY96	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													18					13							
+POOLINHG5_FY125	FY125	FFPE	SNV	ERBB2-S310F	ERBB外显子2 S310F错义突变	yes																		22.2							
+POOLINHG5_FY126	FY126	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	yes																					15				
+POOLINHG5_FY127	FY127	FFPE	SNV	EGFR-L858R	EGFR L858R	no																		13.4							
+POOLINHG5_FY128	FY128	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													24												
+POOLINHG5_FY129	FY129	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													33.4												
+POOLINHG5_FY130	FY130	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													63.7												
+POOLINHG5_FY131	FY131	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													25.7												
+POOLINHG5_FY132	FY132	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													40.7												
+POOLINHG5_FY133	FY133	FFPE	fusion	RET-fusion	RET 融合	no																									
+POOLINHG5_FY134	FY134	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													18.5					13.9							
+POOLINHG5_FY135	FY135	FFPE	SNV	EGFR-L858R	EGFR L858R	no																									
+POOLINHG5_FY136	FY136	FFPE	SNV	ERBB2-S310F	ERBB外显子2 S310F错义突变	yes													19.9					7.8							
+POOLINHG5_FY137	FY137	FFPE	SNV	ERBB2-S310F	ERBB外显子2 S310F错义突变	yes													24.7					14.3				3.5			
+POOLINHG5_FY138	FY138	FFPE	SNV	ERBB2-S310F	ERBB外显子2 S310F错义突变	no																									
+POOLINHG5_FY139	FY139	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													11								1				
+POOLINHG5_FY140	FY140	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	no																									
+POOLINHG6_FY093	FY093	FFPE	SNV	EGFR-L858R	EGFR L858R	no																									
+POOLINHG6_FY094	FY094	FFPE	SNV	EGFR-L858R	EGFR L858R	no																									
+POOLINHG8_FY0125	FY0125	FFPE	SNV	ERBB2-S310F	ERBB外显子2 S310F错义突变	yes																		10				8.5			
+POOLINHG8_FY0126	FY0126	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	yes													31.5								11.1				
+POOLINHG8_FY0127	FY0127	FFPE	SNV	EGFR-L858R	EGFR L858R	no																						12.8			
+POOLINHG8_FY0128	FY0128	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													55.6												
+POOLINHG8_FY0129	FY0129	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													35.5												
+POOLINHG8_FY0130	FY0130	FFPE	SNV	EGFR-L858R	EGFR L858R	no																									
+POOLINHG8_FY0131	FY0131	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													38.4												
+POOLINHG8_FY0132	FY0132	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													23.4								13.8				
+POOLINHG8_FY089	FY089	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													85.6					9.7							
+POOLINHG8_FY090	FY090	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													42.1												
+POOLINHG8_FY091	FY091	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													20					6.8							
+POOLINHG8_FY092	FY092	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													35												
+POOLINHG8_FY093	FY093	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													35.6												
+POOLINHG8_FY094	FY094	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													25.1												
+POOLINHG8_FY095	FY095	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	no													4												
+POOLINHG8_FY096	FY096	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													21.6												
+POOLINHG9_FBY1	FBY1	FFPE	SNV	EGFR-G719S	1-EGFR-G719S-12%	yes									21.8													4			
+POOLINHG9_FBY2	FBY2	FFPE	SNV	EGFR-G719S	2-EGFR-G719S-5%	yes									8.8									1.8				2.6		2.7	
+POOLINHG9_FBY3	FBY3	FFPE	SNV	EGFR-G719S	3-EGFR-G719S-2.5%	yes									3.9									2.3						3.1	
+POOLINHG9_FBY4	FBY4	FFPE	SNV	EGFR-G719A	4-EGFR-G719A-10%	yes							12.9																	1.3	
+POOLINHG9_FBY5	FBY5	FFPE	SNV	EGFR-G719A	5-EGFR-G719A-5%	yes							5.2																	2.1	
+POOLINHG9_FBY6	FBY6	FFPE	SNV	EGFR-G719A	6-EGFR-G719A-2.5%	yes							3.3																	2.1	
+POOLINHG9_FBY7	FBY7	FFPE	SNV	EGFR-G719C	7-EGFR-G719C-11%	yes								12.9						7				1.8						1.5	
+POOLINHG9_FBY8	FBY8	FFPE	SNV	EGFR-G719C	8-EGFR-G719C-5%	yes								6.6						3				4.7				3.7		2.7	
+POOLINHG9_FY0089	FY0089	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													86.6					12.1							
+POOLINHG9_FY0090	FY0090	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													42.9					6.3							
+POOLINHG9_FY0091	FY0091	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													20.2					7.4							
+POOLINHG9_FY0092	FY0092	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													30.6					5.9							
+POOLINHG9_FY0093	FY0093	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													31.3												
+POOLINHG9_FY0094	FY0094	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													22.4												
+POOLINHG9_FY0095	FY0095	FFPE	indel	MET-Exon14_Splicing	MET 14号外显子突变	no													2.4												
+POOLINHG9_FY0096	FY0096	FFPE	SNV	EGFR-L858R	EGFR L858R	yes													17.9												

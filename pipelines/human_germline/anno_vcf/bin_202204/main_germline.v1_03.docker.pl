@@ -251,7 +251,7 @@ my $bin_qualimap	=	"$bin_dir/../../software/QualiMap/qualimap_v2.2.1/qualimap";
 my $bin_filterMutect	=	"$docker_cmd perl $bin_dir/gatk4_somatic_SNVIndel/filter_mutect2_pair.leftSplit.pl";
 my $bin_fixVcf4		=	"$docker_cmd perl $bin_dir/gatk4_germline_SNVIndel/fix_gatk4_vcf4_2.pl";
 my $bin_tag_nearbyOverlap_variant="perl $bin_dir/gatk4_germline_SNVIndel/tag_nearbyOverlap_variant.v1.01.pl";
-my $bin_split_multi_allelics=	"perl $bin_dir/gatk4_germline_SNVIndel/split_multi_allelics.v1.02.pl";
+my $bin_split_multi_allelics=	"perl $bin_dir/gatk4_germline_SNVIndel/split_multi_allelics.v2.01.pl";
 my $bin_merge_final	=	"perl $bin_dir/gatk4_germline_SNVIndel/merge_result.v1.02.pl";
 my $bin_merge_vcf	=	"perl $bin_dir/gatk4_germline_SNVIndel/merge_vcf.v1.01.pl";
 my $bin_filter_final	=	"perl $bin_dir/gatk4_germline_SNVIndel/filter_clinical_variant.v1.01.pl";
@@ -368,12 +368,7 @@ foreach my $line( @lines ){
 	&cmd_print("#&J	$sample_id\_AnnoVariant_$anno_type	$last_job");
 	my $anno_job_ids .= ",$sample_id\_AnnoVariant_$anno_type";
 	&docker_print("mkdir -p $data_dir");
-	if( $to_anno_vcf =~ /\.gz$/ ){
-		&docker_print("gunzip -c $to_anno_vcf|$bin_split_multi_allelics >$split_anno_vcf");
-	}
-	else{
-		&docker_print("cat $to_anno_vcf|$bin_split_multi_allelics >$split_anno_vcf");
-	}
+	&docker_print("$bin_split_multi_allelics $to_anno_vcf >$split_anno_vcf");
 	&docker_print("$bin_gatk LeftAlignAndTrimVariants --split-multi-allelics -R $ref_fa -V $split_anno_vcf -O $left_align_vcf");
 	#&docker_print("$bin_gatk LeftAlignAndTrimVariants --split-multi-allelics -R $ref_fa -V $to_anno_vcf -O $left_align_vcf");
 	$h_all_sample_result{$sample_id}{'vcf'} = $left_align_vcf;
