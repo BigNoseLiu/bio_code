@@ -13,7 +13,7 @@ docker_name=liumingming1988/biodocker
 docker_cmd="docker run --rm -v /:/mnt -v $bin_dir/../../../:/biodata -u $ug_id $docker_name bash -c"
 
 annovar=/biodata/git_code/software/annovar/bin/table_annovar.pl
-humandb=/biodata/databases/annovar_humandb
+humandb=/mnt/data/databases/annovar_humandb/
 factera=/biodata/git_code/software/factera/factera.pl
 factera_exon=/biodata/git_code/software/factera/exons.no_chr.bed
 ref=/biodata/databases/gatk_bundle/b37/human_g1k_v37_decoy.fasta

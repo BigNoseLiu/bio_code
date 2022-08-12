@@ -99,6 +99,7 @@ while(my $vcf_file=<STDIN>){
 				$h_result{$arr[0]}{$arr[1]}{$arr[3]}{$arr[4]}{"format"}{$header_arr[$m]}{$format_arr[$i]} = $format_value_arr[$i];
 			}
 			$h_result{$arr[0]}{$arr[1]}{$arr[3]}{$arr[4]}{"format"}{$header_arr[$m]}{'FILT'} = $arr[6];
+			$h_format{'FILT'} = 0;
 		}
 	}
 	close IN;
