@@ -2,7 +2,7 @@
 cwd=`pwd`
 out_dir=$cwd/out_data
 if [ ! -d $out_dir ];then
-	echo 2
+	echo "Success create $out_dir!" 
 	date=`date +%Y%M%d%k%M%S`
 	real_dir=../../../../../../../../data/analysis_data/out_$date
 	mkdir -p $real_dir

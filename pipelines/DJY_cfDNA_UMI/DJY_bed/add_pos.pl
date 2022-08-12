@@ -13,6 +13,7 @@ while( $line = <IN> ){
 	chomp $line;
 	my @arr = split(/\t/,$line);
 	for(my$i=1;$i<scalar@arr;$i++){
+		$arr[$i] =~ s/AGATGTGTATAAGAGACAG//;
 		if( defined($h_pos{$arr[$i]}) ){
 			$arr[$i] .= "\t".$h_pos{$arr[$i]}{'+'}."\t".$h_pos{$arr[$i]}{'-'};
 		}

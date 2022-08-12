@@ -1,0 +1,318 @@
+nohup: 忽略输入
+CNVkit 0.9.8
+Detected file format: bed
+Splitting large targets
+Applying annotations as target names
+Detected file format: refflat
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/cancer120.cnvkit.target.bed with 3060 regions
+Detected file format: bed
+Skipping untargeted chromosomes MT
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/cancer120.cnvkit.antitarget.bed with 19228 regions
+Building a copy number reference from normal samples...
+Processing reads in DJY0719_43.08.recal.bam
+Processing reads in DJY0719_45.08.recal.bam
+Processing reads in DJY0719_43.08.recal.bam
+Processing reads in DJY0719_44.08.recal.bam
+Processing reads in DJY0719_44.08.recal.bam
+Processing reads in DJY0719_45.08.recal.bam
+Time: 4.344 seconds (141 reads/sec, 704 bins/sec)
+Summary: #bins=3060, #reads=614, mean=0.2009, min=0.0, max=17.225352112676056 
+Percent reads in regions: 0.010 (of 6291755 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_45.08.targetcoverage.cnn with 3060 regions
+Time: 4.417 seconds (173 reads/sec, 693 bins/sec)
+Summary: #bins=3060, #reads=765, mean=0.2501, min=0.0, max=13.044776119402986 
+Percent reads in regions: 0.010 (of 7797004 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_44.08.targetcoverage.cnn with 3060 regions
+Time: 4.702 seconds (175 reads/sec, 651 bins/sec)
+Summary: #bins=3060, #reads=824, mean=0.2693, min=0.0, max=20.813333333333333 
+Percent reads in regions: 0.009 (of 8975722 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_43.08.targetcoverage.cnn with 3060 regions
+Time: 25.896 seconds (125004 reads/sec, 742 bins/sec)
+Summary: #bins=19228, #reads=3237140, mean=168.3555, min=0.0, max=41852.33802816901 
+Percent reads in regions: 51.451 (of 6291755 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_45.08.antitargetcoverage.cnn with 19228 regions
+Time: 30.347 seconds (133209 reads/sec, 634 bins/sec)
+Summary: #bins=19228, #reads=4042527, mean=210.2417, min=0.0, max=39529.28358208955 
+Percent reads in regions: 51.847 (of 7797004 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_44.08.antitargetcoverage.cnn with 19228 regions
+Time: 35.707 seconds (126824 reads/sec, 538 bins/sec)
+Summary: #bins=19228, #reads=4528494, mean=235.5156, min=0.0, max=27889.586666666666 
+Percent reads in regions: 50.453 (of 8975722 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_43.08.antitargetcoverage.cnn with 19228 regions
+Relative log2 coverage of X=1.58, Y=-3.12 (maleness=0 x 300 = 0) --> assuming female
+Relative log2 coverage of X=-0.564, Y=-2.83 (maleness=0 x 300 = 0) --> assuming female
+Relative log2 coverage of X=2.22, Y=-2.39 (maleness=0 x 300 = 0) --> assuming female
+Relative log2 coverage of X=0.0725, Y=-6.71 (maleness=0.0382 x 0.387 = 0.0148) --> assuming female
+Relative log2 coverage of X=-0.919, Y=-2.73 (maleness=37.9 x 0.59 = 22.3) --> assuming male
+Relative log2 coverage of X=0.0291, Y=-6.79 (maleness=0.00961 x 0.387 = 0.00372) --> assuming female
+Sample DJY0719_44.08 chromosomal X/Y ploidy looks like female in targets but male in antitargets; preferring antitargets
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_43.08.targetcoverage.cnn
+Calculating GC and RepeatMasker content in /mnt//home/rain/liumm_data/biodata/git_code/pipelines/cancer_FFPE_UMI/cnvkit/../../../../databases/gatk_bundle/b37/human_g1k_v37_decoy.fasta ...
+Extracting sequences from chromosome 1
+Extracting sequences from chromosome 2
+Extracting sequences from chromosome 3
+Extracting sequences from chromosome 4
+Extracting sequences from chromosome 5
+Extracting sequences from chromosome 6
+Extracting sequences from chromosome 7
+Extracting sequences from chromosome 8
+Extracting sequences from chromosome 9
+Extracting sequences from chromosome 10
+Extracting sequences from chromosome 11
+Extracting sequences from chromosome 12
+Extracting sequences from chromosome 13
+Extracting sequences from chromosome 14
+Extracting sequences from chromosome 15
+Extracting sequences from chromosome 16
+Extracting sequences from chromosome 17
+Extracting sequences from chromosome 18
+Extracting sequences from chromosome 19
+Extracting sequences from chromosome 20
+Extracting sequences from chromosome 21
+Extracting sequences from chromosome 22
+Extracting sequences from chromosome X
+Extracting sequences from chromosome Y
+WARNING: most bins have no or very low coverage; check that the right BED file was used
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_44.08.targetcoverage.cnn
+WARNING: most bins have no or very low coverage; check that the right BED file was used
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_45.08.targetcoverage.cnn
+WARNING: most bins have no or very low coverage; check that the right BED file was used
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_43.08.antitargetcoverage.cnn
+Calculating GC and RepeatMasker content in /mnt//home/rain/liumm_data/biodata/git_code/pipelines/cancer_FFPE_UMI/cnvkit/../../../../databases/gatk_bundle/b37/human_g1k_v37_decoy.fasta ...
+Extracting sequences from chromosome 1
+Extracting sequences from chromosome 2
+Extracting sequences from chromosome 3
+Extracting sequences from chromosome 4
+Extracting sequences from chromosome 5
+Extracting sequences from chromosome 6
+Extracting sequences from chromosome 7
+Extracting sequences from chromosome 8
+Extracting sequences from chromosome 9
+Extracting sequences from chromosome 10
+Extracting sequences from chromosome 11
+Extracting sequences from chromosome 12
+Extracting sequences from chromosome 13
+Extracting sequences from chromosome 14
+Extracting sequences from chromosome 15
+Extracting sequences from chromosome 16
+Extracting sequences from chromosome 17
+Extracting sequences from chromosome 18
+Extracting sequences from chromosome 19
+Extracting sequences from chromosome 20
+Extracting sequences from chromosome 21
+Extracting sequences from chromosome 22
+Extracting sequences from chromosome X
+Extracting sequences from chromosome Y
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_44.08.antitargetcoverage.cnn
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_45.08.antitargetcoverage.cnn
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Calculating average bin coverages
+Calculating bin spreads
+Targets: 2832 (92.5490%) bins failed filters (log2 < -5.0, log2 > 5.0, spread > 1.0)
+Antitargets: 50 (0.2600%) bins failed filters
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/reference.cnn with 22288 regions
+Running 3 samples in 10 processes (that's 3 processes per bam)
+Running the CNVkit pipeline on /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnvkit_in/dis_cell//DJY0719_40.08.recal.bam ...
+Running the CNVkit pipeline on /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnvkit_in/dis_cell//DJY0719_41.08.recal.bam ...
+Running the CNVkit pipeline on /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnvkit_in/dis_cell//DJY0719_42.08.recal.bam ...
+Processing reads in DJY0719_42.08.recal.bam
+Processing reads in DJY0719_41.08.recal.bam
+Processing reads in DJY0719_40.08.recal.bam
+Time: 2.861 seconds (98 reads/sec, 1069 bins/sec)
+Summary: #bins=3060, #reads=279, mean=0.0915, min=0.0, max=5.731343283582089 
+Percent reads in regions: 0.014 (of 2027410 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_41.08.targetcoverage.cnn with 3060 regions
+Processing reads in DJY0719_41.08.recal.bam
+Time: 3.184 seconds (102 reads/sec, 961 bins/sec)
+Summary: #bins=3060, #reads=324, mean=0.1059, min=0.0, max=10.223880597014926 
+Percent reads in regions: 0.013 (of 2452617 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_42.08.targetcoverage.cnn with 3060 regions
+Processing reads in DJY0719_42.08.recal.bam
+Time: 3.747 seconds (122 reads/sec, 817 bins/sec)
+Summary: #bins=3060, #reads=456, mean=0.1492, min=0.0, max=23.62686567164179 
+Percent reads in regions: 0.015 (of 3071520 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_40.08.targetcoverage.cnn with 3060 regions
+Processing reads in DJY0719_40.08.recal.bam
+Time: 7.387 seconds (194231 reads/sec, 2603 bins/sec)
+Summary: #bins=19228, #reads=1434843, mean=74.6226, min=0.0, max=33268.86567164179 
+Percent reads in regions: 70.772 (of 2027410 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_41.08.antitargetcoverage.cnn with 19228 regions
+Processing target: DJY0719_41.08
+Keeping 228 of 3060 bins
+WARNING: most bins have no or very low coverage; check that the right BED file was used
+Processing antitarget: DJY0719_41.08
+Time: 7.843 seconds (221725 reads/sec, 2452 bins/sec)
+Summary: #bins=19228, #reads=1738978, mean=90.4399, min=0.0, max=32058.074626865673 
+Percent reads in regions: 70.903 (of 2452617 mapped)
+Keeping 19178 of 19228 bins
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_42.08.antitargetcoverage.cnn with 19228 regions
+Correcting for GC bias...
+Processing target: DJY0719_42.08
+Correcting for RepeatMasker bias...
+Keeping 228 of 3060 bins
+WARNING: most bins have no or very low coverage; check that the right BED file was used
+Processing antitarget: DJY0719_42.08
+Antitargets are 13.07 x more variable than targets
+Keeping 19178 of 19228 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_41.08.cnr with 19406 regions
+Segmenting /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_41.08.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 3 processes
+Time: 8.447 seconds (250625 reads/sec, 2276 bins/sec)
+Summary: #bins=19228, #reads=2116919, mean=110.0957, min=0.0, max=45856.89552238806 
+Percent reads in regions: 68.921 (of 3071520 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_40.08.antitargetcoverage.cnn with 19228 regions
+Targets are 3.25 x more variable than antitargets
+Processing target: DJY0719_40.08
+Keeping 228 of 3060 bins
+WARNING: most bins have no or very low coverage; check that the right BED file was used
+Processing antitarget: DJY0719_40.08
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_42.08.cnr with 19406 regions
+Segmenting /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_42.08.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 3 processes
+Keeping 19178 of 19228 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Targets are 1.96 x more variable than antitargets
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_40.08.cnr with 19406 regions
+Segmenting /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_40.08.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 3 processes
+Smoothing overshot at 1 / 481 indices: (-20.123581169518623, 1.2876844040452742) vs. original (-19.764922544162136, 2.0517866255744392)
+Smoothing overshot at 2 / 294 indices: (-20.842419304037605, 1.076261032265438) vs. original (-19.998291544162136, 1.9107741550595918)
+Post-processing /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_41.08.cns ...
+Smoothing overshot at 1 / 142 indices: (-16.5353498644133, -0.2027292896935508) vs. original (-14.43620247381053, 3.114755745598462)
+Post-processing /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_42.08.cns ...
+Post-processing /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_40.08.cns ...
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_41.08.cns with 71 regions
+Applying filter 'ci'
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_42.08.cns with 69 regions
+Applying filter 'ci'
+Filtered by 'ci' from 71 to 49 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_41.08.call.cns with 49 regions
+Filtered by 'ci' from 69 to 46 rows
+Ignoring 19178 off-target bins
+Significant hits in 192/228 bins (84.2%)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_41.08.bintest.cns with 192 regions
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_42.08.call.cns with 46 regions
+Ignoring 19178 off-target bins
+Significant hits in 196/228 bins (86%)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_42.08.bintest.cns with 196 regions
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_40.08.cns with 69 regions
+Applying filter 'ci'
+Filtered by 'ci' from 69 to 55 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_40.08.call.cns with 55 regions
+Ignoring 19178 off-target bins
+Significant hits in 177/228 bins (77.6%)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_40.08.bintest.cns with 177 regions
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_41.08-scatter.png
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_42.08-scatter.png
+Relative log2 coverage of X=-0.906, Y=0.359 (maleness=26.2 x 12.4 = 324) --> assuming male
+Relative log2 coverage of X=-0.828, Y=0.253 (maleness=10.7 x 46.1 = 492) --> assuming male
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_40.08-scatter.png
+Relative log2 coverage of X=0.00302, Y=-3.57 (maleness=0.00181 x 0.00311 = 5.63e-06) --> assuming female
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_42.08-diagram.pdf
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_41.08-diagram.pdf
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cell/DJY0719_40.08-diagram.pdf
+CNVkit 0.9.8
+Detected file format: bed
+Splitting large targets
+Applying annotations as target names
+Detected file format: refflat
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/cancer120.cnvkit.target.bed with 3060 regions
+Detected file format: bed
+Skipping untargeted chromosomes MT
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/cancer120.cnvkit.antitarget.bed with 19228 regions
+Building a copy number reference from normal samples...
+Processing reads in DJY0719_10.08.recal.bam
+Processing reads in DJY0719_10.08.recal.bam
+Processing reads in DJY0719_14.08.recal.bam
+Processing reads in DJY0719_14.08.recal.bam
+Processing reads in DJY0719_15.08.recal.bam
+Processing reads in DJY0719_11.08.recal.bam
+Processing reads in DJY0719_11.08.recal.bam
+Processing reads in DJY0719_15.08.recal.bam
+Time: 0.793 seconds (51 reads/sec, 3859 bins/sec)
+Summary: #bins=3060, #reads=40, mean=0.0131, min=0.0, max=3.746268656716418 
+Percent reads in regions: 0.018 (of 223977 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_10.08.targetcoverage.cnn with 3060 regions
+Time: 1.643 seconds (105 reads/sec, 1862 bins/sec)
+Summary: #bins=3060, #reads=172, mean=0.0563, min=0.0, max=39.653333333333336 
+Percent reads in regions: 0.017 (of 1025785 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_14.08.targetcoverage.cnn with 3060 regions
+Time: 2.256 seconds (118 reads/sec, 1356 bins/sec)
+Summary: #bins=3060, #reads=266, mean=0.0870, min=0.0, max=41.4 
+Percent reads in regions: 0.016 (of 1640173 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_15.08.targetcoverage.cnn with 3060 regions
+Time: 4.476 seconds (552 reads/sec, 684 bins/sec)
+Summary: #bins=3060, #reads=2472, mean=0.8081, min=0.0, max=61.80597014925373 
+Percent reads in regions: 0.013 (of 18786537 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_11.08.targetcoverage.cnn with 3060 regions
+Time: 8.228 seconds (18456 reads/sec, 2337 bins/sec)
+Summary: #bins=19228, #reads=151849, mean=7.8973, min=0.0, max=8852.910447761195 
+Percent reads in regions: 67.797 (of 223977 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_10.08.antitargetcoverage.cnn with 19228 regions
+Time: 10.627 seconds (60768 reads/sec, 1809 bins/sec)
+Summary: #bins=19228, #reads=645809, mean=33.5869, min=0.0, max=46317.0 
+Percent reads in regions: 62.958 (of 1025785 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_14.08.antitargetcoverage.cnn with 19228 regions
+Time: 12.381 seconds (74765 reads/sec, 1553 bins/sec)
+Summary: #bins=19228, #reads=925658, mean=48.1411, min=0.0, max=24276.453333333335 
+Percent reads in regions: 56.437 (of 1640173 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_15.08.antitargetcoverage.cnn with 19228 regions
+Time: 62.729 seconds (206379 reads/sec, 307 bins/sec)
+Summary: #bins=19228, #reads=12945923, mean=673.2850, min=0.0, max=4934.044776119403 
+Percent reads in regions: 68.911 (of 18786537 mapped)
+Wrote /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_11.08.antitargetcoverage.cnn with 19228 regions
+Relative log2 coverage of X=0.328, Y=-0.161 (maleness=0 x 300 = 0) --> assuming female
+Relative log2 coverage of X=-0.366, Y=-4.73 (maleness=0 x 300 = 0) --> assuming female
+Relative log2 coverage of X=-0.538, Y=-0.538 (maleness=0 x 300 = 0) --> assuming female
+Relative log2 coverage of X=0.261, Y=-0.697 (maleness=0 x 300 = 0) --> assuming female
+Relative log2 coverage of X=-0.333, Y=-8.37 (maleness=0.0422 x 0.246 = 0.0104) --> assuming female
+Relative log2 coverage of X=0.00941, Y=-4.71 (maleness=0.00186 x 0.0131 = 2.43e-05) --> assuming female
+Relative log2 coverage of X=-0.397, Y=-9.22 (maleness=0.154 x 0.416 = 0.0641) --> assuming female
+Relative log2 coverage of X=-0.359, Y=-8.92 (maleness=0.232 x 0.432 = 0.1) --> assuming female
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_10.08.targetcoverage.cnn
+Calculating GC and RepeatMasker content in /mnt//home/rain/liumm_data/biodata/git_code/pipelines/cancer_FFPE_UMI/cnvkit/../../../../databases/gatk_bundle/b37/human_g1k_v37_decoy.fasta ...
+Extracting sequences from chromosome 1
+Extracting sequences from chromosome 2
+Extracting sequences from chromosome 3
+Extracting sequences from chromosome 4
+Extracting sequences from chromosome 5
+Extracting sequences from chromosome 6
+Extracting sequences from chromosome 7
+Extracting sequences from chromosome 8
+Extracting sequences from chromosome 9
+Extracting sequences from chromosome 10
+Extracting sequences from chromosome 11
+Extracting sequences from chromosome 12
+Extracting sequences from chromosome 13
+Extracting sequences from chromosome 14
+Extracting sequences from chromosome 15
+Extracting sequences from chromosome 16
+Extracting sequences from chromosome 17
+Extracting sequences from chromosome 18
+Extracting sequences from chromosome 19
+Extracting sequences from chromosome 20
+Extracting sequences from chromosome 21
+Extracting sequences from chromosome 22
+Extracting sequences from chromosome X
+Extracting sequences from chromosome Y
+WARNING: most bins have no or very low coverage; check that the right BED file was used
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_11.08.targetcoverage.cnn
+WARNING: most bins have no or very low coverage; check that the right BED file was used
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_14.08.targetcoverage.cnn
+WARNING: most bins have no or very low coverage; check that the right BED file was used
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_15.08.targetcoverage.cnn
+WARNING: most bins have no or very low coverage; check that the right BED file was used
+Loading /mnt//home/rain/liumm_data/biodata/git_code/work_data/DJY_data/data_20220811/cnv_out/cnv_cfDNA/DJY0719_10.08.antitargetcoverage.cnn
+Calculating GC and RepeatMasker content in /mnt//home/rain/liumm_data/biodata/git_code/pipelines/cancer_FFPE_UMI/cnvkit/../../../../databases/gatk_bundle/b37/human_g1k_v37_decoy.fasta ...
+Extracting sequences from chromosome 1
