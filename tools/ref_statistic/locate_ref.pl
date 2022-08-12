@@ -93,7 +93,6 @@ my %h_reverse = (
 );
 
 
-
 while( $line = <STDIN> ){
 	chomp $line;
 	foreach my $seq( split(/\s+/,$line) ){
