@@ -32,8 +32,24 @@ while( $line = <STDIN> ){
 	}
 }
 
-my $out_dir = $ARGV[0];
-`mkdir -p $out_dir`;
+
+
+
+
+my $uid="0:0";
+my $user_ids=`id`;
+if( $user_ids =~ /^uid=(\d+)\(\S+\s+gid=(\d+)\(/ ){
+	$uid="$1:$2";
+}
+else{
+	print STDERR "Err:unable to get uid\n";
+}
+
+my $cwd =`pwd`;	chomp $cwd;
+my $out_dir = "$cwd/out_data";
+$out_dir = $ARGV[0] if(defined($ARGV[0]));
+`mkdir -p $out_dir` if(!-d $out_dir);
+
 foreach my $sample( sort {$a cmp $b} keys(%h_fqs) ){
-	print "sh $Bin/HPV_16_18.v1.sh $sample ".$h_fqs{$sample}{'R1'}." ".$h_fqs{$sample}{'R2'}." $out_dir/$sample\n";
+	print "sh $Bin/HPV_16_18.v1.sh $uid $sample $out_dir/$sample ".$h_fqs{$sample}{'R1'}." ".$h_fqs{$sample}{'R2'}."\n";
 }

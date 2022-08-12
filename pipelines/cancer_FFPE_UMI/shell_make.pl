@@ -46,5 +46,5 @@ else{
 
 `mkdir -p $out_dir`;
 foreach my $sample( sort {$a cmp $b} keys(%h_fqs) ){
-	print "sh $Bin/FFPE_UMI_PE.v1_04.sh $uid $sample $out_dir 3M2S145T ".$h_fqs{$sample}{'R1'}." 3M2S145T ".$h_fqs{$sample}{'R2'}."\n";
+	print "sh $Bin/FFPE_UMI_PE.v1_05.sh $uid $sample $out_dir 3M2S145T ".$h_fqs{$sample}{'R1'}." 3M2S145T ".$h_fqs{$sample}{'R2'}."\n";
 }
