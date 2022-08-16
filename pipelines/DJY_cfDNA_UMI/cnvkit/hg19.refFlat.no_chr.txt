@@ -1,0 +1,1 @@
+../../cancer_FFPE_UMI/cnvkit/hg19.refFlat.no_chr.txt

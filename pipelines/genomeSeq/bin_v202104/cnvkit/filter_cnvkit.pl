@@ -35,14 +35,15 @@ sub err_print{
 	print STDERR color "reset";#change back the text color
 }
 
-my ($help, $outfile, $limit_odds);
+my ($help, $outfile );
+my $limit_odds = "0.3,-0.4,0.8,-3,0.8,-3";
 GetOptions(
 	"help"=>\$help,
 	"out=s"=>\$outfile,
 	"odds=s"=>\$limit_odds,
 );
 
-if (defined $help || !defined($limit_odds) ) {
+if (defined $help ) {
 	&usageWithColor();
 	exit 0;
 }

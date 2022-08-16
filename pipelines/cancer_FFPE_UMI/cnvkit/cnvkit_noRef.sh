@@ -16,4 +16,4 @@ ref_fa=$bin_dir/../../../../databases/gatk_bundle/b37/human_g1k_v37_decoy.fasta
 ref_access=$bin_dir/access-5k-mappable.grch37.bed;
 
 $docker_cmd "mkdir -p /mnt/$out_dir/$sample_id"
-$docker_cmd "cnvkit.py batch /mnt/$tumor_dir/*.bam --normal /mnt/$normal_dir/*.bam --targets /mnt/$bed --annotate /mnt/$ref_flat --fasta /mnt/$ref_fa --access /mnt/$ref_access  --output-reference /mnt/$out_dir/reference.cnn --output-dir /mnt/$out_dir/$sample_id --diagram --scatter -p 10"
+$docker_cmd "cnvkit.py batch /mnt/$tumor_dir/*.bam --normal /mnt/$normal_dir/*.bam --targets /mnt/$bed --annotate /mnt/$ref_flat --fasta /mnt/$ref_fa --access /mnt/$ref_access  --output-reference /mnt/$out_dir/$sample_id\.reference.cnn --output-dir /mnt/$out_dir/$sample_id --diagram --scatter -p 10"
