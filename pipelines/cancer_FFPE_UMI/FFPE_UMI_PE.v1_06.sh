@@ -1,6 +1,7 @@
 #1. input files
 bin_dir=$(dirname $0)
-ug_id=$1
+#ug_id=$1
+ug_id=`id|awk -F "[= (]" '{print $2":"$5}'`
 sample_id=$2
 out_dir=$3
 read_structure1=$4

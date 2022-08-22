@@ -8,10 +8,10 @@ raw_fq2=$5
 
 #2. system configs
 docker_name=liumingming1988/biodocker
-docker_cmd="docker run --rm -v /:/mnt -v $bin_dir/../../../:/biodata -u $ug_id $docker_name bash -c"
+docker_cmd="docker run --rm -v /:/mnt -u $ug_id $docker_name bash -c"
 
-annovar=/biodata/git_code/software/annovar/bin/table_annovar.pl
-db=/biodata/databases/kraken2/HPV_db/
+biodata_dir=$bin_dir/../../..
+db=$biodata_dir/databases/kraken2/HPV_db/
 
 mkdir -p $out_dir
 $docker_cmd "kraken2 --db $db --threads 10 --report /mnt/$out_dir/$sample_id.report --output /mnt/$out_dir/$sample_id.output --paired /mnt/$raw_fq1 /mnt/$raw_fq2"
